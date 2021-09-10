@@ -1,4 +1,5 @@
 import os
+import random
 
 REPO_REPLACE_RULE1 = {
     "k8s.gcr.io":"k8s-gcr-jp.m.daocloud.io"
@@ -24,7 +25,7 @@ INTERNAL_NETWORK = {
 REGISTRY_PASSWORD = os.environ["REGISTRY_PASSWORD"]
 
 
-SKEPO_CMD = "docker run -it --rm quay.io/containers/skopeo:latest"
+SKEPO_CMD = "docker run --rm quay.io/containers/skopeo:latest"
 # SKEPO_CMD = "skepo" # RUN without docker
 
 def skepo_sync_cmd(src_img):
@@ -52,6 +53,7 @@ def main():
     sync_cmds = []
     for l in lines:
         sync_cmds.append(skepo_sync_cmd(l)) 
+    random.shuffle(sync_cmds)
     for c in sync_cmds:
         print(c)
         os.system(c)
