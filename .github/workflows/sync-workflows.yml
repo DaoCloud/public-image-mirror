@@ -1,0 +1,27 @@
+name: "Sync Workflows"
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "mirror.txt"
+jobs:
+  sync-workflows:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Generate
+        run: |
+          git rm -f .github/workflows/mirror-*.yml || true
+          ./hack/generate-workflow.sh
+      - name: Sync
+        env:
+          GH_TOKEN: "${{ secrets.GH_TOKEN }}" # Permission to operate Workflows is required
+        run: |
+          git add .github/workflows/mirror-*.yml && git commit -m "Generate Workflow YAML" && {
+            git config --global user.name "bot"
+            SOURCE=$(git remote get-url origin | sed -E 's#git@(.+):(.+)#https://\1/\2#g' | sed "s#https://github.com#https://bot:${GH_TOKEN}@github.com#g")
+            git remote add upstream "${SOURCE}"
+            git push upstream main
+          }
