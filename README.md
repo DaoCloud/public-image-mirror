@@ -37,11 +37,11 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 
 ## 支持的仓库
 
-[mirror.txt]( mirror.txt)
+[mirror.txt](mirror.txt)
 
 ## 增加新的仓库
 
-提 PR , 修改 mirror.txt 即可
+提 PR , 修改 mirror.txt 即可。例如 [https://github.com/DaoCloud/public-image-mirror/pull/1/](PR#1)
 
 ## 如何查看同步情况
 
