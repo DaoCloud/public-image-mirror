@@ -37,7 +37,7 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 
 ## 支持的仓库
 
-incloud mirror.txt
+[mirror.txt]( mirror.txt)
 
 ## 增加新的仓库
 
