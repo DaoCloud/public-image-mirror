@@ -48,6 +48,23 @@ incloud mirror.txt
 TODO
 
 
+## 安装运行
+
+安装 skopeo
+
+
+
+
+```
+
+运行同步程序
+
+```
+export REGISTRY_PASSWORD=password #镜像仓库密码
+python scripts/sync-to-jp.py
+```
+
+
 ## 最佳实践
 * 通过 加速 安装 kubeadm
 * 通过 加速 运行 artifacthub 上的镜像
