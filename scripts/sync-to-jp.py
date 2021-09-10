@@ -34,7 +34,7 @@ def main():
     for l in lines:
         sync_cmds.append(skepo_sync_cmd(l)) 
     for c in sync_cmds:
-    	print(c)
+        print(c)
         os.system(c)
 
 if __name__ == "__main__":
