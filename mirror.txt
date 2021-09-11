@@ -47,6 +47,7 @@ quay.io/calico/typha
 quay.io/cilium/cilium
 quay.io/cilium/cilium-init
 quay.io/cilium/operator
+quay.io/containers/skopeo
 quay.io/coreos/etcd
 quay.io/coreos/flannel
 quay.io/datawire/ambassador-operator
