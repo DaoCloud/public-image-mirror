@@ -26,6 +26,13 @@ docker.io/weaveworks/weave-npc
 docker.io/xueshanf/install-socat
 gcr.io/google-containers/pause
 ghcr.io/k8snetworkplumbingwg/multus-cni
+ghcr.io/klts-io/kubernetes-lts/coredns
+ghcr.io/klts-io/kubernetes-lts/etcd
+ghcr.io/klts-io/kubernetes-lts/kube-apiserver
+ghcr.io/klts-io/kubernetes-lts/kube-controller-manager
+ghcr.io/klts-io/kubernetes-lts/kube-proxy
+ghcr.io/klts-io/kubernetes-lts/kube-scheduler
+ghcr.io/klts-io/kubernetes-lts/pause
 k8s.gcr.io/coredns
 k8s.gcr.io/coredns/coredns
 k8s.gcr.io/cpa/cluster-proportional-autoscaler-amd64
