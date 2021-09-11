@@ -12,7 +12,7 @@
 ## 快速开始
 
 ```
-docker run -ipdP docker.m.daocloud.io/nginx
+docker run -p -P docker.m.daocloud.io/nginx
 
 ```
 
