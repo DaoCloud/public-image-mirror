@@ -40,10 +40,6 @@ k8s.gcr.io/kube-scheduler
 k8s.gcr.io/metrics-server/metrics-server
 k8s.gcr.io/pause
 k8s.gcr.io/addon-resizer
-quay.io/calico/cni
-quay.io/calico/kube-controllers
-quay.io/calico/node
-quay.io/calico/typha
 quay.io/cilium/cilium
 quay.io/cilium/cilium-init
 quay.io/cilium/operator
