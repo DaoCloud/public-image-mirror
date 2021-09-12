@@ -55,7 +55,7 @@ def skepo_full_sync(src_img):
     src_auth = ""
     if 'docker.io' in src_img and DOCKER_IO_USER:
         src_auth = " --src-creds %s:%s " % (DOCKER_IO_USER,DOCKER_IO_PASS)
-    cmd = SKOPEO_CMD + " sync --src docker --dest docker %s --dest-tls-verify=false --dest-creds root:%s -f oci %s %s" %(src_auth,REGISTRY_PASSWORD,src_img,dest_img)
+    cmd = SKOPEO_CMD + " sync --all --src docker --dest docker %s --dest-tls-verify=false --dest-creds root:%s -f oci %s %s" %(src_auth,REGISTRY_PASSWORD,src_img,dest_img)
     __run_cmd(cmd)
 
 def __parse_tag(output):
@@ -88,7 +88,7 @@ def skepo_delta_sync(src_img):
             src_auth =''
             if 'docker.io' in src_img and DOCKER_IO_USER:
                 src_auth = " --src-creds %s:%s " % (DOCKER_IO_USER,DOCKER_IO_PASS)
-            cmd = SKOPEO_CMD + " copy %s --dest-creds root:%s  --dest-tls-verify=false -f oci docker://%s:latest docker://%s:latest" %(src_auth,REGISTRY_PASSWORD,src_img,dest_img)
+            cmd = SKOPEO_CMD + " copy --all %s --dest-creds root:%s  --dest-tls-verify=false -f oci docker://%s:latest docker://%s:latest" %(src_auth,REGISTRY_PASSWORD,src_img,dest_img)
             __run_cmd(cmd)
     else:
         skepo_full_sync(src_img)
