@@ -50,6 +50,11 @@ TODO
 
 ## 安装运行
 
+安装skepo.
+```
+yum install skopeo --nobest
+```
+
 
 运行同步程序
 
