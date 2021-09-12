@@ -104,8 +104,10 @@ def main():
     for l in lines:
         src_img = l.strip()
         if DELTA_MODE:
+            print('use DELTA_MODE')
             skepo_delta_sync(src_img)
         else:
+            print('use FULL_SYNC_MODE')
             skepo_full_sync(src_img)
         
 
