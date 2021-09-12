@@ -21,8 +21,6 @@ docker.io/nginx
 docker.io/rancher/local-path-provisioner
 docker.io/redis
 docker.io/registry
-docker.io/weaveworks/weave-kube
-docker.io/weaveworks/weave-npc
 docker.io/xueshanf/install-socat
 gcr.io/google-containers/pause
 ghcr.io/k8snetworkplumbingwg/multus-cni
