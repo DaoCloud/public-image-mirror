@@ -104,17 +104,17 @@ def skepo_delta_sync(src_img):
     dest_tags = __parse_tag(result.stdout)
     delta_tags = set(src_tags) - set(dest_tags)
     need_to_sync = filter_tag(src_img,delta_tags)
+    
+
     filtered_num = len(delta_tags) - len(need_to_sync)
+    if 'latest' in src_tags:
+        need_to_sync.append('latest')
 
     # print(src_img)
     print("sync %s, src tag %s, dest tag %s, sync tag %s, filtered tag %s " % (src_img,len(src_tags),len(dest_tags),len(need_to_sync),filtered_num))
-    # print(need_to_sync)
-    if len(need_to_sync) == 0:
-        if 'latest' in src_tags:
-            skepo_sync_one_tag(src_img,'latest')
-    else:
-        for tag in need_to_sync:
-            skepo_sync_one_tag(src_img,tag)
+    
+    for tag in need_to_sync:
+        skepo_sync_one_tag(src_img,tag)
 
 def main():
     lines = []
