@@ -66,9 +66,9 @@ function inspect() {
         echo "${raw}" | jq -r '.fsLayers[].blobSum'
         ;;
     2)
-        local mediaType=$(echo "${raw}" | jq -r '.mediaType')
+        local mediaType=$(echo "${raw}" | jq -r '.mediaType // "" ')
         case "${mediaType}" in
-        "application/vnd.docker.distribution.manifest.v2+json")
+        "application/vnd.docker.distribution.manifest.v2+json" | "")
             echo "${raw}" | jq -r '.layers[].digest'
             ;;
         "application/vnd.docker.distribution.manifest.list.v2+json")
