@@ -134,8 +134,8 @@ function diff-image() {
 
     local tags1="$(list-tags ${image1})"
     local tags2="$(list-tags ${image2})"
-    local diff_raw="$(diff --unified <(echo "${tags1}") <(echo "${tags2}"))"
-    local diff_data="$(echo "${diff_raw}" | grep -v -E '^ ' | grep -v -E '^---' | grep -v -E '^\+\+\+')"
+    local diff_raw="$(diff --unified <(echo "${tags1}") <(echo "${tags2}") | grep -v -E '^---' | grep -v -E '^\+\+\+')"
+    local diff_data="$(echo "${diff_raw}" | grep -v -E '^ ')"
 
     if [[ "${INCREMENTAL}" == "true" ]]; then
         diff_data="$(echo "${diff_data}" | grep -v -E '^\+')"
@@ -151,7 +151,15 @@ function diff-image() {
             echo "DEBUG: diff:" >&2
             echo "${diff_data}" >&2
         fi
-        echo "${tags1}"
+        for tag in $(echo "$(echo "${diff_raw}" | grep -E '^-')"); do
+            tag="${tag#-}"
+            echo "${SELF}: UNSYNC: ${image1}:${tag} and ${image2}:${tag} are not in synchronized, ${image2}:${tag} is empty" >&2
+        done
+        for tag in $(echo "$(echo "${diff_raw}" | grep -E '^\+')"); do
+            tag="${tag#+}"
+            echo "${SELF}: UNSYNC: ${image1}:${tag} and ${image2}:${tag} are not in synchronized, ${image1}:${tag} is empty" >&2
+        done
+        echo "$(echo "${diff_raw}" | grep -E '^ ' | tr -d ' ')"
         return 1
     fi
     echo "${SELF}: SYNC-TAGS: ${image1} and ${image2} are in synchronized" >&2
