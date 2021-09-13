@@ -39,6 +39,7 @@ for line in $(cat not_sync.yaml | yq -j '.not_sync[] | .image_pattern , "=", (.t
 done
 
 LOGFILE="./check-image.log"
+echo >"${LOGFILE}"
 
 for line in $(cat ./mirror.txt); do
     line="${line/ /}"
@@ -57,13 +58,13 @@ for line in $(cat ./mirror.txt); do
     domain="${line%%/*}"
     new_image=$(echo "${line}" | sed "s/^${domain}/${DOMAIN_MAP["${domain}"]}/g")
     echo "Diff image ${line} ${new_image}"
-    DEBUG=true INCREMENTAL=true EXCLUDED="${exclude}" ./scripts/diff-image.sh "${line}" "${new_image}" | tee -a "${LOGFILE}" || {
+    DEBUG=true INCREMENTAL=true EXCLUDED="${exclude}" ./scripts/diff-image.sh "${line}" "${new_image}" 2>&1 | tee -a "${LOGFILE}" || {
         echo "Error: diff image ${line} ${new_image}"
     }
 done
 
-sync=$(cat "${LOGFILE}" | grep " SYNC: " | wc -l | tr -d ' ')
-nosync=$(cat "${LOGFILE}" | grep " NOSYNC: " | wc -l | tr -d ' ')
+sync="$(cat "${LOGFILE}" | grep " SYNC: " | wc -l | tr -d ' ' || :)"
+nosync="$(cat "${LOGFILE}" | grep " NOSYNC: " | wc -l | tr -d ' ' || :)"
 sum=$(($sync + $nosync))
 
 echo https://img.shields.io/badge/Sync-${sync}%2F${sum}-blue
