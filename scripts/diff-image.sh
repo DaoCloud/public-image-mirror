@@ -13,6 +13,9 @@ DEBUG="${DEBUG:-}"
 # Allow image2 to have more tags than image1
 INCREMENTAL="${INCREMENTAL:-}"
 
+# Exclude tags that do not need to be checked
+EXCLUDED="${EXCLUDED:-}"
+
 SELF="$(basename "${BASH_SOURCE[0]}")"
 
 function check() {
@@ -94,7 +97,12 @@ function inspect() {
 
 function list-tags() {
     local image="${1:-}"
-    skopeo list-tags --tls-verify=false "docker://${image}" | jq -r '.Tags[]' | sort
+    local raw="$(skopeo list-tags --tls-verify=false "docker://${image}" | jq -r '.Tags[]' | sort)"
+
+    if [[ "${EXCLUDED}" != "" ]]; then
+        raw="$(echo "${raw}" | grep -v -E "${EXCLUDED}")"
+    fi
+    echo "${raw}"
 }
 
 function diff-image-with-tag() {
