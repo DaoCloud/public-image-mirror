@@ -50,68 +50,104 @@ function check() {
 
 function inspect() {
     local image="${1:-}"
-    if [[ "${DEBUG}" == "true" ]]; then
-        echo skopeo inspect --retry-times=3 --raw --tls-verify=false "docker://${image}" >&2
+    local raw=$(skopeo inspect --raw --tls-verify=false "docker://${image}")
+    if [[ "${raw}" == "" ]]; then
+        echo "skopeo inspect --raw --tls-verify=false docker://${image}" >&2
+        echo "ERROR: Failed to inspect ${image}" >&2
+        return 1
     fi
-    skopeo inspect --retry-times=3 --raw --tls-verify=false "docker://${image}"
+
+    local schemaVersion=$(echo "${raw}" | jq -r '.schemaVersion')
+    case "${schemaVersion}" in
+    1)
+        echo "${raw}" | jq -r '.fsLayers[].blobSum'
+        ;;
+    2)
+        local mediaType=$(echo "${raw}" | jq -r '.mediaType')
+        case "${mediaType}" in
+        "application/vnd.docker.distribution.manifest.v2+json")
+            echo "${raw}" | jq -r '.layers[].digest'
+            ;;
+        "application/vnd.docker.distribution.manifest.list.v2+json")
+            echo "${raw}" | jq -j '.manifests[] | .platform.architecture , " " , .platform.os , " " , .digest , "\n"' | sort
+            ;;
+        *)
+            echo "skopeo inspect --raw --tls-verify=false docker://${image}" >&2
+            if [[ "${DEBUG}" == "true" ]]; then
+                echo "${raw}" >&2
+            fi
+            echo "${SELF}: ERROR: Unknown media type: ${mediaType}" >&2
+            return 2
+            ;;
+        esac
+        ;;
+    *)
+        echo "skopeo inspect --raw --tls-verify=false docker://${image}" >&2
+        if [[ "${DEBUG}" == "true" ]]; then
+            echo "${raw}" >&2
+        fi
+        echo "${SELF}: ERROR: Unknown schema version: ${schemaVersion}" >&2
+        return 2
+        ;;
+    esac
 }
 
 function list-tags() {
     local image="${1:-}"
-    if [[ "${DEBUG}" == "true" ]]; then
-        echo skopeo list-tags --retry-times=3 --tls-verify=false "docker://${image}" >&2
+    skopeo list-tags --tls-verify=false "docker://${image}" | jq -r '.Tags[]' | sort
+}
+
+function diff-image-with-tag() {
+    local image1="${1:-}"
+    local image2="${2:-}"
+
+    local inspect1="$(inspect ${image1})"
+    local inspect2="$(inspect ${image2})"
+    local diff_raw=$(diff --unified <(echo "${inspect1}") <(echo "${inspect2}"))
+
+    if [[ "${diff_raw}" != "" ]]; then
+        echo "${SELF}: UNSYNC: ${image1} and ${image2} are not in synchronized" >&2
+        if [[ "${DEBUG}" == "true" ]]; then
+            echo "DEBUG: image1 ${image1}:" >&2
+            echo "${inspect1}" >&2
+            echo "DEBUG: image2 ${image2}:" >&2
+            echo "${inspect2}" >&2
+            echo "diff:" >&2
+            echo "${diff_raw}" >&2
+        fi
+        return 1
     fi
-    skopeo list-tags --retry-times=3 --tls-verify=false "docker://${image}"
+    echo "${SELF}: SYNC: ${image1} and ${image2} are in synchronized" >&2
 }
 
 function diff-image() {
     local image1="${1:-}"
     local image2="${2:-}"
 
-    if [[ "$image1" =~ ":" ]]; then
-        local inspect1="$(inspect ${image1} | jq -S 'del( .manifests[]?.mediaType, .layers[]?.mediaType, .config?, .mediaType?, .schemaVersion?, .signatures?)')"
-        local inspect2="$(inspect ${image2} | jq -S 'del( .manifests[]?.mediaType, .layers[]?.mediaType, .config?, .mediaType?, .schemaVersion?, .signatures?)')"
-        local diff_raw=$(diff --unified <(echo "${inspect1}") <(echo "${inspect2}"))
+    local tags1="$(list-tags ${image1})"
+    local tags2="$(list-tags ${image2})"
+    local diff_raw="$(diff --unified <(echo "${tags1}") <(echo "${tags2}"))"
+    local diff_data="$(echo "${diff_raw}" | grep -v -E '^ ' | grep -v -E '^---' | grep -v -E '^\+\+\+')"
 
-        if [[ "${diff_raw}" != "" ]]; then
-            echo "${SELF}: UNSYNC: ${image1} and ${image2} are not in synchronized" >&2
-            if [[ "${DEBUG}" == "true" ]]; then
-                echo "DEBUG: image1 ${image1}:" >&2
-                echo "${inspect1}" >&2
-                echo "DEBUG: image2 ${image2}:" >&2
-                echo "${inspect2}" >&2
-                echo "diff:" >&2
-                echo "${diff_raw}" >&2
-            fi
-            return 1
-        fi
-        echo "${SELF}: SYNC: ${image1} and ${image2} are in synchronized" >&2
-        echo "${inspect1}"
-    else
-        local inspect1="$(list-tags ${image1} | jq -S '.')"
-        local inspect2="$(list-tags ${image2} | jq -S '.')"
-        local diff_raw="$(diff --unified <(echo "${inspect1}" | jq -S '.Tags[]' | tr -d '"') <(echo "${inspect2}" | jq -S '.Tags[]' | tr -d '"'))"
-        local diff_data="$(echo "${diff_raw}" | grep -v ' ' | grep -v -E '^---' | grep -v -E '^\+\+\+')"
-
-        if [[ "${INCREMENTAL}" == "true" ]]; then
-            diff_data="$(echo "${diff_data}" | grep -v -E '^\+')"
-        fi
-
-        if [[ "${diff_data}" != "" ]]; then
-            echo "${SELF}: UNSYNC: ${image1} and ${image2} are not in synchronized" >&2
-            if [[ "${DEBUG}" == "true" ]]; then
-                echo "DEBUG: image1 ${image1}:" >&2
-                echo "${inspect1}" >&2
-                echo "DEBUG: image2 ${image2}:" >&2
-                echo "${inspect2}" >&2
-                echo "DEBUG: diff:" >&2
-                echo "${diff_data}" >&2
-            fi
-            return 1
-        fi
-        echo "${SELF}: SYNC: ${image1} and ${image2} are in synchronized" >&2
-        echo "${inspect1}"
+    if [[ "${INCREMENTAL}" == "true" ]]; then
+        diff_data="$(echo "${diff_data}" | grep -v -E '^\+')"
     fi
+
+    if [[ "${diff_data}" != "" ]]; then
+        echo "${SELF}: UNSYNC-TAGS: ${image1} and ${image2} are not in synchronized" >&2
+        if [[ "${DEBUG}" == "true" ]]; then
+            echo "DEBUG: image1 ${image1}:" >&2
+            echo "${tags1}" >&2
+            echo "DEBUG: image2 ${image2}:" >&2
+            echo "${tags2}" >&2
+            echo "DEBUG: diff:" >&2
+            echo "${diff_data}" >&2
+        fi
+        echo "${tags1}"
+        return 1
+    fi
+    echo "${SELF}: SYNC-TAGS: ${image1} and ${image2} are in synchronized" >&2
+    echo "${tags1}"
     return 0
 }
 
@@ -119,24 +155,20 @@ function main() {
     local image1="${1:-}"
     local image2="${2:-}"
 
-    raw=$(diff-image "${image1}" "${image2}")
     if [[ "${image1}" =~ ":" ]]; then
+        diff-image-with-tag "${image1}" "${image2}" >/dev/null || return $?
         return 0
     fi
 
-    local list=$(echo "${raw}" | jq '.Tags[]' | tr -d '"')
-    local total=$(echo "${list}" | wc -l | tr -d ' ')
-    local count=0
-    local unsync=()
+    local list=$(diff-image "${image1}" "${image2}")
 
+    local unsync=()
     for tag in ${list}; do
-        count=$((count + 1))
-        echo "${SELF}: DIFF ${count}/${total}: ${tag}"
-        diff-image "${image1}:${tag}" "${image2}:${tag}" >/dev/null || unsync+=("${tag}")
+        diff-image-with-tag "${image1}:${tag}" "${image2}:${tag}" >/dev/null || unsync+=("${tag}")
     done
 
     if [[ "${#unsync[@]}" -gt 0 ]]; then
-        echo "${SELF}: UNSYNC: ${image1} and ${image2} are not in synchronized, there are unsynchronized tags ${#unsync[@]}/${total}: ${unsync[*]}" >&2
+        echo "${SELF}: INFO: ${image1} and ${image2} are not in synchronized, there are unsynchronized tags ${#unsync[@]}: ${unsync[*]}" >&2
         return 1
     fi
 }
