@@ -48,6 +48,7 @@ k8s.gcr.io/addon-resizer
 quay.io/cilium/cilium
 quay.io/cilium/cilium-init
 quay.io/cilium/operator
+quay.io/containers/skopeo
 quay.io/coreos/etcd
 quay.io/coreos/flannel
 quay.io/datawire/ambassador-operator
