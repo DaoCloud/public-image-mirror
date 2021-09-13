@@ -6,6 +6,8 @@ docker.io/cloudnativelabs/kube-router
 docker.io/haproxy
 docker.io/integratedcloudnative/ovn4nfv-k8s-plugin
 docker.io/k8scloudprovider/cinder-csi-plugin
+docker.io/kindest/node
+docker.io/kindest/haproxy
 docker.io/kubeovn/kube-ovn
 docker.io/kubernetesui/dashboard-amd64
 docker.io/kubernetesui/metrics-scraper
