@@ -50,9 +50,15 @@ TODO
 
 ## 安装运行
 
-安装skepo.
+安装 skopeo, 可参考[官方文档](https://github.com/containers/skopeo/blob/main/install.md)使用包管理器安装或者使用如下方式
+
 ```
-yum install skopeo --nobest
+# On Linux install skopeo by static build binary
+wget https://github.com/k8sli/skopeo/releases/download/v1.4.1/skopeo-linux-amd64 -O /usr/local/bin/skopeo
+chmod +x /usr/local/bin/skopeo
+
+# On MacOS install skopeo by brew
+brew install skopeo
 ```
 
 
