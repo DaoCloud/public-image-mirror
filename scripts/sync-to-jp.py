@@ -73,7 +73,7 @@ def skepo_sync_one_tag(src_img,tag):
     src_auth =''
     if 'docker.io' in src_img and DOCKER_IO_USER:
         src_auth = " --src-creds %s:%s " % (DOCKER_IO_USER,DOCKER_IO_PASS)
-    cmd = SKOPEO_CMD + " copy --all %s --dest-creds root:%s  --dest-tls-verify=false -f oci docker://%s:%s docker://%s:latest" %(src_auth,REGISTRY_PASSWORD,src_img,tag,dest_img)
+    cmd = SKOPEO_CMD + " copy --all %s --dest-creds root:%s  --dest-tls-verify=false -f oci docker://%s:%s docker://%s:%s" %(src_auth,REGISTRY_PASSWORD,src_img,tag,dest_img,tag)
     __run_cmd(cmd)
 
 def filter_tag(src_img,delta_tags):
