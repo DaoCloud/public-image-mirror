@@ -67,5 +67,5 @@ python scripts/sync-to-jp.py
 ## 最佳实践
 * 通过 加速 安装 kubeadm
 * 通过 加速 运行 artifacthub 上的镜像
-
+* 通过 加速 安装 kind
 
