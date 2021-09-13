@@ -1,0 +1,16 @@
+not_sync:
+- image_pattern: quay.io/calico/.*
+  tag_patterns:
+  - ".*[0-9a-f]{12,40}.*"
+- image_pattern: quay.io/tigera/.*
+  tag_patterns:
+  - ".*[0-9a-f]{12,40}.*"
+- image_pattern: quay.io/jetstack/.*
+  tag_patterns:
+  - "[0-9a-f]{9,40}"
+- image_pattern: docker.io/kubeovn/.*
+  tag_patterns:
+  - ".*[0-9a-f]{12,40}.*"
+- image_pattern: docker.io/weaveworks/.*
+  tag_patterns:
+  - ".*[0-9a-f]{12,40}.*"
