@@ -1,7 +1,7 @@
 # public-image-mirror
 
 ## 背景
-很多镜像都在国外。比如 gcr 。国内下载很忙，需要加速。
+很多镜像都在国外。比如 gcr 。国内下载很慢，需要加速。
 
 ## 目标
 
@@ -67,5 +67,5 @@ python scripts/sync-to-jp.py
 ## 最佳实践
 * 通过 加速 安装 kubeadm
 * 通过 加速 运行 artifacthub 上的镜像
-
+* 通过 加速 安装 kind
 
