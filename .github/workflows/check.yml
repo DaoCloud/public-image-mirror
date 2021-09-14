@@ -14,5 +14,10 @@ jobs:
         run: |
           pip3 install yq
       - name: Check
+        env:
+          INCREMENTAL: "true"
+          DEBUG: "true"
+          QUICKLY: "true"
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           ./scripts/check-image.sh
