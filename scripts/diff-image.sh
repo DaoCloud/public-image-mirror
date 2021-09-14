@@ -13,6 +13,9 @@ DEBUG="${DEBUG:-}"
 # Allow image2 to have more tags than image1
 INCREMENTAL="${INCREMENTAL:-}"
 
+# Compare only tags that are in both images
+QUICKLY="${QUICKLY:-}"
+
 # Exclude tags that do not need to be checked
 EXCLUDED="${EXCLUDED:-}"
 
@@ -108,6 +111,17 @@ function list-tags() {
 function diff-image-with-tag() {
     local image1="${1:-}"
     local image2="${2:-}"
+
+    if [[ "${QUICKLY}" == "true" ]]; then
+        local tag1="${image1##*:}"
+        local tag2="${image2##*:}"
+        if [[ "${tag1}" != "${tag2}" ]]; then
+            echo "${SELF}: UNSYNC: ${image1} and ${image2} are not in synchronized" >&2
+            return 1
+        fi
+        echo "${SELF}: SYNC: ${image1} and ${image2} are in synchronized" >&2
+        return 0
+    fi
 
     local inspect1="$(inspect ${image1})"
     local inspect2="$(inspect ${image2})"

@@ -6,6 +6,7 @@ set -o pipefail
 
 DEBUG="${DEBUG:-}"
 INCREMENTAL="${INCREMENTAL:-}"
+QUICKLY="${QUICKLY:-}"
 
 declare -A DOMAIN_MAP=()
 
@@ -61,7 +62,7 @@ for line in $(cat ./mirror.txt); do
     domain="${line%%/*}"
     new_image=$(echo "${line}" | sed "s/^${domain}/${DOMAIN_MAP["${domain}"]}/g")
     echo "Diff image ${line} ${new_image}"
-    DEBUG="${DEBUG}" INCREMENTAL="${INCREMENTAL}" EXCLUDED="${exclude}" ./scripts/diff-image.sh "${line}" "${new_image}" 2>&1 | tee -a "${LOGFILE}" || {
+    DEBUG="${DEBUG}" QUICKLY="${QUICKLY}" INCREMENTAL="${INCREMENTAL}" EXCLUDED="${exclude}" ./scripts/diff-image.sh "${line}" "${new_image}" 2>&1 | tee -a "${LOGFILE}" || {
         echo "Error: diff image ${line} ${new_image}"
     }
 done
