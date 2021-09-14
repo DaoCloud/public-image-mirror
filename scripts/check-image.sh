@@ -64,8 +64,8 @@ for line in $(cat ./mirror.txt); do
 done
 
 sync="$(cat "${LOGFILE}" | grep " SYNC: " | wc -l | tr -d ' ' || :)"
-nosync="$(cat "${LOGFILE}" | grep " NOSYNC: " | wc -l | tr -d ' ' || :)"
-sum=$(($sync + $nosync))
+unsync="$(cat "${LOGFILE}" | grep " UNSYNC: " | wc -l | tr -d ' ' || :)"
+sum=$(($sync + $unsync))
 
 echo https://img.shields.io/badge/Sync-${sync}%2F${sum}-blue
 wget "https://img.shields.io/badge/Sync-${sync}%2F${sum}-blue" -O sync.svg
