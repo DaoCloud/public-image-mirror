@@ -52,7 +52,7 @@ TODO
 
 ## 安装运行
 
-安装skepo.
+安装 skopeo.
 ```
 yum install skopeo --nobest
 ```
