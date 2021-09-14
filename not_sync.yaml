@@ -7,7 +7,7 @@ not_sync:
   - ".*[0-9a-f]{7,40}.*"
 - image_pattern: quay.io/jetstack/.*
   tag_patterns:
-  - "[0-9a-f]{9,40}"
+  - "[0-9a-f]{8,40}"
 - image_pattern: docker.io/kubeovn/.*
   tag_patterns:
   - ".*[0-9a-f]{12,40}.*"
