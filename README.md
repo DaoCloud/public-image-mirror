@@ -69,6 +69,12 @@ python scripts/sync-to-jp.py
 
 ## 最佳实践
 * 通过 加速 安装 kubeadm
+``` bash
+# 使用 kubeadm 安装的时候指定 --image-repository 参数, 修复 安装的进行前缀
+REPOS=k8s-gcr.m.daocloud.io
+kubeadm init --image-repository "${REPOS}"
+```
+
 * 通过 加速 运行 artifacthub 上的镜像
 * 通过 加速 安装 kind
 
