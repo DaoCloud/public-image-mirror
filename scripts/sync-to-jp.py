@@ -28,6 +28,7 @@ INTERNAL_NETWORK = {
 
 REGISTRY_PASSWORD = os.environ["REGISTRY_PASSWORD"]
 DELTA_MODE = os.environ.get("DELTA_MODE") 
+
 DRY_RUN = os.environ.get("DRY_RUN")
 DOCKER_IO_USER = os.environ.get("DOCKER_IO_USER")
 DOCKER_IO_PASS = os.environ.get("DOCKER_IO_PASS")
@@ -51,15 +52,14 @@ def __dest_img(src_img):
     return dest_img
 
 
-
-def skepo_full_sync(src_img):
-    dest_img = __dest_img(src_img)
-    dest_img = "/".join(dest_img.split("/")[:-1])
-    src_auth = ""
-    if 'docker.io' in src_img and DOCKER_IO_USER:
-        src_auth = " --src-creds %s:%s " % (DOCKER_IO_USER,DOCKER_IO_PASS)
-    cmd = SKOPEO_CMD + " sync --all --src docker --dest docker %s --dest-tls-verify=false --dest-creds root:%s -f oci %s %s" %(src_auth,REGISTRY_PASSWORD,src_img,dest_img)
-    __run_cmd(cmd)
+def is_filtered(src_img):
+    y = []
+    with open("not_sync.yaml") as f:
+        y = yaml.safe_load(f)
+    for n in y.get('not_sync'):
+        if bool(re.match(n.get("image_pattern"), src_img)):
+            return True
+    return False
 
 def __parse_tag(output):
     # print(output)
@@ -89,7 +89,7 @@ def filter_tag(src_img,delta_tags):
                         need_to_sync.remove(t)
     return need_to_sync
 
-def skepo_delta_sync(src_img):
+def skepo_delta_sync(src_img,full_mode=False):
     dest_img = __dest_img(src_img)
     src_auth =''
     if 'docker.io' in src_img and DOCKER_IO_USER:
@@ -103,11 +103,15 @@ def skepo_delta_sync(src_img):
     result = subprocess.run(cmd, shell=True,stdout=subprocess.PIPE)
     dest_tags = __parse_tag(result.stdout)
     delta_tags = set(src_tags) - set(dest_tags)
-    need_to_sync = filter_tag(src_img,delta_tags)
+
+
+    need_to_sync =  filter_tag(src_img,delta_tags)
+    if full_mode:
+        need_to_sync = filter_tag(src_img,src_tags)
     
 
     filtered_num = len(delta_tags) - len(need_to_sync)
-    if 'latest' in src_tags:
+    if 'latest' in src_tags and 'lastest' not in need_to_sync:
         need_to_sync.append('latest')
 
     # print(src_img)
@@ -115,6 +119,19 @@ def skepo_delta_sync(src_img):
     
     for tag in need_to_sync:
         skepo_sync_one_tag(src_img,tag)
+
+def skepo_full_sync(src_img):
+    if is_filtered(src_img):
+        skepo_delta_sync(src_img,full_mode=True)
+    else:
+        dest_img = __dest_img(src_img)
+        dest_img = "/".join(dest_img.split("/")[:-1])
+        src_auth = ""
+        if 'docker.io' in src_img and DOCKER_IO_USER:
+            src_auth = " --src-creds %s:%s " % (DOCKER_IO_USER,DOCKER_IO_PASS)
+        cmd = SKOPEO_CMD + " sync --all --src docker --dest docker %s --dest-tls-verify=false --dest-creds root:%s -f oci %s %s" %(src_auth,REGISTRY_PASSWORD,src_img,dest_img)
+        __run_cmd(cmd)
+
 
 def main():
     lines = []
