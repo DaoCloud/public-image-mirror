@@ -14,3 +14,6 @@ not_sync:
 - image_pattern: docker.io/weaveworks/.*
   tag_patterns:
   - ".*[0-9a-f]{12,40}.*"
+- image_pattern: docker.io/amazon/.*
+  tag_patterns:
+  - ".*[0-9a-f]{7,40}.*"
