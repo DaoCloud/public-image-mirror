@@ -1,7 +1,7 @@
 # public-image-mirror
 
-![Sync](https://gist.github.com/wzshiming/6e1f67a5184f93cefc5b2c670a5813e5/raw/daocloud-sync-badge.svg)
-![Deep Sync](https://gist.github.com/wzshiming/6e1f67a5184f93cefc5b2c670a5813e5/raw/daocloud-deep-sync-badge.svg)
+[![Sync](https://gist.github.com/wzshiming/6e1f67a5184f93cefc5b2c670a5813e5/raw/daocloud-sync-badge.svg)](https://github.com/DaoCloud/public-image-mirror/blob/main/.github/workflows/sync-check.yml)
+[![Deep Sync](https://gist.github.com/wzshiming/6e1f67a5184f93cefc5b2c670a5813e5/raw/daocloud-deep-sync-badge.svg)](https://github.com/DaoCloud/public-image-mirror/blob/main/.github/workflows/deep-sync-check.yml)
 
 ## 背景
 很多镜像都在国外。比如 gcr 。国内下载很慢，需要加速。
