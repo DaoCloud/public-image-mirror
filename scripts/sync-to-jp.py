@@ -106,11 +106,11 @@ def skepo_delta_sync(src_img,full_mode=False):
 
 
     need_to_sync =  filter_tag(src_img,delta_tags)
+    filtered_num = len(delta_tags) - len(need_to_sync)
     if full_mode:
         need_to_sync = filter_tag(src_img,src_tags)
+        filtered_num = len(src_tags) - len(need_to_sync)
     
-
-    filtered_num = len(delta_tags) - len(need_to_sync)
     if 'latest' in src_tags and 'lastest' not in need_to_sync:
         need_to_sync.append('latest')
 
