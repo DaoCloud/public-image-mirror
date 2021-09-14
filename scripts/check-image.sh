@@ -71,5 +71,10 @@ sync="$(cat "${LOGFILE}" | grep " SYNC: " | wc -l | tr -d ' ' || :)"
 unsync="$(cat "${LOGFILE}" | grep " UNSYNC: " | wc -l | tr -d ' ' || :)"
 sum=$(($sync + $unsync))
 
-echo https://img.shields.io/badge/Sync-${sync}%2F${sum}-blue
-wget "https://img.shields.io/badge/Sync-${sync}%2F${sum}-blue" -O sync.svg
+if [[ "${QUICKLY}" == "true" ]]; then
+    echo "https://img.shields.io/badge/Sync-${sync}%2F${sum}-blue"
+    wget "https://img.shields.io/badge/Sync-${sync}%2F${sum}-blue" -O sync.svg
+else
+    echo "https://img.shields.io/badge/Deep%20Sync-${sync}%2F${sum}-blue"
+    wget "https://img.shields.io/badge/Deep%20Sync-${sync}%2F${sum}-blue" -O sync.svg
+fi
