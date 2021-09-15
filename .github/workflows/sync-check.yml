@@ -23,7 +23,8 @@ jobs:
       - name: Update badge
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }} # Generated for update gist
-          BADGE_PATH: "gist://wzshiming/6e1f67a5184f93cefc5b2c670a5813e5/daocloud-sync-badge.svg"
+          BADGE_PREFIX: "gist://wzshiming/6e1f67a5184f93cefc5b2c670a5813e5"
         run: |
           wget https://github.com/wzshiming/putingh/releases/download/v0.6.2/putingh_linux_amd64 -O /usr/local/bin/putingh && chmod +x /usr/local/bin/putingh
-          GH_TOKEN="${GH_TOKEN}" putingh "${BADGE_PATH}" sync.svg
+          GH_TOKEN="${GH_TOKEN}" putingh "${BADGE_PREFIX}/daocloud-sync-badge.svg" badge.svg
+          GH_TOKEN="${GH_TOKEN}" putingh "${BADGE_PREFIX}/daocloud-sync.log" sync.log

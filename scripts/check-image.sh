@@ -67,14 +67,17 @@ for line in $(cat ./mirror.txt); do
     }
 done
 
+cat "${LOGFILE}" | grep " UNSYNC: " | sort >sync.log
+cat "${LOGFILE}" | grep " SYNC: " | sort >>sync.log
+
 sync="$(cat "${LOGFILE}" | grep " SYNC: " | wc -l | tr -d ' ' || :)"
 unsync="$(cat "${LOGFILE}" | grep " UNSYNC: " | wc -l | tr -d ' ' || :)"
 sum=$(($sync + $unsync))
 
 if [[ "${QUICKLY}" == "true" ]]; then
     echo "https://img.shields.io/badge/Sync-${sync}%2F${sum}-blue"
-    wget "https://img.shields.io/badge/Sync-${sync}%2F${sum}-blue" -O sync.svg
+    wget "https://img.shields.io/badge/Sync-${sync}%2F${sum}-blue" -O badge.svg
 else
     echo "https://img.shields.io/badge/Deep%20Sync-${sync}%2F${sum}-blue"
-    wget "https://img.shields.io/badge/Deep%20Sync-${sync}%2F${sum}-blue" -O sync.svg
+    wget "https://img.shields.io/badge/Deep%20Sync-${sync}%2F${sum}-blue" -O badge.svg
 fi
