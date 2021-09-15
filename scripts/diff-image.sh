@@ -151,13 +151,23 @@ function diff-image() {
     local tags1="$(list-tags ${image1})"
     local tags2="$(list-tags ${image2})"
     local diff_raw="$(diff --unified <(echo "${tags1}") <(echo "${tags2}") | grep -v -E '^---' | grep -v -E '^\+\+\+' || :)"
-    local diff_data="$(echo "${diff_raw}" | grep -v -E '^ ' || :)"
+    local increase="$(echo "${diff_raw}" | grep -E '^\+' | sed 's/^\+//' || :)"
+    local reduce="$(echo "${diff_raw}" | grep -E '^-' | sed 's/^-//' || :)"
+    local common="${tags1}"
 
-    if [[ "${INCREMENTAL}" == "true" ]]; then
-        diff_data="$(echo "${diff_data}" | grep -v -E '^\+' || :)"
+    if [[ "${increase}" != "" ]]; then
+        common="$(echo "${common}" | grep -v -f <(echo "${increase}") || :)"
     fi
 
-    if [[ "${diff_data}" != "" ]]; then
+    if [[ "${reduce}" != "" ]]; then
+        common="$(echo "${common}" | grep -v -f <(echo "${reduce}") || :)"
+    fi
+
+    if [[ "${INCREMENTAL}" == "true" ]]; then
+        increase=""
+    fi
+
+    if [[ "${reduce}" != "" ]] || [[ "${increase}" != "" ]]; then
         echo "${SELF}: UNSYNC-TAGS: ${image1} and ${image2} are not in synchronized" >&2
         if [[ "${DEBUG}" == "true" ]]; then
             echo "DEBUG: image1 ${image1}:" >&2
@@ -165,21 +175,19 @@ function diff-image() {
             echo "DEBUG: image2 ${image2}:" >&2
             echo "${tags2}" >&2
             echo "DEBUG: diff:" >&2
-            echo "${diff_data}" >&2
+            echo "${diff_raw}" >&2
         fi
-        for tag in $(echo "${diff_raw}" | grep -E '^-' || :); do
-            tag="${tag#-}"
+        for tag in ${reduce}; do
             echo "${SELF}: UNSYNC: ${image1}:${tag} and ${image2}:${tag} are not in synchronized, ${image2}:${tag} is empty" >&2
         done
-        for tag in $(echo "${diff_raw}" | grep -E '^\+' || :); do
-            tag="${tag#+}"
+        for tag in ${increase}; do
             echo "${SELF}: UNSYNC: ${image1}:${tag} and ${image2}:${tag} are not in synchronized, ${image1}:${tag} is empty" >&2
         done
-        echo "$(echo "${diff_raw}" | grep -E '^ ' | tr -d ' ' || :)"
+        echo "${common}"
         return 1
     fi
     echo "${SELF}: SYNC-TAGS: ${image1} and ${image2} are in synchronized" >&2
-    echo "${tags1}"
+    echo "${common}"
     return 0
 }
 
