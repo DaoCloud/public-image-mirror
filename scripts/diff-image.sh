@@ -34,6 +34,8 @@ function check() {
         echo "Env:"
         echo " DEBUG=true       # Output more information that is out of sync"
         echo " INCREMENTAL=true # Allow image2 to have more tags than image1"
+        echo " QUICKLY=true     # Compare only tags that are in both images"
+        echo " EXCLUDED=true    # Exclude tags that do not need to be checked"
         return 2
     fi
 
