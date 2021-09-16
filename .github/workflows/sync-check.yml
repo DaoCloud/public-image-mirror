@@ -16,7 +16,6 @@ jobs:
       - name: Check
         env:
           INCREMENTAL: "true"
-          DEBUG: "true"
           QUICKLY: "true"
         run: |
           ./scripts/check-image.sh
