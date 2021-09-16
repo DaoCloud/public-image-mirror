@@ -68,6 +68,7 @@ python scripts/sync-to-jp.py
 ``` bash
 # 使用 kubeadm 安装的时候指定 --image-repository 参数, 指定安装的镜像前缀
 REPOS=k8s-gcr.m.daocloud.io
+kubeadm config images pull --image-repository "${REPOS}"
 kubeadm init --image-repository "${REPOS}"
 ```
 
