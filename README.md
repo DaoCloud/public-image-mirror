@@ -69,7 +69,6 @@ python scripts/sync-to-jp.py
 # 使用 kubeadm 安装的时候指定 --image-repository 参数, 指定安装的镜像前缀
 REPOS=k8s-gcr.m.daocloud.io
 kubeadm config images pull --image-repository "${REPOS}"
-kubeadm init --image-repository "${REPOS}"
 ```
 
 * 通过 加速 运行 artifacthub 上的镜像
