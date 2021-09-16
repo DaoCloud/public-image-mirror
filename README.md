@@ -78,5 +78,5 @@ kubeadm init --image-repository "${REPOS}"
 
 ``` bash
 kind create cluster --name kind  --image m.daocloud.io/kindest/node:v1.21.1
-``` bash
+``` 
 
