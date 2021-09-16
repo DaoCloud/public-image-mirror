@@ -75,3 +75,8 @@ kubeadm init --image-repository "${REPOS}"
 * 通过 加速 运行 artifacthub 上的镜像
 * 通过 加速 安装 kind
 
+
+``` bash
+kind create cluster --name kind  --image m.daocloud.io/kindest/node:v1.21.1
+``` bash
+
