@@ -24,6 +24,16 @@ PARALLET="${PARALLET:-0}"
 
 SELF="$(basename "${BASH_SOURCE[0]}")"
 
+if [[ "${DEBUG}" == "true" ]]; then
+    echo "DEBUG:       ${DEBUG}"
+    echo "IMAGE1:      ${IMAGE1}"
+    echo "IMAGE2:      ${IMAGE2}"
+    echo "INCREMENTAL: ${INCREMENTAL}"
+    echo "QUICKLY:     ${QUICKLY}"
+    echo "EXCLUDED:    ${EXCLUDED}"
+    echo "PARALLET:    ${PARALLET}"
+fi
+
 function check() {
     local image1="${1:-}"
     local image2="${2:-}"
