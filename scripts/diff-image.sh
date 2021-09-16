@@ -72,11 +72,19 @@ function inspect() {
         ;;
     2)
         local mediaType=$(echo "${raw}" | jq -r '.mediaType // "" ')
+        if [[ "${mediaType}" == "" ]]; then
+            if [[ "$(echo "${raw}" | jq -r '.layers | length')" -gt 0 ]]; then
+                mediaType="layers"
+            elif [[ "$(echo "${raw}" | jq -r '.manifests | length')" -gt 0 ]]; then
+                mediaType="manifests"
+            fi
+        fi
+
         case "${mediaType}" in
-        "application/vnd.docker.distribution.manifest.v2+json" | "")
+        "layers" | "application/vnd.docker.distribution.manifest.v2+json")
             echo "${raw}" | jq -r '.layers[].digest'
             ;;
-        "application/vnd.docker.distribution.manifest.list.v2+json")
+        "manifests" | "application/vnd.docker.distribution.manifest.list.v2+json")
             echo "${raw}" | jq -j '.manifests[] | .platform.architecture , " " , .platform.os , " " , .digest , "\n"' | sort
             ;;
         *)
@@ -125,8 +133,13 @@ function diff-image-with-tag() {
         return 0
     fi
 
-    local inspect1="$(inspect ${image1})"
     local inspect2="$(inspect ${image2})"
+    if [[ "${inspect2}" == "" ]]; then
+        echo "${SELF}: UNSYNC: ${image1} and ${image2} are not in synchronized, ${image2} content is empty" >&2
+        return 1
+    fi
+
+    local inspect1="$(inspect ${image1})"
     local diff_raw=$(diff --unified <(echo "${inspect1}") <(echo "${inspect2}"))
 
     if [[ "${diff_raw}" != "" ]]; then
@@ -178,10 +191,10 @@ function diff-image() {
             echo "${diff_raw}" >&2
         fi
         for tag in ${reduce}; do
-            echo "${SELF}: UNSYNC: ${image1}:${tag} and ${image2}:${tag} are not in synchronized, ${image2}:${tag} is empty" >&2
+            echo "${SELF}: UNSYNC: ${image1}:${tag} and ${image2}:${tag} are not in synchronized, ${image2}:${tag} does not exist" >&2
         done
         for tag in ${increase}; do
-            echo "${SELF}: UNSYNC: ${image1}:${tag} and ${image2}:${tag} are not in synchronized, ${image1}:${tag} is empty" >&2
+            echo "${SELF}: UNSYNC: ${image1}:${tag} and ${image2}:${tag} are not in synchronized, ${image1}:${tag} does not exist" >&2
         done
         echo "${common}"
         return 1
