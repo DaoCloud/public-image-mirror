@@ -19,6 +19,9 @@ QUICKLY="${QUICKLY:-}"
 # Exclude tags that do not need to be checked
 EXCLUDED="${EXCLUDED:-}"
 
+# Compare the number of tags in parallel
+PARALLET="${PARALLET:-0}"
+
 SELF="$(basename "${BASH_SOURCE[0]}")"
 
 function check() {
@@ -36,6 +39,7 @@ function check() {
         echo " INCREMENTAL=true   # Allow image2 to have more tags than image1"
         echo " QUICKLY=true       # Compare only tags that are in both images"
         echo " EXCLUDED=<pattern> # Exclude tags that do not need to be checked"
+        echo " PARALLET=<size>    # Compare the number of tags in parallel"
         return 2
     fi
 
@@ -204,6 +208,15 @@ function diff-image() {
     return 0
 }
 
+function wait_jobs() {
+    local job_num=${1:-3}
+    local perc=$(jobs -p | wc -l)
+    while [ "${perc}" -gt "${job_num}" ]; do
+        sleep 1
+        perc=$(jobs -p | wc -l)
+    done
+}
+
 function main() {
     local image1="${1:-}"
     local image2="${2:-}"
@@ -216,9 +229,17 @@ function main() {
     local list=$(diff-image "${image1}" "${image2}")
 
     local unsync=()
-    for tag in ${list}; do
-        diff-image-with-tag "${image1}:${tag}" "${image2}:${tag}" >/dev/null || unsync+=("${tag}")
-    done
+    if [[ "${QUICKLY}" != "true" ]] || [[ "${PARALLET}" -eq 0 ]]; then
+        for tag in ${list}; do
+            diff-image-with-tag "${image1}:${tag}" "${image2}:${tag}" >/dev/null || unsync+=("${tag}")
+        done
+    else
+        for tag in ${list}; do
+            wait_jobs "${PARALLET}"
+            diff-image-with-tag "${image1}:${tag}" "${image2}:${tag}" >/dev/null || unsync+=("${tag}") &
+        done
+        wait
+    fi
 
     if [[ "${#unsync[@]}" -gt 0 ]]; then
         echo "${SELF}: INFO: ${image1} and ${image2} are not in synchronized, there are unsynchronized tags ${#unsync[@]}: ${unsync[*]}" >&2
