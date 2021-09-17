@@ -16,8 +16,11 @@ INCREMENTAL="${INCREMENTAL:-}"
 # Compare only tags that are in both images
 QUICKLY="${QUICKLY:-}"
 
-# Exclude tags that do not need to be checked
-EXCLUDED="${EXCLUDED:-}"
+# Regexp that matches the tags
+FOCUS="${FOCUS:-}"
+
+# Regexp that matches the tags that needs to be skipped
+SKIP="${SKIP:-}"
 
 # Compare the number of tags in parallel
 PARALLET="${PARALLET:-0}"
@@ -30,7 +33,8 @@ if [[ "${DEBUG}" == "true" ]]; then
     echo "IMAGE2:      ${IMAGE2}"
     echo "INCREMENTAL: ${INCREMENTAL}"
     echo "QUICKLY:     ${QUICKLY}"
-    echo "EXCLUDED:    ${EXCLUDED}"
+    echo "FOCUS:       ${FOCUS}"
+    echo "SKIP:        ${SKIP}"
     echo "PARALLET:    ${PARALLET}"
 fi
 
@@ -48,7 +52,8 @@ function check() {
         echo " DEBUG=true         # Output more information that is out of sync"
         echo " INCREMENTAL=true   # Allow image2 to have more tags than image1"
         echo " QUICKLY=true       # Compare only tags that are in both images"
-        echo " EXCLUDED=<pattern> # Exclude tags that do not need to be checked"
+        echo " FOCUS=<pattern>    # Regexp that matches the tags"
+        echo " SKIP=<pattern>     # Regexp that matches the tags that needs to be skipped"
         echo " PARALLET=<size>    # Compare the number of tags in parallel"
         return 2
     fi
@@ -126,8 +131,12 @@ function list-tags() {
     local image="${1:-}"
     local raw="$(skopeo list-tags --tls-verify=false "docker://${image}" | jq -r '.Tags[]' | sort)"
 
-    if [[ "${EXCLUDED}" != "" ]]; then
-        raw="$(echo "${raw}" | grep -v -E "${EXCLUDED}" || :)"
+    if [[ "${FOCUS}" != "" ]]; then
+        raw="$(echo "${raw}" | grep -E "${FOCUS}" || :)"
+    fi
+
+    if [[ "${SKIP}" != "" ]]; then
+        raw="$(echo "${raw}" | grep -v -E "${SKIP}" || :)"
     fi
     echo "${raw}"
 }

@@ -26,7 +26,7 @@ for line in $(cat ./domain.txt); do
     DOMAIN_MAP["${key}"]="${val}"
 done
 
-declare -A EXCLUDED_MAP=()
+declare -A SKIP_MAP=()
 
 for line in $(cat not_sync.yaml | yq -j '.not_sync[] | .image_pattern , "=", (.tag_patterns[] | . , "|" ) , "\n"' | sed "s/|$//g"); do
     line="${line/ /}"
@@ -40,7 +40,7 @@ for line in $(cat not_sync.yaml | yq -j '.not_sync[] | .image_pattern , "=", (.t
         continue
     fi
 
-    EXCLUDED_MAP["${key}"]="${val}"
+    SKIP_MAP["${key}"]="${val}"
 done
 
 LOGFILE="./check-image.log"
@@ -55,19 +55,19 @@ for line in ${images}; do
         continue
     fi
 
-    exclude=""
-    for key in "${!EXCLUDED_MAP[@]}"; do
+    skip=""
+    for key in "${!SKIP_MAP[@]}"; do
         if [[ "${line}" =~ ${key} ]]; then
-            exclude+="${EXCLUDED_MAP[$key]}|"
+            skip+="${SKIP_MAP[$key]}|"
         fi
     done
-    exclude="${exclude%|}"
+    skip="${skip%|}"
 
     domain="${line%%/*}"
     new_image=$(echo "${line}" | sed "s/^${domain}/${DOMAIN_MAP["${domain}"]}/g")
     count=$((count + 1))
     echo "Diff ${count}/${images_count} image ${line} ${new_image}"
-    DEBUG="${DEBUG}" QUICKLY="${QUICKLY}" INCREMENTAL="${INCREMENTAL}" PARALLET="${PARALLET}" EXCLUDED="${exclude}" ./scripts/diff-image.sh "${line}" "${new_image}" 2>&1 | tee -a "${LOGFILE}" || {
+    DEBUG="${DEBUG}" QUICKLY="${QUICKLY}" INCREMENTAL="${INCREMENTAL}" PARALLET="${PARALLET}" SKIP="${skip}" ./scripts/diff-image.sh "${line}" "${new_image}" 2>&1 | tee -a "${LOGFILE}" || {
         echo "Error: diff image ${line} ${new_image}"
     }
 done
