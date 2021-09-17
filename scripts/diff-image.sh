@@ -4,11 +4,14 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
+# Output more information that is out of sync
+DEBUG="${DEBUG:-}"
+
 IMAGE1="${1:-}"
 IMAGE2="${2:-}"
 
-# Output more information that is out of sync
-DEBUG="${DEBUG:-}"
+SKOPEO="${SKOPEO:-skopeo}"
+JQ="${JQ:-jq}"
 
 # Allow image2 to have more tags than image1
 INCREMENTAL="${INCREMENTAL:-}"
@@ -31,6 +34,8 @@ if [[ "${DEBUG}" == "true" ]]; then
     echo "DEBUG:       ${DEBUG}"
     echo "IMAGE1:      ${IMAGE1}"
     echo "IMAGE2:      ${IMAGE2}"
+    echo "SKOPEO:      ${SKOPEO}"
+    echo "JQ:          ${JQ}"
     echo "INCREMENTAL: ${INCREMENTAL}"
     echo "QUICKLY:     ${QUICKLY}"
     echo "FOCUS:       ${FOCUS}"
@@ -77,34 +82,34 @@ function check() {
 
 function inspect() {
     local image="${1:-}"
-    local raw=$(skopeo inspect --raw --tls-verify=false "docker://${image}")
+    local raw=$(${SKOPEO} inspect --raw --tls-verify=false "docker://${image}")
     if [[ "${raw}" == "" ]]; then
         echo "skopeo inspect --raw --tls-verify=false docker://${image}" >&2
         echo "ERROR: Failed to inspect ${image}" >&2
         return 1
     fi
 
-    local schemaVersion=$(echo "${raw}" | jq -r '.schemaVersion')
+    local schemaVersion=$(echo "${raw}" | ${JQ} -r '.schemaVersion')
     case "${schemaVersion}" in
     1)
-        echo "${raw}" | jq -r '.fsLayers[].blobSum'
+        echo "${raw}" | ${JQ} -r '.fsLayers[].blobSum'
         ;;
     2)
-        local mediaType=$(echo "${raw}" | jq -r '.mediaType // "" ')
+        local mediaType=$(echo "${raw}" | ${JQ} -r '.mediaType // "" ')
         if [[ "${mediaType}" == "" ]]; then
-            if [[ "$(echo "${raw}" | jq -r '.layers | length')" -gt 0 ]]; then
+            if [[ "$(echo "${raw}" | ${JQ} -r '.layers | length')" -gt 0 ]]; then
                 mediaType="layers"
-            elif [[ "$(echo "${raw}" | jq -r '.manifests | length')" -gt 0 ]]; then
+            elif [[ "$(echo "${raw}" | ${JQ} -r '.manifests | length')" -gt 0 ]]; then
                 mediaType="manifests"
             fi
         fi
 
         case "${mediaType}" in
         "layers" | "application/vnd.docker.distribution.manifest.v2+json")
-            echo "${raw}" | jq -r '.layers[].digest'
+            echo "${raw}" | ${JQ} -r '.layers[].digest'
             ;;
         "manifests" | "application/vnd.docker.distribution.manifest.list.v2+json")
-            echo "${raw}" | jq -j '.manifests[] | .platform.architecture , " " , .platform.os , " " , .digest , "\n"' | sort
+            echo "${raw}" | ${JQ} -j '.manifests[] | .platform.architecture , " " , .platform.os , " " , .digest , "\n"' | sort
             ;;
         *)
             echo "skopeo inspect --raw --tls-verify=false docker://${image}" >&2
@@ -129,7 +134,7 @@ function inspect() {
 
 function list-tags() {
     local image="${1:-}"
-    local raw="$(skopeo list-tags --tls-verify=false "docker://${image}" | jq -r '.Tags[]' | sort)"
+    local raw="$(${SKOPEO} list-tags --tls-verify=false "docker://${image}" | ${JQ} -r '.Tags[]' | sort)"
 
     if [[ "${FOCUS}" != "" ]]; then
         raw="$(echo "${raw}" | grep -E "${FOCUS}" || :)"
