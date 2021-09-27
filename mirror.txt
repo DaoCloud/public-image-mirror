@@ -28,7 +28,6 @@ docker.io/kubernetesui/metrics-scraper
 docker.io/library/busybox
 docker.io/library/centos
 docker.io/library/golang
-docker.io/library/golang
 docker.io/library/haproxy
 docker.io/library/mysql
 docker.io/library/nginx
