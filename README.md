@@ -10,7 +10,7 @@
 
 * 一个简洁有效的方法能够加速这些包。简洁的名称映射
 * 易于添加，添加新的包，不需要去修改代码。
-* 稳定可靠
+* 稳定可靠。每天检查同步情况。
 
 ## 快速开始
 
@@ -71,7 +71,6 @@ REPOS=k8s-gcr.m.daocloud.io
 kubeadm config images pull --image-repository "${REPOS}"
 ```
 
-* 通过 加速 运行 artifacthub 上的镜像
 * 通过 加速 安装 kind
 
 
