@@ -17,3 +17,9 @@ not_sync:
 - image_pattern: docker.io/amazon/.*
   tag_patterns:
   - ".*[0-9a-f]{7,40}.*"
+- image_pattern: docker.io/.*python
+  tag_patterns:
+  - ".*windows.*"
+- image_pattern: docker.io/.*golang
+  tag_patterns:
+  - ".*windows.*"
