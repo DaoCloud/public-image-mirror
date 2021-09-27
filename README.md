@@ -75,6 +75,6 @@ kubeadm config images pull --image-repository "${REPOS}"
 
 
 ``` bash
-kind create cluster --name kind  --image m.daocloud.io/kindest/node:v1.21.1
+kind create cluster --name kind  --image docker.m.daocloud.io/kindest/node:v1.22.1
 ``` 
 
