@@ -3,6 +3,7 @@ docker.io/amazon/aws-ebs-csi-driver
 docker.io/busybox
 docker.io/centos
 docker.io/cloudnativelabs/kube-router
+docker.io/golang
 docker.io/goharbor/chartmuseum-photon
 docker.io/goharbor/harbor-core
 docker.io/goharbor/harbor-db
@@ -31,6 +32,7 @@ docker.io/library/mysql
 docker.io/library/nginx
 docker.io/library/redis
 docker.io/library/registry
+docker.io/library/golang
 docker.io/mysql
 docker.io/nginx
 docker.io/rancher/local-path-provisioner
