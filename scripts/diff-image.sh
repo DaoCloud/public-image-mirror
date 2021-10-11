@@ -82,9 +82,9 @@ function check() {
 
 function inspect() {
     local image="${1:-}"
-    local raw=$(${SKOPEO} inspect --raw --tls-verify=false "docker://${image}")
+    local raw=$(${SKOPEO} inspect --no-creds --raw --tls-verify=false "docker://${image}")
     if [[ "${raw}" == "" ]]; then
-        echo "skopeo inspect --raw --tls-verify=false docker://${image}" >&2
+        echo "skopeo inspect --no-creds --raw --tls-verify=false docker://${image}" >&2
         echo "ERROR: Failed to inspect ${image}" >&2
         return 1
     fi
@@ -92,7 +92,7 @@ function inspect() {
     local schemaVersion=$(echo "${raw}" | ${JQ} -r '.schemaVersion')
     case "${schemaVersion}" in
     1)
-        echo "${raw}" | ${JQ} -r '.fsLayers[].blobSum'
+        echo "${raw}" | ${JQ} -r '.fsLayers[].blobSum' | tac
         ;;
     2)
         local mediaType=$(echo "${raw}" | ${JQ} -r '.mediaType // "" ')
@@ -109,10 +109,18 @@ function inspect() {
             echo "${raw}" | ${JQ} -r '.layers[].digest'
             ;;
         "manifests" | "application/vnd.docker.distribution.manifest.list.v2+json")
-            echo "${raw}" | ${JQ} -j '.manifests[] | .platform.architecture , " " , .platform.os , " " , .digest , "\n"' | sort
+            local line=$(echo "${raw}" | ${JQ} -j '.manifests[] | .platform.architecture , " " , .platform.os , "\n"' | sort)
+            IFS=$'\n'
+            for args in ${line}; do
+                local arch="${args%% *}"
+                local os="${args##* }"
+                echo ${args}
+                ${SKOPEO} --override-arch "${arch}" --override-os "${os}" inspect --no-creds --config --tls-verify=false "docker://${image}" | jq -r '.rootfs.diff_ids[]'
+            done
+            unset IFS
             ;;
         *)
-            echo "skopeo inspect --raw --tls-verify=false docker://${image}" >&2
+            echo "skopeo inspect --no-creds --raw --tls-verify=false docker://${image}" >&2
             if [[ "${DEBUG}" == "true" ]]; then
                 echo "${raw}" >&2
             fi
@@ -122,7 +130,7 @@ function inspect() {
         esac
         ;;
     *)
-        echo "skopeo inspect --raw --tls-verify=false docker://${image}" >&2
+        echo "skopeo inspect --no-creds --raw --tls-verify=false docker://${image}" >&2
         if [[ "${DEBUG}" == "true" ]]; then
             echo "${raw}" >&2
         fi
