@@ -46,6 +46,7 @@ docker.io/weaveworks/weave-kube
 docker.io/weaveworks/weave-npc
 docker.io/xueshanf/install-socat
 gcr.io/cadvisor/cadvisor
+gcr.io/distroless/base
 gcr.io/distroless/static
 gcr.io/google-containers/pause
 ghcr.io/k8snetworkplumbingwg/multus-cni
