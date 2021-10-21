@@ -16,7 +16,7 @@ jobs:
       - name: Check
         env:
           INCREMENTAL: "true"
-          PARALLET: "10"
+          PARALLET: "20"
         run: |
           ./scripts/check-image.sh
       - name: Update badge
