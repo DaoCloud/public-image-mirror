@@ -25,4 +25,4 @@ not_sync:
   - ".*windows.*"
 - image_pattern: gcr.io/distroless/base
   tag_patterns:
-  - "sha256-s.*"
+  - "sha256-.*"
