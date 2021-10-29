@@ -23,3 +23,6 @@ not_sync:
 - image_pattern: docker.io/.*golang
   tag_patterns:
   - ".*windows.*"
+- image_pattern: gcr.io/distroless/base
+  tag_patterns:
+  - "sha256-s.*"
