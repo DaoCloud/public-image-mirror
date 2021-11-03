@@ -23,6 +23,9 @@ not_sync:
 - image_pattern: docker.io/.*golang
   tag_patterns:
   - ".*windows.*"
+- image_pattern: docker.io/.*node
+  tag_patterns:
+  - ".*onbuild.*"
 - image_pattern: gcr.io/distroless/.*
   tag_patterns:
   - "sha256-.*"
