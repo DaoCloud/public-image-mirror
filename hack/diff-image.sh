@@ -4,7 +4,7 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-# Output more information that is out of sync
+# Output more information that is out of synchronize
 DEBUG="${DEBUG:-}"
 
 IMAGE1="${1:-}"
@@ -28,6 +28,9 @@ SKIP="${SKIP:-}"
 # Compare the number of tags in parallel
 PARALLET="${PARALLET:-0}"
 
+# Synchronize images from source to destination
+SYNC="${SYNC:-}"
+
 SELF="$(basename "${BASH_SOURCE[0]}")"
 
 if [[ "${DEBUG}" == "true" ]]; then
@@ -41,6 +44,7 @@ if [[ "${DEBUG}" == "true" ]]; then
     echo "FOCUS:       ${FOCUS}"
     echo "SKIP:        ${SKIP}"
     echo "PARALLET:    ${PARALLET}"
+    echo "SYNC:        ${SYNC}"
 fi
 
 function check() {
@@ -54,24 +58,25 @@ function check() {
         echo " ${SELF}: <image1> <image2>"
         echo " ${SELF}: <image1:tag> <image2:tag>"
         echo "Env:"
-        echo " DEBUG=true         # Output more information that is out of sync"
+        echo " DEBUG=true         # Output more information that is out of synchronize"
         echo " INCREMENTAL=true   # Allow image2 to have more tags than image1"
         echo " QUICKLY=true       # Compare only tags that are in both images"
         echo " FOCUS=<pattern>    # Regexp that matches the tags"
         echo " SKIP=<pattern>     # Regexp that matches the tags that needs to be skipped"
         echo " PARALLET=<size>    # Compare the number of tags in parallel"
+        echo " SYNC=true          # Synchronize images from source to destination"
         return 2
     fi
 
-    if [[ "${image1}" =~ ":" ]]; then
-        if [[ "${image2}" =~ ":" ]]; then
+    if [[ "${image1#*/}" =~ ":" ]]; then
+        if [[ "${image2#*/}" =~ ":" ]]; then
             return 0
         else
             echo "${SELF}: ERROR: ${image1} and ${image2} must both be full images or not be tag references" >&2
             return 2
         fi
     else
-        if [[ "${image2}" =~ ":" ]]; then
+        if [[ "${image2#*/}" =~ ":" ]]; then
             echo "${SELF}: ERROR: ${image1} and ${image2} must both be full images or not be tag references" >&2
             return 2
         else
@@ -79,6 +84,8 @@ function check() {
         fi
     fi
 }
+
+emptyLayer="sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
 
 function inspect() {
     local image="${1:-}"
@@ -92,7 +99,7 @@ function inspect() {
     local schemaVersion=$(echo "${raw}" | ${JQ} -r '.schemaVersion')
     case "${schemaVersion}" in
     1)
-        echo "${raw}" | ${JQ} -r '.fsLayers[].blobSum' | tac
+        echo "${raw}" | ${JQ} -r '.fsLayers[].blobSum' | grep -v "${emptyLayer}" | tac
         ;;
     2)
         local mediaType=$(echo "${raw}" | ${JQ} -r '.mediaType // "" ')
@@ -106,7 +113,7 @@ function inspect() {
 
         case "${mediaType}" in
         "layers" | "application/vnd.docker.distribution.manifest.v2+json")
-            echo "${raw}" | ${JQ} -r '.layers[].digest'
+            echo "${raw}" | ${JQ} -r '.layers[].digest' | grep -v "${emptyLayer}"
             ;;
         "manifests" | "application/vnd.docker.distribution.manifest.list.v2+json")
             local line=$(echo "${raw}" | ${JQ} -j '.manifests[] | .platform.architecture , " " , .platform.os , "\n"' | sort)
@@ -140,15 +147,30 @@ function inspect() {
     esac
 }
 
+function copy-image() {
+    local image1="${1:-}"
+    local image2="${2:-}"
+
+    ${SKOPEO} copy --all --src-no-creds --dest-tls-verify=false --format oci "docker://${image1}" "docker://${image2}"
+}
+
 function list-tags() {
     local image="${1:-}"
-    local raw="$(${SKOPEO} list-tags --tls-verify=false "docker://${image}" | ${JQ} -r '.Tags[]' | sort)"
+    local raw="$(${SKOPEO} list-tags --no-creds --tls-verify=false "docker://${image}" | ${JQ} -r '.Tags[]' | sort)"
 
     if [[ "${FOCUS}" != "" ]]; then
+        local skip=$(echo "${raw}" | grep -v -E "${FOCUS}")
+        if [[ "${skip}" != "" ]]; then
+            echo "${SELF}: SKIP: ${image} with focus: ${FOCUS}:" ${skip} >&2
+        fi
         raw="$(echo "${raw}" | grep -E "${FOCUS}" || :)"
     fi
 
     if [[ "${SKIP}" != "" ]]; then
+        local skip=$(echo "${raw}" | grep -E "${SKIP}")
+        if [[ "${skip}" != "" ]]; then
+            echo "${SELF}: SKIP: ${image} with skip: ${SKIP}:" ${skip} >&2
+        fi
         raw="$(echo "${raw}" | grep -v -E "${SKIP}" || :)"
     fi
     echo "${raw}"
@@ -162,16 +184,16 @@ function diff-image-with-tag() {
         local tag1="${image1##*:}"
         local tag2="${image2##*:}"
         if [[ "${tag1}" != "${tag2}" ]]; then
-            echo "${SELF}: UNSYNC: ${image1} and ${image2} are not in synchronized" >&2
+            echo "${SELF}: NOT-SYNCHRONIZED: ${image1} and ${image2} are not in synchronized" >&2
             return 1
         fi
-        echo "${SELF}: SYNC: ${image1} and ${image2} are in synchronized" >&2
+        echo "${SELF}: SYNCHRONIZED: ${image1} and ${image2} are in synchronized" >&2
         return 0
     fi
 
     local inspect2="$(inspect ${image2})"
     if [[ "${inspect2}" == "" ]]; then
-        echo "${SELF}: UNSYNC: ${image1} and ${image2} are not in synchronized, ${image2} content is empty" >&2
+        echo "${SELF}: NOT-SYNCHRONIZED: ${image1} and ${image2} are not in synchronized, ${image2} content is empty" >&2
         return 1
     fi
 
@@ -179,7 +201,7 @@ function diff-image-with-tag() {
     local diff_raw=$(diff --unified <(echo "${inspect1}") <(echo "${inspect2}"))
 
     if [[ "${diff_raw}" != "" ]]; then
-        echo "${SELF}: UNSYNC: ${image1} and ${image2} are not in synchronized" >&2
+        echo "${SELF}: NOT-SYNCHRONIZED: ${image1} and ${image2} are not in synchronized" >&2
         if [[ "${DEBUG}" == "true" ]]; then
             echo "DEBUG: image1 ${image1}:" >&2
             echo "${inspect1}" >&2
@@ -190,7 +212,7 @@ function diff-image-with-tag() {
         fi
         return 1
     fi
-    echo "${SELF}: SYNC: ${image1} and ${image2} are in synchronized" >&2
+    echo "${SELF}: SYNCHRONIZED: ${image1} and ${image2} are in synchronized" >&2
 }
 
 function diff-image() {
@@ -217,7 +239,7 @@ function diff-image() {
     fi
 
     if [[ "${reduce}" != "" ]] || [[ "${increase}" != "" ]]; then
-        echo "${SELF}: UNSYNC-TAGS: ${image1} and ${image2} are not in synchronized" >&2
+        echo "${SELF}: NOT-SYNCHRONIZED-TAGS: ${image1} and ${image2} are not in synchronized" >&2
         if [[ "${DEBUG}" == "true" ]]; then
             echo "DEBUG: image1 ${image1}:" >&2
             echo "${tags1}" >&2
@@ -227,15 +249,19 @@ function diff-image() {
             echo "${diff_raw}" >&2
         fi
         for tag in ${reduce}; do
-            echo "${SELF}: UNSYNC: ${image1}:${tag} and ${image2}:${tag} are not in synchronized, ${image2}:${tag} does not exist" >&2
+            echo "${SELF}: NOT-SYNCHRONIZED: ${image1}:${tag} and ${image2}:${tag} are not in synchronized, ${image2}:${tag} does not exist" >&2
+            if [[ "${SYNC}" == "true" ]]; then
+                echo "${SELF}: SYNCHRONIZE: synchronize from ${image1}:${tag} to ${image2}:${tag}" >&2
+                copy-image "${image1}:${tag}" "${image2}:${tag}" >&2
+            fi
         done
         for tag in ${increase}; do
-            echo "${SELF}: UNSYNC: ${image1}:${tag} and ${image2}:${tag} are not in synchronized, ${image1}:${tag} does not exist" >&2
+            echo "${SELF}: NOT-SYNCHRONIZED: ${image1}:${tag} and ${image2}:${tag} are not in synchronized, ${image1}:${tag} does not exist" >&2
         done
         echo "${common}"
         return 1
     fi
-    echo "${SELF}: SYNC-TAGS: ${image1} and ${image2} are in synchronized" >&2
+    echo "${SELF}: SYNCHRONIZED-TAGS: ${image1} and ${image2} are in synchronized" >&2
     echo "${common}"
     return 0
 }
@@ -253,28 +279,46 @@ function main() {
     local image1="${1:-}"
     local image2="${2:-}"
 
-    if [[ "${image1}" =~ ":" ]]; then
-        diff-image-with-tag "${image1}" "${image2}" >/dev/null || return $?
+    if [[ "${image1#*/}" =~ ":" ]]; then
+        diff-image-with-tag "${image1}" "${image2}" >/dev/null || {
+            if [[ "${SYNC}" == "true" ]]; then
+                echo "${SELF}: SYNCHRONIZE: synchronize from ${image1}:${tag} to ${image2}:${tag}" >&2
+                copy-image "${image1}:${tag}" "${image2}:${tag}"
+            fi
+            return $?
+        }
         return 0
     fi
 
     local list=$(diff-image "${image1}" "${image2}")
 
-    local unsync=()
-    if [[ "${QUICKLY}" == "true" ]] || [[ "${PARALLET}" -eq 0 ]]; then
+    local notsynced=()
+    if [[ "${PARALLET}" -eq 0 ]]; then
         for tag in ${list}; do
-            diff-image-with-tag "${image1}:${tag}" "${image2}:${tag}" >/dev/null || unsync+=("${tag}")
+            diff-image-with-tag "${image1}:${tag}" "${image2}:${tag}" >/dev/null || {
+                if [[ "${SYNC}" == "true" ]]; then
+                    echo "${SELF}: SYNCHRONIZE: synchronize from ${image1}:${tag} to ${image2}:${tag}" >&2
+                    copy-image "${image1}:${tag}" "${image2}:${tag}"
+                fi
+                notsynced+=("${tag}")
+            }
         done
     else
         for tag in ${list}; do
             wait_jobs "${PARALLET}"
-            diff-image-with-tag "${image1}:${tag}" "${image2}:${tag}" >/dev/null || unsync+=("${tag}") &
+            diff-image-with-tag "${image1}:${tag}" "${image2}:${tag}" >/dev/null || {
+                if [[ "${SYNC}" == "true" ]]; then
+                    echo "${SELF}: SYNCHRONIZE: synchronize from ${image1}:${tag} to ${image2}:${tag}" >&2
+                    copy-image "${image1}:${tag}" "${image2}:${tag}"
+                fi
+                notsynced+=("${tag}")
+            } &
         done
         wait
     fi
 
-    if [[ "${#unsync[@]}" -gt 0 ]]; then
-        echo "${SELF}: INFO: ${image1} and ${image2} are not in synchronized, there are unsynchronized tags ${#unsync[@]}: ${unsync[*]}" >&2
+    if [[ "${#notsynced[@]}" -gt 0 ]]; then
+        echo "${SELF}: INFO: ${image1} and ${image2} are not in synchronized, there are not synchronized tags ${#notsynced[@]}: ${notsynced[*]}" >&2
         return 1
     fi
 }

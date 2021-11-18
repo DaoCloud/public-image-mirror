@@ -1,29 +1,27 @@
-name: "Deep Sync Check"
+name: "Deep Check"
 on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 15 * * *"
 
 jobs:
-  deep-sync-check:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Install dependencies
-        run: |
-          pip3 install yq
       - name: Check
         env:
           INCREMENTAL: "true"
-          PARALLET: "20"
+          PARALLET: "10"
         run: |
-          ./scripts/check-image.sh
+          ./hack/diff.sh
       - name: Update badge
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }} # Generated for update gist
           BADGE_PREFIX: "gist://wzshiming/6e1f67a5184f93cefc5b2c670a5813e5"
         run: |
-          wget https://github.com/wzshiming/putingh/releases/download/v0.6.2/putingh_linux_amd64 -O /usr/local/bin/putingh && chmod +x /usr/local/bin/putingh
+          wget https://github.com/wzshiming/putingh/releases/download/v0.6.3/putingh_linux_amd64 -O /usr/local/bin/putingh && chmod +x /usr/local/bin/putingh
+          ./hack/badge.sh
           GH_TOKEN="${GH_TOKEN}" putingh "${BADGE_PREFIX}/daocloud-deep-sync-badge.svg" badge.svg
           GH_TOKEN="${GH_TOKEN}" putingh "${BADGE_PREFIX}/daocloud-deep-sync.log" sync.log

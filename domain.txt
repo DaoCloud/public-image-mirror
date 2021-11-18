@@ -1,6 +1,5 @@
-k8s.gcr.io=k8s-gcr.m.daocloud.io
-gcr.io=gcr.m.daocloud.io
-docker.io=docker.m.daocloud.io
-quay.io=quay.m.daocloud.io
-ghcr.io=ghcr.m.daocloud.io
-
+k8s.gcr.io/=k8s-gcr.m.daocloud.io/
+gcr.io/=gcr.m.daocloud.io/
+docker.io/=docker.m.daocloud.io/
+quay.io/=quay.m.daocloud.io/
+ghcr.io/=ghcr.m.daocloud.io/
