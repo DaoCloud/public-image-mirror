@@ -73,6 +73,7 @@ k8s.gcr.io/kube-proxy
 k8s.gcr.io/kube-registry-proxy
 k8s.gcr.io/kube-scheduler
 k8s.gcr.io/metrics-server/metrics-server
+k8s.gcr.io/nfd/node-feature-discovery
 k8s.gcr.io/node-problem-detector/node-problem-detector
 k8s.gcr.io/pause
 quay.io/calico/cni
