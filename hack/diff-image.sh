@@ -31,6 +31,9 @@ PARALLET="${PARALLET:-0}"
 # Synchronize images from source to destination
 SYNC="${SYNC:-}"
 
+# Retry times
+RETRY="${RETRY:-5}"
+
 SELF="$(basename "${BASH_SOURCE[0]}")"
 
 if [[ "${DEBUG}" == "true" ]]; then
@@ -45,6 +48,7 @@ if [[ "${DEBUG}" == "true" ]]; then
     echo "SKIP:        ${SKIP}"
     echo "PARALLET:    ${PARALLET}"
     echo "SYNC:        ${SYNC}"
+    echo "RETRY:       ${RETRY}"
 fi
 
 function check() {
@@ -65,6 +69,7 @@ function check() {
         echo " SKIP=<pattern>     # Regexp that matches the tags that needs to be skipped"
         echo " PARALLET=<size>    # Compare the number of tags in parallel"
         echo " SYNC=true          # Synchronize images from source to destination"
+        echo " RETRY=<times>      # Retry times"
         return 2
     fi
 
@@ -89,9 +94,9 @@ emptyLayer="sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b4
 
 function inspect() {
     local image="${1:-}"
-    local raw=$(${SKOPEO} inspect --no-creds --raw --tls-verify=false "docker://${image}")
+    local raw=$(${SKOPEO} inspect --retry-times "${RETRY}" --no-creds --raw --tls-verify=false "docker://${image}")
     if [[ "${raw}" == "" ]]; then
-        echo "skopeo inspect --no-creds --raw --tls-verify=false docker://${image}" >&2
+        echo "skopeo inspect --retry-times "${RETRY}" --no-creds --raw --tls-verify=false docker://${image}" >&2
         echo "ERROR: Failed to inspect ${image}" >&2
         return 1
     fi
@@ -122,12 +127,12 @@ function inspect() {
                 local arch="${args%% *}"
                 local os="${args##* }"
                 echo ${args}
-                ${SKOPEO} --override-arch "${arch}" --override-os "${os}" inspect --no-creds --config --tls-verify=false "docker://${image}" | jq -r '.rootfs.diff_ids[]'
+                ${SKOPEO} --override-arch "${arch}" --override-os "${os}" inspect --retry-times "${RETRY}" --no-creds --config --tls-verify=false "docker://${image}" | jq -r '.rootfs.diff_ids[]'
             done
             unset IFS
             ;;
         *)
-            echo "skopeo inspect --no-creds --raw --tls-verify=false docker://${image}" >&2
+            echo "skopeo inspect --retry-times "${RETRY}" --no-creds --raw --tls-verify=false docker://${image}" >&2
             if [[ "${DEBUG}" == "true" ]]; then
                 echo "${raw}" >&2
             fi
@@ -137,7 +142,7 @@ function inspect() {
         esac
         ;;
     *)
-        echo "skopeo inspect --no-creds --raw --tls-verify=false docker://${image}" >&2
+        echo "skopeo inspect --retry-times "${RETRY}" --no-creds --raw --tls-verify=false docker://${image}" >&2
         if [[ "${DEBUG}" == "true" ]]; then
             echo "${raw}" >&2
         fi
@@ -151,12 +156,12 @@ function copy-image() {
     local image1="${1:-}"
     local image2="${2:-}"
 
-    ${SKOPEO} copy --all --src-no-creds --dest-tls-verify=false --format oci "docker://${image1}" "docker://${image2}"
+    ${SKOPEO} copy --retry-times "${RETRY}" --all --src-no-creds --dest-tls-verify=false --format oci "docker://${image1}" "docker://${image2}"
 }
 
 function list-tags() {
     local image="${1:-}"
-    local raw="$(${SKOPEO} list-tags --no-creds --tls-verify=false "docker://${image}" | ${JQ} -r '.Tags[]' | sort)"
+    local raw="$(${SKOPEO} list-tags --retry-times "${RETRY}" --no-creds --tls-verify=false "docker://${image}" | ${JQ} -r '.Tags[]' | sort)"
 
     if [[ "${FOCUS}" != "" ]]; then
         local skip=$(echo "${raw}" | grep -v -E "${FOCUS}")
