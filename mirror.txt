@@ -57,6 +57,8 @@ ghcr.io/klts-io/kubernetes-lts/kube-controller-manager
 ghcr.io/klts-io/kubernetes-lts/kube-proxy
 ghcr.io/klts-io/kubernetes-lts/kube-scheduler
 ghcr.io/klts-io/kubernetes-lts/pause
+ghcr.io/clusterpedia-io/clusterpedia/apiserver
+ghcr.io/clusterpedia-io/clusterpedia/clustersynchro-manager
 k8s.gcr.io/addon-resizer
 k8s.gcr.io/build-image/debian-iptables
 k8s.gcr.io/build-image/go-runner
