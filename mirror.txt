@@ -106,3 +106,4 @@ quay.io/k8scsi/snapshot-controller
 quay.io/l23network/k8s-netchecker-agent
 quay.io/l23network/k8s-netchecker-server
 quay.io/tigera/operator
+quay.io/metallb/controller
