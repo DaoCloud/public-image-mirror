@@ -84,6 +84,7 @@ quay.io/calico/ctl
 quay.io/calico/kube-controllers
 quay.io/calico/node
 quay.io/calico/typha
+quay.io/calico/pod2daemon-flexvol
 quay.io/cilium/cilium
 quay.io/cilium/cilium-init
 quay.io/cilium/operator
