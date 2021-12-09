@@ -19,6 +19,9 @@ INCREMENTAL="${INCREMENTAL:-}"
 # Compare only tags that are in both images
 QUICKLY="${QUICKLY:-}"
 
+# If set, will compare the image tag patterns
+QUICKLY_PATTERN="${QUICKLY_PATTERN:-}"
+
 # Regexp that matches the tags
 FOCUS="${FOCUS:-}"
 
@@ -37,18 +40,19 @@ RETRY="${RETRY:-5}"
 SELF="$(basename "${BASH_SOURCE[0]}")"
 
 if [[ "${DEBUG}" == "true" ]]; then
-    echo "DEBUG:       ${DEBUG}"
-    echo "IMAGE1:      ${IMAGE1}"
-    echo "IMAGE2:      ${IMAGE2}"
-    echo "SKOPEO:      ${SKOPEO}"
-    echo "JQ:          ${JQ}"
-    echo "INCREMENTAL: ${INCREMENTAL}"
-    echo "QUICKLY:     ${QUICKLY}"
-    echo "FOCUS:       ${FOCUS}"
-    echo "SKIP:        ${SKIP}"
-    echo "PARALLET:    ${PARALLET}"
-    echo "SYNC:        ${SYNC}"
-    echo "RETRY:       ${RETRY}"
+    echo "DEBUG:           ${DEBUG}"
+    echo "IMAGE1:          ${IMAGE1}"
+    echo "IMAGE2:          ${IMAGE2}"
+    echo "SKOPEO:          ${SKOPEO}"
+    echo "JQ:              ${JQ}"
+    echo "INCREMENTAL:     ${INCREMENTAL}"
+    echo "QUICKLY:         ${QUICKLY}"
+    echo "QUICKLY_PATTERN: ${QUICKLY_PATTERN}"
+    echo "FOCUS:           ${FOCUS}"
+    echo "SKIP:            ${SKIP}"
+    echo "PARALLET:        ${PARALLET}"
+    echo "SYNC:            ${SYNC}"
+    echo "RETRY:           ${RETRY}"
 fi
 
 function check() {
@@ -62,14 +66,15 @@ function check() {
         echo " ${SELF}: <image1> <image2>"
         echo " ${SELF}: <image1:tag> <image2:tag>"
         echo "Env:"
-        echo " DEBUG=true         # Output more information that is out of synchronize"
-        echo " INCREMENTAL=true   # Allow image2 to have more tags than image1"
-        echo " QUICKLY=true       # Compare only tags that are in both images"
-        echo " FOCUS=<pattern>    # Regexp that matches the tags"
-        echo " SKIP=<pattern>     # Regexp that matches the tags that needs to be skipped"
-        echo " PARALLET=<size>    # Compare the number of tags in parallel"
-        echo " SYNC=true          # Synchronize images from source to destination"
-        echo " RETRY=<times>      # Retry times"
+        echo " DEBUG=true                # Output more information that is out of synchronize"
+        echo " INCREMENTAL=true          # Allow image2 to have more tags than image1"
+        echo " QUICKLY=true              # Compare only tags that are in both images"
+        echo " QUICKLY_PATTERN=<pattern> # Regexp that matches the tags"
+        echo " FOCUS=<pattern>           # Regexp that matches the tags"
+        echo " SKIP=<pattern>            # Regexp that matches the tags that needs to be skipped"
+        echo " PARALLET=<size>           # Compare the number of tags in parallel"
+        echo " SYNC=true                 # Synchronize images from source to destination"
+        echo " RETRY=<times>             # Retry times"
         return 2
     fi
 
@@ -192,8 +197,11 @@ function diff-image-with-tag() {
             echo "${SELF}: NOT-SYNCHRONIZED: ${image1} and ${image2} are not in synchronized" >&2
             return 1
         fi
-        echo "${SELF}: SYNCHRONIZED: ${image1} and ${image2} are in synchronized" >&2
-        return 0
+         
+        if [[ "${QUICKLY_PATTERN}" == "" || ("${QUICKLY_PATTERN}" != "" && "${tag1}" =~ ${QUICKLY_PATTERN}) ]]; then
+            echo "${SELF}: SYNCHRONIZED: ${image1} and ${image2} are in synchronized" >&2
+            return 0
+        fi
     fi
 
     local inspect2="$(inspect ${image2})"
