@@ -64,6 +64,7 @@ k8s.gcr.io/addon-resizer
 k8s.gcr.io/build-image/debian-iptables
 k8s.gcr.io/build-image/go-runner
 k8s.gcr.io/build-image/kube-cross
+k8s.gcr.io/conformance
 k8s.gcr.io/coredns
 k8s.gcr.io/coredns/coredns
 k8s.gcr.io/cpa/cluster-proportional-autoscaler-amd64
