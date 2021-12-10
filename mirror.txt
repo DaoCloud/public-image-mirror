@@ -42,6 +42,7 @@ docker.io/python
 docker.io/rancher/local-path-provisioner
 docker.io/redis
 docker.io/registry
+docker.io/sonobuoy/sonobuoy
 docker.io/weaveworks/weave-kube
 docker.io/weaveworks/weave-npc
 docker.io/xueshanf/install-socat
