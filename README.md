@@ -1,9 +1,6 @@
 # public-image-mirror
 
-[![Sync](https://github.com/DaoCloud/public-image-mirror/actions/workflows/sync.yml/badge.svg)](https://github.com/DaoCloud/public-image-mirror/actions/workflows/sync.yml)
 [![Sync](https://gist.github.com/wzshiming/6e1f67a5184f93cefc5b2c670a5813e5/raw/daocloud-sync-badge.svg)](https://gist.github.com/wzshiming/6e1f67a5184f93cefc5b2c670a5813e5/raw/daocloud-sync.log)
-
-[![Deep Sync](https://github.com/DaoCloud/public-image-mirror/actions/workflows/deep-sync.yml/badge.svg)](https://github.com/DaoCloud/public-image-mirror/actions/workflows/deep-sync.yml)
 [![Deep Sync](https://gist.github.com/wzshiming/6e1f67a5184f93cefc5b2c670a5813e5/raw/daocloud-deep-sync-badge.svg)](https://gist.github.com/wzshiming/6e1f67a5184f93cefc5b2c670a5813e5/raw/daocloud-deep-sync.log)
 
 ## 背景
