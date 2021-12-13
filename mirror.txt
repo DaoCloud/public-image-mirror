@@ -35,6 +35,7 @@ docker.io/library/node
 docker.io/library/python
 docker.io/library/redis
 docker.io/library/registry
+docker.io/multiarch/qemu-user-static
 docker.io/mysql
 docker.io/nginx
 docker.io/node
