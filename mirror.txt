@@ -47,6 +47,7 @@ docker.io/sonobuoy/sonobuoy
 docker.io/weaveworks/weave-kube
 docker.io/weaveworks/weave-npc
 docker.io/xueshanf/install-socat
+gcr.io/kubebuilder/kube-rbac-proxy
 gcr.io/cadvisor/cadvisor
 gcr.io/distroless/base
 gcr.io/distroless/static
