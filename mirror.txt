@@ -62,6 +62,7 @@ ghcr.io/klts-io/kubernetes-lts/kube-scheduler
 ghcr.io/klts-io/kubernetes-lts/pause
 ghcr.io/clusterpedia-io/clusterpedia/apiserver
 ghcr.io/clusterpedia-io/clusterpedia/clustersynchro-manager
+ghcr.io/daocloud/dao-2048
 k8s.gcr.io/addon-resizer
 k8s.gcr.io/build-image/debian-iptables
 k8s.gcr.io/build-image/go-runner
