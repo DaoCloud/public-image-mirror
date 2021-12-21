@@ -38,21 +38,23 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 | ghcr.io           | ghcr.m.daocloud.io    |
 | mcr.microsoft.com | mcr.m.daocloud.io     |
 
-## 支持的仓库
+## 支持的镜像源
+
+[domain.txt](domain.txt)
+
+如果想要新增, 提 PR 修改即可。例如 [PR#28](https://github.com/DaoCloud/public-image-mirror/pull/28)
+
+## 支持的镜像
 
 [mirror.txt](mirror.txt)
 
-## 增加新的仓库
-
-提 PR , 修改 mirror.txt 即可。例如 [PR#1](https://github.com/DaoCloud/public-image-mirror/pull/1/)
-
+如果想要新增, 提 PR 修改即可。例如 [PR#1](https://github.com/DaoCloud/public-image-mirror/pull/1/)
 
 ## 最佳实践
 * 通过 加速 安装 kubeadm
 ``` bash
 # 使用 kubeadm 安装的时候指定 --image-repository 参数, 指定安装的镜像前缀
-REPOS=k8s-gcr.m.daocloud.io
-kubeadm config images pull --image-repository "${REPOS}"
+kubeadm config images pull --image-repository k8s-gcr.m.daocloud.io
 ```
 
 * 通过 加速 安装 kind
