@@ -114,3 +114,4 @@ quay.io/l23network/k8s-netchecker-agent
 quay.io/l23network/k8s-netchecker-server
 quay.io/tigera/operator
 quay.io/metallb/controller
+mcr.microsoft.com/vscode/devcontainers/java
