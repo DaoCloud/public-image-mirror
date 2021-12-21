@@ -3,3 +3,4 @@ gcr.io/=gcr.m.daocloud.io/
 docker.io/=docker.m.daocloud.io/
 quay.io/=quay.m.daocloud.io/
 ghcr.io/=ghcr.m.daocloud.io/
+mcr.microsoft.com/=mcr.m.daocloud.io/
