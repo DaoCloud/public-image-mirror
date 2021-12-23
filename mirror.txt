@@ -51,6 +51,7 @@ docker.io/xueshanf/install-socat
 gcr.io/cadvisor/cadvisor
 gcr.io/distroless/base
 gcr.io/distroless/static
+gcr.io/distroless/static-debian11
 gcr.io/google-containers/pause
 gcr.io/kubebuilder/kube-rbac-proxy
 ghcr.io/clusterpedia-io/clusterpedia/apiserver
