@@ -64,15 +64,15 @@ kubeadm config images pull --image-repository k8s-gcr.m.daocloud.io
 * 通过 加速 安装 kind
 
 ``` bash
-kind create cluster --name kind  --image docker.m.daocloud.io/kindest/node:v1.22.1
+kind create cluster --name kind --image docker.m.daocloud.io/kindest/node:v1.22.1
 ``` 
 
 * 通过 加速 部署 应用(这里以 Ingress 为例)
 
 ``` bash
-wget -o image-filter.sh https://github.com/DaoCloud/public-image-mirror/raw/main/hack/image-filter.sh && chmod +x image-filter.sh
+wget -O image-filter.sh https://github.com/DaoCloud/public-image-mirror/raw/main/hack/image-filter.sh && chmod +x image-filter.sh
 
-wget -o deploy.yaml https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.0/deploy/static/provider/baremetal/deploy.yaml
+wget -O deploy.yaml https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.0/deploy/static/provider/baremetal/deploy.yaml
 
 cat ./deploy.yaml | ./image-filter.sh | kubectl apply -f -
 ``` 
