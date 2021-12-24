@@ -1,3 +1,9 @@
+cr.l5d.io/linkerd/controller
+cr.l5d.io/linkerd/grafana
+cr.l5d.io/linkerd/proxy
+cr.l5d.io/linkerd/proxy-init
+cr.l5d.io/linkerd/web
+docker.elastic.co/kibana/kibana-oss
 docker.io/amazon/aws-alb-ingress-controller
 docker.io/amazon/aws-ebs-csi-driver
 docker.io/bitnami/kubectl
@@ -161,6 +167,7 @@ k8s.gcr.io/sig-storage/csi-snapshotter
 k8s.gcr.io/sig-storage/livenessprobe
 k8s.gcr.io/sig-storage/snapshot-controller
 mcr.microsoft.com/vscode/devcontainers/java
+nvcr.io/nvidia/gpu-operator
 quay.io/brancz/kube-rbac-proxy
 quay.io/calico/cni
 quay.io/calico/ctl
@@ -206,3 +213,4 @@ quay.io/prometheus/alertmanager
 quay.io/prometheus/node-exporter
 quay.io/prometheus/prometheus
 quay.io/tigera/operator
+rocks.canonical.com/mariadb/server
