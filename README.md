@@ -58,14 +58,21 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 ## 最佳实践
 * 通过 加速 安装 kubeadm
 ``` bash
-# 使用 kubeadm 安装的时候指定 --image-repository 参数, 指定安装的镜像前缀
 kubeadm config images pull --image-repository k8s-gcr.m.daocloud.io
 ```
 
 * 通过 加速 安装 kind
 
-
 ``` bash
 kind create cluster --name kind  --image docker.m.daocloud.io/kindest/node:v1.22.1
 ``` 
 
+* 通过 加速 部署 应用(这里以 Ingress 为例)
+
+``` bash
+wget -o image-filter.sh https://github.com/DaoCloud/public-image-mirror/raw/main/hack/image-filter.sh && chmod +x image-filter.sh
+
+wget -o deploy.yaml https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.0/deploy/static/provider/baremetal/deploy.yaml
+
+cat ./deploy.yaml | ./image-filter.sh | kubectl apply -f -
+``` 
