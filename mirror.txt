@@ -166,6 +166,7 @@ k8s.gcr.io/sig-storage/csi-resizer
 k8s.gcr.io/sig-storage/csi-snapshotter
 k8s.gcr.io/sig-storage/livenessprobe
 k8s.gcr.io/sig-storage/snapshot-controller
+k8s.gcr.io/node-test
 mcr.microsoft.com/vscode/devcontainers/java
 nvcr.io/nvidia/gpu-operator
 quay.io/brancz/kube-rbac-proxy
