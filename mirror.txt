@@ -76,6 +76,7 @@ docker.io/metallb/controller
 docker.io/metallb/speaker
 docker.io/multiarch/qemu-user-static
 docker.io/mysql
+docker.io/moby/buildkit
 docker.io/nfvpe/multus
 docker.io/nginx
 docker.io/node
