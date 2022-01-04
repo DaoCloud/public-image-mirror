@@ -4,6 +4,7 @@ cr.l5d.io/linkerd/proxy
 cr.l5d.io/linkerd/proxy-init
 cr.l5d.io/linkerd/web
 docker.elastic.co/kibana/kibana-oss
+docker.io/alpine
 docker.io/amazon/aws-alb-ingress-controller
 docker.io/amazon/aws-ebs-csi-driver
 docker.io/bitnami/kubectl
