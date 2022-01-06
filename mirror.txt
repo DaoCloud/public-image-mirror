@@ -188,6 +188,7 @@ quay.io/coreos/flannel
 quay.io/datawire/ambassador-operator
 quay.io/external_storage/cephfs-provisioner
 quay.io/external_storage/local-volume-provisioner
+quay.io/external_storage/nfs-client-provisioner
 quay.io/external_storage/rbd-provisioner
 quay.io/fluentd_elasticsearch/elasticsearch
 quay.io/fluentd_elasticsearch/fluentd
