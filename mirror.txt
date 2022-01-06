@@ -9,6 +9,7 @@ docker.io/amazon/aws-alb-ingress-controller
 docker.io/amazon/aws-ebs-csi-driver
 docker.io/bitnami/kubectl
 docker.io/busybox
+docker.io/byrnedo/alpine-curl
 docker.io/calico/cni
 docker.io/calico/kube-controllers
 docker.io/calico/node
@@ -182,6 +183,7 @@ quay.io/cilium/cilium
 quay.io/cilium/cilium-init
 quay.io/cilium/operator
 quay.io/cilium/operator-generic
+quay.io/cilium/json-mock
 quay.io/containers/skopeo
 quay.io/coreos/etcd
 quay.io/coreos/flannel
