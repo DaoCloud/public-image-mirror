@@ -102,7 +102,7 @@ docker.io/sonobuoy/sonobuoy
 docker.io/weaveworks/weave-kube
 docker.io/weaveworks/weave-npc
 docker.io/xueshanf/install-socat
-docker.io/docker:20.10.11
+docker.io/docker
 gcr.io/cadvisor/cadvisor
 gcr.io/distroless/base
 gcr.io/distroless/static
