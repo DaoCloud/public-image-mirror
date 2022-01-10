@@ -22,6 +22,7 @@ docker.io/coredns/coredns
 docker.io/datawire/ambassador
 docker.io/datawire/ambassador-operator
 docker.io/directxman12/k8s-prometheus-adapter
+docker.io/docker
 docker.io/goharbor/chartmuseum-photon
 docker.io/goharbor/harbor-core
 docker.io/goharbor/harbor-db
@@ -74,11 +75,13 @@ docker.io/library/redis
 docker.io/library/registry
 docker.io/library/traefik
 docker.io/library/ubuntu
+docker.io/mariadb
 docker.io/metallb/controller
 docker.io/metallb/speaker
+docker.io/moby/buildkit
 docker.io/multiarch/qemu-user-static
 docker.io/mysql
-docker.io/moby/buildkit
+docker.io/nats-streaming
 docker.io/nfvpe/multus
 docker.io/nginx
 docker.io/node
@@ -99,10 +102,11 @@ docker.io/rancher/local-path-provisioner
 docker.io/redis
 docker.io/registry
 docker.io/sonobuoy/sonobuoy
+docker.io/traefik
+docker.io/ubuntu
 docker.io/weaveworks/weave-kube
 docker.io/weaveworks/weave-npc
 docker.io/xueshanf/install-socat
-docker.io/docker
 gcr.io/cadvisor/cadvisor
 gcr.io/distroless/base
 gcr.io/distroless/static
@@ -162,6 +166,7 @@ k8s.gcr.io/metrics-server-amd64
 k8s.gcr.io/metrics-server/metrics-server
 k8s.gcr.io/nfd/node-feature-discovery
 k8s.gcr.io/node-problem-detector/node-problem-detector
+k8s.gcr.io/node-test
 k8s.gcr.io/pause
 k8s.gcr.io/sig-storage/csi-attacher
 k8s.gcr.io/sig-storage/csi-node-driver-registrar
@@ -170,7 +175,6 @@ k8s.gcr.io/sig-storage/csi-resizer
 k8s.gcr.io/sig-storage/csi-snapshotter
 k8s.gcr.io/sig-storage/livenessprobe
 k8s.gcr.io/sig-storage/snapshot-controller
-k8s.gcr.io/node-test
 mcr.microsoft.com/vscode/devcontainers/java
 nvcr.io/nvidia/gpu-operator
 quay.io/brancz/kube-rbac-proxy
@@ -182,9 +186,9 @@ quay.io/calico/pod2daemon-flexvol
 quay.io/calico/typha
 quay.io/cilium/cilium
 quay.io/cilium/cilium-init
+quay.io/cilium/json-mock
 quay.io/cilium/operator
 quay.io/cilium/operator-generic
-quay.io/cilium/json-mock
 quay.io/containers/skopeo
 quay.io/coreos/etcd
 quay.io/coreos/flannel
