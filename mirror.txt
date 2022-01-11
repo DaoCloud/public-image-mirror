@@ -113,6 +113,7 @@ gcr.io/distroless/static
 gcr.io/distroless/static-debian11
 gcr.io/google-containers/pause
 gcr.io/k8s-staging-kube-state-metrics/kube-state-metrics
+gcr.io/k8s-staging-test-infra/krte
 gcr.io/knative-releases/knative.dev/eventing/cmd/controller
 gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_controller
 gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_dispatcher
