@@ -2,7 +2,7 @@ name: Deep Sync
 
 on:
   schedule:
-    - cron: "0 15 * * *"
+    - cron: "0 17,21,13 * * *"
 
   workflow_dispatch:
 
