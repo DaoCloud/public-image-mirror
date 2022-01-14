@@ -99,6 +99,7 @@ docker.io/prom/alertmanager
 docker.io/prom/prometheus
 docker.io/python
 docker.io/rancher/k3s
+docker.io/rancher/k3d-tools
 docker.io/rancher/local-path-provisioner
 docker.io/redis
 docker.io/registry
