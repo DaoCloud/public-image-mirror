@@ -1,7 +1,7 @@
 name: Manual Sync
 
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       image:
         description: 'Manually synchronize a image'
