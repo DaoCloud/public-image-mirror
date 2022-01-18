@@ -27,6 +27,18 @@ docker run -d -P docker.m.daocloud.io/nginx
 
 k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 
+## 支持的镜像源
+
+[domain.txt](domain.txt)
+
+如果想要新增, 提 PR 修改即可。例如 [PR#28](https://github.com/DaoCloud/public-image-mirror/pull/28)
+
+## 支持的镜像
+
+[mirror.txt](mirror.txt)
+
+如果想要新增, 提 PR 修改即可。例如 [PR#1](https://github.com/DaoCloud/public-image-mirror/pull/1/)
+
 ## 替换规则
 
 | 源站                    | 替换为                        |
@@ -42,18 +54,6 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 | quay.io                 | quay.m.daocloud.io            |
 | registry.jujucharms.com | jujucharms.m.daocloud.io      |
 | rocks.canonical.com     | rocks-canonical.m.daocloud.io |
-
-## 支持的镜像源
-
-[domain.txt](domain.txt)
-
-如果想要新增, 提 PR 修改即可。例如 [PR#28](https://github.com/DaoCloud/public-image-mirror/pull/28)
-
-## 支持的镜像
-
-[mirror.txt](mirror.txt)
-
-如果想要新增, 提 PR 修改即可。例如 [PR#1](https://github.com/DaoCloud/public-image-mirror/pull/1/)
 
 ## 最佳实践
 * 通过 加速 安装 kubeadm
