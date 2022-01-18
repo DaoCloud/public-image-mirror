@@ -205,6 +205,7 @@ quay.io/external_storage/nfs-client-provisioner
 quay.io/external_storage/rbd-provisioner
 quay.io/fluentd_elasticsearch/elasticsearch
 quay.io/fluentd_elasticsearch/fluentd
+quay.io/iovisor/bcc
 quay.io/jetstack/cert-manager-cainjector
 quay.io/jetstack/cert-manager-controller
 quay.io/jetstack/cert-manager-webhook
