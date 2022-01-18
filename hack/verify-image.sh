@@ -8,8 +8,9 @@ cp "${file}" "${file}.bak"
 
 git apply -R <(curl -fsSL "${patch_url}")
 
-list=$(diff --unified "${file}" "${file}.bak" | grep -e '^+\w' | sed 's/^+//')
+list=$(diff --unified "${file}" "${file}.bak" | grep -E '^+\w' | sed 's/^+//' || :)
 
 for image in ${list}; do
-    skopeo inspect --raw "docker://${image}" || { echo "Not Found ${image}" ; exit 1; }
+    echo "Checking image: ${image}"
+    skopeo list-tags --retry-times 3 "docker://${image}" || { echo "Not Found ${image}" ; exit 1; }
 done
