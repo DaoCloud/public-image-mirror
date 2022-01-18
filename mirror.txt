@@ -109,6 +109,7 @@ docker.io/registry
 docker.io/sonobuoy/sonobuoy
 docker.io/traefik
 docker.io/ubuntu
+docker.io/victoriametrics
 docker.io/weaveworks/weave-kube
 docker.io/weaveworks/weave-npc
 docker.io/xueshanf/install-socat
@@ -216,6 +217,7 @@ quay.io/k8scsi/csi-resizer
 quay.io/k8scsi/csi-snapshotter
 quay.io/k8scsi/snapshot-controller
 quay.io/kiali/kiali
+quay.io/kiwigrid/k8s-sidecar
 quay.io/l23network/k8s-netchecker-agent
 quay.io/l23network/k8s-netchecker-server
 quay.io/metallb/controller
