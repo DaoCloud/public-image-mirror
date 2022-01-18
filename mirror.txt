@@ -109,7 +109,6 @@ docker.io/registry
 docker.io/sonobuoy/sonobuoy
 docker.io/traefik
 docker.io/ubuntu
-docker.io/victoriametrics
 docker.io/weaveworks/weave-kube
 docker.io/weaveworks/weave-npc
 docker.io/xueshanf/install-socat
