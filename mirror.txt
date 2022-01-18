@@ -21,6 +21,7 @@ docker.io/cdkbot/registry-amd64
 docker.io/centos
 docker.io/cloudnativelabs/kube-router
 docker.io/coredns/coredns
+docker.io/curlimages/curl
 docker.io/datawire/ambassador
 docker.io/datawire/ambassador-operator
 docker.io/directxman12/k8s-prometheus-adapter
@@ -52,6 +53,7 @@ docker.io/istio/proxyv2
 docker.io/istio/sidecar_injector
 docker.io/jaegertracing/all-in-one
 docker.io/jaegertracing/jaeger-operator
+docker.io/jimmidyson/configmap-reload
 docker.io/jujusolutions/juju-db
 docker.io/jujusolutions/jujud-operator
 docker.io/k8scloudprovider/cinder-csi-plugin
@@ -109,6 +111,11 @@ docker.io/registry
 docker.io/sonobuoy/sonobuoy
 docker.io/traefik
 docker.io/ubuntu
+docker.io/victoriametrics/operator
+docker.io/victoriametrics/vmalert
+docker.io/victoriametrics/vminsert
+docker.io/victoriametrics/vmselect
+docker.io/victoriametrics/vmstorage
 docker.io/weaveworks/weave-kube
 docker.io/weaveworks/weave-npc
 docker.io/xueshanf/install-socat
