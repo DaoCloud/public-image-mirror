@@ -1,4 +1,5 @@
 .*[0-9a-f]{20,40}.*
+*SNAPSHOT*
 .*windows.*
 .*onbuild.*
 sha256-.*
