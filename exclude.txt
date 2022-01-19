@@ -2,4 +2,5 @@
 .*SNAPSHOT.*
 .*windows.*
 .*onbuild.*
-sha256-.*
+.*dev-.*
+.*sha256-.*
