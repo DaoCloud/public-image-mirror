@@ -166,7 +166,10 @@ function copy-image() {
 
 function list-tags() {
     local image="${1:-}"
-    local raw="$(${SKOPEO} list-tags --retry-times "${RETRY}" --no-creds --tls-verify=false "docker://${image}" | ${JQ} -r '.Tags[]' | sort)"
+    local raw="$(${SKOPEO} list-tags --retry-times "${RETRY}" --no-creds --tls-verify=false "docker://${image}" | ${JQ} -r '.Tags[]')"
+
+    # Sort by string length
+    raw=$(echo "${raw}" | awk '{print length, $0}' | sort -n | awk '{print $2}')
 
     if [[ "${FOCUS}" != "" ]]; then
         local skip=$(echo "${raw}" | grep -v -E "${FOCUS}")
