@@ -86,8 +86,8 @@ jobs:
           TYPE: created
           GREETING: |-
             Hi @${{ github.event.issue.user.login }},
-            Thanks for opening an issue!
-            We will look into it as soon as possible.
+            感谢您的反馈!
+            我们会尽快跟进.
 
   pr_opened:
     name: PR Opened
@@ -104,9 +104,8 @@ jobs:
           TYPE: created
           GREETING: |-
             Hi @${{ github.event.pull_request.user.login }},
-            Thanks for your pull request!
-            If the PR is ready, use the `/auto-cc` command to assign Reviewer to Review. 
-            We will review it shortly.
+            感谢您的 PR !
+            我们会尽快跟进.
 
   issue_commented:
     name: Issue Commented
