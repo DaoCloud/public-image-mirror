@@ -81,6 +81,7 @@ docker.io/library/registry
 docker.io/library/traefik
 docker.io/library/ubuntu
 docker.io/mariadb
+docker.io/merbridge/merbridge
 docker.io/metallb/controller
 docker.io/metallb/speaker
 docker.io/moby/buildkit
