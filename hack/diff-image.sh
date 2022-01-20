@@ -99,9 +99,9 @@ emptyLayer="sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b4
 
 function inspect() {
     local image="${1:-}"
-    local raw=$(${SKOPEO} inspect --retry-times "${RETRY}" --no-creds --raw --tls-verify=false "docker://${image}")
+    local raw=$(${SKOPEO} inspect --retry-times "${RETRY}" --raw --tls-verify=false "docker://${image}")
     if [[ "${raw}" == "" ]]; then
-        echo "skopeo inspect --retry-times "${RETRY}" --no-creds --raw --tls-verify=false docker://${image}" >&2
+        echo "skopeo inspect --retry-times "${RETRY}" --raw --tls-verify=false docker://${image}" >&2
         echo "ERROR: Failed to inspect ${image}" >&2
         return 1
     fi
@@ -132,12 +132,12 @@ function inspect() {
                 local arch="${args%% *}"
                 local os="${args##* }"
                 echo ${args}
-                ${SKOPEO} --override-arch "${arch}" --override-os "${os}" inspect --retry-times "${RETRY}" --no-creds --config --tls-verify=false "docker://${image}" | jq -r '.rootfs.diff_ids[]'
+                ${SKOPEO} --override-arch "${arch}" --override-os "${os}" inspect --retry-times "${RETRY}" --config --tls-verify=false "docker://${image}" | jq -r '.rootfs.diff_ids[]'
             done
             unset IFS
             ;;
         *)
-            echo "skopeo inspect --retry-times "${RETRY}" --no-creds --raw --tls-verify=false docker://${image}" >&2
+            echo "skopeo inspect --retry-times "${RETRY}" --raw --tls-verify=false docker://${image}" >&2
             if [[ "${DEBUG}" == "true" ]]; then
                 echo "${raw}" >&2
             fi
@@ -147,7 +147,7 @@ function inspect() {
         esac
         ;;
     *)
-        echo "skopeo inspect --retry-times "${RETRY}" --no-creds --raw --tls-verify=false docker://${image}" >&2
+        echo "skopeo inspect --retry-times "${RETRY}" --raw --tls-verify=false docker://${image}" >&2
         if [[ "${DEBUG}" == "true" ]]; then
             echo "${raw}" >&2
         fi
@@ -161,12 +161,12 @@ function copy-image() {
     local image1="${1:-}"
     local image2="${2:-}"
 
-    ${SKOPEO} copy --retry-times "${RETRY}" --all --src-no-creds --dest-tls-verify=false --format oci "docker://${image1}" "docker://${image2}"
+    ${SKOPEO} copy --retry-times "${RETRY}" --all --dest-tls-verify=false --format oci "docker://${image1}" "docker://${image2}"
 }
 
 function list-tags() {
     local image="${1:-}"
-    local raw="$(${SKOPEO} list-tags --retry-times "${RETRY}" --no-creds --tls-verify=false "docker://${image}" | ${JQ} -r '.Tags[]')"
+    local raw="$(${SKOPEO} list-tags --retry-times "${RETRY}" --tls-verify=false "docker://${image}" | ${JQ} -r '.Tags[]')"
 
     # Sort by string length
     raw=$(echo "${raw}" | awk '{print length, $0}' | sort -n | awk '{print $2}')
