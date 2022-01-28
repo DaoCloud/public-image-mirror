@@ -1,4 +1,4 @@
-.*[0-9a-f]{20,40}.*
+.*[0-9a-f]{10,}.*
 .*SNAPSHOT.*
 .*windows.*
 .*onbuild.*
