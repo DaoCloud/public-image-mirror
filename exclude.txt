@@ -1,7 +1,5 @@
 .*[0-9a-f]{10,}.*
 .*-g[0-9a-f]{7,}.*
 .*SNAPSHOT.*
-.*windows.*
-.*onbuild.*
 .*dev-.*
 .*sha256-.*
