@@ -16,7 +16,7 @@ jobs:
         env:
           only_proxy: ".m.daocloud.io"
         run: |
-          wget https://github.com/wzshiming/bridge/releases/download/v0.7.10/bridge_linux_amd64 -O /usr/local/bin/bridge && chmod +x /usr/local/bin/bridge
+          wget https://github.com/wzshiming/bridge/releases/download/v0.7.13/bridge_linux_amd64 -O /usr/local/bin/bridge && chmod +x /usr/local/bin/bridge
           nohup /usr/local/bin/bridge -b :8080 -p - ${{ secrets.PROTOCOL }} 2>/dev/null &
       - name: Sync Images
         env:
