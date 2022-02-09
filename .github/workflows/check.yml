@@ -7,6 +7,7 @@ on:
 
 jobs:
   check:
+    if: github.repository == 'DaoCloud/public-image-mirror'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

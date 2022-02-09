@@ -10,6 +10,7 @@ on:
 
 jobs:
   sync-images:
+    if: github.repository == 'DaoCloud/public-image-mirror'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
