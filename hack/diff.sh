@@ -71,4 +71,6 @@ function main() {
     wait
 }
 
+trap "trap - EXIT && kill 0 && wait && echo exit..." EXIT
+
 main
