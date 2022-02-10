@@ -71,6 +71,6 @@ function main() {
     wait
 }
 
-trap "trap - EXIT && kill 0 && wait && echo exit..." EXIT
+trap "trap - SIGTERM && kill 0 && echo exit..." SIGTERM SIGINT
 
 main
