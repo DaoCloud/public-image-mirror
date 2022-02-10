@@ -1,0 +1,35 @@
+name: Manual Deep Sync
+
+on:
+  workflow_dispatch:
+    inputs:
+      image:
+        description: 'Manually synchronize a image'
+        required: true
+        type: string
+
+jobs:
+  sync-images:
+    if: github.repository == 'DaoCloud/public-image-mirror'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Start Proxy
+        env:
+          only_proxy: ".m.daocloud.io"
+        run: |
+          wget https://github.com/wzshiming/bridge/releases/download/v0.7.13/bridge_linux_amd64 -O /usr/local/bin/bridge && chmod +x /usr/local/bin/bridge
+          nohup /usr/local/bin/bridge -b :8080 -p - ${{ secrets.PROTOCOL }} 2>/dev/null &
+      - name: Override mirror.txt
+        run: |
+          echo ${{ github.event.inputs.image }} > mirror.txt
+      - name: Sync Images
+        env:
+          INCREMENTAL: "true"
+          SYNC: "true"
+          PARALLET: "5"
+          http_proxy: socks5://127.0.0.1:8080
+          https_proxy: socks5://127.0.0.1:8080
+        run: |
+          ./hack/diff.sh
