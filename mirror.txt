@@ -46,6 +46,14 @@ docker.io/grafana/grafana
 docker.io/haproxy
 docker.io/integratedcloudnative/ovn4nfv-k8s-plugin
 docker.io/istio/citadel
+docker.io/istio/examples-helloworld-v1
+docker.io/istio/examples-helloworld-v2
+docker.io/istio/examples-bookinfo-details-v1
+docker.io/istio/examples-bookinfo-productpage-v1
+docker.io/istio/examples-bookinfo-ratings-v1
+docker.io/istio/examples-bookinfo-reviews-v1
+docker.io/istio/examples-bookinfo-reviews-v2
+docker.io/istio/examples-bookinfo-reviews-v3
 docker.io/istio/galley
 docker.io/istio/kubectl
 docker.io/istio/mixer
