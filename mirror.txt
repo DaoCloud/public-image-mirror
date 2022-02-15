@@ -27,6 +27,7 @@ docker.io/datawire/ambassador-operator
 docker.io/debian
 docker.io/directxman12/k8s-prometheus-adapter
 docker.io/docker
+docker.io/fellah/gitbook
 docker.io/fluent/fluent-bit
 docker.io/goharbor/chartmuseum-photon
 docker.io/goharbor/harbor-core
@@ -44,6 +45,7 @@ docker.io/goharbor/trivy-adapter-photon
 docker.io/golang
 docker.io/grafana/grafana
 docker.io/haproxy
+docker.io/honkit/honkit
 docker.io/integratedcloudnative/ovn4nfv-k8s-plugin
 docker.io/istio/citadel
 docker.io/istio/examples-bookinfo-details-v1
