@@ -174,6 +174,7 @@ gcr.io/knative-releases/knative.dev/serving/cmd/controller
 gcr.io/knative-releases/knative.dev/serving/cmd/default-domain
 gcr.io/knative-releases/knative.dev/serving/cmd/webhook
 gcr.io/kubebuilder/kube-rbac-proxy
+gcr.io/open-telemetry/opentelemetry-operator/opentelemetry-operator
 ghcr.io/clusterpedia-io/clusterpedia/apiserver
 ghcr.io/clusterpedia-io/clusterpedia/clustersynchro-manager
 ghcr.io/daocloud/dao-2048
