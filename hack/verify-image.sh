@@ -6,9 +6,9 @@ file=mirror.txt
 
 cp "${file}" "${file}.bak"
 
-git apply -R <(curl -fsSL "${patch_url}")
+git apply -R <(curl -fsSL "${patch_url}") || :
 
-list=$(diff --unified "${file}" "${file}.bak" | grep -E '^+\w' | sed 's/^+//' || :)
+list=$(diff --unified "${file}" "${file}.bak" | grep '^+\w' | sed 's/^+//' || :)
 
 for image in ${list}; do
     echo "Checking image: ${image}"
