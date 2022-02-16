@@ -123,6 +123,7 @@ docker.io/rancher/local-path-provisioner
 docker.io/redis
 docker.io/registry
 docker.io/sonobuoy/sonobuoy
+docker.io/swaggerapi/swagger-codegen-cli
 docker.io/traefik
 docker.io/ubuntu
 docker.io/victoriametrics/operator
