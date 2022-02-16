@@ -117,6 +117,7 @@ docker.io/openebs/provisioner-localpv
 docker.io/openebs/snapshot-controller
 docker.io/openebs/snapshot-provisioner
 docker.io/openstorage/stork
+docker.io/otel/opentelemetry-collector
 docker.io/portainer/portainer-ce
 docker.io/prom/alertmanager
 docker.io/prom/prometheus
