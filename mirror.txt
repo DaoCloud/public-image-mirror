@@ -193,13 +193,13 @@ ghcr.io/klts-io/kubernetes-lts/kube-controller-manager
 ghcr.io/klts-io/kubernetes-lts/kube-proxy
 ghcr.io/klts-io/kubernetes-lts/kube-scheduler
 ghcr.io/klts-io/kubernetes-lts/pause
+ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-java
+ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-nodejs
+ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-python
 ghcr.io/openfaas/basic-auth
 ghcr.io/openfaas/faas-netes
 ghcr.io/openfaas/gateway
 ghcr.io/openfaas/queue-worker
-ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-java
-ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-nodejs
-ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-python
 k8s.gcr.io/addon-resizer
 k8s.gcr.io/build-image/debian-iptables
 k8s.gcr.io/build-image/go-runner
