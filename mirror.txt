@@ -63,7 +63,11 @@ docker.io/istio/pilot
 docker.io/istio/proxyv2
 docker.io/istio/sidecar_injector
 docker.io/jaegertracing/all-in-one
+docker.io/jaegertracing/jaeger-agent
+docker.io/jaegertracing/jaeger-collector
+docker.io/jaegertracing/jaeger-es-index-cleaner
 docker.io/jaegertracing/jaeger-operator
+docker.io/jaegertracing/jaeger-query
 docker.io/jboss/keycloak
 docker.io/jimmidyson/configmap-reload
 docker.io/jujusolutions/juju-db
@@ -113,6 +117,7 @@ docker.io/openebs/provisioner-localpv
 docker.io/openebs/snapshot-controller
 docker.io/openebs/snapshot-provisioner
 docker.io/openstorage/stork
+docker.io/otel/opentelemetry-collector
 docker.io/portainer/portainer-ce
 docker.io/prom/alertmanager
 docker.io/prom/prometheus
@@ -189,6 +194,9 @@ ghcr.io/klts-io/kubernetes-lts/kube-controller-manager
 ghcr.io/klts-io/kubernetes-lts/kube-proxy
 ghcr.io/klts-io/kubernetes-lts/kube-scheduler
 ghcr.io/klts-io/kubernetes-lts/pause
+ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-java
+ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-nodejs
+ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-python
 ghcr.io/openfaas/basic-auth
 ghcr.io/openfaas/faas-netes
 ghcr.io/openfaas/gateway
