@@ -63,6 +63,9 @@ docker.io/istio/pilot
 docker.io/istio/proxyv2
 docker.io/istio/sidecar_injector
 docker.io/jaegertracing/all-in-one
+docker.io/jaegertracing/jaeger-agent
+docker.io/jaegertracing/jaeger-collector
+docker.io/jaegertracing/jaeger-query
 docker.io/jaegertracing/jaeger-operator
 docker.io/jboss/keycloak
 docker.io/jimmidyson/configmap-reload
