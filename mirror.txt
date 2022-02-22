@@ -281,6 +281,7 @@ quay.io/kiwigrid/k8s-sidecar
 quay.io/l23network/k8s-netchecker-agent
 quay.io/l23network/k8s-netchecker-server
 quay.io/metallb/controller
+quay.io/metallb/speaker
 quay.io/piraeusdatastore/drbd-reactor
 quay.io/piraeusdatastore/drbd9-centos7
 quay.io/piraeusdatastore/piraeus-client
