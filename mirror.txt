@@ -244,6 +244,7 @@ k8s.gcr.io/sig-storage/snapshot-controller
 mcr.microsoft.com/vscode/devcontainers/java
 nvcr.io/nvidia/gpu-operator
 quay.io/brancz/kube-rbac-proxy
+quay.io/calico/apiserver
 quay.io/calico/cni
 quay.io/calico/ctl
 quay.io/calico/kube-controllers
