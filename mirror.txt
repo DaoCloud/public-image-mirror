@@ -72,6 +72,7 @@ docker.io/jaegertracing/all-in-one
 docker.io/jaegertracing/jaeger-agent
 docker.io/jaegertracing/jaeger-collector
 docker.io/jaegertracing/jaeger-es-index-cleaner
+docker.io/jaegertracing/jaeger-es-rollover
 docker.io/jaegertracing/jaeger-operator
 docker.io/jaegertracing/jaeger-query
 docker.io/jboss/keycloak
