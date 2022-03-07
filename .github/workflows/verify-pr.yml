@@ -18,3 +18,6 @@ jobs:
       - name: Verify Image Exists
         run: |
           ./hack/verify-image.sh https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }}.patch
+      - name: Verify docker prefix
+        run: |
+          ./hack/verify-docker-prefix.sh
