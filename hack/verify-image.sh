@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-patch_url=$1
+file=$1
 
-file=mirror.txt
+patch_url=$2
 
 cp "${file}" "${file}.bak"
 

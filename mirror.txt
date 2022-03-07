@@ -92,6 +92,7 @@ docker.io/library/alpine
 docker.io/library/busybox
 docker.io/library/centos
 docker.io/library/debian
+docker.io/library/docker
 docker.io/library/golang
 docker.io/library/haproxy
 docker.io/library/mariadb
@@ -99,6 +100,7 @@ docker.io/library/mysql
 docker.io/library/nats-streaming
 docker.io/library/nginx
 docker.io/library/node
+docker.io/library/openjdk
 docker.io/library/python
 docker.io/library/redis
 docker.io/library/registry
