@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-file=mirror.txt
+file=$1
 
 cp ${file} ${file}.bak
 

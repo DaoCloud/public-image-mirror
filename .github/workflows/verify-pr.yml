@@ -17,7 +17,7 @@ jobs:
           ./hack/verify-fmt.sh mirror.txt || { echo "Please run './hack/fmt.sh mirror.txt'"; exit 1; }
       - name: Verify Image Exists
         run: |
-          ./hack/verify-image.sh https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }}.patch
+          ./hack/verify-image.sh mirror.txt https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }}.patch
       - name: Verify docker prefix
         run: |
-          ./hack/verify-docker-prefix.sh
+          ./hack/verify-docker-prefix.sh mirror.txt
