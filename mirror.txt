@@ -195,7 +195,6 @@ gcr.io/knative-releases/knative.dev/serving/cmd/controller
 gcr.io/knative-releases/knative.dev/serving/cmd/default-domain
 gcr.io/knative-releases/knative.dev/serving/cmd/webhook
 gcr.io/kubebuilder/kube-rbac-proxy
-gcr.io/open-telemetry/opentelemetry-operator/opentelemetry-operator
 ghcr.io/clusterpedia-io/clusterpedia/apiserver
 ghcr.io/clusterpedia-io/clusterpedia/clustersynchro-manager
 ghcr.io/daocloud/dao-2048
@@ -210,6 +209,7 @@ ghcr.io/klts-io/kubernetes-lts/pause
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-java
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-nodejs
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-python
+ghcr.io/open-telemetry/opentelemetry-operator/opentelemetry-operator
 ghcr.io/openfaas/basic-auth
 ghcr.io/openfaas/faas-netes
 ghcr.io/openfaas/gateway
