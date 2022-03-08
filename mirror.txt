@@ -127,6 +127,7 @@ docker.io/openebs/snapshot-controller
 docker.io/openebs/snapshot-provisioner
 docker.io/openjdk
 docker.io/openstorage/stork
+docker.io/openzipkin/zipkin:latest
 docker.io/otel/opentelemetry-collector
 docker.io/otel/opentelemetry-collector-contrib
 docker.io/portainer/portainer-ce
