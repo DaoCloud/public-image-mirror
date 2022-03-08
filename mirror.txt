@@ -113,6 +113,7 @@ docker.io/metallb/speaker
 docker.io/moby/buildkit
 docker.io/multiarch/qemu-user-static
 docker.io/mysql
+docker.io/nacos/nacos-server
 docker.io/nats-streaming
 docker.io/nfvpe/multus
 docker.io/nginx
@@ -152,6 +153,7 @@ docker.io/victoriametrics/vmstorage
 docker.io/weaveworks/weave-kube
 docker.io/weaveworks/weave-npc
 docker.io/xueshanf/install-socat
+docker.io/zookeeper
 gcr.io/cadvisor/cadvisor
 gcr.io/distroless/base
 gcr.io/distroless/static
