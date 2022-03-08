@@ -27,6 +27,9 @@ jobs:
           https_proxy: socks5://127.0.0.1:8080
         run: |
           ./hack/diff.sh
+      - name: Stats the number of not sync images
+        run: |
+          ./hack/stats-not-sync.sh sync.log
       - name: Update badge
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
