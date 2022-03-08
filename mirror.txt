@@ -106,6 +106,7 @@ docker.io/library/redis
 docker.io/library/registry
 docker.io/library/traefik
 docker.io/library/ubuntu
+docker.io/library/zookeeper
 docker.io/mariadb
 docker.io/merbridge/merbridge
 docker.io/metallb/controller
