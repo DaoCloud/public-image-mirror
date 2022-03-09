@@ -202,6 +202,8 @@ gcr.io/kubebuilder/kube-rbac-proxy
 ghcr.io/clusterpedia-io/clusterpedia/apiserver
 ghcr.io/clusterpedia-io/clusterpedia/clustersynchro-manager
 ghcr.io/daocloud/dao-2048
+ghcr.io/dependabot/dependabot-core
+ghcr.io/dependabot/dependabot-core-development
 ghcr.io/k8snetworkplumbingwg/multus-cni
 ghcr.io/klts-io/kubernetes-lts/coredns
 ghcr.io/klts-io/kubernetes-lts/etcd
