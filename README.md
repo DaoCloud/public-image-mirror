@@ -76,3 +76,12 @@ wget -O deploy.yaml https://raw.githubusercontent.com/kubernetes/ingress-nginx/c
 
 cat ./deploy.yaml | ./image-filter.sh | kubectl apply -f -
 ``` 
+
+
+## 贡献者
+
+<a href="https://github.com/public-image-mirror/public-image-mirror/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=public-image-mirror/public-image-mirror" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
