@@ -80,8 +80,8 @@ cat ./deploy.yaml | ./image-filter.sh | kubectl apply -f -
 
 ## 贡献者
 
-<a href="https://github.com/public-image-mirror/public-image-mirror/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=public-image-mirror/public-image-mirror" />
+<a href="https://github.com/DaoCloud/public-image-mirror/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DaoCloud/public-image-mirror" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
