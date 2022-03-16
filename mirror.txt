@@ -202,6 +202,10 @@ gcr.io/kubebuilder/kube-rbac-proxy
 ghcr.io/clusterpedia-io/clusterpedia/apiserver
 ghcr.io/clusterpedia-io/clusterpedia/clustersynchro-manager
 ghcr.io/daocloud/dao-2048
+ghcr.io/dependabot/dependabot-core
+ghcr.io/dependabot/dependabot-core-development
+ghcr.io/hwameistor/local-disk-manager
+ghcr.io/hwameistor/local-storage
 ghcr.io/k8snetworkplumbingwg/multus-cni
 ghcr.io/klts-io/kubernetes-lts/coredns
 ghcr.io/klts-io/kubernetes-lts/etcd
@@ -218,6 +222,8 @@ ghcr.io/openfaas/basic-auth
 ghcr.io/openfaas/faas-netes
 ghcr.io/openfaas/gateway
 ghcr.io/openfaas/queue-worker
+ghcr.io/sumologic/tailing-sidecar
+ghcr.io/sumologic/tailing-sidecar-operator
 k8s.gcr.io/addon-resizer
 k8s.gcr.io/build-image/debian-iptables
 k8s.gcr.io/build-image/go-runner
