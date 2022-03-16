@@ -250,6 +250,7 @@ k8s.gcr.io/nfd/node-feature-discovery
 k8s.gcr.io/node-problem-detector/node-problem-detector
 k8s.gcr.io/node-test
 k8s.gcr.io/pause
+k8s.gcr.io/prometheus-adapter/prometheus-adapter
 k8s.gcr.io/sig-storage/csi-attacher
 k8s.gcr.io/sig-storage/csi-node-driver-registrar
 k8s.gcr.io/sig-storage/csi-provisioner
@@ -309,6 +310,7 @@ quay.io/piraeusdatastore/piraeus-operator
 quay.io/prometheus-operator/prometheus-config-reloader
 quay.io/prometheus-operator/prometheus-operator
 quay.io/prometheus/alertmanager
+quay.io/prometheus/blackbox-exporter
 quay.io/prometheus/node-exporter
 quay.io/prometheus/prometheus
 quay.io/tigera/operator
