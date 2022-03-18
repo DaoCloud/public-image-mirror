@@ -201,6 +201,7 @@ gcr.io/knative-releases/knative.dev/serving/cmd/webhook
 gcr.io/kubebuilder/kube-rbac-proxy
 ghcr.io/clusterpedia-io/clusterpedia/apiserver
 ghcr.io/clusterpedia-io/clusterpedia/clustersynchro-manager
+ghcr.io/daocloud/ckube
 ghcr.io/daocloud/dao-2048
 ghcr.io/dependabot/dependabot-core
 ghcr.io/dependabot/dependabot-core-development
