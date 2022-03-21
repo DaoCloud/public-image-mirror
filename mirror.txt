@@ -111,6 +111,9 @@ docker.io/mariadb
 docker.io/merbridge/merbridge
 docker.io/metallb/controller
 docker.io/metallb/speaker
+docker.io/minio/console
+docker.io/minio/minio
+docker.io/minio/operator
 docker.io/moby/buildkit
 docker.io/multiarch/qemu-user-static
 docker.io/mysql
