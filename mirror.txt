@@ -101,6 +101,7 @@ docker.io/library/nats-streaming
 docker.io/library/nginx
 docker.io/library/node
 docker.io/library/openjdk
+docker.io/library/postgres
 docker.io/library/python
 docker.io/library/redis
 docker.io/library/registry
@@ -111,6 +112,11 @@ docker.io/mariadb
 docker.io/merbridge/merbridge
 docker.io/metallb/controller
 docker.io/metallb/speaker
+docker.io/minio/console
+docker.io/minio/kes
+docker.io/minio/logsearchapi
+docker.io/minio/minio
+docker.io/minio/operator
 docker.io/moby/buildkit
 docker.io/multiarch/qemu-user-static
 docker.io/mysql
@@ -133,6 +139,7 @@ docker.io/openzipkin/zipkin
 docker.io/otel/opentelemetry-collector
 docker.io/otel/opentelemetry-collector-contrib
 docker.io/portainer/portainer-ce
+docker.io/postgres
 docker.io/prom/alertmanager
 docker.io/prom/prometheus
 docker.io/python
