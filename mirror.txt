@@ -143,6 +143,7 @@ docker.io/postgres
 docker.io/prom/alertmanager
 docker.io/prom/prometheus
 docker.io/python
+docker.io/rabbitmqoperator/cluster-operator
 docker.io/rancher/k3d-tools
 docker.io/rancher/k3s
 docker.io/rancher/local-path-provisioner
