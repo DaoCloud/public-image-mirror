@@ -75,6 +75,7 @@ docker.io/jaegertracing/jaeger-es-index-cleaner
 docker.io/jaegertracing/jaeger-es-rollover
 docker.io/jaegertracing/jaeger-operator
 docker.io/jaegertracing/jaeger-query
+docker.io/jaegertracing/spark-dependencies
 docker.io/jboss/keycloak
 docker.io/jimmidyson/configmap-reload
 docker.io/jujusolutions/juju-db
