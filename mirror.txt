@@ -65,6 +65,7 @@ docker.io/istio/examples-helloworld-v2
 docker.io/istio/galley
 docker.io/istio/kubectl
 docker.io/istio/mixer
+docker.io/istio/operator
 docker.io/istio/pilot
 docker.io/istio/proxyv2
 docker.io/istio/sidecar_injector
@@ -75,6 +76,7 @@ docker.io/jaegertracing/jaeger-es-index-cleaner
 docker.io/jaegertracing/jaeger-es-rollover
 docker.io/jaegertracing/jaeger-operator
 docker.io/jaegertracing/jaeger-query
+docker.io/jaegertracing/spark-dependencies
 docker.io/jboss/keycloak
 docker.io/jimmidyson/configmap-reload
 docker.io/jujusolutions/juju-db
