@@ -65,6 +65,7 @@ docker.io/istio/examples-helloworld-v2
 docker.io/istio/galley
 docker.io/istio/kubectl
 docker.io/istio/mixer
+docker.io/istio/operator
 docker.io/istio/pilot
 docker.io/istio/proxyv2
 docker.io/istio/sidecar_injector
