@@ -217,6 +217,7 @@ ghcr.io/daocloud/ckube
 ghcr.io/daocloud/dao-2048
 ghcr.io/dependabot/dependabot-core
 ghcr.io/dependabot/dependabot-core-development
+ghcr.io/dexidp/dex
 ghcr.io/hwameistor/local-disk-manager
 ghcr.io/hwameistor/local-storage
 ghcr.io/hwameistor/scheduler
@@ -280,6 +281,8 @@ k8s.gcr.io/sig-storage/livenessprobe
 k8s.gcr.io/sig-storage/snapshot-controller
 mcr.microsoft.com/vscode/devcontainers/java
 nvcr.io/nvidia/gpu-operator
+quay.io/argoproj/argocd
+quay.io/argoproj/argocd-applicationset
 quay.io/brancz/kube-rbac-proxy
 quay.io/calico/apiserver
 quay.io/calico/cni
