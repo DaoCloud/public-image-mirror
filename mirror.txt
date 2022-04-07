@@ -15,6 +15,7 @@ docker.io/bitnami/elasticsearch
 docker.io/bitnami/elasticsearch-curator
 docker.io/bitnami/elasticsearch-exporter
 docker.io/bitnami/kubectl
+docker.io/bitnami/kubernetes-event-exporter
 docker.io/bitnami/minideb
 docker.io/busybox
 docker.io/byrnedo/alpine-curl
