@@ -174,6 +174,7 @@ gcr.io/distroless/static
 gcr.io/distroless/static-debian11
 gcr.io/google-containers/pause
 gcr.io/google_containers/hyperkube
+gcr.io/heptio-images/ks-guestbook-demo
 gcr.io/istio-release/app_sidecar_base_centos_7
 gcr.io/istio-release/app_sidecar_base_centos_8
 gcr.io/istio-release/base
