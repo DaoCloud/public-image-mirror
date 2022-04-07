@@ -285,6 +285,7 @@ mcr.microsoft.com/vscode/devcontainers/java
 nvcr.io/nvidia/gpu-operator
 quay.io/argoproj/argocd
 quay.io/argoproj/argocd-applicationset
+quay.io/argoprojlabs/argocd-image-updater
 quay.io/brancz/kube-rbac-proxy
 quay.io/calico/apiserver
 quay.io/calico/cni
