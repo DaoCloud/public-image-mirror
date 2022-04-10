@@ -243,6 +243,7 @@ ghcr.io/openfaas/gateway
 ghcr.io/openfaas/queue-worker
 ghcr.io/sumologic/tailing-sidecar
 ghcr.io/sumologic/tailing-sidecar-operator
+ghcr.io/pterodactyl/yolks
 k8s.gcr.io/addon-resizer
 k8s.gcr.io/build-image/debian-iptables
 k8s.gcr.io/build-image/go-runner
