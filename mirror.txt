@@ -63,6 +63,7 @@ docker.io/istio/examples-bookinfo-reviews-v2
 docker.io/istio/examples-bookinfo-reviews-v3
 docker.io/istio/examples-helloworld-v1
 docker.io/istio/examples-helloworld-v2
+docker.io/istio/install-cni
 docker.io/istio/galley
 docker.io/istio/kubectl
 docker.io/istio/mixer
