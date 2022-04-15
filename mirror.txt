@@ -64,6 +64,7 @@ docker.io/istio/examples-bookinfo-reviews-v3
 docker.io/istio/examples-helloworld-v1
 docker.io/istio/examples-helloworld-v2
 docker.io/istio/galley
+docker.io/istio/install-cni
 docker.io/istio/kubectl
 docker.io/istio/mixer
 docker.io/istio/operator
@@ -241,9 +242,9 @@ ghcr.io/openfaas/basic-auth
 ghcr.io/openfaas/faas-netes
 ghcr.io/openfaas/gateway
 ghcr.io/openfaas/queue-worker
+ghcr.io/pterodactyl/yolks
 ghcr.io/sumologic/tailing-sidecar
 ghcr.io/sumologic/tailing-sidecar-operator
-ghcr.io/pterodactyl/yolks
 k8s.gcr.io/addon-resizer
 k8s.gcr.io/build-image/debian-iptables
 k8s.gcr.io/build-image/go-runner
