@@ -107,12 +107,14 @@ docker.io/library/debian
 docker.io/library/docker
 docker.io/library/golang
 docker.io/library/haproxy
+docker.io/library/java
 docker.io/library/mariadb
 docker.io/library/mysql
 docker.io/library/nats-streaming
 docker.io/library/nginx
 docker.io/library/node
 docker.io/library/openjdk
+docker.io/library/perl
 docker.io/library/postgres
 docker.io/library/python
 docker.io/library/rabbitmq
@@ -120,6 +122,7 @@ docker.io/library/redis
 docker.io/library/registry
 docker.io/library/traefik
 docker.io/library/ubuntu
+docker.io/library/wordpress
 docker.io/library/zookeeper
 docker.io/mariadb
 docker.io/merbridge/merbridge
