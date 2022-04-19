@@ -197,6 +197,7 @@ gcr.io/distroless/base
 gcr.io/distroless/static
 gcr.io/distroless/static-debian11
 gcr.io/google-containers/pause
+gcr.io/google.com/cloudsdktool/cloud-sdk
 gcr.io/google_containers/hyperkube
 gcr.io/heptio-images/ks-guestbook-demo
 gcr.io/istio-release/app_sidecar_base_centos_7
