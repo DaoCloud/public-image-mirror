@@ -245,6 +245,8 @@ gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard
 gcr.io/tekton-releases/github.com/tektoncd/operator/cmd/kubernetes/operator
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/entrypoint
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/git-init
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/imagedigestexporter
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook
 gcr.io/tekton-releases/github.com/tektoncd/results/cmd/api
 gcr.io/tekton-releases/github.com/tektoncd/results/cmd/watcher
