@@ -242,6 +242,7 @@ gcr.io/kuar-demo/kuard-amd64
 gcr.io/kubebuilder/kube-rbac-proxy
 gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/entrypoint
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook
 gcr.io/tekton-releases/github.com/tektoncd/results/cmd/api
 gcr.io/tekton-releases/github.com/tektoncd/results/cmd/watcher
