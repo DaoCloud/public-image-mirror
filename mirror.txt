@@ -224,6 +224,7 @@ gcr.io/istio-testing/proxyv2
 gcr.io/k8s-staging-kube-state-metrics/kube-state-metrics
 gcr.io/k8s-staging-nfd/node-feature-discovery
 gcr.io/k8s-staging-test-infra/krte
+gcr.io/kaniko-project/executor
 gcr.io/knative-releases/knative.dev/eventing/cmd/controller
 gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_controller
 gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_dispatcher
