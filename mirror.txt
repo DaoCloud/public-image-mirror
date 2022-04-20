@@ -197,6 +197,7 @@ gcr.io/distroless/base
 gcr.io/distroless/static
 gcr.io/distroless/static-debian11
 gcr.io/google-containers/pause
+gcr.io/google.com/cloudsdktool/cloud-sdk
 gcr.io/google_containers/hyperkube
 gcr.io/heptio-images/ks-guestbook-demo
 gcr.io/istio-release/app_sidecar_base_centos_7
@@ -239,6 +240,13 @@ gcr.io/knative-releases/knative.dev/serving/cmd/default-domain
 gcr.io/knative-releases/knative.dev/serving/cmd/webhook
 gcr.io/kuar-demo/kuard-amd64
 gcr.io/kubebuilder/kube-rbac-proxy
+gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook
+gcr.io/tekton-releases/github.com/tektoncd/results/cmd/api
+gcr.io/tekton-releases/github.com/tektoncd/results/cmd/watcher
+gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controllers
+gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook
 ghcr.io/clusterpedia-io/clusterpedia/apiserver
 ghcr.io/clusterpedia-io/clusterpedia/clustersynchro-manager
 ghcr.io/daocloud/ckube
