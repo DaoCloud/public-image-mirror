@@ -259,6 +259,10 @@ ghcr.io/daocloud/dao-2048
 ghcr.io/dependabot/dependabot-core
 ghcr.io/dependabot/dependabot-core-development
 ghcr.io/dexidp/dex
+ghcr.io/fluxcd/helm-controller
+ghcr.io/fluxcd/kustomize-controller
+ghcr.io/fluxcd/notification-controller
+ghcr.io/fluxcd/source-controller
 ghcr.io/hwameistor/local-disk-manager
 ghcr.io/hwameistor/local-storage
 ghcr.io/hwameistor/scheduler
