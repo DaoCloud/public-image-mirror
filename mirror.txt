@@ -170,6 +170,7 @@ docker.io/prom/prometheus
 docker.io/python
 docker.io/rabbitmq
 docker.io/rabbitmqoperator/cluster-operator
+docker.io/rancher/helm-controller
 docker.io/rancher/k3d-tools
 docker.io/rancher/k3s
 docker.io/rancher/local-path-provisioner
@@ -373,6 +374,7 @@ quay.io/k8scsi/csi-snapshotter
 quay.io/k8scsi/snapshot-controller
 quay.io/kiali/kiali
 quay.io/kiwigrid/k8s-sidecar
+quay.io/kubespray/kubespray
 quay.io/l23network/k8s-netchecker-agent
 quay.io/l23network/k8s-netchecker-server
 quay.io/metallb/controller
