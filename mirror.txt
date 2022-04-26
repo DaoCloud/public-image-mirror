@@ -310,7 +310,6 @@ k8s.gcr.io/kube-registry-proxy-amd64
 k8s.gcr.io/kube-scheduler
 k8s.gcr.io/kube-scheduler-amd64
 k8s.gcr.io/kube-state-metrics/kube-state-metrics
-k8s.gcr.io/kueue
 k8s.gcr.io/kueue/kueue
 k8s.gcr.io/metrics-server
 k8s.gcr.io/metrics-server-amd64
