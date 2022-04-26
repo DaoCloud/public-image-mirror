@@ -18,6 +18,7 @@ docker.io/bitnami/kubectl
 docker.io/bitnami/kubernetes-event-exporter
 docker.io/bitnami/minideb
 docker.io/busybox
+docker.io/busybox/doesnotexist
 docker.io/byrnedo/alpine-curl
 docker.io/calico/cni
 docker.io/calico/kube-controllers
