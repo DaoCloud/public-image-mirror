@@ -36,7 +36,6 @@ docker.io/datawire/ambassador-operator
 docker.io/debian
 docker.io/directxman12/k8s-prometheus-adapter
 docker.io/docker
-docker.io/doesnotexist
 docker.io/elastic/filebeat
 docker.io/fellah/gitbook
 docker.io/fluent/fluent-bit
@@ -297,6 +296,7 @@ k8s.gcr.io/coredns/coredns
 k8s.gcr.io/cpa/cluster-proportional-autoscaler
 k8s.gcr.io/cpa/cluster-proportional-autoscaler-amd64
 k8s.gcr.io/dns/k8s-dns-node-cache
+k8s.gcr.io/doesnotexist
 k8s.gcr.io/etcd
 k8s.gcr.io/ingress-nginx/controller
 k8s.gcr.io/ingress-nginx/kube-webhook-certgen
