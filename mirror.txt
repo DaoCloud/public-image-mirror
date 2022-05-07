@@ -36,6 +36,7 @@ docker.io/datawire/ambassador-operator
 docker.io/debian
 docker.io/directxman12/k8s-prometheus-adapter
 docker.io/docker
+docker.io/dtzar/helm-kubectl
 docker.io/elastic/filebeat
 docker.io/fellah/gitbook
 docker.io/fluent/fluent-bit
