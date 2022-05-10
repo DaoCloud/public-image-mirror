@@ -179,6 +179,7 @@ docker.io/rancher/local-path-provisioner
 docker.io/redis
 docker.io/registry
 docker.io/sonobuoy/sonobuoy
+docker.io/squidfunk/mkdocs-material
 docker.io/swaggerapi/swagger-codegen-cli
 docker.io/tgagor/centos-stream
 docker.io/thanosio/thanos
