@@ -39,6 +39,7 @@ docker.io/docker
 docker.io/dtzar/helm-kubectl
 docker.io/elastic/filebeat
 docker.io/fellah/gitbook
+docker.io/flant/shell-operator
 docker.io/fluent/fluent-bit
 docker.io/fluent/fluentd
 docker.io/goharbor/chartmuseum-photon
@@ -178,6 +179,7 @@ docker.io/rancher/local-path-provisioner
 docker.io/redis
 docker.io/registry
 docker.io/sonobuoy/sonobuoy
+docker.io/squidfunk/mkdocs-material
 docker.io/swaggerapi/swagger-codegen-cli
 docker.io/tgagor/centos-stream
 docker.io/thanosio/thanos
