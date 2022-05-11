@@ -57,6 +57,7 @@ docker.io/goharbor/registry-photon
 docker.io/goharbor/trivy-adapter-photon
 docker.io/golang
 docker.io/grafana/grafana
+docker.io/grafana/tempo
 docker.io/haproxy
 docker.io/honkit/honkit
 docker.io/integratedcloudnative/ovn4nfv-k8s-plugin
