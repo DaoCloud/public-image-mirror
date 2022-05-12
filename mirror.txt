@@ -14,9 +14,15 @@ docker.io/bitnami/bitnami-shell
 docker.io/bitnami/elasticsearch
 docker.io/bitnami/elasticsearch-curator
 docker.io/bitnami/elasticsearch-exporter
+docker.io/bitnami/kubeapps-apis
+docker.io/bitnami/kubeapps-apprepository-controller
+docker.io/bitnami/kubeapps-dashboard
+docker.io/bitnami/kubeapps-kubeops
 docker.io/bitnami/kubectl
 docker.io/bitnami/kubernetes-event-exporter
 docker.io/bitnami/minideb
+docker.io/bitnami/nginx
+docker.io/bitnami/postgresql
 docker.io/busybox
 docker.io/byrnedo/alpine-curl
 docker.io/calico/cni
