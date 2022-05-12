@@ -23,7 +23,7 @@ jobs:
         env:
           INCREMENTAL: "true"
           QUICKLY: "true"
-          QUICKLY_PATTERN: '[0-9]+(\.[0-9]+){2}'
+          QUICKLY_PATTERN: '[0-9]+(\.[0-9]+){2}|[0-9a-fA-F]{16}'
           SYNC: "true"
           PARALLET: "5"
           http_proxy: socks5://127.0.0.1:8080
