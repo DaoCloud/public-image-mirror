@@ -14,9 +14,15 @@ docker.io/bitnami/bitnami-shell
 docker.io/bitnami/elasticsearch
 docker.io/bitnami/elasticsearch-curator
 docker.io/bitnami/elasticsearch-exporter
+docker.io/bitnami/kubeapps-apis
+docker.io/bitnami/kubeapps-apprepository-controller
+docker.io/bitnami/kubeapps-dashboard
+docker.io/bitnami/kubeapps-kubeops
 docker.io/bitnami/kubectl
 docker.io/bitnami/kubernetes-event-exporter
 docker.io/bitnami/minideb
+docker.io/bitnami/nginx
+docker.io/bitnami/postgresql
 docker.io/busybox
 docker.io/byrnedo/alpine-curl
 docker.io/calico/cni
@@ -39,6 +45,7 @@ docker.io/docker
 docker.io/dtzar/helm-kubectl
 docker.io/elastic/filebeat
 docker.io/fellah/gitbook
+docker.io/flannelcni/flannel-cni-plugin
 docker.io/flant/shell-operator
 docker.io/fluent/fluent-bit
 docker.io/fluent/fluentd
@@ -137,6 +144,8 @@ docker.io/minio/logsearchapi
 docker.io/minio/mc
 docker.io/minio/minio
 docker.io/minio/operator
+docker.io/mirantis/k8s-netchecker-agent
+docker.io/mirantis/k8s-netchecker-server
 docker.io/mirrorgooglecontainers/defaultbackend-amd64
 docker.io/mirrorgooglecontainers/hpa-example
 docker.io/moby/buildkit
@@ -279,6 +288,7 @@ ghcr.io/klts-io/kubernetes-lts/kube-controller-manager
 ghcr.io/klts-io/kubernetes-lts/kube-proxy
 ghcr.io/klts-io/kubernetes-lts/kube-scheduler
 ghcr.io/klts-io/kubernetes-lts/pause
+ghcr.io/kube-vip/kube-vip
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-java
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-nodejs
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-python
@@ -330,6 +340,7 @@ k8s.gcr.io/sig-storage/csi-provisioner
 k8s.gcr.io/sig-storage/csi-resizer
 k8s.gcr.io/sig-storage/csi-snapshotter
 k8s.gcr.io/sig-storage/livenessprobe
+k8s.gcr.io/sig-storage/local-volume-provisioner
 k8s.gcr.io/sig-storage/snapshot-controller
 mcr.microsoft.com/vscode/devcontainers/java
 nvcr.io/nvidia/gpu-operator
