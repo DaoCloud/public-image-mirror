@@ -20,9 +20,11 @@ docker.io/bitnami/kubeapps-dashboard
 docker.io/bitnami/kubeapps-kubeops
 docker.io/bitnami/kubectl
 docker.io/bitnami/kubernetes-event-exporter
+docker.io/bitnami/mariadb
 docker.io/bitnami/minideb
 docker.io/bitnami/nginx
 docker.io/bitnami/postgresql
+docker.io/bitnami/wordpress
 docker.io/busybox
 docker.io/byrnedo/alpine-curl
 docker.io/calico/cni
