@@ -33,6 +33,8 @@ docker.io/calico/typha
 docker.io/cdkbot/hostpath-provisioner-amd64
 docker.io/cdkbot/registry-amd64
 docker.io/centos
+docker.io/clickhouse/clickhouse-server
+docker.io/clickhouse/integration-helper
 docker.io/cloudnativelabs/kube-router
 docker.io/coredns/coredns
 docker.io/csiplugin/snapshot-controller
