@@ -416,5 +416,12 @@ quay.io/prometheus/alertmanager
 quay.io/prometheus/blackbox-exporter
 quay.io/prometheus/node-exporter
 quay.io/prometheus/prometheus
+quay.io/submariner/submariner
+quay.io/submariner/submariner-gateway
+quay.io/submariner/submariner-globalnet
+quay.io/submariner/submariner-networkplugin-syncer
+quay.io/submariner/submariner-operator
+quay.io/submariner/submariner-operator-index
+quay.io/submariner/submariner-route-agent
 quay.io/tigera/operator
 rocks.canonical.com/mariadb/server
