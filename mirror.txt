@@ -195,6 +195,7 @@ docker.io/redis
 docker.io/registry
 docker.io/sonobuoy/sonobuoy
 docker.io/squidfunk/mkdocs-material
+docker.io/n8nio/n8n
 docker.io/swaggerapi/swagger-codegen-cli
 docker.io/tgagor/centos-stream
 docker.io/thanosio/thanos
