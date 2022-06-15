@@ -10,6 +10,10 @@ docker.io/alpine
 docker.io/alpine/helm
 docker.io/amazon/aws-alb-ingress-controller
 docker.io/amazon/aws-ebs-csi-driver
+docker.io/apache/skywalking-java-agent
+docker.io/apache/skywalking-oap-server
+docker.io/apache/skywalking-ui
+docker.io/aquasec/kube-bench
 docker.io/bitnami/bitnami-shell
 docker.io/bitnami/elasticsearch
 docker.io/bitnami/elasticsearch-curator
@@ -35,6 +39,7 @@ docker.io/calico/typha
 docker.io/cdkbot/hostpath-provisioner-amd64
 docker.io/cdkbot/registry-amd64
 docker.io/centos
+docker.io/cilium/json-mock
 docker.io/clickhouse/clickhouse-server
 docker.io/clickhouse/integration-helper
 docker.io/cloudnativelabs/kube-router
@@ -107,6 +112,7 @@ docker.io/jujusolutions/jujud-operator
 docker.io/k8scloudprovider/cinder-csi-plugin
 docker.io/kedacore/keda
 docker.io/kedacore/keda-metrics-apiserver
+docker.io/kindest/base
 docker.io/kindest/haproxy
 docker.io/kindest/node
 docker.io/kubeedge/cloudcore
@@ -155,6 +161,7 @@ docker.io/mirrorgooglecontainers/hpa-example
 docker.io/moby/buildkit
 docker.io/multiarch/qemu-user-static
 docker.io/mysql
+docker.io/n8nio/n8n
 docker.io/nacos/nacos-server
 docker.io/nats-streaming
 docker.io/nfvpe/multus
@@ -199,6 +206,7 @@ docker.io/tgagor/centos-stream
 docker.io/thanosio/thanos
 docker.io/traefik
 docker.io/ubuntu
+docker.io/velero/velero
 docker.io/victoriametrics/operator
 docker.io/victoriametrics/vmalert
 docker.io/victoriametrics/vminsert
@@ -416,5 +424,12 @@ quay.io/prometheus/alertmanager
 quay.io/prometheus/blackbox-exporter
 quay.io/prometheus/node-exporter
 quay.io/prometheus/prometheus
+quay.io/submariner/submariner
+quay.io/submariner/submariner-gateway
+quay.io/submariner/submariner-globalnet
+quay.io/submariner/submariner-networkplugin-syncer
+quay.io/submariner/submariner-operator
+quay.io/submariner/submariner-operator-index
+quay.io/submariner/submariner-route-agent
 quay.io/tigera/operator
 rocks.canonical.com/mariadb/server
