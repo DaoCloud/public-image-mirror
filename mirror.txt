@@ -51,7 +51,6 @@ docker.io/datawire/ambassador-operator
 docker.io/debian
 docker.io/directxman12/k8s-prometheus-adapter
 docker.io/docker
-docker.io/dtzar/helm-kubectl
 docker.io/elastic/filebeat
 docker.io/fellah/gitbook
 docker.io/flannelcni/flannel-cni-plugin
@@ -285,6 +284,7 @@ ghcr.io/daocloud/dao-2048
 ghcr.io/dependabot/dependabot-core
 ghcr.io/dependabot/dependabot-core-development
 ghcr.io/dexidp/dex
+ghcr.io/dtzar/helm-kubectl
 ghcr.io/fluxcd/helm-controller
 ghcr.io/fluxcd/kustomize-controller
 ghcr.io/fluxcd/notification-controller
