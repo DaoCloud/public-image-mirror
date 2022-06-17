@@ -332,6 +332,7 @@ k8s.gcr.io/coredns
 k8s.gcr.io/coredns/coredns
 k8s.gcr.io/cpa/cluster-proportional-autoscaler
 k8s.gcr.io/cpa/cluster-proportional-autoscaler-amd64
+k8s.gcr.io/debian-base
 k8s.gcr.io/dns/k8s-dns-node-cache
 k8s.gcr.io/etcd
 k8s.gcr.io/ingress-nginx/controller
