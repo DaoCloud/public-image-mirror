@@ -143,6 +143,17 @@ docker.io/library/traefik
 docker.io/library/ubuntu
 docker.io/library/wordpress
 docker.io/library/zookeeper
+docker.io/longhornio/backing-image-manager
+docker.io/longhornio/csi-attacher
+docker.io/longhornio/csi-node-driver-registrar
+docker.io/longhornio/csi-provisioner
+docker.io/longhornio/csi-resizer
+docker.io/longhornio/csi-snapshotter
+docker.io/longhornio/longhorn-engine
+docker.io/longhornio/longhorn-instance-manager
+docker.io/longhornio/longhorn-manager
+docker.io/longhornio/longhorn-share-manager
+docker.io/longhornio/longhorn-ui
 docker.io/mariadb
 docker.io/merbridge/merbridge
 docker.io/metallb/controller
