@@ -357,6 +357,7 @@ k8s.gcr.io/metrics-server/metrics-server-amd64
 k8s.gcr.io/nfd/node-feature-discovery
 k8s.gcr.io/node-problem-detector/node-problem-detector
 k8s.gcr.io/node-test
+k8s.gcr.io/node-test-amd64
 k8s.gcr.io/pause
 k8s.gcr.io/prometheus-adapter/prometheus-adapter
 k8s.gcr.io/sig-storage/csi-attacher
