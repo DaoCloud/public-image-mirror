@@ -370,6 +370,8 @@ k8s.gcr.io/sig-storage/local-volume-provisioner
 k8s.gcr.io/sig-storage/snapshot-controller
 mcr.microsoft.com/vscode/devcontainers/java
 nvcr.io/nvidia/gpu-operator
+nvcr.io/nvidia/gpu-feature-discover
+nvcr.io/nvidia/k8s-device-plugin
 quay.io/argoproj/argo-events
 quay.io/argoproj/argo-rollouts
 quay.io/argoproj/argocd
