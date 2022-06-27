@@ -209,7 +209,10 @@ docker.io/rancher/k3s
 docker.io/rancher/local-path-provisioner
 docker.io/redis
 docker.io/registry
+docker.io/sonobuoy/cluster-inventory
+docker.io/sonobuoy/kube-bench
 docker.io/sonobuoy/sonobuoy
+docker.io/sonobuoy/systemd-logs
 docker.io/squidfunk/mkdocs-material
 docker.io/swaggerapi/swagger-codegen-cli
 docker.io/tgagor/centos-stream
