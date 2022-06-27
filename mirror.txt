@@ -411,6 +411,7 @@ quay.io/iovisor/bcc
 quay.io/jaegertracing/jaeger-operator
 quay.io/jetstack/cert-manager-cainjector
 quay.io/jetstack/cert-manager-controller
+quay.io/jetstack/cert-manager-ctl
 quay.io/jetstack/cert-manager-webhook
 quay.io/k8scsi/csi-attacher
 quay.io/k8scsi/csi-node-driver-registrar
