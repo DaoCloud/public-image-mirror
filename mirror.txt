@@ -31,6 +31,7 @@ docker.io/bitnami/postgresql
 docker.io/bitnami/wordpress
 docker.io/busybox
 docker.io/byrnedo/alpine-curl
+docker.io/caddy
 docker.io/calico/cni
 docker.io/calico/kube-controllers
 docker.io/calico/node
