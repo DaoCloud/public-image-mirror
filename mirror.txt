@@ -122,6 +122,7 @@ docker.io/kubernetesui/dashboard-amd64
 docker.io/kubernetesui/metrics-scraper
 docker.io/library/alpine
 docker.io/library/busybox
+docker.io/library/caddy
 docker.io/library/centos
 docker.io/library/debian
 docker.io/library/docker
