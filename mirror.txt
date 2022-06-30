@@ -52,6 +52,8 @@ docker.io/debian
 docker.io/directxman12/k8s-prometheus-adapter
 docker.io/docker
 docker.io/elastic/filebeat
+docker.io/envoyproxy/envoy
+docker.io/envoyproxy/envoy-distroless
 docker.io/fellah/gitbook
 docker.io/flannelcni/flannel-cni-plugin
 docker.io/flant/shell-operator
