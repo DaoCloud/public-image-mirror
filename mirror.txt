@@ -291,6 +291,7 @@ gcr.io/tekton-releases/github.com/tektoncd/results/cmd/api
 gcr.io/tekton-releases/github.com/tektoncd/results/cmd/watcher
 gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controllers
 gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook
+ghcr.io/aquasecurity/trivy
 ghcr.io/aquasecurity/trivy-db
 ghcr.io/clusterpedia-io/clusterpedia/apiserver
 ghcr.io/clusterpedia-io/clusterpedia/clustersynchro-manager
