@@ -31,6 +31,7 @@ docker.io/bitnami/postgresql
 docker.io/bitnami/wordpress
 docker.io/busybox
 docker.io/byrnedo/alpine-curl
+docker.io/caddy
 docker.io/calico/cni
 docker.io/calico/kube-controllers
 docker.io/calico/node
@@ -123,6 +124,7 @@ docker.io/kubernetesui/dashboard-amd64
 docker.io/kubernetesui/metrics-scraper
 docker.io/library/alpine
 docker.io/library/busybox
+docker.io/library/caddy
 docker.io/library/centos
 docker.io/library/debian
 docker.io/library/docker
