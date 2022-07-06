@@ -31,6 +31,7 @@ docker.io/bitnami/postgresql
 docker.io/bitnami/wordpress
 docker.io/busybox
 docker.io/byrnedo/alpine-curl
+docker.io/caddy
 docker.io/calico/cni
 docker.io/calico/kube-controllers
 docker.io/calico/node
@@ -52,6 +53,8 @@ docker.io/debian
 docker.io/directxman12/k8s-prometheus-adapter
 docker.io/docker
 docker.io/elastic/filebeat
+docker.io/envoyproxy/envoy
+docker.io/envoyproxy/envoy-distroless
 docker.io/fellah/gitbook
 docker.io/flannelcni/flannel-cni-plugin
 docker.io/flant/shell-operator
@@ -121,6 +124,7 @@ docker.io/kubernetesui/dashboard-amd64
 docker.io/kubernetesui/metrics-scraper
 docker.io/library/alpine
 docker.io/library/busybox
+docker.io/library/caddy
 docker.io/library/centos
 docker.io/library/debian
 docker.io/library/docker
@@ -209,7 +213,10 @@ docker.io/rancher/k3s
 docker.io/rancher/local-path-provisioner
 docker.io/redis
 docker.io/registry
+docker.io/sonobuoy/cluster-inventory
+docker.io/sonobuoy/kube-bench
 docker.io/sonobuoy/sonobuoy
+docker.io/sonobuoy/systemd-logs
 docker.io/squidfunk/mkdocs-material
 docker.io/swaggerapi/swagger-codegen-cli
 docker.io/tgagor/centos-stream
@@ -288,6 +295,8 @@ gcr.io/tekton-releases/github.com/tektoncd/results/cmd/api
 gcr.io/tekton-releases/github.com/tektoncd/results/cmd/watcher
 gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controllers
 gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook
+ghcr.io/aquasecurity/trivy
+ghcr.io/aquasecurity/trivy-db
 ghcr.io/clusterpedia-io/clusterpedia/apiserver
 ghcr.io/clusterpedia-io/clusterpedia/clustersynchro-manager
 ghcr.io/daocloud/ckube
@@ -408,6 +417,7 @@ quay.io/iovisor/bcc
 quay.io/jaegertracing/jaeger-operator
 quay.io/jetstack/cert-manager-cainjector
 quay.io/jetstack/cert-manager-controller
+quay.io/jetstack/cert-manager-ctl
 quay.io/jetstack/cert-manager-webhook
 quay.io/k8scsi/csi-attacher
 quay.io/k8scsi/csi-node-driver-registrar
