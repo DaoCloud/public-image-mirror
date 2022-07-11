@@ -76,6 +76,7 @@ docker.io/goharbor/trivy-adapter-photon
 docker.io/golang
 docker.io/grafana/grafana
 docker.io/grafana/tempo
+docker.io/halverneus/static-file-server
 docker.io/haproxy
 docker.io/honkit/honkit
 docker.io/integratedcloudnative/ovn4nfv-k8s-plugin
@@ -109,6 +110,7 @@ docker.io/jboss/keycloak
 docker.io/jenkins/jnlp-slave
 docker.io/jimmidyson/configmap-reload
 docker.io/joosthofman/wget
+docker.io/joseluisq/static-web-server
 docker.io/jujusolutions/juju-db
 docker.io/jujusolutions/jujud-operator
 docker.io/k8scloudprovider/cinder-csi-plugin
