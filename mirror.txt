@@ -143,6 +143,7 @@ docker.io/library/nats-streaming
 docker.io/library/nginx
 docker.io/library/node
 docker.io/library/openjdk
+docker.io/library/percona
 docker.io/library/perl
 docker.io/library/postgres
 docker.io/library/python
