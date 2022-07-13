@@ -204,10 +204,12 @@ docker.io/openzipkin/zipkin
 docker.io/osixia/openldap
 docker.io/otel/opentelemetry-collector
 docker.io/otel/opentelemetry-collector-contrib
+docker.io/percona
 docker.io/perl
 docker.io/portainer/portainer-ce
 docker.io/postgres
 docker.io/prom/alertmanager
+docker.io/prom/mysqld-exporter
 docker.io/prom/node-exporter
 docker.io/prom/prometheus
 docker.io/python
