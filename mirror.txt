@@ -29,6 +29,10 @@ docker.io/bitnami/minideb
 docker.io/bitnami/nginx
 docker.io/bitnami/postgresql
 docker.io/bitnami/wordpress
+docker.io/bitpoke/mysql-operator
+docker.io/bitpoke/mysql-operator-orchestrator
+docker.io/bitpoke/mysql-operator-sidecar-5.7
+docker.io/bitpoke/mysql-operator-sidecar-8.0
 docker.io/busybox
 docker.io/byrnedo/alpine-curl
 docker.io/caddy
@@ -176,6 +180,7 @@ docker.io/mirrorgooglecontainers/defaultbackend-amd64
 docker.io/mirrorgooglecontainers/hpa-example
 docker.io/moby/buildkit
 docker.io/multiarch/qemu-user-static
+docker.io/mysql
 docker.io/mysql
 docker.io/n8nio/n8n
 docker.io/nacos/nacos-server
