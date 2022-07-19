@@ -18,6 +18,8 @@ docker.io/bitnami/bitnami-shell
 docker.io/bitnami/elasticsearch
 docker.io/bitnami/elasticsearch-curator
 docker.io/bitnami/elasticsearch-exporter
+docker.io/bitnami/grafana
+docker.io/bitnami/grafana-operator
 docker.io/bitnami/kubeapps-apis
 docker.io/bitnami/kubeapps-apprepository-controller
 docker.io/bitnami/kubeapps-dashboard
