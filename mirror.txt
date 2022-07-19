@@ -341,6 +341,7 @@ ghcr.io/openfaas/basic-auth
 ghcr.io/openfaas/faas-netes
 ghcr.io/openfaas/gateway
 ghcr.io/openfaas/queue-worker
+ghcr.io/openinsight-proj/openinsight
 ghcr.io/pterodactyl/yolks
 ghcr.io/sumologic/tailing-sidecar
 ghcr.io/sumologic/tailing-sidecar-operator
