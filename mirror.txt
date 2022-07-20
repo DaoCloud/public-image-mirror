@@ -333,6 +333,7 @@ ghcr.io/klts-io/kubernetes-lts/kube-proxy
 ghcr.io/klts-io/kubernetes-lts/kube-scheduler
 ghcr.io/klts-io/kubernetes-lts/pause
 ghcr.io/kube-vip/kube-vip
+ghcr.io/open-telemetry/demo
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-java
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-nodejs
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-python
