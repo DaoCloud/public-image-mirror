@@ -470,6 +470,7 @@ quay.io/prometheus/alertmanager
 quay.io/prometheus/blackbox-exporter
 quay.io/prometheus/node-exporter
 quay.io/prometheus/prometheus
+quay.io/spotahome/redis-operator
 quay.io/submariner/submariner
 quay.io/submariner/submariner-gateway
 quay.io/submariner/submariner-globalnet
