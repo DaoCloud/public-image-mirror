@@ -344,6 +344,13 @@ ghcr.io/openfaas/gateway
 ghcr.io/openfaas/queue-worker
 ghcr.io/openinsight-proj/openinsight
 ghcr.io/pterodactyl/yolks
+ghcr.io/spidernet-io/spiderpool/spiderpool-agent
+ghcr.io/spidernet-io/spiderpool/spiderpool-agent-beta
+ghcr.io/spidernet-io/spiderpool/spiderpool-agent-ci
+ghcr.io/spidernet-io/spiderpool/spiderpool-base
+ghcr.io/spidernet-io/spiderpool/spiderpool-controller
+ghcr.io/spidernet-io/spiderpool/spiderpool-controller-beta
+ghcr.io/spidernet-io/spiderpool/spiderpool-controller-ci
 ghcr.io/sumologic/tailing-sidecar
 ghcr.io/sumologic/tailing-sidecar-operator
 k8s.gcr.io/addon-resizer
