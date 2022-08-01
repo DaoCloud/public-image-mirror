@@ -208,6 +208,7 @@ docker.io/openzipkin/zipkin
 docker.io/osixia/openldap
 docker.io/otel/opentelemetry-collector
 docker.io/otel/opentelemetry-collector-contrib
+docker.io/otel/demo
 docker.io/percona
 docker.io/perl
 docker.io/portainer/portainer-ce
