@@ -206,6 +206,7 @@ docker.io/openpolicyagent/gatekeeper
 docker.io/openstorage/stork
 docker.io/openzipkin/zipkin
 docker.io/osixia/openldap
+docker.io/otel/demo
 docker.io/otel/opentelemetry-collector
 docker.io/otel/opentelemetry-collector-contrib
 docker.io/percona
@@ -346,7 +347,6 @@ ghcr.io/openfaas/queue-worker
 ghcr.io/openinsight-proj/openinsight
 ghcr.io/openinsight-proj/opentelemetry-demo-helm-chart/adservice
 ghcr.io/openinsight-proj/opentelemetry-demo-helm-chart/sentinel
-ghcr.io/otel/demo
 ghcr.io/pterodactyl/yolks
 ghcr.io/spidernet-io/spiderpool/spiderpool-agent
 ghcr.io/spidernet-io/spiderpool/spiderpool-agent-beta
