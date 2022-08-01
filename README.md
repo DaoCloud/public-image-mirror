@@ -56,6 +56,7 @@ k8s.gcr.io/coredns/coredns => m.daocloud.io/k8s.gcr.io/coredns/coredns
 | gcr.io                  | gcr.m.daocloud.io             |
 | ghcr.io                 | ghcr.m.daocloud.io            |
 | k8s.gcr.io              | k8s-gcr.m.daocloud.io         |
+| registry.k8s.io         | k8s.m.daocloud.io             |
 | mcr.microsoft.com       | mcr.m.daocloud.io             |
 | nvcr.io                 | nvcr.m.daocloud.io            |
 | quay.io                 | quay.m.daocloud.io            |
