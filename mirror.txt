@@ -6,6 +6,7 @@ cr.l5d.io/linkerd/web
 docker.elastic.co/eck/eck-operator
 docker.elastic.co/elasticsearch/elasticsearch
 docker.elastic.co/kibana/kibana-oss
+docker.elastic.co/kibana/kibana
 docker.io/alpine
 docker.io/alpine/helm
 docker.io/amazon/aws-alb-ingress-controller
@@ -484,3 +485,4 @@ quay.io/submariner/submariner-operator-index
 quay.io/submariner/submariner-route-agent
 quay.io/tigera/operator
 rocks.canonical.com/mariadb/server
+quay.io/prometheuscommunity/elasticsearch-exporter
