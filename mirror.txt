@@ -5,6 +5,7 @@ cr.l5d.io/linkerd/proxy-init
 cr.l5d.io/linkerd/web
 docker.elastic.co/eck/eck-operator
 docker.elastic.co/elasticsearch/elasticsearch
+docker.elastic.co/kibana/kibana
 docker.elastic.co/kibana/kibana-oss
 docker.io/alpine
 docker.io/alpine/helm
@@ -474,6 +475,7 @@ quay.io/prometheus/alertmanager
 quay.io/prometheus/blackbox-exporter
 quay.io/prometheus/node-exporter
 quay.io/prometheus/prometheus
+quay.io/prometheuscommunity/elasticsearch-exporter
 quay.io/spotahome/redis-operator
 quay.io/submariner/submariner
 quay.io/submariner/submariner-gateway
