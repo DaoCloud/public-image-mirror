@@ -18,6 +18,9 @@ jobs:
       - name: Verify docker prefix
         run: |
           ./hack/verify-docker-prefix.sh mirror.txt
+      - name: Verify k8s prefix
+        run: |
+          ./hack/verify-k8s-prefix.sh mirror.txt
       - name: Verify Image Exists
         run: |
           ./hack/verify-image.sh mirror.txt https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }}.patch
