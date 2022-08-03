@@ -419,8 +419,8 @@ quay.io/mongodb/mongodb-agent
 quay.io/mongodb/mongodb-kubernetes-operator
 quay.io/mongodb/mongodb-kubernetes-operator-version-upgrade-post-start-hook
 quay.io/mongodb/mongodb-kubernetes-readinessprobe
-quay.io/opstree/redis-exporter
 quay.io/opstree/redis
+quay.io/opstree/redis-exporter
 quay.io/piraeusdatastore/drbd-reactor
 quay.io/piraeusdatastore/drbd9-centos7
 quay.io/piraeusdatastore/piraeus-client
