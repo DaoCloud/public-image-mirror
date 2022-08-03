@@ -193,7 +193,7 @@ docker.io/nfvpe/multus
 docker.io/nginx
 docker.io/nginxdemos/hello
 docker.io/node
-docker.io/oliver006/redis_exporter:v1.3.5-alpine
+docker.io/oliver006/redis_exporter
 docker.io/openebs/admission-server
 docker.io/openebs/linux-utils
 docker.io/openebs/m-apiserver
@@ -419,8 +419,8 @@ quay.io/mongodb/mongodb-agent
 quay.io/mongodb/mongodb-kubernetes-operator
 quay.io/mongodb/mongodb-kubernetes-operator-version-upgrade-post-start-hook
 quay.io/mongodb/mongodb-kubernetes-readinessprobe
-quay.io/opstree/redis-exporter:1.0
-quay.io/opstree/redis:v6.2.5
+quay.io/opstree/redis-exporter
+quay.io/opstree/redis
 quay.io/piraeusdatastore/drbd-reactor
 quay.io/piraeusdatastore/drbd9-centos7
 quay.io/piraeusdatastore/piraeus-client
