@@ -326,10 +326,10 @@ ghcr.io/fluxcd/helm-controller
 ghcr.io/fluxcd/kustomize-controller
 ghcr.io/fluxcd/notification-controller
 ghcr.io/fluxcd/source-controller
+ghcr.io/hwameistor/admission
 ghcr.io/hwameistor/local-disk-manager
 ghcr.io/hwameistor/local-storage
 ghcr.io/hwameistor/scheduler
-ghcr.io/hwameistor/admission
 ghcr.io/jaredtan95/openinsight
 ghcr.io/k8snetworkplumbingwg/multus-cni
 ghcr.io/klts-io/kubernetes-lts/coredns
