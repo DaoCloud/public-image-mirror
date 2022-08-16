@@ -298,6 +298,7 @@ gcr.io/knative-releases/knative.dev/serving/cmd/controller
 gcr.io/knative-releases/knative.dev/serving/cmd/default-domain
 gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping
 gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook
+gcr.io/knative-releases/knative.dev/serving/cmd/queue
 gcr.io/knative-releases/knative.dev/serving/cmd/webhook
 gcr.io/kuar-demo/kuard-amd64
 gcr.io/kubebuilder/kube-rbac-proxy
