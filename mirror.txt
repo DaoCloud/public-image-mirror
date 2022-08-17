@@ -363,6 +363,7 @@ ghcr.io/spidernet-io/spiderpool/spiderpool-controller-beta
 ghcr.io/spidernet-io/spiderpool/spiderpool-controller-ci
 ghcr.io/sumologic/tailing-sidecar
 ghcr.io/sumologic/tailing-sidecar-operator
+k8s-gcr.m.daocloud.io/node-problem-detector/node-problem-detector
 mcr.microsoft.com/vscode/devcontainers/java
 nvcr.io/nvidia/gpu-operator
 nvcr.io/nvidia/k8s-device-plugin
