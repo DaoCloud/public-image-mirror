@@ -341,6 +341,9 @@ ghcr.io/klts-io/kubernetes-lts/kube-proxy
 ghcr.io/klts-io/kubernetes-lts/kube-scheduler
 ghcr.io/klts-io/kubernetes-lts/pause
 ghcr.io/kube-vip/kube-vip
+ghcr.io/kubean-io/kubean/kubean-operator
+ghcr.io/kubean-io/kubean/kubespray
+ghcr.io/kubean-io/kubean/spray-job
 ghcr.io/open-telemetry/demo
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-java
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-nodejs
