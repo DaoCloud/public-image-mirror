@@ -1,8 +1,11 @@
 name: Verify PR
 
 on:
-  pull_request:
+  pull_request_target:
     branches: [main]
+    paths:
+      - domain.txt
+      - mirror.txt
 
 env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
