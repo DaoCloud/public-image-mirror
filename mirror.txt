@@ -9,6 +9,7 @@ docker.elastic.co/kibana/kibana
 docker.elastic.co/kibana/kibana-oss
 docker.io/alpine
 docker.io/alpine/helm
+test
 docker.io/amazon/aws-alb-ingress-controller
 docker.io/amazon/aws-ebs-csi-driver
 docker.io/apache/skywalking-java-agent
