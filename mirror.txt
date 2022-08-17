@@ -496,3 +496,4 @@ registry.k8s.io/sig-storage/livenessprobe
 registry.k8s.io/sig-storage/local-volume-provisioner
 registry.k8s.io/sig-storage/snapshot-controller
 rocks.canonical.com/mariadb/server
+gcr.io/knative-releases/knative.dev/client/cmd/kn
