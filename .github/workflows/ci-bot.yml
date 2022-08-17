@@ -3,13 +3,17 @@ on:
   issue_comment:
     types:
       - created
+
   pull_request_review_comment:
     types:
       - created
+
   issues:
     types:
       - opened
-  pull_request:
+  
+  # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request_target
+  pull_request_target:
     types:
       - opened
 
@@ -19,11 +23,15 @@ env:
     assign
     auto-cc
     cc
+
+  # This plugins is for author of issue or PR
+  AUTHOR_PLUGINS: |-
     label-bug
     label-documentation
     label-enhancement
     label-question
-  
+    retest
+
   # This plugins is for organization member or repository member
   MEMBERS_PLUGINS: |-
     label-duplicate
@@ -32,8 +40,13 @@ env:
     label-invalid
     label-kind
     label-wontfix
+    label-bug
+    label-documentation
+    label-enhancement
+    label-question
     lifecycle
-  
+    retest
+
   # This plugins is for in the REVIEWERS environment variable
   REVIEWERS_PLUGINS: |-
     label-lgtm
@@ -41,6 +54,7 @@ env:
 
   # This plugins is for in the APPROVERS environment variable
   APPROVERS_PLUGINS: |-
+    label
     merge
 
   # This plugins is for in the MAINTAINERS environment variable
@@ -69,16 +83,34 @@ env:
 
     </details>
 
+# https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token
+permissions:
+  actions: write
+  checks: read
+  contents: read
+  deployments: none
+  id-token: none
+  issues: write
+  discussions: read
+  packages: none
+  pages: none
+  pull-requests: write
+  repository-projects: read
+  security-events: none
+  statuses: read
+
 jobs:
 
-  issue_opened:
-    name: Issue Opened
-    if: ${{ github.event_name == 'issues' }}
+  bot:
+    name: Bot
     runs-on: ubuntu-latest
     steps:
-      - uses: wzshiming/gh-ci-bot@master
+      - name: Issue Opened
+        uses: wzshiming/gh-ci-bot@v1
+        if: ${{ github.event_name == 'issues' }}
         env:
           LOGIN: ${{ github.event.issue.user.login }}
+          AUTHOR: ${{ github.event.issue.user.login }}
           MESSAGE: ${{ github.event.issue.body }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
           AUTHOR_ASSOCIATION: ${{ github.event.issue.author_association }}
@@ -89,14 +121,12 @@ jobs:
             感谢您的反馈!
             我们会尽快跟进.
 
-  pr_opened:
-    name: PR Opened
-    if: ${{ github.event_name == 'pull_request' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: wzshiming/gh-ci-bot@master
+      - name: PR Opened
+        uses: wzshiming/gh-ci-bot@v1
+        if: ${{ github.event_name == 'pull_request_target' }}
         env:
           LOGIN: ${{ github.event.pull_request.user.login }}
+          AUTHOR: ${{ github.event.pull_request.user.login }}
           MESSAGE: ${{ github.event.pull_request.body }}
           ISSUE_NUMBER: ${{ github.event.pull_request.number }}
           AUTHOR_ASSOCIATION: ${{ github.event.pull_request.author_association }}
@@ -105,44 +135,38 @@ jobs:
           GREETING: |-
             Hi @${{ github.event.pull_request.user.login }},
             感谢您的 PR !
-            我们会尽快跟进.
+            如果 PR 已经准备就绪可以 `/auto-cc` ,我们会尽快跟进.
 
-  issue_commented:
-    name: Issue Commented
-    if: ${{ github.event_name == 'issue_comment' && !github.event.issue.pull_request }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: wzshiming/gh-ci-bot@master
+      - name: Issue Commented
+        uses: wzshiming/gh-ci-bot@v1
+        if: ${{ github.event_name == 'issue_comment' && !github.event.issue.pull_request }}
         env:
           LOGIN: ${{ github.event.comment.user.login }}
+          AUTHOR: ${{ github.event.issue.user.login }}
           MESSAGE: ${{ github.event.comment.body }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
           AUTHOR_ASSOCIATION: ${{ github.event.comment.author_association }}
           ISSUE_KIND: issue
           TYPE: comment
 
-  pr_review_commented:
-    name: PR Review Commented
-    if: ${{ github.event_name == 'pull_request_review_comment' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: wzshiming/gh-ci-bot@master
+      - name: PR Review Commented
+        uses: wzshiming/gh-ci-bot@v1
+        if: ${{ github.event_name == 'pull_request_review_comment' }}
         env:
           LOGIN: ${{ github.event.comment.user.login }}
+          AUTHOR: ${{ github.event.pull_request.user.login }}
           MESSAGE: ${{ github.event.comment.body }}
           ISSUE_NUMBER: ${{ github.event.pull_request.number }}
           AUTHOR_ASSOCIATION: ${{ github.event.comment.author_association }}
           ISSUE_KIND: pr
           TYPE: comment
 
-  pr_commented:
-    name: PR Commented
-    if: ${{ github.event_name == 'issue_comment' && github.event.issue.pull_request }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: wzshiming/gh-ci-bot@master
+      - name: PR Commented
+        uses: wzshiming/gh-ci-bot@v1
+        if: ${{ github.event_name == 'issue_comment' && github.event.issue.pull_request }}
         env:
           LOGIN: ${{ github.event.comment.user.login }}
+          AUTHOR: ${{ github.event.issue.user.login }}
           MESSAGE: ${{ github.event.comment.body }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
           AUTHOR_ASSOCIATION: ${{ github.event.comment.author_association }}
