@@ -290,6 +290,7 @@ gcr.io/knative-releases/knative.dev/eventing/cmd/mtbroker/filter
 gcr.io/knative-releases/knative.dev/eventing/cmd/mtbroker/ingress
 gcr.io/knative-releases/knative.dev/eventing/cmd/mtchannel_broker
 gcr.io/knative-releases/knative.dev/eventing/cmd/webhook
+gcr.io/knative-releases/knative.dev/client/cmd/kn
 gcr.io/knative-releases/knative.dev/net-istio/cmd/controller
 gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook
 gcr.io/knative-releases/knative.dev/serving/cmd/activator
