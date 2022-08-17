@@ -1,11 +1,15 @@
 name: Verify PR
 
 on:
-  pull_request_target:
+  pull_request:
     branches: [main]
     paths:
       - domain.txt
       - mirror.txt
+
+permissions:
+  issues: write
+  pull-requests: write
 
 env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
