@@ -1,7 +1,7 @@
 name: Verify PR
 
 on:
-  pull_request:
+  pull_request_target:
     branches: [main]
     paths:
       - domain.txt
@@ -15,7 +15,7 @@ env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
-  Check:
+  verify-pr:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
