@@ -16,6 +16,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Commit PR
+        run: |
+          wget -O pr.patch https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }}.patch && \
+            git am -3 pr.patch &&
+            rm -rf pr.patch
+
       - name: Verify domain.txt
         run: |
           ./hack/verify-fmt.sh domain.txt || {
