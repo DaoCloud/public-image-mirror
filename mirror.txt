@@ -283,6 +283,7 @@ gcr.io/k8s-staging-kube-state-metrics/kube-state-metrics
 gcr.io/k8s-staging-nfd/node-feature-discovery
 gcr.io/k8s-staging-test-infra/krte
 gcr.io/kaniko-project/executor
+gcr.io/knative-releases/knative.dev/client/cmd/kn
 gcr.io/knative-releases/knative.dev/eventing/cmd/controller
 gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_controller
 gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_dispatcher
@@ -290,7 +291,6 @@ gcr.io/knative-releases/knative.dev/eventing/cmd/mtbroker/filter
 gcr.io/knative-releases/knative.dev/eventing/cmd/mtbroker/ingress
 gcr.io/knative-releases/knative.dev/eventing/cmd/mtchannel_broker
 gcr.io/knative-releases/knative.dev/eventing/cmd/webhook
-gcr.io/knative-releases/knative.dev/client/cmd/kn
 gcr.io/knative-releases/knative.dev/net-istio/cmd/controller
 gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook
 gcr.io/knative-releases/knative.dev/serving/cmd/activator
