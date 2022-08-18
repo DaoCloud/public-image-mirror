@@ -85,9 +85,9 @@ wget -O deploy.yaml https://raw.githubusercontent.com/kubernetes/ingress-nginx/c
 cat ./deploy.yaml | ./image-filter.sh | kubectl apply -f -
 ``` 
 
-## 推荐：加速三剑客
+## [友情链接]加速三剑客
 
-* 镜像加速：https://github.com/DaoCloud/public-image-mirro
+* 镜像加速：https://github.com/DaoCloud/public-image-mirror
 * 二进制文件加速：https://github.com/DaoCloud/public-binary-files-mirror
 * Helm 加速：https://github.com/DaoCloud/public-helm-charts-mirror
 
