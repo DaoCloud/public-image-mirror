@@ -11,7 +11,7 @@ on:
   issues:
     types:
       - opened
-  
+
   # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request_target
   pull_request_target:
     types:
@@ -56,6 +56,8 @@ env:
   APPROVERS_PLUGINS: |-
     label
     merge
+    base
+    rebase
 
   # This plugins is for in the MAINTAINERS environment variable
   MAINTAINERS_PLUGINS: |-
@@ -65,10 +67,13 @@ env:
   OWNERS_PLUGINS: ""
 
   REVIEWERS: |-
+    yankay
     wzshiming
   APPROVERS: |-
+    yankay
     wzshiming
   MAINTAINERS: |-
+    yankay
     wzshiming
 
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -87,7 +92,7 @@ env:
 permissions:
   actions: write
   checks: read
-  contents: read
+  contents: write
   deployments: none
   id-token: none
   issues: write
@@ -100,7 +105,6 @@ permissions:
   statuses: read
 
 jobs:
-
   bot:
     name: Bot
     runs-on: ubuntu-latest
