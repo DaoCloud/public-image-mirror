@@ -332,6 +332,7 @@ ghcr.io/hwameistor/admission
 ghcr.io/hwameistor/local-disk-manager
 ghcr.io/hwameistor/local-storage
 ghcr.io/hwameistor/scheduler
+ghcr.io/hwameistor/self-signed
 ghcr.io/jaredtan95/openinsight
 ghcr.io/k8snetworkplumbingwg/multus-cni
 ghcr.io/klts-io/kubernetes-lts/coredns
