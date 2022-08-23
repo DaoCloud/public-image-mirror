@@ -41,6 +41,7 @@ docker.io/byrnedo/alpine-curl
 docker.io/caddy
 docker.io/calico/apiserver
 docker.io/calico/cni
+docker.io/calico/csi
 docker.io/calico/kube-controllers
 docker.io/calico/node
 docker.io/calico/node-driver-registrar
