@@ -293,6 +293,7 @@ gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_dispatcher
 gcr.io/knative-releases/knative.dev/eventing/cmd/mtbroker/filter
 gcr.io/knative-releases/knative.dev/eventing/cmd/mtbroker/ingress
 gcr.io/knative-releases/knative.dev/eventing/cmd/mtchannel_broker
+gcr.io/knative-releases/knative.dev/eventing/cmd/mtping
 gcr.io/knative-releases/knative.dev/eventing/cmd/webhook
 gcr.io/knative-releases/knative.dev/net-istio/cmd/controller
 gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook
