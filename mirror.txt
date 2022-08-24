@@ -196,6 +196,13 @@ docker.io/nfvpe/multus
 docker.io/nginx
 docker.io/nginxdemos/hello
 docker.io/node
+docker.io/oamdev/cluster-gateway
+docker.io/oamdev/kube-webhook-certgen
+docker.io/oamdev/terraform-controller
+docker.io/oamdev/vela-apiserver
+docker.io/oamdev/vela-core
+docker.io/oamdev/vela-rollout
+docker.io/oamdev/velaux
 docker.io/oliver006/redis_exporter
 docker.io/openebs/admission-server
 docker.io/openebs/linux-utils
