@@ -20,6 +20,7 @@ docker.io/bitnami/contour
 docker.io/bitnami/elasticsearch
 docker.io/bitnami/elasticsearch-curator
 docker.io/bitnami/elasticsearch-exporter
+docker.io/bitnami/envoy
 docker.io/bitnami/grafana
 docker.io/bitnami/grafana-operator
 docker.io/bitnami/kubeapps-apis
