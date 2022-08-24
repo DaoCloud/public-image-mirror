@@ -16,6 +16,7 @@ docker.io/apache/skywalking-oap-server
 docker.io/apache/skywalking-ui
 docker.io/aquasec/kube-bench
 docker.io/bitnami/bitnami-shell
+docker.io/bitnami/contour
 docker.io/bitnami/elasticsearch
 docker.io/bitnami/elasticsearch-curator
 docker.io/bitnami/elasticsearch-exporter
