@@ -39,9 +39,12 @@ docker.io/bitpoke/mysql-operator-sidecar-8.0
 docker.io/busybox
 docker.io/byrnedo/alpine-curl
 docker.io/caddy
+docker.io/calico/apiserver
 docker.io/calico/cni
+docker.io/calico/csi
 docker.io/calico/kube-controllers
 docker.io/calico/node
+docker.io/calico/node-driver-registrar
 docker.io/calico/pod2daemon-flexvol
 docker.io/calico/typha
 docker.io/cdkbot/hostpath-provisioner-amd64
