@@ -384,6 +384,8 @@ ghcr.io/spidernet-io/spiderpool/spiderpool-controller-beta
 ghcr.io/spidernet-io/spiderpool/spiderpool-controller-ci
 ghcr.io/sumologic/tailing-sidecar
 ghcr.io/sumologic/tailing-sidecar-operator
+ghcr.io/spidernet-io/smartdocter/smartdocter-agent
+ghcr.io/spidernet-io/smartdocter/smartdocter-controller
 mcr.microsoft.com/vscode/devcontainers/java
 nvcr.io/nvidia/gpu-operator
 nvcr.io/nvidia/k8s-device-plugin
