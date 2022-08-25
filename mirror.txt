@@ -374,6 +374,7 @@ ghcr.io/openinsight-proj/openinsight
 ghcr.io/openinsight-proj/opentelemetry-demo-helm-chart/adservice
 ghcr.io/openinsight-proj/opentelemetry-demo-helm-chart/sentinel
 ghcr.io/pterodactyl/yolks
+ghcr.io/spidernet-io/cni-plugins/veth
 ghcr.io/spidernet-io/spiderpool/spiderpool-agent
 ghcr.io/spidernet-io/spiderpool/spiderpool-agent-beta
 ghcr.io/spidernet-io/spiderpool/spiderpool-agent-ci
