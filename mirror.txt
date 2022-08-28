@@ -407,10 +407,17 @@ quay.io/calico/node
 quay.io/calico/pod2daemon-flexvol
 quay.io/calico/typha
 quay.io/cilium/cilium
+quay.io/cilium/certgen
+quay.io/cilium/hubble-relay
+quay.io/cilium/hubble-ui-backend
+quay.io/cilium/hubble-ui
+quay.io/cilium/startup-script
+quay.io/cilium/clustermesh-apiserver
 quay.io/cilium/cilium-init
 quay.io/cilium/json-mock
 quay.io/cilium/operator
 quay.io/cilium/operator-generic
+quay.io/cilium/cilium-etcd-operator
 quay.io/containers/skopeo
 quay.io/coreos/etcd
 quay.io/coreos/flannel
