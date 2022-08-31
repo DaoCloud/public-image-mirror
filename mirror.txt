@@ -339,6 +339,8 @@ ghcr.io/dependabot/dependabot-core
 ghcr.io/dependabot/dependabot-core-development
 ghcr.io/dexidp/dex
 ghcr.io/dtzar/helm-kubectl
+ghcr.io/ferryproxy/ferry/ferry-controller
+ghcr.io/ferryproxy/ferry/ferry-tunnel
 ghcr.io/fluxcd/helm-controller
 ghcr.io/fluxcd/kustomize-controller
 ghcr.io/fluxcd/notification-controller
