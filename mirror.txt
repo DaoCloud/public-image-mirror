@@ -390,6 +390,10 @@ ghcr.io/spidernet-io/spiderpool/spiderpool-controller-beta
 ghcr.io/spidernet-io/spiderpool/spiderpool-controller-ci
 ghcr.io/sumologic/tailing-sidecar
 ghcr.io/sumologic/tailing-sidecar-operator
+k8s.gcr.io/sig-storage/csi-attacher
+k8s.gcr.io/sig-storage/csi-node-driver-registrar
+k8s.gcr.io/sig-storage/csi-provisioner
+k8s.gcr.io/sig-storage/csi-resizer
 mcr.microsoft.com/vscode/devcontainers/java
 nvcr.io/nvidia/gpu-operator
 nvcr.io/nvidia/k8s-device-plugin
@@ -527,7 +531,3 @@ registry.k8s.io/sig-storage/livenessprobe
 registry.k8s.io/sig-storage/local-volume-provisioner
 registry.k8s.io/sig-storage/snapshot-controller
 rocks.canonical.com/mariadb/server
-k8s.gcr.io/sig-storage/csi-node-driver-registrar
-k8s.gcr.io/sig-storage/csi-provisioner
-k8s.gcr.io/sig-storage/csi-attacher
-k8s.gcr.io/sig-storage/csi-resizer
