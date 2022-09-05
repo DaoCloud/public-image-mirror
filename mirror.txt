@@ -346,13 +346,13 @@ ghcr.io/fluxcd/kustomize-controller
 ghcr.io/fluxcd/notification-controller
 ghcr.io/fluxcd/source-controller
 ghcr.io/hwameistor/admission
+ghcr.io/hwameistor/drbd-reactor
+ghcr.io/hwameistor/drbd9-rhel7
+ghcr.io/hwameistor/drbd9-shipper
 ghcr.io/hwameistor/local-disk-manager
 ghcr.io/hwameistor/local-storage
 ghcr.io/hwameistor/scheduler
 ghcr.io/hwameistor/self-signed
-ghcr.io/hwameistor/drbd9-rhel7
-ghcr.io/hwameistor/drbd9-shipper
-ghcr.io/hwameistor/drbd-reactor
 ghcr.io/jaredtan95/openinsight
 ghcr.io/k8snetworkplumbingwg/multus-cni
 ghcr.io/k8snetworkplumbingwg/sriov-cni
@@ -485,7 +485,6 @@ quay.io/submariner/submariner-operator
 quay.io/submariner/submariner-operator-index
 quay.io/submariner/submariner-route-agent
 quay.io/tigera/operator
-quay.io/piraeusdatastore/drbd-reactor
 registry.k8s.io/addon-resizer
 registry.k8s.io/build-image/debian-iptables
 registry.k8s.io/build-image/go-runner
