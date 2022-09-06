@@ -291,6 +291,7 @@ gcr.io/istio-testing/myproxy
 gcr.io/istio-testing/operator
 gcr.io/istio-testing/pilot
 gcr.io/istio-testing/proxyv2
+gcr.io/k8s-staging-gateway-api/admission-server
 gcr.io/k8s-staging-kube-state-metrics/kube-state-metrics
 gcr.io/k8s-staging-nfd/node-feature-discovery
 gcr.io/k8s-staging-test-infra/krte
@@ -380,6 +381,7 @@ ghcr.io/openfaas/queue-worker
 ghcr.io/openinsight-proj/openinsight
 ghcr.io/openinsight-proj/opentelemetry-demo-helm-chart/adservice
 ghcr.io/openinsight-proj/opentelemetry-demo-helm-chart/sentinel
+ghcr.io/projectcontour/contour
 ghcr.io/pterodactyl/yolks
 ghcr.io/spidernet-io/cni-plugins/meta-plugins
 ghcr.io/spidernet-io/smartdocter/smartdocter-agent
@@ -393,6 +395,7 @@ ghcr.io/spidernet-io/spiderpool/spiderpool-controller-beta
 ghcr.io/spidernet-io/spiderpool/spiderpool-controller-ci
 ghcr.io/sumologic/tailing-sidecar
 ghcr.io/sumologic/tailing-sidecar-operator
+k8s.gcr.io/ingress-nginx/kube-webhook-certgen
 mcr.microsoft.com/vscode/devcontainers/java
 nvcr.io/nvidia/gpu-operator
 nvcr.io/nvidia/k8s-device-plugin
