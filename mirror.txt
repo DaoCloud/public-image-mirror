@@ -52,6 +52,7 @@ docker.io/calico/typha
 docker.io/cdkbot/hostpath-provisioner-amd64
 docker.io/cdkbot/registry-amd64
 docker.io/centos
+docker.io/cfmanteiga/alpine-bash-curl-jq
 docker.io/cfssl/cfssl
 docker.io/cilium/json-mock
 docker.io/clickhouse/clickhouse-server
@@ -68,11 +69,13 @@ docker.io/docker
 docker.io/elastic/filebeat
 docker.io/envoyproxy/envoy
 docker.io/envoyproxy/envoy-distroless
+docker.io/envoyproxy/nighthawk-dev
 docker.io/fellah/gitbook
 docker.io/flannelcni/flannel-cni-plugin
 docker.io/flant/shell-operator
 docker.io/fluent/fluent-bit
 docker.io/fluent/fluentd
+docker.io/fortio/fortio
 docker.io/goharbor/chartmuseum-photon
 docker.io/goharbor/harbor-core
 docker.io/goharbor/harbor-db
