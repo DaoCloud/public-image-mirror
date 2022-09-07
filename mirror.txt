@@ -72,8 +72,8 @@ docker.io/envoyproxy/envoy-distroless
 docker.io/envoyproxy/nighthawk-dev
 docker.io/f5networks/f5-ipam-controller
 docker.io/f5networks/k8s-bigip-ctlr
-docker.io/falcosecurity/falco-exporter
 docker.io/falcosecurity/falco-driver-loader
+docker.io/falcosecurity/falco-exporter
 docker.io/falcosecurity/falco-no-driver
 docker.io/falcosecurity/falcosidekick
 docker.io/fellah/gitbook
