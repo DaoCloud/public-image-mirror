@@ -76,6 +76,7 @@ docker.io/falcosecurity/falco-driver-loader
 docker.io/falcosecurity/falco-exporter
 docker.io/falcosecurity/falco-no-driver
 docker.io/falcosecurity/falcosidekick
+docker.io/falcosecurity/falcosidekick-ui
 docker.io/fellah/gitbook
 docker.io/flannelcni/flannel-cni-plugin
 docker.io/flant/shell-operator
