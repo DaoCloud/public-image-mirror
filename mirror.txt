@@ -360,8 +360,6 @@ ghcr.io/fluxcd/source-controller
 ghcr.io/hwameistor/admission
 ghcr.io/hwameistor/drbd-reactor
 ghcr.io/hwameistor/drbd9-bionic
-ghcr.io/hwameistor/drbd9-compiler-centos7
-ghcr.io/hwameistor/drbd9-compiler-centos8
 ghcr.io/hwameistor/drbd9-focal
 ghcr.io/hwameistor/drbd9-jammy
 ghcr.io/hwameistor/drbd9-rhel7
