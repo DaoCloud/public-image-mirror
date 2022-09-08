@@ -250,6 +250,7 @@ docker.io/rancher/k3d-tools
 docker.io/rancher/k3s
 docker.io/rancher/local-path-provisioner
 docker.io/redis
+docker.io/redislabs/redisearch
 docker.io/registry
 docker.io/sonobuoy/cluster-inventory
 docker.io/sonobuoy/kube-bench
