@@ -467,6 +467,7 @@ quay.io/k8scsi/csi-resizer
 quay.io/k8scsi/csi-snapshotter
 quay.io/k8scsi/livenessprobe
 quay.io/k8scsi/snapshot-controller
+quay.io/keycloak/keycloak
 quay.io/kiali/kiali
 quay.io/kiwigrid/k8s-sidecar
 quay.io/kubespray/kubespray
