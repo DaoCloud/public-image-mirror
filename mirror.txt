@@ -477,6 +477,7 @@ quay.io/l23network/k8s-netchecker-agent
 quay.io/l23network/k8s-netchecker-server
 quay.io/metallb/controller
 quay.io/metallb/speaker
+quay.io/minio/minio
 quay.io/mongodb/mongodb-agent
 quay.io/mongodb/mongodb-kubernetes-operator
 quay.io/mongodb/mongodb-kubernetes-operator-version-upgrade-post-start-hook
