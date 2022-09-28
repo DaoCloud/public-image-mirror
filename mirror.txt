@@ -275,6 +275,7 @@ docker.io/weaveworks/weave-kube
 docker.io/weaveworks/weave-npc
 docker.io/wordpress
 docker.io/xueshanf/install-socat
+docker.io/zenko/kafka-manager
 docker.io/zookeeper
 gcr.io/cadvisor/cadvisor
 gcr.io/distroless/base
@@ -402,6 +403,7 @@ ghcr.io/openinsight-proj/opentelemetry-demo-helm-chart/adservice
 ghcr.io/openinsight-proj/opentelemetry-demo-helm-chart/sentinel
 ghcr.io/projectcontour/contour
 ghcr.io/pterodactyl/yolks
+ghcr.io/scholzj/zoo-entrance
 ghcr.io/spidernet-io/cni-plugins/meta-plugins
 ghcr.io/spidernet-io/smartdocter/smartdocter-agent
 ghcr.io/spidernet-io/smartdocter/smartdocter-controller
