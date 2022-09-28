@@ -500,6 +500,7 @@ quay.io/prometheus/node-exporter
 quay.io/prometheus/prometheus
 quay.io/prometheuscommunity/elasticsearch-exporter
 quay.io/spotahome/redis-operator
+quay.io/strimzi/jmxtrans
 quay.io/strimzi/kafka
 quay.io/strimzi/kafka-bridge
 quay.io/strimzi/kaniko-executor
