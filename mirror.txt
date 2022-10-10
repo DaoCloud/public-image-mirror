@@ -146,6 +146,7 @@ docker.io/kindest/haproxy
 docker.io/kindest/node
 docker.io/kubeedge/cloudcore
 docker.io/kubeovn/kube-ovn
+docker.io/kuberhealthy/dns-resolution-check
 docker.io/kuberhealthy/kuberhealthy
 docker.io/kubernetesui/dashboard
 docker.io/kubernetesui/dashboard-amd64
