@@ -562,5 +562,6 @@ registry.k8s.io/sig-storage/csi-resizer
 registry.k8s.io/sig-storage/csi-snapshotter
 registry.k8s.io/sig-storage/livenessprobe
 registry.k8s.io/sig-storage/local-volume-provisioner
+registry.k8s.io/sig-storage/nfs-subdir-external-provisioner
 registry.k8s.io/sig-storage/snapshot-controller
 rocks.canonical.com/mariadb/server
