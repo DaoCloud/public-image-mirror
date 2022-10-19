@@ -240,6 +240,7 @@ docker.io/otel/opentelemetry-collector
 docker.io/otel/opentelemetry-collector-contrib
 docker.io/percona
 docker.io/perl
+docker.io/phpmyadmin
 docker.io/phpmyadmin/phpmyadmin
 docker.io/portainer/portainer-ce
 docker.io/postgres
