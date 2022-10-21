@@ -530,6 +530,7 @@ registry.k8s.io/coredns
 registry.k8s.io/coredns/coredns
 registry.k8s.io/cpa/cluster-proportional-autoscaler
 registry.k8s.io/cpa/cluster-proportional-autoscaler-amd64
+registry.k8s.io/cpa/cluster-proportional-autoscaler-arm64
 registry.k8s.io/debian-base
 registry.k8s.io/dns/k8s-dns-node-cache
 registry.k8s.io/etcd
