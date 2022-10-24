@@ -534,6 +534,7 @@ registry.k8s.io/cpa/cluster-proportional-autoscaler-arm64
 registry.k8s.io/debian-base
 registry.k8s.io/dns/k8s-dns-node-cache
 registry.k8s.io/etcd
+registry.k8s.io/etcd/etcd
 registry.k8s.io/ingress-nginx/controller
 registry.k8s.io/ingress-nginx/e2e-test-runner
 registry.k8s.io/ingress-nginx/kube-webhook-certgen
