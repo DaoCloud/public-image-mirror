@@ -395,6 +395,7 @@ ghcr.io/kubean-io/kubean-operator
 ghcr.io/kubean-io/kubespray
 ghcr.io/kubean-io/spray-job
 ghcr.io/open-telemetry/demo
+ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-dotnet
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-java
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-nodejs
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-python
