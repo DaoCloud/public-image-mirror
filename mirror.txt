@@ -482,6 +482,7 @@ quay.io/keycloak/keycloak
 quay.io/kiali/kiali
 quay.io/kiwigrid/k8s-sidecar
 quay.io/kubespray/kubespray
+quay.io/kubevirt/builder
 quay.io/l23network/k8s-netchecker-agent
 quay.io/l23network/k8s-netchecker-server
 quay.io/metallb/controller
