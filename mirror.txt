@@ -375,6 +375,7 @@ ghcr.io/hwameistor/drbd9-jammy
 ghcr.io/hwameistor/drbd9-rhel7
 ghcr.io/hwameistor/drbd9-rhel8
 ghcr.io/hwameistor/drbd9-shipper
+ghcr.io/hwameistor/evictor
 ghcr.io/hwameistor/local-disk-manager
 ghcr.io/hwameistor/local-storage
 ghcr.io/hwameistor/scheduler
