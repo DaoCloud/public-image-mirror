@@ -368,6 +368,7 @@ ghcr.io/fluxcd/kustomize-controller
 ghcr.io/fluxcd/notification-controller
 ghcr.io/fluxcd/source-controller
 ghcr.io/hwameistor/admission
+ghcr.io/hwameistor/evictor
 ghcr.io/hwameistor/drbd-reactor
 ghcr.io/hwameistor/drbd9-bionic
 ghcr.io/hwameistor/drbd9-focal
