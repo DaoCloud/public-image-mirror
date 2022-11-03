@@ -146,6 +146,7 @@ docker.io/keyval/otel-go-agent
 docker.io/kindest/base
 docker.io/kindest/haproxy
 docker.io/kindest/node
+docker.io/kiwigrid/k8s-sidecar
 docker.io/kubeedge/cloudcore
 docker.io/kubeovn/kube-ovn
 docker.io/kuberhealthy/dns-resolution-check
@@ -170,6 +171,7 @@ docker.io/library/node
 docker.io/library/openjdk
 docker.io/library/percona
 docker.io/library/perl
+docker.io/library/phpmyadmin
 docker.io/library/postgres
 docker.io/library/python
 docker.io/library/rabbitmq
@@ -241,6 +243,7 @@ docker.io/otel/opentelemetry-collector
 docker.io/otel/opentelemetry-collector-contrib
 docker.io/percona
 docker.io/perl
+docker.io/phpmyadmin
 docker.io/phpmyadmin/phpmyadmin
 docker.io/portainer/portainer-ce
 docker.io/postgres
@@ -339,6 +342,8 @@ gcr.io/knative-releases/knative.dev/serving/cmd/queue
 gcr.io/knative-releases/knative.dev/serving/cmd/webhook
 gcr.io/kuar-demo/kuard-amd64
 gcr.io/kubebuilder/kube-rbac-proxy
+gcr.io/kubecost1/cost-model
+gcr.io/kubecost1/frontend
 gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard
 gcr.io/tekton-releases/github.com/tektoncd/operator/cmd/kubernetes/operator
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller
@@ -374,6 +379,7 @@ ghcr.io/hwameistor/drbd9-jammy
 ghcr.io/hwameistor/drbd9-rhel7
 ghcr.io/hwameistor/drbd9-rhel8
 ghcr.io/hwameistor/drbd9-shipper
+ghcr.io/hwameistor/evictor
 ghcr.io/hwameistor/local-disk-manager
 ghcr.io/hwameistor/local-storage
 ghcr.io/hwameistor/scheduler
@@ -394,6 +400,7 @@ ghcr.io/kubean-io/kubean-operator
 ghcr.io/kubean-io/kubespray
 ghcr.io/kubean-io/spray-job
 ghcr.io/open-telemetry/demo
+ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-dotnet
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-java
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-nodejs
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-python
@@ -480,6 +487,7 @@ quay.io/keycloak/keycloak
 quay.io/kiali/kiali
 quay.io/kiwigrid/k8s-sidecar
 quay.io/kubespray/kubespray
+quay.io/kubevirt/builder
 quay.io/l23network/k8s-netchecker-agent
 quay.io/l23network/k8s-netchecker-server
 quay.io/metallb/controller
@@ -529,9 +537,11 @@ registry.k8s.io/coredns
 registry.k8s.io/coredns/coredns
 registry.k8s.io/cpa/cluster-proportional-autoscaler
 registry.k8s.io/cpa/cluster-proportional-autoscaler-amd64
+registry.k8s.io/cpa/cluster-proportional-autoscaler-arm64
 registry.k8s.io/debian-base
 registry.k8s.io/dns/k8s-dns-node-cache
 registry.k8s.io/etcd
+registry.k8s.io/etcd/etcd
 registry.k8s.io/ingress-nginx/controller
 registry.k8s.io/ingress-nginx/e2e-test-runner
 registry.k8s.io/ingress-nginx/kube-webhook-certgen
@@ -563,5 +573,6 @@ registry.k8s.io/sig-storage/csi-resizer
 registry.k8s.io/sig-storage/csi-snapshotter
 registry.k8s.io/sig-storage/livenessprobe
 registry.k8s.io/sig-storage/local-volume-provisioner
+registry.k8s.io/sig-storage/nfs-subdir-external-provisioner
 registry.k8s.io/sig-storage/snapshot-controller
 rocks.canonical.com/mariadb/server
