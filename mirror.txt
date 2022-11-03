@@ -15,6 +15,7 @@ docker.io/apache/skywalking-java-agent
 docker.io/apache/skywalking-oap-server
 docker.io/apache/skywalking-ui
 docker.io/aquasec/kube-bench
+docker.io/aquasec/trivy
 docker.io/bitnami/bitnami-shell
 docker.io/bitnami/contour
 docker.io/bitnami/elasticsearch
