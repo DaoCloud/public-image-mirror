@@ -145,6 +145,7 @@ docker.io/keyval/otel-go-agent
 docker.io/kindest/base
 docker.io/kindest/haproxy
 docker.io/kindest/node
+docker.io/kiwigrid/k8s-sidecar
 docker.io/kubeedge/cloudcore
 docker.io/kubeovn/kube-ovn
 docker.io/kuberhealthy/dns-resolution-check
@@ -340,6 +341,8 @@ gcr.io/knative-releases/knative.dev/serving/cmd/queue
 gcr.io/knative-releases/knative.dev/serving/cmd/webhook
 gcr.io/kuar-demo/kuard-amd64
 gcr.io/kubebuilder/kube-rbac-proxy
+gcr.io/kubecost1/cost-model
+gcr.io/kubecost1/frontend
 gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard
 gcr.io/tekton-releases/github.com/tektoncd/operator/cmd/kubernetes/operator
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller
