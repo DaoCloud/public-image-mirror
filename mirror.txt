@@ -142,6 +142,7 @@ docker.io/jujusolutions/jujud-operator
 docker.io/k8scloudprovider/cinder-csi-plugin
 docker.io/kedacore/keda
 docker.io/kedacore/keda-metrics-apiserver
+docker.io/kennethreitz/httpbin
 docker.io/keyval/otel-go-agent
 docker.io/kindest/base
 docker.io/kindest/haproxy
