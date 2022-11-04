@@ -33,7 +33,7 @@ jobs:
       - name: Verify mirror.txt
         run: |
           ./hack/verify-fmt.sh mirror.txt || {
-            echo "Please run './hack/fmt.sh domain.txt'"
+            echo "Please run './hack/fmt.sh mirror.txt'"
             gh pr comment "${{ github.event.pull_request.number }}" --body '请运行 `./hack/fmt.sh mirror.txt` 对内容进行排序'
             exit 1
           }
