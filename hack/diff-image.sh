@@ -161,7 +161,7 @@ function copy-image() {
     local image1="${1:-}"
     local image2="${2:-}"
 
-    ${SKOPEO} copy --retry-times "${RETRY}" --all --dest-tls-verify=false "docker://${image1}" "docker://${image2}"
+    ${SKOPEO} copy --retry-times "${RETRY}" --all --dest-tls-verify=false --format oci "docker://${image1}" "docker://${image2}"
 }
 
 function list-tags() {
