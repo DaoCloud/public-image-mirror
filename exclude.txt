@@ -3,3 +3,4 @@
 .*SNAPSHOT.*
 .*dev-.*
 .*sha256-.*
+.*distroless.*
