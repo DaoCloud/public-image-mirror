@@ -9,6 +9,10 @@ Deep sync: 是 tag 内容同步率 (如 latest 这种 tag 会更新, tag 存在�
 
 每天大约同步 1k 的 tag
 
+支持懒加载, 就算不在同步列表中也能直接拉取, 初次拉取会比已经同步过的慢一些, 并且[每 7 天会清理一次缓存](https://github.com/distribution/distribution/blob/e3509fc1deedaab489dd8829cc438de8f4c77fc3/registry/proxy/proxymanifeststore.go#L15)
+
+如果只是临时使用的就不需要往同步列表里加了
+
 ## 背景
 很多镜像都在国外。比如 gcr 。国内下载很慢，需要加速。
 
@@ -21,24 +25,8 @@ Deep sync: 是 tag 内容同步率 (如 latest 这种 tag 会更新, tag 存在�
 ## 快速开始
 
 ```
-docker run -d -P docker.m.daocloud.io/nginx
+docker run -d -P m.daocloud.io/docker.io/library/nginx
 ```
-
-## 使用方法
-
-支持的镜像仓库 的 *前缀替换* 就可以使用。比如：
-
-k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
-
-或者增加前缀。比如：
-
-k8s.gcr.io/coredns/coredns => m.daocloud.io/k8s.gcr.io/coredns/coredns
-
-## 支持的镜像源
-
-[domain.txt](domain.txt)
-
-如果想要新增, 提 PR 修改即可。例如 [PR#28](https://github.com/DaoCloud/public-image-mirror/pull/28)
 
 ## 支持的镜像
 
@@ -46,7 +34,23 @@ k8s.gcr.io/coredns/coredns => m.daocloud.io/k8s.gcr.io/coredns/coredns
 
 如果想要新增, 提 PR 修改即可。例如 [PR#1](https://github.com/DaoCloud/public-image-mirror/pull/1/)
 
-## 替换规则
+## 使用方法
+
+*增加前缀*。比如：
+
+k8s.gcr.io/coredns/coredns => m.daocloud.io/k8s.gcr.io/coredns/coredns
+
+或者 支持的镜像仓库 的 *前缀替换* 就可以使用。比如：
+
+k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
+
+## 支持前缀替换的 Registry
+
+[domain.txt](domain.txt)
+
+如果想要新增, 提 PR 修改即可。例如 [PR#28](https://github.com/DaoCloud/public-image-mirror/pull/28)
+
+### 前缀替换的 Registry 的规则
 
 | 源站                    | 替换为                        |
 | ----------------------- | ----------------------------- |
