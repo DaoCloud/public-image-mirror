@@ -4,3 +4,5 @@
 .*dev-.*
 .*sha256-.*
 .*distroless.*
+.*alpha.*
+.*beta.*
