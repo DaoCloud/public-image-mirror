@@ -14,8 +14,8 @@ docker.io/amazon/aws-ebs-csi-driver
 docker.io/apache/skywalking-java-agent
 docker.io/apache/skywalking-oap-server
 docker.io/apache/skywalking-ui
-docker.io/aquasec/kube-hunter
 docker.io/aquasec/kube-bench
+docker.io/aquasec/kube-hunter
 docker.io/aquasec/trivy
 docker.io/bitnami/bitnami-shell
 docker.io/bitnami/contour
