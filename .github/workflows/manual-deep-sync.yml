@@ -21,6 +21,10 @@ jobs:
         run: |
           wget https://github.com/wzshiming/bridge/releases/download/v0.8.6/bridge_linux_amd64 -O /usr/local/bin/bridge && chmod +x /usr/local/bin/bridge
           nohup /usr/local/bin/bridge -b :8080 -p - ${{ secrets.PROTOCOL }} 2>/dev/null &
+      - name: Check Proxy
+        run: |
+          curl -v http://127.0.0.1:8080
+          curl --proxy 127.0.0.1:8080 -v http://m.daocloud.io/v2/
       - name: Override mirror.txt
         run: |
           echo ${{ github.event.inputs.image }} > mirror.txt
@@ -32,5 +36,4 @@ jobs:
           http_proxy: socks5://127.0.0.1:8080
           https_proxy: socks5://127.0.0.1:8080
         run: |
-          curl -v http://m.daocloud.io/v2/
           ./hack/diff.sh
