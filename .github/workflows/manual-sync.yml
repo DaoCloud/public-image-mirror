@@ -29,9 +29,7 @@ jobs:
           INCREMENTAL: "true"
           QUICKLY: "true"
           SYNC: "true"
-          PARALLET: "5"
-          RETRY: "10"
-          DEBUG: "true"
+          PARALLET: "1"
           http_proxy: socks5://127.0.0.1:8080
           https_proxy: socks5://127.0.0.1:8080
         run: |
