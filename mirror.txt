@@ -1,8 +1,3 @@
-cr.l5d.io/linkerd/controller
-cr.l5d.io/linkerd/grafana
-cr.l5d.io/linkerd/proxy
-cr.l5d.io/linkerd/proxy-init
-cr.l5d.io/linkerd/web
 docker.elastic.co/eck/eck-operator
 docker.elastic.co/elasticsearch/elasticsearch
 docker.elastic.co/kibana/kibana
@@ -431,9 +426,6 @@ ghcr.io/spidernet-io/spiderpool/spiderpool-controller-beta
 ghcr.io/spidernet-io/spiderpool/spiderpool-controller-ci
 ghcr.io/sumologic/tailing-sidecar
 ghcr.io/sumologic/tailing-sidecar-operator
-mcr.microsoft.com/vscode/devcontainers/java
-nvcr.io/nvidia/gpu-operator
-nvcr.io/nvidia/k8s-device-plugin
 quay.io/argoproj/argo-events
 quay.io/argoproj/argo-rollouts
 quay.io/argoproj/argocd
@@ -581,4 +573,3 @@ registry.k8s.io/sig-storage/livenessprobe
 registry.k8s.io/sig-storage/local-volume-provisioner
 registry.k8s.io/sig-storage/nfs-subdir-external-provisioner
 registry.k8s.io/sig-storage/snapshot-controller
-rocks.canonical.com/mariadb/server
