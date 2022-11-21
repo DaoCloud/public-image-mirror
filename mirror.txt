@@ -415,8 +415,8 @@ ghcr.io/projectcontour/contour
 ghcr.io/pterodactyl/yolks
 ghcr.io/scholzj/zoo-entrance
 ghcr.io/spidernet-io/cni-plugins/meta-plugins
-ghcr.io/spidernet-io/smartdocter/smartdocter-agent
-ghcr.io/spidernet-io/smartdocter/smartdocter-controller
+ghcr.io/spidernet-io/spiderdoctor/agent
+ghcr.io/spidernet-io/spiderdoctor/controller
 ghcr.io/spidernet-io/spiderpool/spiderpool-agent
 ghcr.io/spidernet-io/spiderpool/spiderpool-agent-beta
 ghcr.io/spidernet-io/spiderpool/spiderpool-agent-ci
