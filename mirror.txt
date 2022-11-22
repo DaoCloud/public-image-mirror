@@ -466,6 +466,7 @@ quay.io/external_storage/rbd-provisioner
 quay.io/fluentd_elasticsearch/elasticsearch
 quay.io/fluentd_elasticsearch/fluentd
 quay.io/goswagger/swagger
+quay.io/grafana-operator/grafana_plugins_init
 quay.io/iovisor/bcc
 quay.io/jaegertracing/jaeger-operator
 quay.io/jetstack/cert-manager-cainjector
