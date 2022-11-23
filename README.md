@@ -49,13 +49,19 @@ k8s.gcr.io/coredns/coredns => m.daocloud.io/k8s.gcr.io/coredns/coredns
 k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 ```
 
-## 支持前缀替换的 Registry
+## 提前同步的 Registry
 
 [domain.txt](domain.txt)
 
+用于 github action 从源 registry 提前同步到 m.daocloud.io 下
+
 如果想要新增, 提 PR 修改即可。例如 [PR#28](https://github.com/DaoCloud/public-image-mirror/pull/28),  并请在 PR 提交前排序：`./hack/fmt.sh domain.txt`
 
-### 前缀替换的 Registry 的规则
+## 支持前缀替换的 Registry
+
+## 前缀替换的 Registry 的规则
+
+如有新增, 提 PR 修改下面的表格, 合并后由人工配置
 
 | 源站                    | 替换为                        |
 | ----------------------- | ----------------------------- |
