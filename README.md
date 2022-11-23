@@ -32,23 +32,28 @@ docker run -d -P m.daocloud.io/docker.io/library/nginx
 
 [mirror.txt](mirror.txt)
 
-如果想要新增, 提 PR 修改即可。例如 [PR#1](https://github.com/DaoCloud/public-image-mirror/pull/1/)
+如果想要新增, 提 PR 修改即可。例如 [PR#1](https://github.com/DaoCloud/public-image-mirror/pull/1/)， 并请在 PR 提交前排序： `./hack/fmt.sh mirror.txt`
 
 ## 使用方法
 
-*增加前缀*。比如：
+## 添加一级域名
 
+**增加前缀** (推荐方式)。比如：
+```
 k8s.gcr.io/coredns/coredns => m.daocloud.io/k8s.gcr.io/coredns/coredns
+```
 
 或者 支持的镜像仓库 的 *前缀替换* 就可以使用。比如：
 
+```
 k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
+```
 
 ## 支持前缀替换的 Registry
 
 [domain.txt](domain.txt)
 
-如果想要新增, 提 PR 修改即可。例如 [PR#28](https://github.com/DaoCloud/public-image-mirror/pull/28)
+如果想要新增, 提 PR 修改即可。例如 [PR#28](https://github.com/DaoCloud/public-image-mirror/pull/28),  并请在 PR 提交前排序：`./hack/fmt.sh domain.txt`
 
 ### 前缀替换的 Registry 的规则
 
