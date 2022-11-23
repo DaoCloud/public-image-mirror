@@ -9,4 +9,5 @@ nvcr.io/=m.daocloud.io/nvcr.io/
 quay.io/=m.daocloud.io/quay.io/
 registry.jujucharms.com/=m.daocloud.io/registry.jujucharms.com/
 registry.k8s.io/=m.daocloud.io/registry.k8s.io/
+registry.opensource.zalan.do/=m.daocloud.io/registry.opensource.zalan.do/
 rocks.canonical.com/=m.daocloud.io/rocks.canonical.com/
