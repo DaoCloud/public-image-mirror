@@ -384,6 +384,8 @@ ghcr.io/hwameistor/local-storage
 ghcr.io/hwameistor/scheduler
 ghcr.io/hwameistor/self-signed
 ghcr.io/jaredtan95/openinsight
+ghcr.io/jaredtan95/tailing-sidecar
+ghcr.io/jaredtan95/tailing-sidecar-operator
 ghcr.io/k8snetworkplumbingwg/multus-cni
 ghcr.io/k8snetworkplumbingwg/sriov-cni
 ghcr.io/k8snetworkplumbingwg/sriov-network-device-plugin
