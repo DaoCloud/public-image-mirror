@@ -534,6 +534,9 @@ registry.k8s.io/addon-resizer
 registry.k8s.io/build-image/debian-iptables
 registry.k8s.io/build-image/go-runner
 registry.k8s.io/build-image/kube-cross
+registry.k8s.io/cluster-api/cluster-api-controller
+registry.k8s.io/cluster-api/kubeadm-bootstrap-controller
+registry.k8s.io/cluster-api/kubeadm-control-plane-controller
 registry.k8s.io/conformance
 registry.k8s.io/coredns
 registry.k8s.io/coredns/coredns
