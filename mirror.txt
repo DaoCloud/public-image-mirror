@@ -420,15 +420,11 @@ ghcr.io/projectcontour/contour
 ghcr.io/pterodactyl/yolks
 ghcr.io/scholzj/zoo-entrance
 ghcr.io/spidernet-io/cni-plugins/meta-plugins
-ghcr.io/spidernet-io/spiderdoctor/agent
-ghcr.io/spidernet-io/spiderdoctor/controller
+ghcr.io/spidernet-io/spiderdoctor-agent
+ghcr.io/spidernet-io/spiderdoctor-controller
 ghcr.io/spidernet-io/spiderpool/spiderpool-agent
-ghcr.io/spidernet-io/spiderpool/spiderpool-agent-beta
-ghcr.io/spidernet-io/spiderpool/spiderpool-agent-ci
 ghcr.io/spidernet-io/spiderpool/spiderpool-base
 ghcr.io/spidernet-io/spiderpool/spiderpool-controller
-ghcr.io/spidernet-io/spiderpool/spiderpool-controller-beta
-ghcr.io/spidernet-io/spiderpool/spiderpool-controller-ci
 ghcr.io/sumologic/tailing-sidecar
 ghcr.io/sumologic/tailing-sidecar-operator
 quay.io/argoproj/argo-events
