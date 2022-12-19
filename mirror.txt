@@ -373,6 +373,7 @@ ghcr.io/fluxcd/helm-controller
 ghcr.io/fluxcd/kustomize-controller
 ghcr.io/fluxcd/notification-controller
 ghcr.io/fluxcd/source-controller
+ghcr.io/helm/chartmuseum
 ghcr.io/hwameistor/admission
 ghcr.io/hwameistor/drbd-reactor
 ghcr.io/hwameistor/drbd9-bionic
