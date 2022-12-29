@@ -383,6 +383,7 @@ ghcr.io/fluxcd/notification-controller
 ghcr.io/fluxcd/source-controller
 ghcr.io/helm/chartmuseum
 ghcr.io/hwameistor/admission
+ghcr.io/hwameistor/apiserver
 ghcr.io/hwameistor/drbd-reactor
 ghcr.io/hwameistor/drbd9-bionic
 ghcr.io/hwameistor/drbd9-focal
