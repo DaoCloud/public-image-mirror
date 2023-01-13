@@ -100,6 +100,15 @@ wget -O deploy.yaml https://raw.githubusercontent.com/kubernetes/ingress-nginx/c
 cat ./deploy.yaml | ./image-filter.sh | kubectl apply -f -
 ``` 
 
+* Docker 加速
+
+添加到 `/etc/docker/daemon.json`
+``` json
+  "registry-mirrors": [
+    "https://docker.m.daocloud.io"
+  ]
+```
+
 ## [友情链接]加速三剑客
 
 * 镜像加速：https://github.com/DaoCloud/public-image-mirror
