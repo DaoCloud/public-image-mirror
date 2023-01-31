@@ -220,6 +220,11 @@ docker.io/mysql
 docker.io/n8nio/n8n
 docker.io/nacos/nacos-server
 docker.io/nats-streaming
+docker.io/neuvector/controller
+docker.io/neuvector/enforcer
+docker.io/neuvector/manager
+docker.io/neuvector/scanner
+docker.io/neuvector/updater
 docker.io/nfvpe/multus
 docker.io/nginx
 docker.io/nginxdemos/hello
