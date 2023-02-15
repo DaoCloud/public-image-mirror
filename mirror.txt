@@ -90,6 +90,7 @@ docker.io/goharbor/harbor-core
 docker.io/goharbor/harbor-db
 docker.io/goharbor/harbor-exporter
 docker.io/goharbor/harbor-jobservice
+docker.io/goharbor/harbor-operator
 docker.io/goharbor/harbor-portal
 docker.io/goharbor/harbor-registryctl
 docker.io/goharbor/nginx-photon
