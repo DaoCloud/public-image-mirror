@@ -400,6 +400,7 @@ ghcr.io/hwameistor/drbd9-shipper
 ghcr.io/hwameistor/evictor
 ghcr.io/hwameistor/local-disk-manager
 ghcr.io/hwameistor/local-storage
+ghcr.io/hwameistor/operator
 ghcr.io/hwameistor/scheduler
 ghcr.io/hwameistor/self-signed
 ghcr.io/jaredtan95/openinsight
