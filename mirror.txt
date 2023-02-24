@@ -176,6 +176,7 @@ docker.io/library/java
 docker.io/library/mariadb
 docker.io/library/mysql
 docker.io/library/nats-streaming
+docker.io/library/nextcloud
 docker.io/library/nginx
 docker.io/library/node
 docker.io/library/openjdk
@@ -227,6 +228,7 @@ docker.io/neuvector/enforcer
 docker.io/neuvector/manager
 docker.io/neuvector/scanner
 docker.io/neuvector/updater
+docker.io/nextcloud
 docker.io/nfvpe/multus
 docker.io/nginx
 docker.io/nginxdemos/hello
