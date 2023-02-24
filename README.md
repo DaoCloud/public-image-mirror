@@ -63,20 +63,20 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 
 如有新增, 提 PR 修改下面的表格, 合并后由人工配置
 
-| 源站                           | 替换为                           |
-|------------------------------|-------------------------------|
-| cr.l5d.io                    | l5d.m.daocloud.io             |
-| docker.elastic.co            | elastic.m.daocloud.io         |
-| docker.io                    | docker.m.daocloud.io          |
-| gcr.io                       | gcr.m.daocloud.io             |
-| ghcr.io                      | ghcr.m.daocloud.io            |
-| k8s.gcr.io                   | k8s-gcr.m.daocloud.io         |
-| registry.k8s.io              | k8s.m.daocloud.io             |
-| mcr.microsoft.com            | mcr.m.daocloud.io             |
-| nvcr.io                      | nvcr.m.daocloud.io            |
-| quay.io                      | quay.m.daocloud.io            |
-| registry.jujucharms.com      | jujucharms.m.daocloud.io      |
-| rocks.canonical.com          | rocks-canonical.m.daocloud.io |
+| 源站                    | 替换为                        |
+| ----------------------- | ----------------------------- |
+| cr.l5d.io               | l5d.m.daocloud.io             |
+| docker.elastic.co       | elastic.m.daocloud.io         |
+| docker.io               | docker.m.daocloud.io          |
+| gcr.io                  | gcr.m.daocloud.io             |
+| ghcr.io                 | ghcr.m.daocloud.io            |
+| k8s.gcr.io              | k8s-gcr.m.daocloud.io         |
+| registry.k8s.io         | k8s.m.daocloud.io             |
+| mcr.microsoft.com       | mcr.m.daocloud.io             |
+| nvcr.io                 | nvcr.m.daocloud.io            |
+| quay.io                 | quay.m.daocloud.io            |
+| registry.jujucharms.com | jujucharms.m.daocloud.io      |
+| rocks.canonical.com     | rocks-canonical.m.daocloud.io |
 
 ## 最佳实践
 * 通过 加速 安装 kubeadm
