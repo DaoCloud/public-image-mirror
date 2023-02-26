@@ -437,6 +437,8 @@ ghcr.io/projectcontour/contour
 ghcr.io/pterodactyl/yolks
 ghcr.io/scholzj/zoo-entrance
 ghcr.io/spidernet-io/cni-plugins/meta-plugins
+ghcr.io/spidernet-io/egressgateway-agent
+ghcr.io/spidernet-io/egressgateway-controller
 ghcr.io/spidernet-io/spiderdoctor-agent
 ghcr.io/spidernet-io/spiderdoctor-controller
 ghcr.io/spidernet-io/spiderpool/spiderpool-agent
