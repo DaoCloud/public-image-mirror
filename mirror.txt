@@ -403,9 +403,6 @@ ghcr.io/hwameistor/local-storage
 ghcr.io/hwameistor/operator
 ghcr.io/hwameistor/scheduler
 ghcr.io/hwameistor/self-signed
-ghcr.io/jaredtan95/openinsight
-ghcr.io/jaredtan95/tailing-sidecar
-ghcr.io/jaredtan95/tailing-sidecar-operator
 ghcr.io/k8snetworkplumbingwg/multus-cni
 ghcr.io/k8snetworkplumbingwg/sriov-cni
 ghcr.io/k8snetworkplumbingwg/sriov-network-device-plugin
@@ -430,6 +427,7 @@ ghcr.io/openfaas/basic-auth
 ghcr.io/openfaas/faas-netes
 ghcr.io/openfaas/gateway
 ghcr.io/openfaas/queue-worker
+ghcr.io/openinsight-proj/demo
 ghcr.io/openinsight-proj/openinsight
 ghcr.io/openinsight-proj/opentelemetry-demo-helm-chart/adservice
 ghcr.io/openinsight-proj/opentelemetry-demo-helm-chart/sentinel
