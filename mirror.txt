@@ -265,6 +265,7 @@ docker.io/prom/alertmanager
 docker.io/prom/mysqld-exporter
 docker.io/prom/node-exporter
 docker.io/prom/prometheus
+docker.io/prometheuscommunity/postgres-exporter
 docker.io/python
 docker.io/rabbitmq
 docker.io/rabbitmqoperator/cluster-operator
