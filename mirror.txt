@@ -64,6 +64,7 @@ docker.io/datawire/ambassador-operator
 docker.io/debian
 docker.io/directxman12/k8s-prometheus-adapter
 docker.io/docker
+docker.io/dpage/pgadmin4
 docker.io/elastic/filebeat
 docker.io/envoyproxy/envoy
 docker.io/envoyproxy/envoy-distroless
@@ -265,6 +266,7 @@ docker.io/prom/alertmanager
 docker.io/prom/mysqld-exporter
 docker.io/prom/node-exporter
 docker.io/prom/prometheus
+docker.io/prometheuscommunity/postgres-exporter
 docker.io/python
 docker.io/rabbitmq
 docker.io/rabbitmqoperator/cluster-operator
