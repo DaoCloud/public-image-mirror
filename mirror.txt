@@ -577,6 +577,7 @@ registry.k8s.io/kube-scheduler
 registry.k8s.io/kube-scheduler-amd64
 registry.k8s.io/kube-state-metrics/kube-state-metrics
 registry.k8s.io/kueue/kueue
+registry.k8s.io/kwok/cluster
 registry.k8s.io/kwok/kwok
 registry.k8s.io/metrics-server
 registry.k8s.io/metrics-server-amd64
