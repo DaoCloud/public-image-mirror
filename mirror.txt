@@ -432,6 +432,8 @@ ghcr.io/openfaas/queue-worker
 ghcr.io/openinsight-proj/openinsight
 ghcr.io/openinsight-proj/opentelemetry-demo-helm-chart/adservice
 ghcr.io/openinsight-proj/opentelemetry-demo-helm-chart/sentinel
+ghcr.io/ovn-org/ovn-kubernetes/ovn-kube-f
+ghcr.io/ovn-org/ovn-kubernetes/ovn-kube-u
 ghcr.io/projectcontour/contour
 ghcr.io/pterodactyl/yolks
 ghcr.io/scholzj/zoo-entrance
