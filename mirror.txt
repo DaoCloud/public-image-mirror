@@ -64,6 +64,7 @@ docker.io/datawire/ambassador-operator
 docker.io/debian
 docker.io/directxman12/k8s-prometheus-adapter
 docker.io/docker
+docker.io/dpage/pgadmin4
 docker.io/elastic/filebeat
 docker.io/envoyproxy/envoy
 docker.io/envoyproxy/envoy-distroless
@@ -175,6 +176,7 @@ docker.io/library/java
 docker.io/library/mariadb
 docker.io/library/mysql
 docker.io/library/nats-streaming
+docker.io/library/nextcloud
 docker.io/library/nginx
 docker.io/library/node
 docker.io/library/openjdk
@@ -226,6 +228,7 @@ docker.io/neuvector/enforcer
 docker.io/neuvector/manager
 docker.io/neuvector/scanner
 docker.io/neuvector/updater
+docker.io/nextcloud
 docker.io/nfvpe/multus
 docker.io/nginx
 docker.io/nginxdemos/hello
@@ -265,6 +268,7 @@ docker.io/prom/alertmanager
 docker.io/prom/mysqld-exporter
 docker.io/prom/node-exporter
 docker.io/prom/prometheus
+docker.io/prometheuscommunity/postgres-exporter
 docker.io/python
 docker.io/rabbitmq
 docker.io/rabbitmqoperator/cluster-operator
@@ -400,11 +404,9 @@ ghcr.io/hwameistor/drbd9-shipper
 ghcr.io/hwameistor/evictor
 ghcr.io/hwameistor/local-disk-manager
 ghcr.io/hwameistor/local-storage
+ghcr.io/hwameistor/operator
 ghcr.io/hwameistor/scheduler
 ghcr.io/hwameistor/self-signed
-ghcr.io/jaredtan95/openinsight
-ghcr.io/jaredtan95/tailing-sidecar
-ghcr.io/jaredtan95/tailing-sidecar-operator
 ghcr.io/k8snetworkplumbingwg/multus-cni
 ghcr.io/k8snetworkplumbingwg/sriov-cni
 ghcr.io/k8snetworkplumbingwg/sriov-network-device-plugin
@@ -429,6 +431,7 @@ ghcr.io/openfaas/basic-auth
 ghcr.io/openfaas/faas-netes
 ghcr.io/openfaas/gateway
 ghcr.io/openfaas/queue-worker
+ghcr.io/openinsight-proj/demo
 ghcr.io/openinsight-proj/openinsight
 ghcr.io/openinsight-proj/opentelemetry-demo-helm-chart/adservice
 ghcr.io/openinsight-proj/opentelemetry-demo-helm-chart/sentinel
@@ -438,6 +441,8 @@ ghcr.io/projectcontour/contour
 ghcr.io/pterodactyl/yolks
 ghcr.io/scholzj/zoo-entrance
 ghcr.io/spidernet-io/cni-plugins/meta-plugins
+ghcr.io/spidernet-io/egressgateway-agent
+ghcr.io/spidernet-io/egressgateway-controller
 ghcr.io/spidernet-io/spiderdoctor-agent
 ghcr.io/spidernet-io/spiderdoctor-controller
 ghcr.io/spidernet-io/spiderpool/spiderpool-agent
@@ -576,6 +581,7 @@ registry.k8s.io/kube-scheduler
 registry.k8s.io/kube-scheduler-amd64
 registry.k8s.io/kube-state-metrics/kube-state-metrics
 registry.k8s.io/kueue/kueue
+registry.k8s.io/kwok/cluster
 registry.k8s.io/kwok/kwok
 registry.k8s.io/metrics-server
 registry.k8s.io/metrics-server-amd64
@@ -600,3 +606,4 @@ registry.opensource.zalan.do/acid/logical-backup
 registry.opensource.zalan.do/acid/pgbouncer
 registry.opensource.zalan.do/acid/postgres-operator
 registry.opensource.zalan.do/acid/spilo-14
+registry.opensource.zalan.do/acid/spilo-15
