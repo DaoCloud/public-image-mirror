@@ -19,8 +19,8 @@ jobs:
           nohup /usr/local/bin/bridge -b :8080 -p - ${{ secrets.PROTOCOL }} 2>/dev/null &
       - name: Check Proxy
         run: |
-          curl -v http://127.0.0.1:8080
-          curl --proxy 127.0.0.1:8080 -v http://m.daocloud.io/v2/  
+          curl -v http://127.0.0.1:8080 || exit 1
+          curl -f --proxy 127.0.0.1:8080 -v http://m.daocloud.io/v2/ || exit 1  
       - name: Check
         env:
           INCREMENTAL: "true"
