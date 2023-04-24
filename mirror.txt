@@ -262,6 +262,7 @@ docker.io/percona
 docker.io/perl
 docker.io/phpmyadmin
 docker.io/phpmyadmin/phpmyadmin
+docker.io/pingcap/coredns
 docker.io/portainer/portainer-ce
 docker.io/postgres
 docker.io/prom/alertmanager
@@ -377,6 +378,11 @@ gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controllers
 gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook
 ghcr.io/aquasecurity/trivy
 ghcr.io/aquasecurity/trivy-db
+ghcr.io/chaos-mesh/chaos-daemon
+ghcr.io/chaos-mesh/chaos-dashboard
+ghcr.io/chaos-mesh/chaos-dlv
+ghcr.io/chaos-mesh/chaos-mesh
+ghcr.io/chaos-mesh/chaos-kernel
 ghcr.io/clusterpedia-io/clusterpedia/apiserver
 ghcr.io/clusterpedia-io/clusterpedia/clustersynchro-manager
 ghcr.io/daocloud/ckube
