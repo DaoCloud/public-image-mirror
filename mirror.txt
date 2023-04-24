@@ -381,8 +381,8 @@ ghcr.io/aquasecurity/trivy-db
 ghcr.io/chaos-mesh/chaos-daemon
 ghcr.io/chaos-mesh/chaos-dashboard
 ghcr.io/chaos-mesh/chaos-dlv
-ghcr.io/chaos-mesh/chaos-mesh
 ghcr.io/chaos-mesh/chaos-kernel
+ghcr.io/chaos-mesh/chaos-mesh
 ghcr.io/clusterpedia-io/clusterpedia/apiserver
 ghcr.io/clusterpedia-io/clusterpedia/clustersynchro-manager
 ghcr.io/daocloud/ckube
