@@ -278,6 +278,7 @@ docker.io/rancher/k3d-tools
 docker.io/rancher/k3s
 docker.io/rancher/kubectl
 docker.io/rancher/local-path-provisioner
+docker.io/rclone/rclone
 docker.io/redis
 docker.io/redislabs/redisearch
 docker.io/registry
