@@ -517,6 +517,12 @@ quay.io/keycloak/keycloak
 quay.io/kiali/kiali
 quay.io/kiwigrid/k8s-sidecar
 quay.io/kubespray/kubespray
+quay.io/kubevirt/virt-api
+quay.io/kubevirt/virt-controller
+quay.io/kubevirt/virt-exportserver
+quay.io/kubevirt/virt-handler
+quay.io/kubevirt/virt-launcher
+quay.io/kubevirt/virt-operator
 quay.io/l23network/k8s-netchecker-agent
 quay.io/l23network/k8s-netchecker-server
 quay.io/metallb/controller
