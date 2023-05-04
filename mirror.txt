@@ -135,6 +135,7 @@ docker.io/jaegertracing/spark-dependencies
 docker.io/java
 docker.io/jboss/keycloak
 docker.io/jenkins/jnlp-slave
+docker.io/jertel/elastalert2
 docker.io/jimmidyson/configmap-reload
 docker.io/joosthofman/wget
 docker.io/joseluisq/static-web-server
