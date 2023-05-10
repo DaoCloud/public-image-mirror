@@ -175,6 +175,7 @@ docker.io/library/golang
 docker.io/library/haproxy
 docker.io/library/java
 docker.io/library/mariadb
+docker.io/library/mongo
 docker.io/library/mysql
 docker.io/library/nats-streaming
 docker.io/library/nextcloud
@@ -219,6 +220,7 @@ docker.io/mirantis/k8s-netchecker-server
 docker.io/mirrorgooglecontainers/defaultbackend-amd64
 docker.io/mirrorgooglecontainers/hpa-example
 docker.io/moby/buildkit
+docker.io/mongo
 docker.io/multiarch/qemu-user-static
 docker.io/mysql
 docker.io/n8nio/n8n
