@@ -430,6 +430,8 @@ ghcr.io/kube-vip/kube-vip
 ghcr.io/kubean-io/kubean-operator
 ghcr.io/kubean-io/kubespray
 ghcr.io/kubean-io/spray-job
+ghcr.io/megacloudcontainer/kube-hunter
+ghcr.io/megacloudcontainer/kubeaudit
 ghcr.io/open-telemetry/demo
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-dotnet
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-java
@@ -556,7 +558,7 @@ quay.io/strimzi/kafka
 quay.io/strimzi/kafka-bridge
 quay.io/strimzi/kaniko-executor
 quay.io/strimzi/maven-builder
-quay.io/strimzi/operator             
+quay.io/strimzi/operator
 quay.io/submariner/submariner
 quay.io/submariner/submariner-gateway
 quay.io/submariner/submariner-globalnet
