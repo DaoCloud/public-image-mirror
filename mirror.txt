@@ -9,6 +9,12 @@ docker.io/amazon/aws-ebs-csi-driver
 docker.io/apache/skywalking-java-agent
 docker.io/apache/skywalking-oap-server
 docker.io/apache/skywalking-ui
+docker.io/apitable/backend-server
+docker.io/apitable/init-appdata
+docker.io/apitable/init-db
+docker.io/apitable/openresty
+docker.io/apitable/room-server
+docker.io/apitable/web-server
 docker.io/aquasec/kube-bench
 docker.io/aquasec/kube-hunter
 docker.io/aquasec/trivy
