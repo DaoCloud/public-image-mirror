@@ -388,6 +388,7 @@ gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controllers
 gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook
 ghcr.io/aquasecurity/trivy
 ghcr.io/aquasecurity/trivy-db
+ghcr.io/aquasecurity/trivy-java-db
 ghcr.io/chaos-mesh/chaos-daemon
 ghcr.io/chaos-mesh/chaos-dashboard
 ghcr.io/chaos-mesh/chaos-dlv
