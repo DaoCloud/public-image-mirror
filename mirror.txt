@@ -443,6 +443,7 @@ ghcr.io/kubean-io/spray-job
 ghcr.io/megacloudcontainer/kube-hunter
 ghcr.io/megacloudcontainer/kubeaudit
 ghcr.io/open-telemetry/demo
+ghcr.io/open-telemetry/opentelemetry-go-instrumentation/autoinstrumentation-go
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-dotnet
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-java
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-nodejs
