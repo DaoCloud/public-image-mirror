@@ -531,6 +531,13 @@ quay.io/keycloak/keycloak
 quay.io/kiali/kiali
 quay.io/kiwigrid/k8s-sidecar
 quay.io/kubespray/kubespray
+quay.io/kubevirt/cdi-apiserver
+quay.io/kubevirt/cdi-cloner
+quay.io/kubevirt/cdi-controller
+quay.io/kubevirt/cdi-importer
+quay.io/kubevirt/cdi-operator
+quay.io/kubevirt/cdi-uploadproxy
+quay.io/kubevirt/cdi-uploadserver
 quay.io/kubevirt/virt-api
 quay.io/kubevirt/virt-controller
 quay.io/kubevirt/virt-exportserver
