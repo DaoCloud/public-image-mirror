@@ -226,6 +226,10 @@ docker.io/mirantis/k8s-netchecker-server
 docker.io/mirrorgooglecontainers/defaultbackend-amd64
 docker.io/mirrorgooglecontainers/hpa-example
 docker.io/moby/buildkit
+docker.io/mohsinonxrm/mongodb-agent
+docker.io/mohsinonxrm/mongodb-kubernetes-operator
+docker.io/mohsinonxrm/mongodb-kubernetes-operator-version-upgrade-post-start-hook
+docker.io/mohsinonxrm/mongodb-kubernetes-readiness
 docker.io/mongo
 docker.io/multiarch/qemu-user-static
 docker.io/mysql
