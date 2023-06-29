@@ -4,6 +4,12 @@ docker.elastic.co/kibana/kibana
 docker.elastic.co/kibana/kibana-oss
 docker.io/alpine
 docker.io/alpine/helm
+docker.io/amambadev/jenkins
+docker.io/amambadev/jenkins-agent-base
+docker.io/amambadev/jenkins-agent-go
+docker.io/amambadev/jenkins-agent-maven
+docker.io/amambadev/jenkins-agent-nodejs
+docker.io/amambadev/jenkins-agent-python
 docker.io/amazon/aws-alb-ingress-controller
 docker.io/amazon/aws-ebs-csi-driver
 docker.io/apache/skywalking-java-agent
