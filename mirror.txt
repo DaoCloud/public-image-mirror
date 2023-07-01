@@ -62,6 +62,7 @@ docker.io/calico/typha
 docker.io/cdkbot/hostpath-provisioner-amd64
 docker.io/cdkbot/registry-amd64
 docker.io/centos
+docker.io/centos/tools
 docker.io/cfmanteiga/alpine-bash-curl-jq
 docker.io/cfssl/cfssl
 docker.io/cilium/json-mock
