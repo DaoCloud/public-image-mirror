@@ -451,6 +451,7 @@ ghcr.io/klts-io/kubernetes-lts/kube-controller-manager
 ghcr.io/klts-io/kubernetes-lts/kube-proxy
 ghcr.io/klts-io/kubernetes-lts/kube-scheduler
 ghcr.io/klts-io/kubernetes-lts/pause
+ghcr.io/ksmartdata/logical-backup
 ghcr.io/kube-vip/kube-vip
 ghcr.io/kubean-io/kubean-operator
 ghcr.io/kubean-io/kubespray
