@@ -517,6 +517,7 @@ quay.io/cilium/hubble-ui
 quay.io/cilium/hubble-ui-backend
 quay.io/cilium/json-mock
 quay.io/cilium/operator
+quay.io/cilium/operator-alibabacloud
 quay.io/cilium/operator-generic
 quay.io/cilium/startup-script
 quay.io/containers/skopeo
