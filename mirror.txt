@@ -311,6 +311,7 @@ docker.io/squidfunk/mkdocs-material
 docker.io/swaggerapi/swagger-codegen-cli
 docker.io/tgagor/centos-stream
 docker.io/thanosio/thanos
+docker.io/timberio/vector
 docker.io/traefik
 docker.io/ubuntu
 docker.io/velero/velero
