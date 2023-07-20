@@ -316,6 +316,8 @@ docker.io/traefik
 docker.io/ubuntu
 docker.io/velero/velero
 docker.io/victoriametrics/operator
+docker.io/victoriametrics/victoria-logs
+docker.io/victoriametrics/victoria-metrics
 docker.io/victoriametrics/vmagent
 docker.io/victoriametrics/vmalert
 docker.io/victoriametrics/vminsert
