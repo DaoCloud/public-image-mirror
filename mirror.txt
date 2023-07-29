@@ -204,6 +204,7 @@ docker.io/library/python
 docker.io/library/rabbitmq
 docker.io/library/redis
 docker.io/library/registry
+docker.io/library/sonarqube
 docker.io/library/traefik
 docker.io/library/ubuntu
 docker.io/library/wordpress
