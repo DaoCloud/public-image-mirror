@@ -304,6 +304,7 @@ docker.io/rclone/rclone
 docker.io/redis
 docker.io/redislabs/redisearch
 docker.io/registry
+docker.io/rocker/rstudio
 docker.io/sonobuoy/cluster-inventory
 docker.io/sonobuoy/kube-bench
 docker.io/sonobuoy/sonobuoy
