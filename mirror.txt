@@ -33,6 +33,7 @@ docker.io/bitnami/elasticsearch-exporter
 docker.io/bitnami/envoy
 docker.io/bitnami/grafana
 docker.io/bitnami/grafana-operator
+docker.io/bitnami/kafka
 docker.io/bitnami/kubeapps-apis
 docker.io/bitnami/kubeapps-apprepository-controller
 docker.io/bitnami/kubeapps-dashboard
@@ -312,10 +313,13 @@ docker.io/squidfunk/mkdocs-material
 docker.io/swaggerapi/swagger-codegen-cli
 docker.io/tgagor/centos-stream
 docker.io/thanosio/thanos
+docker.io/timberio/vector
 docker.io/traefik
 docker.io/ubuntu
 docker.io/velero/velero
 docker.io/victoriametrics/operator
+docker.io/victoriametrics/victoria-logs
+docker.io/victoriametrics/victoria-metrics
 docker.io/victoriametrics/vmagent
 docker.io/victoriametrics/vmalert
 docker.io/victoriametrics/vminsert
@@ -428,10 +432,13 @@ ghcr.io/hwameistor/drbd-reactor
 ghcr.io/hwameistor/drbd9-bionic
 ghcr.io/hwameistor/drbd9-focal
 ghcr.io/hwameistor/drbd9-jammy
+ghcr.io/hwameistor/drbd9-kylin10
 ghcr.io/hwameistor/drbd9-rhel7
 ghcr.io/hwameistor/drbd9-rhel8
+ghcr.io/hwameistor/drbd9-rhel9
 ghcr.io/hwameistor/drbd9-shipper
 ghcr.io/hwameistor/evictor
+ghcr.io/hwameistor/exporter
 ghcr.io/hwameistor/hwameistor-ui
 ghcr.io/hwameistor/local-disk-manager
 ghcr.io/hwameistor/local-storage
@@ -452,6 +459,7 @@ ghcr.io/klts-io/kubernetes-lts/kube-controller-manager
 ghcr.io/klts-io/kubernetes-lts/kube-proxy
 ghcr.io/klts-io/kubernetes-lts/kube-scheduler
 ghcr.io/klts-io/kubernetes-lts/pause
+ghcr.io/ksmartdata/logical-backup
 ghcr.io/kube-vip/kube-vip
 ghcr.io/kubean-io/kubean-operator
 ghcr.io/kubean-io/kubespray
@@ -508,6 +516,7 @@ quay.io/calico/pod2daemon-flexvol
 quay.io/calico/typha
 quay.io/cilium/certgen
 quay.io/cilium/cilium
+quay.io/cilium/cilium-envoy
 quay.io/cilium/cilium-etcd-operator
 quay.io/cilium/cilium-init
 quay.io/cilium/clustermesh-apiserver
@@ -515,7 +524,9 @@ quay.io/cilium/hubble-relay
 quay.io/cilium/hubble-ui
 quay.io/cilium/hubble-ui-backend
 quay.io/cilium/json-mock
+quay.io/cilium/kvstoremesh
 quay.io/cilium/operator
+quay.io/cilium/operator-alibabacloud
 quay.io/cilium/operator-generic
 quay.io/cilium/startup-script
 quay.io/containers/skopeo
@@ -571,6 +582,7 @@ quay.io/mongodb/mongodb-kubernetes-operator-version-upgrade-post-start-hook
 quay.io/mongodb/mongodb-kubernetes-readinessprobe
 quay.io/nmstate/kubernetes-nmstate-handler
 quay.io/nmstate/kubernetes-nmstate-operator
+quay.io/operator-framework/olm
 quay.io/opstree/redis
 quay.io/opstree/redis-exporter
 quay.io/opstree/redis-operator
