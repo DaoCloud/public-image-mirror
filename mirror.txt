@@ -272,6 +272,7 @@ docker.io/openebs/provisioner-localpv
 docker.io/openebs/snapshot-controller
 docker.io/openebs/snapshot-provisioner
 docker.io/openjdk
+docker.io/openkruise/kruise-manager
 docker.io/openpolicyagent/gatekeeper
 docker.io/openstorage/stork
 docker.io/openzipkin/zipkin
