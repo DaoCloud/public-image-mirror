@@ -522,6 +522,7 @@ quay.io/cilium/cilium-envoy
 quay.io/cilium/cilium-etcd-operator
 quay.io/cilium/cilium-init
 quay.io/cilium/clustermesh-apiserver
+quay.io/cilium/hubble-export-stdout
 quay.io/cilium/hubble-relay
 quay.io/cilium/hubble-ui
 quay.io/cilium/hubble-ui-backend
@@ -531,6 +532,8 @@ quay.io/cilium/operator
 quay.io/cilium/operator-alibabacloud
 quay.io/cilium/operator-generic
 quay.io/cilium/startup-script
+quay.io/cilium/tetragon
+quay.io/cilium/tetragon-operator
 quay.io/containers/skopeo
 quay.io/coreos/etcd
 quay.io/coreos/flannel
