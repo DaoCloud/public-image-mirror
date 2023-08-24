@@ -311,6 +311,7 @@ docker.io/sonobuoy/sonobuoy
 docker.io/sonobuoy/systemd-logs
 docker.io/squidfunk/mkdocs-material
 docker.io/swaggerapi/swagger-codegen-cli
+docker.io/tensorflow/tensorflow
 docker.io/tgagor/centos-stream
 docker.io/thanosio/thanos
 docker.io/timberio/vector
@@ -676,4 +677,3 @@ registry.opensource.zalan.do/acid/pgbouncer
 registry.opensource.zalan.do/acid/postgres-operator
 registry.opensource.zalan.do/acid/spilo-14
 registry.opensource.zalan.do/acid/spilo-15
-docker.io/tensorflow/tensorflow
