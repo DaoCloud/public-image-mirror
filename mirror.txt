@@ -676,3 +676,4 @@ registry.opensource.zalan.do/acid/pgbouncer
 registry.opensource.zalan.do/acid/postgres-operator
 registry.opensource.zalan.do/acid/spilo-14
 registry.opensource.zalan.do/acid/spilo-15
+tensorflow/tensorflow
