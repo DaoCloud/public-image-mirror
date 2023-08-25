@@ -1,17 +1,8 @@
 # public-image-mirror
 
 [![Sync](https://github.com/DaoCloud/public-image-mirror/raw/gh-pages/daocloud-sync-badge.svg)](https://github.com/DaoCloud/public-image-mirror/raw/gh-pages/daocloud-sync.log)
-[![Deep Sync](https://github.com/DaoCloud/public-image-mirror/raw/gh-pages/daocloud-deep-sync-badge.svg)](https://github.com/DaoCloud/public-image-mirror/raw/gh-pages/daocloud-deep-sync.log)
 
 Sync: 是 tag 的同步率 只要 tag 存在就是同步的
-
-Deep sync: 是 tag 内容同步率 (如 latest 这种 tag 会更新, tag 存在并不一定是最新的, 在这属于未同步)
-
-每天大约同步 1k 的 tag
-
-支持懒加载, 就算不在同步列表中也能直接拉取, 初次拉取会比已经同步过的慢一些, 并且[每 7 天会清理一次缓存](https://github.com/distribution/distribution/blob/e3509fc1deedaab489dd8829cc438de8f4c77fc3/registry/proxy/proxymanifeststore.go#L15)
-
-如果只是临时使用的就不需要往同步列表里加了
 
 ## 背景
 很多镜像都在国外。比如 gcr 。国内下载很慢，需要加速。
@@ -48,6 +39,12 @@ k8s.gcr.io/coredns/coredns => m.daocloud.io/k8s.gcr.io/coredns/coredns
 ```
 k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 ```
+
+### 懒加载
+
+**支持懒加载**, 就算不在同步列表中也能 **直接拉取**, 初次拉取会比已经同步过的慢一些, 并且[每 7 天会清理一次缓存](https://github.com/distribution/distribution/blob/e3509fc1deedaab489dd8829cc438de8f4c77fc3/registry/proxy/proxymanifeststore.go#L15)
+
+如果只是临时使用的就不需要往同步列表里加了
 
 ## 提前同步的 Registry
 
