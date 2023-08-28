@@ -160,6 +160,7 @@ docker.io/karmada/karmada-agent
 docker.io/karmada/karmada-aggregated-apiserver
 docker.io/karmada/karmada-controller-manager
 docker.io/karmada/karmada-descheduler
+docker.io/karmada/karmada-metrics-adapter
 docker.io/karmada/karmada-scheduler
 docker.io/karmada/karmada-scheduler-estimator
 docker.io/karmada/karmada-search
