@@ -1,0 +1,15 @@
+name: "Check Image"
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 8 1,16 * *"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Check Image
+        run: |
+          ./hack/verify-image.sh mirror.txt

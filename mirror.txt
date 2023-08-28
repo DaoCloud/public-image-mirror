@@ -28,7 +28,6 @@ docker.io/arey/mysql-client
 docker.io/bitnami/bitnami-shell
 docker.io/bitnami/contour
 docker.io/bitnami/elasticsearch
-docker.io/bitnami/elasticsearch-curator
 docker.io/bitnami/elasticsearch-exporter
 docker.io/bitnami/envoy
 docker.io/bitnami/grafana
@@ -37,7 +36,6 @@ docker.io/bitnami/kafka
 docker.io/bitnami/kubeapps-apis
 docker.io/bitnami/kubeapps-apprepository-controller
 docker.io/bitnami/kubeapps-dashboard
-docker.io/bitnami/kubeapps-kubeops
 docker.io/bitnami/kubectl
 docker.io/bitnami/kubernetes-event-exporter
 docker.io/bitnami/mariadb
@@ -222,8 +220,6 @@ docker.io/longhornio/longhorn-share-manager
 docker.io/longhornio/longhorn-ui
 docker.io/mariadb
 docker.io/merbridge/merbridge
-docker.io/metallb/controller
-docker.io/metallb/speaker
 docker.io/minio/console
 docker.io/minio/kes
 docker.io/minio/logsearchapi
@@ -359,8 +355,6 @@ gcr.io/istio-testing/fuzz_tomcat
 gcr.io/istio-testing/jwttool
 gcr.io/istio-testing/kind-node
 gcr.io/istio-testing/kindest/node
-gcr.io/istio-testing/mynewproxy
-gcr.io/istio-testing/myproxy
 gcr.io/istio-testing/operator
 gcr.io/istio-testing/pilot
 gcr.io/istio-testing/proxyv2
@@ -404,7 +398,6 @@ gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/imagedigestexporter
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook
 gcr.io/tekton-releases/github.com/tektoncd/results/cmd/api
 gcr.io/tekton-releases/github.com/tektoncd/results/cmd/watcher
-gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controllers
 gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook
 ghcr.io/aquasecurity/trivy
 ghcr.io/aquasecurity/trivy-db
@@ -483,8 +476,6 @@ ghcr.io/openfaas/queue-worker
 ghcr.io/openinsight-proj/demo
 ghcr.io/openinsight-proj/elastic-alert
 ghcr.io/openinsight-proj/openinsight
-ghcr.io/openinsight-proj/opentelemetry-demo-helm-chart/adservice
-ghcr.io/openinsight-proj/opentelemetry-demo-helm-chart/sentinel
 ghcr.io/ovn-org/ovn-kubernetes/ovn-kube-f
 ghcr.io/ovn-org/ovn-kubernetes/ovn-kube-u
 ghcr.io/projectcontour/contour
