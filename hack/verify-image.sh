@@ -4,11 +4,14 @@ file=$1
 
 patch_url=$2
 
-cp "${file}" "${file}.bak"
-
-git apply -R <(curl -fsSL "${patch_url}") || :
-
-list=$(diff --unified "${file}" "${file}.bak" | grep '^+\w' | sed 's/^+//' || :)
+list=""
+if [[ "${patch_url}" == "" ]]; then
+    list=$(cat "${file}")
+else 
+    cp "${file}" "${file}.bak"
+    git apply -R <(curl -fsSL "${patch_url}") || :
+    list=$(diff --unified "${file}" "${file}.bak" | grep '^+\w' | sed 's/^+//' || :)
+fi
 
 failed=()
 for image in ${list}; do
