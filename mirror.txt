@@ -71,6 +71,8 @@ docker.io/cloudnativelabs/kube-router
 docker.io/coredns/coredns
 docker.io/csiplugin/snapshot-controller
 docker.io/curlimages/curl
+docker.io/datadog/agent
+docker.io/datadog/cluster-agent
 docker.io/datawire/ambassador
 docker.io/datawire/ambassador-operator
 docker.io/debian
