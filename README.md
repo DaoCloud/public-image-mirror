@@ -27,8 +27,6 @@ docker run -d -P m.daocloud.io/docker.io/library/nginx
 
 ## 使用方法
 
-## 添加一级域名
-
 **增加前缀** (推荐方式)。比如：
 ```
 k8s.gcr.io/coredns/coredns => m.daocloud.io/k8s.gcr.io/coredns/coredns
@@ -42,9 +40,11 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 
 ### 懒加载
 
-**支持懒加载**, 就算不在同步列表中也能 **直接拉取**, 初次拉取会比已经同步过的慢一些, 并且[每 7 天会清理一次缓存](https://github.com/distribution/distribution/blob/e3509fc1deedaab489dd8829cc438de8f4c77fc3/registry/proxy/proxymanifeststore.go#L15)
+**支持懒加载**, 就算不在同步列表中也能 **直接拉取**, 初次拉取会比已经同步过的慢一些, 并且[每 7 天会清理一次缓存](https://github.com/distribution/distribution/blob/e3509fc1deedaab489dd8829cc438de8f4c77fc3/registry/proxy/proxymanifeststore.go#L15).
 
-如果只是临时使用的就不需要往同步列表里加了
+如果只是临时使用的就不需要往同步列表里加了.
+
+如果您看到下没有进度这是正常现象, 由于带宽有限只要有几人在下较大的文件就会阻塞后续的下载, 可以稍后中断下载重新再试.
 
 ## 提前同步的 Registry
 
