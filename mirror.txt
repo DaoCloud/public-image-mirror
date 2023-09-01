@@ -450,6 +450,8 @@ ghcr.io/k8snetworkplumbingwg/sriov-network-device-plugin
 ghcr.io/k8snetworkplumbingwg/sriov-network-operator
 ghcr.io/k8snetworkplumbingwg/sriov-network-operator-config-daemon
 ghcr.io/k8snetworkplumbingwg/sriov-network-operator-webhook
+ghcr.io/kdoctor-io/kdoctor-agent
+ghcr.io/kdoctor-io/kdoctor-controller
 ghcr.io/klts-io/kubernetes-lts/coredns
 ghcr.io/klts-io/kubernetes-lts/etcd
 ghcr.io/klts-io/kubernetes-lts/kube-apiserver
@@ -486,8 +488,6 @@ ghcr.io/scholzj/zoo-entrance
 ghcr.io/spidernet-io/cni-plugins/meta-plugins
 ghcr.io/spidernet-io/egressgateway-agent
 ghcr.io/spidernet-io/egressgateway-controller
-ghcr.io/spidernet-io/spiderdoctor-agent
-ghcr.io/spidernet-io/spiderdoctor-controller
 ghcr.io/spidernet-io/spiderpool/spiderpool-agent
 ghcr.io/spidernet-io/spiderpool/spiderpool-base
 ghcr.io/spidernet-io/spiderpool/spiderpool-controller
