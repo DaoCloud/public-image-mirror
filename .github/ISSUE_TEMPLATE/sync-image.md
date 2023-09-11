@@ -10,4 +10,3 @@ assignees: ''
 SYNC docker.io/library/busybox:latest
 
 请修改上面的内容，将 `docker.io/library/busybox:latest` 改为你要同步的镜像
-
