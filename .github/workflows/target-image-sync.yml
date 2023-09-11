@@ -1,0 +1,71 @@
+name: Target Sync Image
+on:
+  issues:
+    types:
+      - opened
+
+# https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token
+permissions:
+  issues: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    if: github.event.issue.title == 'SYNC IMAGE'
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Check Issue
+      run: |
+        IMAGE=$(echo "${{ github.event.issue.body }}" | grep SYNC | awk '{print $2}' | head -n 1)
+        if [[ -z "${IMAGE}" ]]; then
+          gh issue comment ${{ github.event.issue.number }} -b "找不到镜像呢"
+          gh issue edit ${{ github.event.issue.number }} --title "FAILED SYNC IMAGE"
+          gh issue close ${{ github.event.issue.number }} --reason "not planned"
+          exit 1
+        fi
+        if [[ "${IMAGE}" == "*" ]]; then
+          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${IMAGE} 不存在呢"
+          gh issue edit ${{ github.event.issue.number }} --title "FAILED SYNC IMAGE"
+          gh issue close ${{ github.event.issue.number }} --reason "not planned"
+          exit 1
+        fi
+        if [[ "${IMAGE}" != *":"* ]]; then
+          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${IMAGE} 不存在呢, 请指定 tag"
+          gh issue edit ${{ github.event.issue.number }} --title "FAILED SYNC IMAGE"
+          gh issue close ${{ github.event.issue.number }} --reason "not planned"
+          exit 1
+        fi
+        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${IMAGE} 同步中..."
+        gh issue edit ${{ github.event.issue.number }} --title "SYNC IMAGE ${IMAGE}"
+    - name: Start Proxy
+      env:
+        only_proxy: "m.daocloud.io"
+      run: |
+        wget https://github.com/wzshiming/bridge/releases/download/v0.7.13/bridge_linux_amd64 -O /usr/local/bin/bridge && chmod +x /usr/local/bin/bridge
+        nohup /usr/local/bin/bridge -b :8080 -p - ${{ secrets.PROTOCOL }} 2>/dev/null &
+    - name: Check Proxy
+      run: |
+        curl -v http://127.0.0.1:8080 || exit 1
+        curl -f --proxy 127.0.0.1:8080 -v http://m.daocloud.io/v2/ || exit 1
+    - name: Override mirror.txt
+      run: |
+        IMAGE=$(echo "${{ github.event.issue.body }}" | grep SYNC | awk '{print $2}' | head -n 1)
+        echo ${IMAGE} > mirror.txt
+
+    - name: Sync Images
+      env:
+        INCREMENTAL: "true"
+        SYNC: "true"
+        PARALLET: "1"
+        http_proxy: socks5://127.0.0.1:8080
+        https_proxy: socks5://127.0.0.1:8080
+      run: |
+        ./hack/diff.sh
+    - name: Close Issue
+      run: |
+        IMAGE=$(echo "${{ github.event.issue.body }}" | grep SYNC | awk '{print $2}' | head -n 1)
+        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${IMAGE} 同步完成<br>请使用 m.daocloud.io/${IMAGE} 替代源镜像"
+        gh issue close ${{ github.event.issue.number }} --reason "completed"
