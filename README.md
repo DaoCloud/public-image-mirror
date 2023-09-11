@@ -18,13 +18,6 @@ Sync: 是 tag 的同步率 只要 tag 存在就是同步的
 ```
 docker run -d -P m.daocloud.io/docker.io/library/nginx
 ```
-
-## 支持的镜像
-
-[mirror.txt](mirror.txt)
-
-如果想要新增, 提 PR 修改即可。例如 [PR#1](https://github.com/DaoCloud/public-image-mirror/pull/1/)， 并请在 PR 提交前排序： `./hack/fmt.sh mirror.txt`
-
 ## 使用方法
 
 **增加前缀** (推荐方式)。比如：
@@ -46,6 +39,8 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 
 如果您看到下没有进度这是正常现象, 由于带宽有限只要有几人在下较大的文件就会阻塞后续的下载, 可以稍后中断下载重新再试.
 
+如果您实在等不及了可以根据 [镜像同步 Issue 模板](https://github.com/DaoCloud/public-image-mirror/issues/new?assignees=&labels=&projects=&template=sync-image.md&title=SYNC+IMAGE) 创建一个 Issue, 将会有机器人帮你优先主动同步指定的镜像
+
 ## 提前同步的 Registry
 
 [domain.txt](domain.txt)
@@ -53,6 +48,12 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 用于 github action 从源 registry 提前同步到 m.daocloud.io 下
 
 如果想要新增, 提 PR 修改即可。例如 [PR#28](https://github.com/DaoCloud/public-image-mirror/pull/28),  并请在 PR 提交前排序：`./hack/fmt.sh domain.txt`
+
+## 支持的镜像
+
+[mirror.txt](mirror.txt)
+
+如果想要新增, 提 PR 修改即可。例如 [PR#1](https://github.com/DaoCloud/public-image-mirror/pull/1/)， 并请在 PR 提交前排序： `./hack/fmt.sh mirror.txt`
 
 ## 支持前缀替换的 Registry
 
