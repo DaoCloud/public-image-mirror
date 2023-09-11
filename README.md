@@ -37,9 +37,9 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 
 如果只是临时使用的就不需要往同步列表里加了.
 
-如果您看到下没有进度这是正常现象, 由于带宽有限只要有几人在下较大的文件就会阻塞后续的下载, 可以稍后中断下载重新再试.
+如果您看到下没有进度这是由于带宽有限只要有几人在下较大的文件就会阻塞后续的下载, 可以稍后中断下载重新再试.
 
-如果您实在等不及了可以根据 [镜像同步 Issue 模板](https://github.com/DaoCloud/public-image-mirror/issues/new?assignees=&labels=&projects=&template=sync-image.md&title=SYNC+IMAGE) 创建一个 Issue, 将会有机器人帮你优先主动同步指定的镜像
+如果您实在等不及了可以根据 [镜像同步 Issue 模板](https://github.com/DaoCloud/public-image-mirror/issues/new?assignees=&labels=&projects=&template=sync-image.md&title=SYNC+IMAGE) 创建一个 Issue, 将会有机器人帮您优先主动同步指定的镜像
 
 ## 提前同步的 Registry
 
