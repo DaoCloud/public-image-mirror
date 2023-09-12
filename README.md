@@ -39,21 +39,23 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 
 如果您看到下没有进度这是由于带宽有限只要有几人在下较大的文件就会阻塞后续的下载, 可以稍后中断下载重新再试.
 
-如果您实在等不及了可以根据 [镜像同步 Issue 模板](https://github.com/DaoCloud/public-image-mirror/issues/new?assignees=&labels=&projects=&template=sync-image.md&title=SYNC+IMAGE) 创建一个 Issue, 将会有机器人帮您优先主动同步指定的镜像
+## 单次单镜像同步
 
-## 提前同步的 Registry
+您可以根据 [镜像同步 Issue 模板](https://github.com/DaoCloud/public-image-mirror/issues/new?assignees=&labels=&projects=&template=sync-image.md&title=SYNC+IMAGE) 创建一个 Issue, 将会有机器人帮您优先主动同步指定的镜像
+
+## 主动定期同步列表
+
+[mirror.txt](mirror.txt)
+
+如果想要新增, 提 PR 修改即可。例如 [PR#1](https://github.com/DaoCloud/public-image-mirror/pull/1/)， 并请在 PR 提交前排序： `./hack/fmt.sh mirror.txt`
+
+## 对应 Registry 的映射
 
 [domain.txt](domain.txt)
 
 用于 github action 从源 registry 提前同步到 m.daocloud.io 下
 
 如果想要新增, 提 PR 修改即可。例如 [PR#28](https://github.com/DaoCloud/public-image-mirror/pull/28),  并请在 PR 提交前排序：`./hack/fmt.sh domain.txt`
-
-## 支持的镜像
-
-[mirror.txt](mirror.txt)
-
-如果想要新增, 提 PR 修改即可。例如 [PR#1](https://github.com/DaoCloud/public-image-mirror/pull/1/)， 并请在 PR 提交前排序： `./hack/fmt.sh mirror.txt`
 
 ## 支持前缀替换的 Registry
 
