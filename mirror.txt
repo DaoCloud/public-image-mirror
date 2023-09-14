@@ -2,6 +2,7 @@ docker.elastic.co/eck/eck-operator
 docker.elastic.co/elasticsearch/elasticsearch
 docker.elastic.co/kibana/kibana
 docker.elastic.co/kibana/kibana-oss
+docker.io/adoptopenjdk/openjdk11
 docker.io/alpine
 docker.io/alpine/helm
 docker.io/amambadev/jenkins
@@ -41,6 +42,7 @@ docker.io/bitnami/kubernetes-event-exporter
 docker.io/bitnami/mariadb
 docker.io/bitnami/minideb
 docker.io/bitnami/nginx
+docker.io/bitnami/postgres-exporter
 docker.io/bitnami/postgresql
 docker.io/bitnami/wordpress
 docker.io/bitpoke/mysql-operator
@@ -205,6 +207,7 @@ docker.io/library/python
 docker.io/library/rabbitmq
 docker.io/library/redis
 docker.io/library/registry
+docker.io/library/sonarqube
 docker.io/library/traefik
 docker.io/library/ubuntu
 docker.io/library/wordpress
@@ -305,6 +308,7 @@ docker.io/redis
 docker.io/redislabs/redisearch
 docker.io/registry
 docker.io/seataio/seata-server
+docker.io/sonarqube
 docker.io/sonobuoy/cluster-inventory
 docker.io/sonobuoy/kube-bench
 docker.io/sonobuoy/sonobuoy
