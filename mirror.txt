@@ -488,6 +488,7 @@ ghcr.io/ovn-org/ovn-kubernetes/ovn-kube-f
 ghcr.io/ovn-org/ovn-kubernetes/ovn-kube-u
 ghcr.io/projectcontour/contour
 ghcr.io/pterodactyl/yolks
+ghcr.io/renovatebot/renovate
 ghcr.io/scholzj/zoo-entrance
 ghcr.io/spidernet-io/cni-plugins/meta-plugins
 ghcr.io/spidernet-io/egressgateway-agent
