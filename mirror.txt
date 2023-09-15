@@ -117,6 +117,7 @@ docker.io/goharbor/redis-photon
 docker.io/goharbor/registry-photon
 docker.io/goharbor/trivy-adapter-photon
 docker.io/golang
+docker.io/golangci/golangci-lint
 docker.io/grafana/grafana
 docker.io/grafana/tempo
 docker.io/halverneus/static-file-server
