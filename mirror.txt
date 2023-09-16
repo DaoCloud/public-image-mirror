@@ -117,6 +117,7 @@ docker.io/goharbor/redis-photon
 docker.io/goharbor/registry-photon
 docker.io/goharbor/trivy-adapter-photon
 docker.io/golang
+docker.io/golangci/golangci-lint
 docker.io/grafana/grafana
 docker.io/grafana/tempo
 docker.io/halverneus/static-file-server
@@ -488,6 +489,7 @@ ghcr.io/ovn-org/ovn-kubernetes/ovn-kube-f
 ghcr.io/ovn-org/ovn-kubernetes/ovn-kube-u
 ghcr.io/projectcontour/contour
 ghcr.io/pterodactyl/yolks
+ghcr.io/renovatebot/renovate
 ghcr.io/scholzj/zoo-entrance
 ghcr.io/spidernet-io/cni-plugins/meta-plugins
 ghcr.io/spidernet-io/egressgateway-agent
