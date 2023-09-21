@@ -493,7 +493,10 @@ ghcr.io/renovatebot/renovate
 ghcr.io/scholzj/zoo-entrance
 ghcr.io/spidernet-io/cni-plugins/meta-plugins
 ghcr.io/spidernet-io/egressgateway-agent
+ghcr.io/spidernet-io/egressgateway-agent-base
 ghcr.io/spidernet-io/egressgateway-controller
+ghcr.io/spidernet-io/egressgateway-controller-base
+ghcr.io/spidernet-io/egressgateway-nettools
 ghcr.io/spidernet-io/spiderpool/spiderpool-agent
 ghcr.io/spidernet-io/spiderpool/spiderpool-base
 ghcr.io/spidernet-io/spiderpool/spiderpool-controller
