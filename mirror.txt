@@ -225,6 +225,9 @@ docker.io/longhornio/longhorn-manager
 docker.io/longhornio/longhorn-share-manager
 docker.io/longhornio/longhorn-ui
 docker.io/mariadb
+docker.io/mellanox/centos_7_4_mofed_4_2_1_2_0_0_60
+docker.io/mellanox/k8s-rdma-shared-dev-plugin
+docker.io/mellanox/mlnx_ofed_linux-4.4-1.0.0.0-centos7.4
 docker.io/merbridge/merbridge
 docker.io/minio/console
 docker.io/minio/kes
