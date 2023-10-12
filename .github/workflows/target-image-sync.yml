@@ -62,9 +62,7 @@ jobs:
         MESSAGE: "${{ github.event.issue.body }}"
       run: |
         ORIGIN_IMAGE=$(echo "${MESSAGE}" | grep SYNC | awk '{print $2}' | head -n 1 | sed "s/\r//g")
-        FOCUS=$(echo "${ORIGIN_IMAGE}" | awk -F':' '{print $2}')
-        IMAGE=$(echo "${ORIGIN_IMAGE}" | awk -F':' '{print $1}')
-        FOCUS=${FOCUS} ./hack/diff-image.sh "${IMAGE}" "m.daocloud.io/${IMAGE}"
+        ./hack/diff-image.sh "${ORIGIN_IMAGE}" "m.daocloud.io/${ORIGIN_IMAGE}"
         gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步完成<br>请使用 m.daocloud.io/${ORIGIN_IMAGE} 替代源镜像"
         gh issue close ${{ github.event.issue.number }} --reason "completed"
 
