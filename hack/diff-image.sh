@@ -296,14 +296,13 @@ function main() {
     local image2="${2:-}"
 
     if [[ "${image1#*/}" =~ ":" ]]; then
-        diff-image-with-tag "${image1}" "${image2}" >/dev/null || {
-            if [[ "${SYNC}" == "true" ]]; then
-                echo "${SELF}: SYNCHRONIZE: synchronize from ${image1} to ${image2}" >&2
-                copy-image "${image1}" "${image2}"
-            fi
+        if [[ "${SYNC}" == "true" ]]; then
+            echo "${SELF}: SYNCHRONIZE: synchronize from ${image1} to ${image2}" >&2
+            copy-image "${image1}" "${image2}"
             return $?
-        }
-        return 0
+        fi
+        diff-image-with-tag "${image1}" "${image2}" >/dev/null
+        return $?
     fi
 
     local list=$(diff-image "${image1}" "${image2}")
