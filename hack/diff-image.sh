@@ -298,8 +298,8 @@ function main() {
     if [[ "${image1#*/}" =~ ":" ]]; then
         diff-image-with-tag "${image1}" "${image2}" >/dev/null || {
             if [[ "${SYNC}" == "true" ]]; then
-                echo "${SELF}: SYNCHRONIZE: synchronize from ${image1}:${tag} to ${image2}:${tag}" >&2
-                copy-image "${image1}:${tag}" "${image2}:${tag}"
+                echo "${SELF}: SYNCHRONIZE: synchronize from ${image1} to ${image2}" >&2
+                copy-image "${image1}" "${image2}"
             fi
             return $?
         }
