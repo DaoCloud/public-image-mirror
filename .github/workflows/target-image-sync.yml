@@ -71,5 +71,6 @@ jobs:
       env:
         MESSAGE: "${{ github.event.issue.body }}"
       run: |
+        ORIGIN_IMAGE=$(echo "${MESSAGE}" | grep SYNC | awk '{print $2}' | head -n 1 | sed "s/\r//g")
         gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步失败"
         gh issue edit ${{ github.event.issue.number }} --title "FAILED SYNC IMAGE ${ORIGIN_IMAGE}"
