@@ -254,7 +254,7 @@ function diff-image() {
         increase=""
     fi
 
-    if [[ "${reduce}" != "" ]] || [[ "${increase}" != "" ]]; then
+    if [[ "${QUICKLY}" == "" ]] || [[ "${reduce}" != "" ]] || [[ "${increase}" != "" ]]; then
         echo "${SELF}: NOT-SYNCHRONIZED-TAGS: ${image1} and ${image2} are not in synchronized" >&2
         if [[ "${DEBUG}" == "true" ]]; then
             echo "DEBUG: image1 ${image1}:" >&2
