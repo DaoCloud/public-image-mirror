@@ -21,27 +21,27 @@ jobs:
       env:
         MESSAGE: "${{ github.event.issue.body }}"
       run: |
-        IMAGE=$(echo "${MESSAGE}" | grep SYNC | awk '{print $2}' | head -n 1 | sed "s/\r//g")
-        if [[ -z "${IMAGE}" ]]; then
+        ORIGIN_IMAGE=$(echo "${MESSAGE}" | grep SYNC | awk '{print $2}' | head -n 1 | sed "s/\r//g")
+        if [[ -z "${ORIGIN_IMAGE}" ]]; then
           gh issue comment ${{ github.event.issue.number }} -b "找不到镜像呢"
           gh issue edit ${{ github.event.issue.number }} --title "FAILED SYNC IMAGE"
           gh issue close ${{ github.event.issue.number }} --reason "not planned"
           exit 1
         fi
-        if [[ "${IMAGE}" == "*" ]]; then
-          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${IMAGE} 不存在呢"
+        if [[ "${ORIGIN_IMAGE}" == "*" ]]; then
+          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 不存在呢"
           gh issue edit ${{ github.event.issue.number }} --title "FAILED SYNC IMAGE"
           gh issue close ${{ github.event.issue.number }} --reason "not planned"
           exit 1
         fi
-        if [[ "${IMAGE}" != *":"* ]]; then
-          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${IMAGE} 不存在呢, 请指定 tag"
+        if [[ "${ORIGIN_IMAGE}" != *":"* ]]; then
+          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 不存在呢, 请指定 tag"
           gh issue edit ${{ github.event.issue.number }} --title "FAILED SYNC IMAGE"
           gh issue close ${{ github.event.issue.number }} --reason "not planned"
           exit 1
         fi
-        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${IMAGE} 同步中..."
-        gh issue edit ${{ github.event.issue.number }} --title "SYNC IMAGE ${IMAGE}"
+        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步中..."
+        gh issue edit ${{ github.event.issue.number }} --title "SYNC IMAGE ${ORIGIN_IMAGE}"
     - name: Start Proxy
       env:
         only_proxy: "m.daocloud.io"
@@ -61,12 +61,14 @@ jobs:
         https_proxy: socks5://127.0.0.1:8080
         MESSAGE: "${{ github.event.issue.body }}"
       run: |
-        IMAGE=$(echo "${MESSAGE}" | grep SYNC | awk '{print $2}' | head -n 1 | sed "s/\r//g")
+        ORIGIN_IMAGE=$(echo "${MESSAGE}" | grep SYNC | awk '{print $2}' | head -n 1 | sed "s/\r//g")
+        FOCUS=$(echo "${ORIGIN_IMAGE}" | awk -F':' '{print $2}')
+        IMAGE=$(echo "${ORIGIN_IMAGE}" | awk -F':' '{print $1}')
         if ./hack/diff-image.sh "${IMAGE}" "m.daocloud.io/${IMAGE}"; then
-          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${IMAGE} 同步完成<br>请使用 m.daocloud.io/${IMAGE} 替代源镜像"
+          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步完成<br>请使用 m.daocloud.io/${ORIGIN_IMAGE} 替代源镜像"
           gh issue close ${{ github.event.issue.number }} --reason "completed"
         else
-          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${IMAGE} 同步失败"
-          gh issue edit ${{ github.event.issue.number }} --title "FAILED SYNC IMAGE ${IMAGE}"
+          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步失败"
+          gh issue edit ${{ github.event.issue.number }} --title "FAILED SYNC IMAGE ${ORIGIN_IMAGE}"
           exit 1
         fi
