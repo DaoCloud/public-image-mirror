@@ -177,6 +177,10 @@ docker.io/kindest/haproxy
 docker.io/kindest/node
 docker.io/kiwigrid/k8s-sidecar
 docker.io/kubeedge/cloudcore
+docker.io/kubeflownotebookswg/notebook-controller
+docker.io/kubeflownotebookswg/tensorboard-controller
+docker.io/kubeflownotebookswg/tensorboards-web-app
+docker.io/kubeflow/training-operator
 docker.io/kubeovn/kube-ovn
 docker.io/kuberhealthy/dns-resolution-check
 docker.io/kuberhealthy/kuberhealthy
