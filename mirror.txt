@@ -486,6 +486,7 @@ ghcr.io/openfaas/basic-auth
 ghcr.io/openfaas/faas-netes
 ghcr.io/openfaas/gateway
 ghcr.io/openfaas/queue-worker
+ghcr.io/openinsight-proj/autoinstrumentation-java
 ghcr.io/openinsight-proj/demo
 ghcr.io/openinsight-proj/elastic-alert
 ghcr.io/openinsight-proj/openinsight
