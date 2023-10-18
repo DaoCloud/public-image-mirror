@@ -52,8 +52,6 @@ jobs:
       run: |
         curl -v http://127.0.0.1:8080 || exit 1
         curl -f --proxy 127.0.0.1:8080 -v http://m.daocloud.io/v2/ || exit 1
-    - name: Set up skopeo
-      run: sudo apt-get install -y skopeo
     - name: Sync Images
       env:
         INCREMENTAL: "true"
