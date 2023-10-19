@@ -35,11 +35,18 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 
 ## 单次单镜像同步 (强烈推荐)
 
+每个 Issue 独立使用带宽 50 Mbps
+
 您可以根据 [镜像同步 Issue 模板](https://github.com/DaoCloud/public-image-mirror/issues/new?assignees=&labels=&projects=&template=sync-image.md&title=SYNC+IMAGE) 创建一个 Issue, 将会有机器人帮您优先主动同步指定的镜像
 
 原先已经在下的镜像还是会继续走原来的, 需要重启 docker 再重新拉取才能走已经同步好的缓存过, 所以推荐先单次同步再尝试拉取
 
 ## 懒加载
+
+所有懒加载共享
+- 国际带宽 90 Mbps
+- 服务器下行带宽 15 Mbps
+- 单个连接限制带宽 4 Mbps
 
 **支持懒加载**, 就算不在同步列表中也能 **直接拉取**, 初次拉取会比已经同步过的慢一些, 并且[每 7 天会清理一次缓存](https://github.com/distribution/distribution/blob/e3509fc1deedaab489dd8829cc438de8f4c77fc3/registry/proxy/proxymanifeststore.go#L15).
 
