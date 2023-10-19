@@ -52,8 +52,9 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 [mirror.txt](mirror.txt)
 
 如果想要新增, 提 PR 修改即可。例如 [PR#1](https://github.com/DaoCloud/public-image-mirror/pull/1/)， 并请在 PR 提交前排序： `./hack/fmt.sh mirror.txt`
+注意由于数量已经比较多了初次提交被同步到可能需要一周时间, 强烈建议使用单次单镜像同步
 
-## 对应 Registry 的映射
+## 对应 Registry 的映射 (准备废弃)
 
 [domain.txt](domain.txt)
 
@@ -63,9 +64,7 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 
 ## 支持前缀替换的 Registry
 
-## 前缀替换的 Registry 的规则
-
-如有新增, 提 PR 修改下面的表格, 合并后由人工配置
+前缀替换的 Registry 的规则
 
 | 源站                    | 替换为                        |
 | ----------------------- | ----------------------------- |
