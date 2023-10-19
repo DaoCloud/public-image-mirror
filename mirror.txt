@@ -178,6 +178,14 @@ docker.io/kindest/node
 docker.io/kiwigrid/k8s-sidecar
 docker.io/kubeedge/cloudcore
 docker.io/kubeflow/training-operator
+docker.io/kubeflownotebookswg/codeserver
+docker.io/kubeflownotebookswg/codeserver-python
+docker.io/kubeflownotebookswg/jupyter
+docker.io/kubeflownotebookswg/jupyter-pytorch-cuda-full
+docker.io/kubeflownotebookswg/jupyter-pytorch-full
+docker.io/kubeflownotebookswg/jupyter-scipy
+docker.io/kubeflownotebookswg/jupyter-tensorflow-cuda-full
+docker.io/kubeflownotebookswg/jupyter-tensorflow-full
 docker.io/kubeflownotebookswg/notebook-controller
 docker.io/kubeflownotebookswg/tensorboard-controller
 docker.io/kubeflownotebookswg/tensorboards-web-app
