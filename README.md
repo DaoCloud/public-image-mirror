@@ -67,8 +67,6 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 
 [domain.txt](domain.txt)
 
-用于 github action 从源 registry 提前同步到 m.daocloud.io 下
-
 如果想要新增, 提 PR 修改即可。例如 [PR#28](https://github.com/DaoCloud/public-image-mirror/pull/28),  并请在 PR 提交前排序：`./hack/fmt.sh domain.txt`
 
 ## 支持前缀替换的 Registry
@@ -99,7 +97,7 @@ kubeadm config images pull --image-repository k8s-gcr.m.daocloud.io
 * 通过 加速 安装 kind
 
 ``` bash
-kind create cluster --name kind --image docker.m.daocloud.io/kindest/node:v1.22.1
+kind create cluster --name kind --image m.daocloud.io/docker.io/kindest/node:v1.22.1
 ``` 
 
 * 通过 加速 部署 应用(这里以 Ingress 为例)
