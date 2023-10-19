@@ -28,6 +28,10 @@ jobs:
       - name: Override mirror.txt
         run: |
           echo ${{ github.event.inputs.image }} > mirror.txt
+      - name: Set up skopeo
+        run: |
+          wget https://github.com/lework/skopeo-binary/releases/download/v1.13.3/skopeo-linux-amd64 -O /usr/local/bin/skopeo && chmod +x /usr/local/bin/skopeo
+          skopeo --version
       - name: Sync Images
         env:
           INCREMENTAL: "true"
