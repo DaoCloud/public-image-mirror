@@ -3,6 +3,9 @@ name: Verify PR
 on:
   pull_request_target:
     branches: [main]
+    paths:
+      - 'domain.txt'
+      - 'mirror.txt'
 
 permissions:
   issues: write
