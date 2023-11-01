@@ -46,7 +46,22 @@ jobs:
           gh issue close ${{ github.event.issue.number }} --reason "not planned"
           exit 1
         fi
-        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步中..."
+    - name: Set up skopeo
+      run: |
+        wget https://github.com/lework/skopeo-binary/releases/download/v1.13.3/skopeo-linux-amd64 -O /usr/local/bin/skopeo && chmod +x /usr/local/bin/skopeo
+        skopeo --version
+    - name: Check Image
+      env:
+        MESSAGE: "${{ github.event.issue.body }}"
+      run: |
+        ORIGIN_IMAGE=$(echo "${MESSAGE}" | grep SYNC | awk '{print $2}' | head -n 1 | sed "s/\r//g")
+        if ! skopeo inspect "docker://${ORIGIN_IMAGE}"; then
+          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 不存在呢"
+          gh issue edit ${{ github.event.issue.number }} --title "FAILED SYNC IMAGE"
+          gh issue close ${{ github.event.issue.number }} --reason "not planned"
+          exit 1
+        fi
+        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步中...<br>[详情请查看](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})"
         gh issue edit ${{ github.event.issue.number }} --title "SYNC IMAGE ${ORIGIN_IMAGE}"
     - name: Start Proxy
       env:
@@ -58,10 +73,6 @@ jobs:
       run: |
         curl -v http://127.0.0.1:8080 || exit 1
         curl -f --proxy 127.0.0.1:8080 -v http://m.daocloud.io/v2/ || exit 1
-    - name: Set up skopeo
-      run: |
-        wget https://github.com/lework/skopeo-binary/releases/download/v1.13.3/skopeo-linux-amd64 -O /usr/local/bin/skopeo && chmod +x /usr/local/bin/skopeo
-        skopeo --version
     - name: Sync Images
       env:
         INCREMENTAL: "true"
