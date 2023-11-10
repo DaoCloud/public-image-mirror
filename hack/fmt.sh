@@ -14,7 +14,7 @@ function filter_docker_library() {
 
 function filter_k8s_old() {
     while read -r line; do
-        if [[ $line =~ ^k8s\.gcr\.io/[^/]*$ ]]; then
+        if [[ $line =~ ^k8s\.gcr\.io/.*$ ]]; then
             echo "registry.k8s.io/${line#k8s.gcr.io/}"
         else
             echo "${line}"
