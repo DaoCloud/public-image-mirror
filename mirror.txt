@@ -291,6 +291,7 @@ ghcr.io/hwameistor/local-disk-manager
 ghcr.io/hwameistor/local-storage
 ghcr.io/hwameistor/operator
 ghcr.io/hwameistor/scheduler
+ghcr.io/k8snetworkplumbingwg/ib-sriov-cni
 ghcr.io/k8snetworkplumbingwg/multus-cni
 ghcr.io/k8snetworkplumbingwg/network-resources-injector
 ghcr.io/k8snetworkplumbingwg/sriov-cni
@@ -309,6 +310,7 @@ ghcr.io/kubean-io/kubean-operator
 ghcr.io/kubean-io/spray-job
 ghcr.io/megacloudcontainer/kube-hunter
 ghcr.io/megacloudcontainer/kubeaudit
+ghcr.io/mellanox/k8s-rdma-shared-dev-plugin
 ghcr.io/open-telemetry/demo
 ghcr.io/open-telemetry/opentelemetry-go-instrumentation/autoinstrumentation-go
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-dotnet
@@ -326,6 +328,7 @@ ghcr.io/spidernet-io/egressgateway-agent
 ghcr.io/spidernet-io/egressgateway-controller
 ghcr.io/spidernet-io/spiderpool/spiderpool-agent
 ghcr.io/spidernet-io/spiderpool/spiderpool-controller
+ghcr.io/spidernet-io/spiderpool/spiderpool-plugins
 ghcr.io/spiffe/spire-agent
 ghcr.io/spiffe/spire-server
 ghcr.io/sumologic/tailing-sidecar
