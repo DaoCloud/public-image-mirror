@@ -10,7 +10,7 @@ jobs:
     if: github.repository == 'DaoCloud/public-image-mirror'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Start Proxy
         env:
           only_proxy: "m.daocloud.io"
@@ -37,7 +37,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BADGE_PREFIX: "git://${{ github.repository }}/gh-pages"
-          QUICKLY: "true"  
+          QUICKLY: "true"
         run: |
           wget https://github.com/wzshiming/putingh/releases/download/v0.6.3/putingh_linux_amd64 -O /usr/local/bin/putingh && chmod +x /usr/local/bin/putingh
           ./hack/badge.sh
