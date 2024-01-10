@@ -221,6 +221,7 @@ gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook
 gcr.io/knative-releases/knative.dev/net-kourier/cmd/kourier
 gcr.io/knative-releases/knative.dev/serving/cmd/activator
 gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler
+gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa
 gcr.io/knative-releases/knative.dev/serving/cmd/controller
 gcr.io/knative-releases/knative.dev/serving/cmd/default-domain
 gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping
