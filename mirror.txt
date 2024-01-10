@@ -304,6 +304,7 @@ ghcr.io/spiffe/spire-agent
 ghcr.io/spiffe/spire-server
 ghcr.io/sumologic/tailing-sidecar
 ghcr.io/sumologic/tailing-sidecar-operator
+ghcr.io/timeplus-io/proton
 quay.io/argoproj/argo-rollouts
 quay.io/argoproj/argocd
 quay.io/argoproj/argocli
