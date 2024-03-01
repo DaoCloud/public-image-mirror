@@ -11,7 +11,7 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    if: startsWith(github.event.issue.title, 'SYNC IMAGE')
+    if: startsWith(github.event.issue.title, 'SYNC ')
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
