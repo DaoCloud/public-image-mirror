@@ -374,6 +374,8 @@ ghcr.io/spiffe/spire-server
 ghcr.io/sumologic/tailing-sidecar
 ghcr.io/sumologic/tailing-sidecar-operator
 ghcr.io/timeplus-io/proton
+nvcr.io/nvidia/pytorch
+nvcr.io/nvidia/tritonserver
 quay.io/argoproj/argo-rollouts
 quay.io/argoproj/argocd
 quay.io/argoproj/argocli
