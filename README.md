@@ -4,8 +4,6 @@
 
 Sync: 是 tag 的同步率 只要 tag 存在就是同步的
 
-近期在切换供应商所以需要重新同步缓存
-
 ## 背景
 很多镜像都在国外。比如 gcr 。国内下载很慢，需要加速。
 
@@ -84,6 +82,7 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 | rocks.canonical.com     | rocks-canonical.m.daocloud.io |
 
 ## 最佳实践
+
 * 通过 加速 安装 kubeadm
 ``` bash
 kubeadm config images pull --image-repository k8s-gcr.m.daocloud.io
@@ -128,5 +127,3 @@ cat ./deploy.yaml | ./image-filter.sh | kubectl apply -f -
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
-
-
