@@ -103,6 +103,11 @@ docker.io/kennethreitz/httpbin
 docker.io/kindest/haproxy
 docker.io/kindest/node
 docker.io/kiwigrid/k8s-sidecar
+docker.io/koordinatorsh/koord-descheduler
+docker.io/koordinatorsh/koord-manager
+docker.io/koordinatorsh/koord-scheduler
+docker.io/koordinatorsh/koordlet
+docker.io/koordinatorsh/yarn-operator
 docker.io/kubeedge/cloudcore
 docker.io/kubeflow/training-operator
 docker.io/kubeflownotebookswg/jupyter-scipy
