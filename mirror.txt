@@ -482,6 +482,7 @@ registry.k8s.io/kube-controller-manager
 registry.k8s.io/kube-proxy
 registry.k8s.io/kube-scheduler
 registry.k8s.io/kube-state-metrics/kube-state-metrics
+registry.k8s.io/kubectl
 registry.k8s.io/kubernetes-zookeeper
 registry.k8s.io/kueue/kueue
 registry.k8s.io/kwok/cluster
