@@ -274,6 +274,15 @@ docker.io/victoriametrics/vmselect
 docker.io/victoriametrics/vmstorage
 docker.io/weaveworks/weave-kube
 docker.io/weaveworks/weave-npc
+docker.io/deepflowce/deepflow-server
+docker.io/deepflowce/deepflow-app
+docker.io/deepflowce/clickhouse-server
+docker.io/deepflowce/mysql
+docker.io/deepflowce/mysqldeepflowce/deepflow-agent
+docker.io/deepflowce/grafana
+docker.io/deepflowce/deepflowio-init-grafana
+docker.io/deepflowce/deepflowio-init-grafana-ds-dh
+docker.io/bats/bats
 gcr.io/cadvisor/cadvisor
 gcr.io/distroless/static
 gcr.io/distroless/static-debian11
