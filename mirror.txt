@@ -47,13 +47,13 @@ docker.io/coredns/coredns
 docker.io/csiplugin/snapshot-controller
 docker.io/curlimages/curl
 docker.io/deepflowce/clickhouse-server
+docker.io/deepflowce/deepflow-agent
 docker.io/deepflowce/deepflow-app
 docker.io/deepflowce/deepflow-server
 docker.io/deepflowce/deepflowio-init-grafana
 docker.io/deepflowce/deepflowio-init-grafana-ds-dh
 docker.io/deepflowce/grafana
 docker.io/deepflowce/mysql
-docker.io/deepflowce/deepflow-agent
 docker.io/dpage/pgadmin4
 docker.io/elastic/filebeat
 docker.io/envoyproxy/envoy
