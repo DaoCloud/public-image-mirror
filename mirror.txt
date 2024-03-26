@@ -53,7 +53,7 @@ docker.io/deepflowce/deepflowio-init-grafana
 docker.io/deepflowce/deepflowio-init-grafana-ds-dh
 docker.io/deepflowce/grafana
 docker.io/deepflowce/mysql
-docker.io/deepflowce/mysqldeepflowce/deepflow-agent
+docker.io/deepflowce/deepflow-agent
 docker.io/dpage/pgadmin4
 docker.io/elastic/filebeat
 docker.io/envoyproxy/envoy
