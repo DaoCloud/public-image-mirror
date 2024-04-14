@@ -4,6 +4,13 @@
 
 Sync: 定期同步列表里的 image tag 的同步率, 只要 tag 存在就是同步的.
 
+**!!!!!!!!!!!!!!!!!!!!!!!!屏蔽通知!!!!!!!!!!!!!!!!!!!!!!!!**
+
+由于近期个别 Image 和 IP 存在大流量, 近期将会进行屏蔽
+如果有大量需求的
+- [可以自己搭建服务器](https://github.com/wzshiming/crproxy/tree/master/examples/default)
+- 或者提个 Issue 商量或邮件联系
+
 ## 背景
 
 很多镜像都在国外。比如 gcr 。国内下载很慢，需要加速。
