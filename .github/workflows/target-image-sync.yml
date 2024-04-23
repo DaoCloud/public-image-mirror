@@ -29,7 +29,7 @@ jobs:
           exit 1
         fi
         if [[ "${ORIGIN_IMAGE}" != *":"* ]]; then
-          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 不存在呢, 请指定 tag"
+          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 不存在呢, 请指定 tag, 如: ${ORIGIN_IMAGE}:latest"
           gh issue edit ${{ github.event.issue.number }} --title "FAILED SYNC IMAGE"
           gh issue close ${{ github.event.issue.number }} --reason "not planned"
           exit 1
@@ -51,9 +51,6 @@ jobs:
         ORIGIN_IMAGE=$(echo "${MESSAGE}" | grep SYNC | awk '{print $2}' | head -n 1 | sed "s/\r//g")
         if ! skopeo inspect --no-tags "docker://${ORIGIN_IMAGE}"; then
           gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 不存在呢"
-          gh issue edit ${{ github.event.issue.number }} --title "FAILED SYNC IMAGE"
-          gh issue close ${{ github.event.issue.number }} --reason "not planned"
-          exit 1
         fi
         gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步中...<br>[详情请查看](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})"
         gh issue edit ${{ github.event.issue.number }} --title "SYNC IMAGE ${ORIGIN_IMAGE}"
