@@ -49,7 +49,7 @@ jobs:
         MESSAGE: "${{ github.event.issue.body }}"
       run: |
         ORIGIN_IMAGE=$(echo "${MESSAGE}" | grep SYNC | awk '{print $2}' | head -n 1 | sed "s/\r//g")
-        if ! skopeo inspect "docker://${ORIGIN_IMAGE}"; then
+        if ! skopeo inspect --no-tags "docker://${ORIGIN_IMAGE}"; then
           gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 不存在呢"
           gh issue edit ${{ github.event.issue.number }} --title "FAILED SYNC IMAGE"
           gh issue close ${{ github.event.issue.number }} --reason "not planned"
