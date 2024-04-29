@@ -323,6 +323,7 @@ ghcr.io/chaos-mesh/chaos-daemon
 ghcr.io/chaos-mesh/chaos-dashboard
 ghcr.io/chaos-mesh/chaos-mesh
 ghcr.io/daocloud/dao-2048
+ghcr.io/daocloud/netmaterial
 ghcr.io/dexidp/dex
 ghcr.io/dtzar/helm-kubectl
 ghcr.io/hwameistor/admission
