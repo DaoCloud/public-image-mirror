@@ -322,6 +322,7 @@ ghcr.io/aquasecurity/trivy-java-db
 ghcr.io/chaos-mesh/chaos-daemon
 ghcr.io/chaos-mesh/chaos-dashboard
 ghcr.io/chaos-mesh/chaos-mesh
+ghcr.io/cirruslabs/macos-sonoma-xcode
 ghcr.io/daocloud/dao-2048
 ghcr.io/daocloud/netmaterial
 ghcr.io/dexidp/dex
