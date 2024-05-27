@@ -57,6 +57,8 @@ docker.io/deepflowce/mysql
 docker.io/dpage/pgadmin4
 docker.io/elastic/filebeat
 docker.io/envoyproxy/envoy
+docker.io/envoyproxy/gateway
+docker.io/envoyproxy/gateway-dev
 docker.io/f5networks/f5-ipam-controller
 docker.io/f5networks/k8s-bigip-ctlr
 docker.io/falcosecurity/event-generator
