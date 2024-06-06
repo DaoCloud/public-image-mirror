@@ -365,6 +365,8 @@ ghcr.io/megacloudcontainer/kube-hunter
 ghcr.io/megacloudcontainer/kubeaudit
 ghcr.io/mellanox/k8s-rdma-shared-dev-plugin
 ghcr.io/mellanox/network-operator-init-container
+ghcr.io/mosn/htnn-controller
+ghcr.io/mosn/htnn-proxy
 ghcr.io/open-telemetry/demo
 ghcr.io/open-telemetry/opentelemetry-go-instrumentation/autoinstrumentation-go
 ghcr.io/open-telemetry/opentelemetry-operator/autoinstrumentation-dotnet
