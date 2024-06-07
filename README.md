@@ -4,16 +4,13 @@
 
 Sync: 定期同步列表里的 image tag 的同步率, 只要 tag 存在就是同步的.
 
-**!!!!!!!!!!!!!!!!!!!!!!!!屏蔽通知!!!!!!!!!!!!!!!!!!!!!!!!**
+**!!!!!!!!!!!!!!!!!!!!!!!!通知!!!!!!!!!!!!!!!!!!!!!!!!**
 
 由于近期个别 Image 和 IP 存在大流量, 近期将会进行屏蔽
 如果有大量需求的
 - [可以自己搭建服务器](https://github.com/wzshiming/crproxy/tree/master/examples/default)
 - 或者提个 Issue 商量或邮件联系
-
-**!!!!!!!!!!!!!!!!!!!!!!!!限流通知!!!!!!!!!!!!!!!!!!!!!!!!**
-
-当前 IP 限流 20r/m (每分钟20个请求)
+- 当前 IP 限流 20r/m (每分钟20个请求)
 
 ## 背景
 
@@ -55,7 +52,6 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 
 每个 Issue **带宽**
 - 国际带宽 3 * 50 Mbps
-- 对象存储带宽 **无限制**
 
 ## 懒加载
 
@@ -68,8 +64,6 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 
 所有懒加载 **带宽**
 - 国际带宽 3 * 30 Mbps
-- 服务器下行带宽 3 * 5 Mbps
-- 单个连接限制带宽 1 Mbps
 
 ## 定期同步列表
 
