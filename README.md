@@ -11,6 +11,10 @@ Sync: 定期同步列表里的 image tag 的同步率, 只要 tag 存在就是�
 - [可以自己搭建服务器](https://github.com/wzshiming/crproxy/tree/master/examples/default)
 - 或者提个 Issue 商量或邮件联系
 
+**!!!!!!!!!!!!!!!!!!!!!!!!限流通知!!!!!!!!!!!!!!!!!!!!!!!!**
+
+当前 IP 限流 20r/m (每分钟20个请求)
+
 ## 背景
 
 很多镜像都在国外。比如 gcr 。国内下载很慢，需要加速。
