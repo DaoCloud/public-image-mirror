@@ -60,7 +60,7 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 
 如果您看到下没有进度这是由于带宽有限只要有几人在下较大的文件就会阻塞后续的下载, 可以尝试[单次单镜像同步](#单次单镜像同步)
 
-就算没同步也能 **直接拉取**, 初次拉取会比已经同步过的慢, 但是[每 7 天会清理一次缓存](https://github.com/distribution/distribution/blob/e3509fc1deedaab489dd8829cc438de8f4c77fc3/registry/proxy/proxymanifeststore.go#L15).
+就算没同步也能 **直接拉取**, 初次拉取会比已经同步过的慢.
 
 所有懒加载 **带宽**
 - 国际带宽 3 * 30 Mbps
