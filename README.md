@@ -45,7 +45,7 @@ k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
 
 **!!!!!!!!!!!!!!!!!!!!!!!!强烈推荐!!!!!!!!!!!!!!!!!!!!!!!!**
 
-您可以根据 [镜像同步 Issue 模板](https://github.com/DaoCloud/public-image-mirror/issues/new?assignees=&labels=&projects=&template=sync-image.md&title=SYNC+IMAGE) 创建一个 Issue, 将会有机器人帮您优先主动同步指定的镜像
+您可以根据 [镜像同步 Issue 模板](https://github.com/DaoCloud/public-image-mirror/issues/new?labels=sync+image&template=sync-image.yml) 创建一个 Issue, 将会有机器人帮您优先主动同步指定的镜像
 
 > 原先已经在下的镜像还是会继续走原来的, 需要重启 docker 再重新拉取才能走已经同步好的缓存过, 所以推荐先单次同步再尝试拉取
 > 对于 latest 这种经常内容会发生变更的 tag 变更后会需要重新同步
