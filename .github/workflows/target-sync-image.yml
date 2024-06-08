@@ -19,7 +19,7 @@ jobs:
       uses: actions/checkout@v4
     - name: Check Issue
       run: |
-        ORIGIN_IMAGE=$(echo ${{ github.event.issue.title }})
+        ORIGIN_IMAGE=$(echo ${{ github.event.issue.title }} | awk '{print $1}')
         if [[ -z "${ORIGIN_IMAGE}" ]]; then
           gh issue comment ${{ github.event.issue.number }} -b "找不到镜像呢"
           exit 1
@@ -38,7 +38,7 @@ jobs:
         skopeo --version
     - name: Check Image
       run: |
-        ORIGIN_IMAGE=$(echo ${{ github.event.issue.title }})
+        ORIGIN_IMAGE=$(echo ${{ github.event.issue.title }} | awk '{print $1}')
         gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步中...<br>[详情请查看](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})"
     - name: Start Proxy
       env:
@@ -58,7 +58,7 @@ jobs:
         http_proxy: socks5://127.0.0.1:8080
         https_proxy: socks5://127.0.0.1:8080
       run: |
-        ORIGIN_IMAGE=$(echo ${{ github.event.issue.title }})
+        ORIGIN_IMAGE=$(echo ${{ github.event.issue.title }} | awk '{print $1}')
         ./hack/diff-image.sh "${ORIGIN_IMAGE}" "m.daocloud.io/${ORIGIN_IMAGE}"
         gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步完成<br>请使用 m.daocloud.io/${ORIGIN_IMAGE} 替代源镜像"
         gh issue edit ${{ github.event.issue.number }} --add-label "sync image succeeded"
@@ -67,7 +67,7 @@ jobs:
     - name: Fail Sync
       if: failure()
       run: |
-        ORIGIN_IMAGE=$(echo ${{ github.event.issue.title }})
-        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步失败<br>[详情请查看](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})<br>[查看成功例子](https://github.com/DaoCloud/public-image-mirror/issues?q=is%3Aissue+is%3Aclosed+label%3A%22sync+image+succeeded%22)<br>如有疑问请回复 /auto-cc 召唤帮助"
+        ORIGIN_IMAGE=$(echo ${{ github.event.issue.title }} | awk '{print $1}')
+        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步失败[详情请查看](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})<br>请检查 image 是否存在, [查看成功例子](https://github.com/DaoCloud/public-image-mirror/issues?q=is%3Aissue+is%3Aclosed+label%3A%22sync+image+succeeded%22)<br>如有疑问请回复 /auto-cc 召唤帮助"
         gh issue edit ${{ github.event.issue.number }} --add-label "sync image failure"
         gh issue close ${{ github.event.issue.number }} --reason "not planned"
