@@ -18,26 +18,18 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
     - name: Check Issue
-      env:
-        MESSAGE: "${{ github.event.issue.body }}"
       run: |
         ORIGIN_IMAGE=$(echo ${{ github.event.issue.title }})
         if [[ -z "${ORIGIN_IMAGE}" ]]; then
           gh issue comment ${{ github.event.issue.number }} -b "找不到镜像呢"
-          gh issue edit ${{ github.event.issue.number }} --add-label "sync image failure"
-          gh issue close ${{ github.event.issue.number }} --reason "not planned"
           exit 1
         fi
         if [[ "${ORIGIN_IMAGE}" != *":"* ]]; then
           gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 不存在呢, 请指定 tag, 如: ${ORIGIN_IMAGE}:latest"
-          gh issue edit ${{ github.event.issue.number }} --add-label "sync image failure"
-          gh issue close ${{ github.event.issue.number }} --reason "not planned"
           exit 1
         fi
         if [[ "${ORIGIN_IMAGE%%/*}" != *"."* ]]; then
           gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 不存在呢, 请指定域名, 如: docker.io/${ORIGIN_IMAGE}"
-          gh issue edit ${{ github.event.issue.number }} --add-label "sync image failure"
-          gh issue close ${{ github.event.issue.number }} --reason "not planned"
           exit 1
         fi
     - name: Set up skopeo
@@ -45,8 +37,6 @@ jobs:
         wget https://github.com/lework/skopeo-binary/releases/download/v1.13.3/skopeo-linux-amd64 -O /usr/local/bin/skopeo && chmod +x /usr/local/bin/skopeo
         skopeo --version
     - name: Check Image
-      env:
-        MESSAGE: "${{ github.event.issue.body }}"
       run: |
         ORIGIN_IMAGE=$(echo ${{ github.event.issue.title }})
         gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步中...<br>[详情请查看](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})"
@@ -67,7 +57,6 @@ jobs:
         PARALLET: "1"
         http_proxy: socks5://127.0.0.1:8080
         https_proxy: socks5://127.0.0.1:8080
-        MESSAGE: "${{ github.event.issue.body }}"
       run: |
         ORIGIN_IMAGE=$(echo ${{ github.event.issue.title }})
         ./hack/diff-image.sh "${ORIGIN_IMAGE}" "m.daocloud.io/${ORIGIN_IMAGE}"
@@ -77,9 +66,8 @@ jobs:
 
     - name: Fail Sync
       if: failure()
-      env:
-        MESSAGE: "${{ github.event.issue.body }}"
       run: |
         ORIGIN_IMAGE=$(echo ${{ github.event.issue.title }})
-        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步失败<br>[详情请查看](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})"
+        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步失败<br>[详情请查看](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})<br>[查看成功例子](https://github.com/DaoCloud/public-image-mirror/issues?q=is%3Aissue+is%3Aclosed+label%3A%22sync+image+succeeded%22)<br>如有疑问请回复 `/auto-cc` 召唤帮助"
         gh issue edit ${{ github.event.issue.number }} --add-label "sync image failure"
+        gh issue close ${{ github.event.issue.number }} --reason "not planned"
