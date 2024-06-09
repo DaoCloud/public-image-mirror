@@ -3,16 +3,43 @@ description: 同步一个镜像
 labels:
 - sync image
 body:
-- type: checkboxes
-  id: checkboxes
+- type: markdown
   attributes:
-    label: 单次单镜像同步
-    description: 请在标题上填入你要同步的 Image
+    value: |
+      # ↑↑↑↑↑↑↑↑↑↑↑ 填入你要同步的 Image
+      ## 请包含 域名/路径:标签
+
+- type: checkboxes
+  attributes:
+    label: domain
     options:
-    - label: 确保包含域名, 如 docker.io/, registry.k8s.io/, 如果不包含域名的请填入默认的 docker.io/
-    - label: 确保包含镜像的 tag, 如 :latest
+    - label: 确保包含域名(domain)
+- type: markdown
+  attributes:
+    value: |
+      - 如 docker.io/
+      - 如 registry.k8s.io/
+      - 如果不包含域名, 需要主动添加默认的 docker.io/
+
+- type: checkboxes
+  attributes:
+    label: tag
+    options:
+    - label: 确保包含镜像的标签(tag)
+- type: markdown
+  attributes:
+    value: |
+      - 如 :latest
+      - 如 :v1
+
+- type: checkboxes
+  attributes:
+    label: check
+    options:
     - label: 请确保这个镜像真实存在
-    - label: 举个例子
-    - label: 如 docker.io/library/busybox:latest
-    - label: 如 docker.io/kindest/node:v1.30.0
-    - label: 如 registry.k8s.io/kubectl:v1.30.0
+- type: markdown
+  attributes:
+    value: |
+      - 如 docker.io/library/busybox:latest
+      - 如 docker.io/kindest/node:v1.30.0
+      - 如 registry.k8s.io/kubectl:v1.30.0
