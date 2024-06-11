@@ -13,7 +13,7 @@ body:
   attributes:
     label: domain
     options:
-    - label: 确保包含域名(domain)
+    - label: 请确保包含域名(domain)
 - type: markdown
   attributes:
     value: |
@@ -25,7 +25,7 @@ body:
   attributes:
     label: tag
     options:
-    - label: 确保包含镜像的标签(tag)
+    - label: 请确保包含镜像的标签(tag)
 - type: markdown
   attributes:
     value: |
@@ -43,3 +43,8 @@ body:
       - 如 docker.io/library/busybox:latest
       - 如 docker.io/kindest/node:v1.30.0
       - 如 registry.k8s.io/kubectl:v1.30.0
+
+- type: markdown
+  attributes:
+    value: |
+      有疑问反馈, 请添加我们的企微群 [#4183](https://github.com/DaoCloud/public-image-mirror/issues/4183)
