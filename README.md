@@ -12,7 +12,7 @@ Sync: 定期同步列表里的 image tag 的同步率, 只要 tag 存在就是�
 - 或者提个 Issue 商量或者添加我们的企微群 [#4183](https://github.com/DaoCloud/public-image-mirror/issues/4183)
 - 当前 IP 限流
   - 20r/m (每分钟20个请求)
-  - 60Mi/m (小于 60Mi 的 blob 每分钟能获取多个, 否则每分钟只能获取一个)
+  - 1Gi/h (小于 1Gi 的 blob 每小时能获取多个, 否则每小时只能获取一个)
 
 ## 背景
 
