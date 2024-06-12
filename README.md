@@ -10,9 +10,11 @@ Sync: 定期同步列表里的 image tag 的同步率, 只要 tag 存在就是�
 如果有大量需求的
 - [可以自己搭建服务器](https://github.com/wzshiming/crproxy/tree/master/examples/default)
 - 或者提个 Issue 商量或者添加我们的企微群 [#4183](https://github.com/DaoCloud/public-image-mirror/issues/4183)
+- 当前 blob(镜像层) 限流
+  - 200Mi/m (大于 200Mi 的同一 blob, 每分钟只能有一人获取到)
 - 当前 IP 限流
   - 20r/m (每分钟20个请求)
-  - 100Mi/10m (小于 100Mi 的 blob 每10分钟能获取多个, 否则10分钟只能获取一个)
+  - 600Mi/h (小于 600Mi 的 blob 每小时能获取多个, 否则每小时只能获取一个, 达到限额将会卡住等时间到了然后响应重定向)
 
 ## 背景
 
