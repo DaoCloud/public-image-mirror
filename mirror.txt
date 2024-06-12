@@ -288,6 +288,7 @@ docker.io/victoriametrics/vmselect
 docker.io/victoriametrics/vmstorage
 docker.io/weaveworks/weave-kube
 docker.io/weaveworks/weave-npc
+docker.io/halohub/halo
 gcr.io/cadvisor/cadvisor
 gcr.io/distroless/static
 gcr.io/distroless/static-debian11
