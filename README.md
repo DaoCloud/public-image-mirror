@@ -9,21 +9,17 @@ Sync: 定期同步列表里的 image tag 的同步率, 只要 tag 存在就是�
 **由于近期使用量剧增, 近期进行统一限流, 以保证大多数的可用性.**
 - 如果有大量需求的[可以自己搭建服务器](https://github.com/wzshiming/crproxy/tree/master/examples/default)
 - 或者提个 Issue 商量或者添加我们的企微群 [#4183](https://github.com/DaoCloud/public-image-mirror/issues/4183)
-- 当前 blob(镜像层) 限流
-  - 512Ki/s (下载 1Mi 会先 sleep 2s 再响应, 下载 10Mi 会先 sleep 20s 再响应, 下载 1Gi 会先 sleep 35min 再响应 以此类推...)
-- 当前 IP 限流
-  - 20r/m (每分钟20个请求)
-  - 600Mi/h (小于 600Mi 的 blob 每小时能获取多个, 否则每小时只能获取一个, 达到限额将会卡住等时间到了然后响应重定向)
+- 限流 [#6196](https://github.com/DaoCloud/public-image-mirror/issues/6196)
 
-## 背景
+## 背景 & 目标
 
 很多镜像都在国外。比如 gcr 。国内下载很慢，需要加速。
-
-## 目标
 
 * 一个简洁有效的方法能够加速这些包。简洁的名称映射
 * 易于添加，添加新的包，不需要去修改代码。
 * 稳定可靠，更新实时。每天检查同步情况。
+* 此项目仅是源 Registry 的 Mirror, 所有 hash(sha256) 均和源保持一致。
+* 对于 blob(镜像层), 会缓存在第三方对象存储上, 未对内容做任何检测。
 
 ## 快速开始
 
