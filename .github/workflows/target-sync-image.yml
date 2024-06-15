@@ -24,19 +24,19 @@ jobs:
       run: |
         ORIGIN_IMAGE="${IMAGE}"
         if [[ "${ORIGIN_IMAGE}" == *"//"* ]] || [[ "${ORIGIN_IMAGE}" == *" "* ]]; then
-          gh issue comment ${{ github.event.issue.number }} -b "镜像 "${ORIGIN_IMAGE}" 不是一个镜像"
+          gh issue comment ${{ github.event.issue.number }} -b "镜像 '${ORIGIN_IMAGE}' 不是一个镜像"
           exit 1
         fi
         if [[ "${ORIGIN_IMAGE%%/*}" != *"."* ]] || [[ "${ORIGIN_IMAGE}" != *"/"* ]]; then
           if [[ "${ORIGIN_IMAGE}" != *":"* ]]; then
-            gh issue comment ${{ github.event.issue.number }} -b "镜像 "${ORIGIN_IMAGE}" 不存在呢, 请指定 域名 和 tag, 如: docker.io/${ORIGIN_IMAGE}:latest"
+            gh issue comment ${{ github.event.issue.number }} -b "镜像 '${ORIGIN_IMAGE}' 不存在呢, 请指定 域名 和 tag, 如: docker.io/${ORIGIN_IMAGE}:latest"
           else
-            gh issue comment ${{ github.event.issue.number }} -b "镜像 "${ORIGIN_IMAGE}" 不存在呢, 请指定域名, 如: docker.io/${ORIGIN_IMAGE}"
+            gh issue comment ${{ github.event.issue.number }} -b "镜像 '${ORIGIN_IMAGE}' 不存在呢, 请指定域名, 如: docker.io/${ORIGIN_IMAGE}"
           fi
           exit 1
         fi
         if [[ "${ORIGIN_IMAGE}" != *":"* ]]; then
-          gh issue comment ${{ github.event.issue.number }} -b "镜像 "${ORIGIN_IMAGE}" 不存在呢, 请指定 tag, 如: ${ORIGIN_IMAGE}:latest"
+          gh issue comment ${{ github.event.issue.number }} -b "镜像 '${ORIGIN_IMAGE}' 不存在呢, 请指定 tag, 如: ${ORIGIN_IMAGE}:latest"
           exit 1
         fi
         echo "image=${ORIGIN_IMAGE}" >> $GITHUB_OUTPUT
