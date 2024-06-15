@@ -34,7 +34,7 @@ jobs:
           gh issue close ${{ github.event.issue.number }} --reason "not planned"
           exit 1
         fi
-        if [[ "${ORIGIN_IMAGE%%/*}" != *"."* ]]; then
+        if [[ "${ORIGIN_IMAGE%%/*}" != *"."* ]] || [[ "${ORIGIN_IMAGE}" != *"/"* ]]; then
           gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 不存在呢, 请指定域名, 如: docker.io/${ORIGIN_IMAGE}"
           gh issue edit ${{ github.event.issue.number }} --title "FAILED SYNC IMAGE"
           gh issue close ${{ github.event.issue.number }} --reason "not planned"
