@@ -30,6 +30,7 @@ docker.io/grafana/**
 docker.io/istio/**
 docker.io/jaegertracing/**
 docker.io/jboss/**
+docker.io/jellyfin/**
 docker.io/jenkins/**
 docker.io/jimmidyson/**
 docker.io/karmada/**
@@ -42,6 +43,7 @@ docker.io/kubeflownotebookswg/**
 docker.io/kuberhealthy/**
 docker.io/kubernetesui/**
 docker.io/library/**
+docker.io/linuxserver/**
 docker.io/longhornio/**
 docker.io/louislam/**
 docker.io/minio/**
