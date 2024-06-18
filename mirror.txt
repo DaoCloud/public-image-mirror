@@ -72,6 +72,7 @@ docker.io/fortio/fortio
 docker.io/foxdalas/kafka-manager
 docker.io/frrouting/frr
 docker.io/jellyfin/jellyfin
+docker.io/linuxserver/jellyfin
 docker.io/goharbor/chartmuseum-photon
 docker.io/goharbor/harbor-core
 docker.io/goharbor/harbor-db

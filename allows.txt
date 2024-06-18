@@ -58,6 +58,7 @@ docker.io/openkruise/**
 docker.io/openzipkin/**
 docker.io/osixia/**
 docker.io/otel/**
+docker.io/linuxserver/**
 docker.io/percona/**
 docker.io/phpmyadmin/**
 docker.io/portainer/**
