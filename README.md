@@ -30,14 +30,20 @@ docker run -d -P m.daocloud.io/docker.io/library/nginx
 
 **增加前缀** (推荐方式)。比如：
 
-```
-k8s.gcr.io/coredns/coredns => m.daocloud.io/k8s.gcr.io/coredns/coredns
+``` log
+              docker.io/library/busybox
+                 |
+                 V
+m.daocloud.io/docker.io/library/busybox
 ```
 
 或者 支持的镜像仓库 的 *前缀替换* 就可以使用。比如：
 
-```
-k8s.gcr.io/coredns/coredns => k8s-gcr.m.daocloud.io/coredns/coredns
+``` log
+           docker.io/library/busybox
+             |
+             V
+docker.m.daocloud.io/library/busybox
 ```
 
 ## 单次单镜像同步
