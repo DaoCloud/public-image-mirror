@@ -56,6 +56,7 @@ docker.io/deepflowce/grafana
 docker.io/deepflowce/mysql
 docker.io/dpage/pgadmin4
 docker.io/elastic/filebeat
+docker.io/emby/embyserver
 docker.io/envoyproxy/envoy
 docker.io/envoyproxy/gateway
 docker.io/envoyproxy/gateway-dev
@@ -103,6 +104,7 @@ docker.io/jaegertracing/jaeger-query
 docker.io/jboss/keycloak
 docker.io/jenkins/inbound-agent
 docker.io/jimmidyson/configmap-reload
+docker.io/jellyfin/jellyfin
 docker.io/karmada/karmada-aggregated-apiserver
 docker.io/karmada/karmada-controller-manager
 docker.io/karmada/karmada-descheduler
