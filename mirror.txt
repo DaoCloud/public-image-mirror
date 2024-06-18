@@ -71,8 +71,6 @@ docker.io/fluent/fluentd
 docker.io/fortio/fortio
 docker.io/foxdalas/kafka-manager
 docker.io/frrouting/frr
-docker.io/jellyfin/jellyfin
-docker.io/linuxserver/jellyfin
 docker.io/goharbor/chartmuseum-photon
 docker.io/goharbor/harbor-core
 docker.io/goharbor/harbor-db
@@ -103,6 +101,7 @@ docker.io/jaegertracing/jaeger-es-index-cleaner
 docker.io/jaegertracing/jaeger-operator
 docker.io/jaegertracing/jaeger-query
 docker.io/jboss/keycloak
+docker.io/jellyfin/jellyfin
 docker.io/jenkins/inbound-agent
 docker.io/jimmidyson/configmap-reload
 docker.io/karmada/karmada-aggregated-apiserver
@@ -212,6 +211,7 @@ docker.io/library/varnish
 docker.io/library/wordpress
 docker.io/library/yourls
 docker.io/library/zookeeper
+docker.io/linuxserver/jellyfin
 docker.io/longhornio/longhorn-engine
 docker.io/longhornio/longhorn-manager
 docker.io/longhornio/longhorn-ui

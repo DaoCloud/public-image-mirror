@@ -30,6 +30,7 @@ docker.io/grafana/**
 docker.io/istio/**
 docker.io/jaegertracing/**
 docker.io/jboss/**
+docker.io/jellyfin/**
 docker.io/jenkins/**
 docker.io/jimmidyson/**
 docker.io/karmada/**
@@ -42,6 +43,7 @@ docker.io/kubeflownotebookswg/**
 docker.io/kuberhealthy/**
 docker.io/kubernetesui/**
 docker.io/library/**
+docker.io/linuxserver/**
 docker.io/longhornio/**
 docker.io/louislam/**
 docker.io/minio/**
@@ -58,7 +60,6 @@ docker.io/openkruise/**
 docker.io/openzipkin/**
 docker.io/osixia/**
 docker.io/otel/**
-docker.io/linuxserver/**
 docker.io/percona/**
 docker.io/phpmyadmin/**
 docker.io/portainer/**
@@ -78,7 +79,6 @@ docker.io/velero/**
 docker.io/vesoft/**
 docker.io/victoriametrics/**
 docker.io/weaveworks/**
-docker.io/jellyfin/**
 gcr.io/**
 ghcr.io/aquasecurity/**
 ghcr.io/chaos-mesh/**
