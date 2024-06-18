@@ -40,34 +40,21 @@ jobs:
           exit 1
         fi
         echo "image=${ORIGIN_IMAGE}" >> $GITHUB_OUTPUT
-    - name: Set up skopeo
-      run: |
-        wget https://github.com/lework/skopeo-binary/releases/download/v1.13.3/skopeo-linux-amd64 -O /usr/local/bin/skopeo && chmod +x /usr/local/bin/skopeo
-        skopeo --version
+
     - name: Check Image
       run: |
         ORIGIN_IMAGE="${{ steps.get-image.outputs.image }}"
         gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步中...<br>[详情请查看](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})"
-    - name: Start Proxy
-      env:
-        only_proxy: "m.daocloud.io"
+
+    - name: Set up crproxy
       run: |
-        wget https://github.com/wzshiming/bridge/releases/download/v0.9.0/bridge_linux_amd64 -O /usr/local/bin/bridge && chmod +x /usr/local/bin/bridge
-        nohup /usr/local/bin/bridge -b :8080 -p - ${{ secrets.PROTOCOL }} 2>/dev/null &
-    - name: Check Proxy
-      run: |
-        curl -v http://127.0.0.1:8080 || exit 1
-        curl -f --proxy 127.0.0.1:8080 -v http://m.daocloud.io/v2/ || exit 1
+        wget https://github.com/DaoCloud/crproxy/releases/download/v0.7.0-rc.41/crproxy_linux_amd64 -O /usr/local/bin/crproxy && chmod +x /usr/local/bin/crproxy
+        /usr/local/bin/crproxy -a :8000 ${{ secrets.CRPROXY_ARGS }} &
+
     - name: Sync Images
-      env:
-        INCREMENTAL: "true"
-        SYNC: "true"
-        PARALLET: "1"
-        http_proxy: socks5://127.0.0.1:8080
-        https_proxy: socks5://127.0.0.1:8080
       run: |
         ORIGIN_IMAGE="${{ steps.get-image.outputs.image }}"
-        ./hack/diff-image.sh "${ORIGIN_IMAGE}" "m.daocloud.io/${ORIGIN_IMAGE}"
+        curl --fail -X PUT "http://127.0.0.1:8000/internal/api/image/sync?image=${ORIGIN_IMAGE}"
         gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步完成<br>请使用 m.daocloud.io/${ORIGIN_IMAGE} 替代源镜像"
         gh issue edit ${{ github.event.issue.number }} --add-label "sync image succeeded" -b "IMAGE SYNC"
         gh issue close ${{ github.event.issue.number }} --reason "completed"
