@@ -79,6 +79,7 @@ docker.io/velero/**
 docker.io/vesoft/**
 docker.io/victoriametrics/**
 docker.io/weaveworks/**
+docker.io/budtmo/docker-android:emulator_11.0/**
 gcr.io/**
 ghcr.io/aquasecurity/**
 ghcr.io/chaos-mesh/**
