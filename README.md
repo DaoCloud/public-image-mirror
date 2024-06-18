@@ -126,9 +126,11 @@ cat ./deploy.yaml | ./image-filter.sh | kubectl apply -f -
 
 添加到 `/etc/docker/daemon.json`
 ``` json
+{
   "registry-mirrors": [
     "https://docker.m.daocloud.io"
   ]
+}
 ```
 
 ## [友情链接]加速三剑客
