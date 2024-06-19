@@ -18,6 +18,8 @@ function check_allows() {
                     return 0
                 fi
             fi
+        elif [[ "${line}" == "${image%\:*}" ]]; then
+            return 0
         fi
     done <"${file}"
 
