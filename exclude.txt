@@ -3,6 +3,9 @@
 .*SNAPSHOT.*
 .*dev-.*
 .*sha256-.*
+.*sha-.*
 .*distroless.*
 .*alpha.*
 .*beta.*
+.*unstable.*
+.*nightly.*
