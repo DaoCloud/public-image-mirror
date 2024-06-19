@@ -86,6 +86,7 @@ docker.io/goharbor/redis-photon
 docker.io/goharbor/registry-photon
 docker.io/goharbor/trivy-adapter-photon
 docker.io/grafana/grafana
+docker.io/halohub/halo
 docker.io/istio/examples-bookinfo-details-v1
 docker.io/istio/examples-bookinfo-productpage-v1
 docker.io/istio/examples-bookinfo-ratings-v1
