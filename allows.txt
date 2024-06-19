@@ -10,6 +10,7 @@ docker.io/aquasec/**
 docker.io/arey/**
 docker.io/bats/**
 docker.io/bitnami/**
+docker.io/budtmo/docker-android
 docker.io/calico/**
 docker.io/clickhouse/**
 docker.io/coredns/**
@@ -79,7 +80,6 @@ docker.io/velero/**
 docker.io/vesoft/**
 docker.io/victoriametrics/**
 docker.io/weaveworks/**
-docker.io/budtmo/docker-android
 gcr.io/**
 ghcr.io/aquasecurity/**
 ghcr.io/chaos-mesh/**
