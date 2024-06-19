@@ -86,6 +86,7 @@ docker.io/goharbor/redis-photon
 docker.io/goharbor/registry-photon
 docker.io/goharbor/trivy-adapter-photon
 docker.io/grafana/grafana
+docker.io/halohub/halo
 docker.io/istio/examples-bookinfo-details-v1
 docker.io/istio/examples-bookinfo-productpage-v1
 docker.io/istio/examples-bookinfo-ratings-v1
@@ -288,7 +289,6 @@ docker.io/victoriametrics/vmselect
 docker.io/victoriametrics/vmstorage
 docker.io/weaveworks/weave-kube
 docker.io/weaveworks/weave-npc
-docker.io/halohub/halo
 gcr.io/cadvisor/cadvisor
 gcr.io/distroless/static
 gcr.io/distroless/static-debian11
