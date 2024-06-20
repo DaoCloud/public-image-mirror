@@ -40,6 +40,7 @@ docker.io/jenkins/**
 docker.io/jenkinsci/**
 docker.io/jettech/**
 docker.io/jimmidyson/**
+docker.io/jxxghp/**
 docker.io/karmada/**
 docker.io/kennethreitz/**
 docker.io/kindest/**
@@ -56,10 +57,12 @@ docker.io/louislam/**
 docker.io/minio/**
 docker.io/moby/**
 docker.io/mohsinonxrm/**
+docker.io/mtphotos/mt-photos
 docker.io/multiarch/**
 docker.io/n8nio/**
 docker.io/nacos/**
 docker.io/neuvector/**
+docker.io/nyanmisaka/jellyfin
 docker.io/oamdev/**
 docker.io/oliver006/**
 docker.io/openebs/**
