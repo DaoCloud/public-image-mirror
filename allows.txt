@@ -32,6 +32,7 @@ docker.io/frrouting/**
 docker.io/goharbor/**
 docker.io/grafana/**
 docker.io/halohub/halo
+docker.io/hyperledger/**
 docker.io/istio/**
 docker.io/jaegertracing/**
 docker.io/jboss/**
