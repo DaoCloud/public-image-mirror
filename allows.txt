@@ -37,6 +37,7 @@ docker.io/jboss/**
 docker.io/jellyfin/**
 docker.io/jenkins/**
 docker.io/jenkinsci/**
+docker.io/jettech/**
 docker.io/jimmidyson/**
 docker.io/karmada/**
 docker.io/kennethreitz/**
