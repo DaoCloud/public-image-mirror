@@ -9,6 +9,7 @@ docker.io/apitable/**
 docker.io/aquasec/**
 docker.io/arey/**
 docker.io/bats/**
+docker.io/bellsoft/**
 docker.io/binhex/arch-jellyfin
 docker.io/bitnami/**
 docker.io/budtmo/docker-android
