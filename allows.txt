@@ -86,6 +86,7 @@ docker.io/redislabs/**
 docker.io/seataio/**
 docker.io/sonobuoy/**
 docker.io/squidfunk/**
+docker.io/tailscale/**
 docker.io/talebook/talebook
 docker.io/tensorflow/**
 docker.io/thanosio/**
@@ -94,7 +95,6 @@ docker.io/velero/**
 docker.io/vesoft/**
 docker.io/victoriametrics/**
 docker.io/weaveworks/**
-docker.io/tailscale/**
 gcr.io/**
 ghcr.io/aquasecurity/**
 ghcr.io/chaos-mesh/**
