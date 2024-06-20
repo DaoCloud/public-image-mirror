@@ -25,6 +25,7 @@ docker.io/emqx/**
 docker.io/envoyproxy/**
 docker.io/f5networks/**
 docker.io/falcosecurity/**
+docker.io/flannel/**
 docker.io/fluent/**
 docker.io/fortio/**
 docker.io/foxdalas/**
