@@ -144,3 +144,4 @@ registry.jujucharms.com/**
 registry.k8s.io/**
 registry.opensource.zalan.do/**
 rocks.canonical.com/**
+alibabadragonwell/dragonwell:17-anolis
