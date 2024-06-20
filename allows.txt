@@ -118,6 +118,7 @@ ghcr.io/spiffe/**
 ghcr.io/sumologic/**
 ghcr.io/timeplus-io/**
 ghcr.io/wzshiming/**
+ghcr.io/zalando/**
 k8s.gcr.io/**
 mcr.microsoft.com/**
 nvcr.io/**
