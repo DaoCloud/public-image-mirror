@@ -101,6 +101,7 @@ docker.io/ubuntu/**
 docker.io/velero/**
 docker.io/vesoft/**
 docker.io/victoriametrics/**
+docker.io/vinlic/**
 docker.io/weaveworks/**
 docker.io/wiznote/wizserver
 gcr.io/**
@@ -162,4 +163,3 @@ registry.jujucharms.com/**
 registry.k8s.io/**
 registry.opensource.zalan.do/**
 rocks.canonical.com/**
-docker.io/vinlic/**
