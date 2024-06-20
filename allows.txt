@@ -85,6 +85,7 @@ docker.io/redislabs/**
 docker.io/seataio/**
 docker.io/sonobuoy/**
 docker.io/squidfunk/**
+docker.io/talebook/talebook
 docker.io/tensorflow/**
 docker.io/thanosio/**
 docker.io/timberio/**
