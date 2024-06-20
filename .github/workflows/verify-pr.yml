@@ -22,7 +22,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Commit PR
         run: |
-          git config --global user.name "bot"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           wget -O pr.patch https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }}.patch && \
             git am -3 pr.patch &&
             rm -rf pr.patch
