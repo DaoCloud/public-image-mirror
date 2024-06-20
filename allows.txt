@@ -86,6 +86,7 @@ docker.io/rancher/**
 docker.io/rclone/**
 docker.io/redislabs/**
 docker.io/seataio/**
+docker.io/semitechnologies/**
 docker.io/sonobuoy/**
 docker.io/squidfunk/**
 docker.io/tailscale/**
