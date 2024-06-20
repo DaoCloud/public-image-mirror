@@ -21,6 +21,7 @@ docker.io/curlimages/**
 docker.io/deepflowce/**
 docker.io/dpage/**
 docker.io/elastic/**
+docker.io/emqx/**
 docker.io/envoyproxy/**
 docker.io/f5networks/**
 docker.io/falcosecurity/**
