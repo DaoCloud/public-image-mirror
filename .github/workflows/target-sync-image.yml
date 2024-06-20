@@ -39,6 +39,9 @@ jobs:
           gh issue comment ${{ github.event.issue.number }} -b "镜像 '${ORIGIN_IMAGE}' 不存在呢, 请指定 tag, 如: ${ORIGIN_IMAGE}:latest"
           exit 1
         fi
+        if ! ./hack/verify-allows.sh ./allows.txt "${ORIGIN_IMAGE}"; then
+          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 不在白名单列表里, 将不再支持同步和访问<br>将其添加到[白名单](https://github.com/${{ github.repository }}/issues/2328"
+        fi
         echo "image=${ORIGIN_IMAGE}" >> $GITHUB_OUTPUT
 
     - name: Check Image
@@ -55,11 +58,7 @@ jobs:
       run: |
         ORIGIN_IMAGE="${{ steps.get-image.outputs.image }}"
         curl --fail -X PUT "http://127.0.0.1:8000/internal/api/image/sync?image=${ORIGIN_IMAGE}"
-        if ! ./hack/verify-allows.sh ./allows.txt "${ORIGIN_IMAGE}"; then
-          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步完成<br>请使用 m.daocloud.io/${ORIGIN_IMAGE} 替代源镜像<br>这个镜像不在白名单列表里, 明天将无法访问<br>将其添加到[白名单](https://github.com/DaoCloud/public-image-mirror/blob/main/allows.txt)"
-        else
-          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步完成<br>请使用 m.daocloud.io/${ORIGIN_IMAGE} 替代源镜像"
-        fi
+        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步完成<br>请使用 m.daocloud.io/${ORIGIN_IMAGE} 替代源镜像"
         gh issue edit ${{ github.event.issue.number }} --add-label "sync image succeeded" -b "IMAGE SYNC"
         gh issue close ${{ github.event.issue.number }} --reason "completed"
 
@@ -67,6 +66,6 @@ jobs:
       if: failure()
       run: |
         ORIGIN_IMAGE="${{ steps.get-image.outputs.image }}"
-        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步失败[详情请查看](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})<br>请检查 image 是否存在, [查看成功例子](https://github.com/DaoCloud/public-image-mirror/issues?q=is%3Aissue+is%3Aclosed+label%3A%22sync+image+succeeded%22)<br>如有疑问请回复 /auto-cc 召唤帮助"
+        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步失败[详情请查看](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})<br>请检查 image 是否存在, [查看成功例子](https://github.com/${{ github.repository }}/issues?q=is%3Aissue+is%3Aclosed+label%3A%22sync+image+succeeded%22)<br>如有疑问请回复 /auto-cc 召唤帮助"
         gh issue edit ${{ github.event.issue.number }} --add-label "sync image failure" -b "IMAGE SYNC"
         gh issue close ${{ github.event.issue.number }} --reason "not planned"
