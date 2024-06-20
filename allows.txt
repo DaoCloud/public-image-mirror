@@ -53,6 +53,7 @@ docker.io/kuberhealthy/**
 docker.io/kubernetesui/**
 docker.io/kubesphere/**
 docker.io/library/**
+docker.io/linkease/ddnsto
 docker.io/linuxserver/**
 docker.io/lobehub/lobe-chat
 docker.io/longhornio/**
