@@ -31,6 +31,7 @@ docker.io/foxdalas/**
 docker.io/frrouting/**
 docker.io/goharbor/**
 docker.io/grafana/**
+docker.io/gztime/gzctf
 docker.io/halohub/halo
 docker.io/hyperledger/**
 docker.io/istio/**
