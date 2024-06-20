@@ -54,6 +54,7 @@ docker.io/kuberhealthy/**
 docker.io/kubernetesui/**
 docker.io/kubesphere/**
 docker.io/library/**
+docker.io/langgenius/**
 docker.io/linkease/ddnsto
 docker.io/linuxserver/**
 docker.io/lobehub/lobe-chat
@@ -88,6 +89,7 @@ docker.io/redislabs/**
 docker.io/seataio/**
 docker.io/sonobuoy/**
 docker.io/squidfunk/**
+docker.io/semitechnologies/**
 docker.io/tailscale/**
 docker.io/talebook/talebook
 docker.io/tensorflow/**
