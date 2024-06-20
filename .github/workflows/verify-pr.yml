@@ -6,6 +6,7 @@ on:
     paths:
       - 'domain.txt'
       - 'mirror.txt'
+      - 'allows.txt'
 
 permissions:
   issues: write
