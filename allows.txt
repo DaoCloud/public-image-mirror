@@ -72,6 +72,7 @@ docker.io/oamdev/**
 docker.io/oliver006/**
 docker.io/openebs/**
 docker.io/openkruise/**
+docker.io/opensearchproject/**
 docker.io/openzipkin/**
 docker.io/osixia/**
 docker.io/otel/**
