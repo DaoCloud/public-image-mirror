@@ -72,6 +72,7 @@ docker.io/openzipkin/**
 docker.io/osixia/**
 docker.io/otel/**
 docker.io/percona/**
+docker.io/pennbbl/qsiprep
 docker.io/phpmyadmin/**
 docker.io/portainer/**
 docker.io/projecthami/**
