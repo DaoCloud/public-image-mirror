@@ -13,6 +13,7 @@ docker.io/bellsoft/**
 docker.io/binhex/arch-jellyfin
 docker.io/bitnami/**
 docker.io/budtmo/docker-android
+docker.io/b3log/siyuan
 docker.io/calico/**
 docker.io/clickhouse/**
 docker.io/coredns/**
@@ -29,9 +30,14 @@ docker.io/fluent/**
 docker.io/fortio/**
 docker.io/foxdalas/**
 docker.io/frrouting/**
+docker.io/frooodle/s-pdf
 docker.io/goharbor/**
 docker.io/grafana/**
+docker.io/gdy666/lucky
 docker.io/halohub/halo
+docker.io/hlohaus789/g4f
+docker.io/haroldli/xiaoya-tvbox
+docker.io/hslr/sun-panel
 docker.io/istio/**
 docker.io/jaegertracing/**
 docker.io/jboss/**
@@ -82,6 +88,7 @@ docker.io/pytorch/**
 docker.io/rancher/**
 docker.io/rclone/**
 docker.io/redislabs/**
+docker.io/rustdesk/rustdesk-server
 docker.io/seataio/**
 docker.io/sonobuoy/**
 docker.io/squidfunk/**
@@ -92,9 +99,13 @@ docker.io/timberio/**
 docker.io/velero/**
 docker.io/vesoft/**
 docker.io/victoriametrics/**
+docker.io/vaultwarden/server
 docker.io/weaveworks/**
+docker.io/whyour/qinglong
+docker.io/yidadaa/chatgpt-next-web
 gcr.io/**
 ghcr.io/aquasecurity/**
+ghcr.io/aurora-develop/aurora
 ghcr.io/chaos-mesh/**
 ghcr.io/daocloud/**
 ghcr.io/dexidp/**
