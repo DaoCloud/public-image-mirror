@@ -217,6 +217,7 @@ docker.io/longhornio/longhorn-engine
 docker.io/longhornio/longhorn-manager
 docker.io/longhornio/longhorn-ui
 docker.io/louislam/uptime-kuma
+docker.io/menci/archlinuxarm
 docker.io/minio/console
 docker.io/minio/mc
 docker.io/minio/minio
@@ -238,6 +239,7 @@ docker.io/neuvector/updater
 docker.io/oamdev/cluster-gateway
 docker.io/oamdev/kube-webhook-certgen
 docker.io/oamdev/vela-core
+docker.io/ogarcia/archlinux
 docker.io/oliver006/redis_exporter
 docker.io/openebs/linux-utils
 docker.io/openebs/node-disk-manager
