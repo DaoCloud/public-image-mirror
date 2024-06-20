@@ -72,6 +72,7 @@ docker.io/portainer/**
 docker.io/projecthami/**
 docker.io/prom/**
 docker.io/prometheuscommunity/**
+docker.io/pytorch/**
 docker.io/rancher/**
 docker.io/rclone/**
 docker.io/redislabs/**
