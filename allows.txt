@@ -101,6 +101,7 @@ docker.io/ubuntu/**
 docker.io/velero/**
 docker.io/vesoft/**
 docker.io/victoriametrics/**
+docker.io/vinlic/**
 docker.io/weaveworks/**
 docker.io/wiznote/wizserver
 gcr.io/**
