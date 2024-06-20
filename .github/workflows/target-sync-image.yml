@@ -40,7 +40,7 @@ jobs:
           exit 1
         fi
         if ! ./hack/verify-allows.sh ./allows.txt "${ORIGIN_IMAGE}"; then
-          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 不在白名单列表里, 将不再支持同步和访问<br>将其添加到[白名单](https://github.com/${{ github.repository }}/issues/2328"
+          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 不在白名单列表里, 将不再支持同步和访问<br>将其添加到[白名单](https://github.com/${{ github.repository }}/issues/2328)"
           exit 1
         fi
         echo "image=${ORIGIN_IMAGE}" >> $GITHUB_OUTPUT
