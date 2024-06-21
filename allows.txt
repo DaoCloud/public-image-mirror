@@ -243,6 +243,7 @@ docker.io/rancher/**
 docker.io/rclone/**
 docker.io/redislabs/**
 docker.io/schnell18/rocketmq-dashboard
+docker.io/searxng/searxng
 docker.io/seataio/**
 docker.io/semitechnologies/**
 docker.io/sonobuoy/**
