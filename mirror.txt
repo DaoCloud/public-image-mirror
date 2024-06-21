@@ -238,7 +238,6 @@ docker.io/neuvector/updater
 docker.io/oamdev/cluster-gateway
 docker.io/oamdev/kube-webhook-certgen
 docker.io/oamdev/vela-core
-docker.io/ogarcia/archlinux
 docker.io/oliver006/redis_exporter
 docker.io/openebs/linux-utils
 docker.io/openebs/node-disk-manager
