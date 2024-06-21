@@ -256,6 +256,7 @@ docker.io/vesoft/**
 docker.io/victoriametrics/**
 docker.io/weaveworks/**
 docker.io/wiznote/wizserver
+docker.io/searxng/searxng
 gcr.io/**
 ghcr.io/aquasecurity/**
 ghcr.io/chaos-mesh/**
@@ -315,4 +316,3 @@ registry.jujucharms.com/**
 registry.k8s.io/**
 registry.opensource.zalan.do/**
 rocks.canonical.com/**
-docker.io/searxng/searxng
