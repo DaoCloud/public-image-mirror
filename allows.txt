@@ -254,6 +254,7 @@ docker.io/ubuntu/**
 docker.io/velero/**
 docker.io/vesoft/**
 docker.io/victoriametrics/**
+docker.io/vllm/**
 docker.io/weaveworks/**
 docker.io/wiznote/wizserver
 gcr.io/**
