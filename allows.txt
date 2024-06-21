@@ -259,6 +259,7 @@ docker.io/victoriametrics/**
 docker.io/vllm/**
 docker.io/weaveworks/**
 docker.io/wiznote/wizserver
+docker.io/xhofe/alist
 gcr.io/**
 ghcr.io/aquasecurity/**
 ghcr.io/chaos-mesh/**
