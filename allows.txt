@@ -257,6 +257,7 @@ docker.io/resmoio/kubernetes-event-exporter
 docker.io/schnell18/rocketmq-dashboard
 docker.io/searxng/searxng
 docker.io/seataio/**
+docker.io/selenium/**
 docker.io/semitechnologies/**
 docker.io/sonatype/nexus3
 docker.io/sonobuoy/**
