@@ -23,6 +23,8 @@ docker.io/cloudnativelabs/kube-router
 docker.io/coredns/**
 docker.io/csiplugin/**
 docker.io/curlimages/**
+docker.io/dddb/cf2dns
+docker.io/dddb/cf2dns/**
 docker.io/deepflowce/**
 docker.io/directus/**
 docker.io/dpage/**
@@ -286,8 +288,6 @@ docker.io/xhofe/alist
 docker.io/xprobe/xinference
 docker.io/zerotier/**
 docker.io/zhayujie/chatgpt-on-wechat
-docker.io/dddb/cf2dns
-docker.io/dddb/cf2dns/**
 gcr.io/**
 ghcr.io/aquasecurity/**
 ghcr.io/benc-uk/kubeview
