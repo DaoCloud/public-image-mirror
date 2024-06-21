@@ -217,7 +217,6 @@ docker.io/longhornio/longhorn-engine
 docker.io/longhornio/longhorn-manager
 docker.io/longhornio/longhorn-ui
 docker.io/louislam/uptime-kuma
-docker.io/menci/archlinuxarm
 docker.io/minio/console
 docker.io/minio/mc
 docker.io/minio/minio
