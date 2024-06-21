@@ -286,6 +286,8 @@ docker.io/xhofe/alist
 docker.io/xprobe/xinference
 docker.io/zerotier/**
 docker.io/zhayujie/chatgpt-on-wechat
+docker.io/dddb/cf2dns
+docker.io/dddb/cf2dns/**
 gcr.io/**
 ghcr.io/aquasecurity/**
 ghcr.io/benc-uk/kubeview
