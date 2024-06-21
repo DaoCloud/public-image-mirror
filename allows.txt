@@ -36,6 +36,7 @@ docker.io/fortio/**
 docker.io/foxdalas/**
 docker.io/frrouting/**
 docker.io/gitlab/**
+docker.io/gocd/gocd-server
 docker.io/goharbor/**
 docker.io/grafana/**
 docker.io/gztime/gzctf
