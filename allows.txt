@@ -19,6 +19,7 @@ docker.io/coredns/**
 docker.io/csiplugin/**
 docker.io/curlimages/**
 docker.io/deepflowce/**
+docker.io/directus/**
 docker.io/dpage/**
 docker.io/elastic/**
 docker.io/emqx/**
