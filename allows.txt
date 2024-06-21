@@ -35,6 +35,7 @@ docker.io/goharbor/**
 docker.io/grafana/**
 docker.io/gztime/gzctf
 docker.io/halohub/halo
+docker.io/hectorqin/**
 docker.io/hyperledger/**
 docker.io/istio/**
 docker.io/iyuucn/iyuuplus
