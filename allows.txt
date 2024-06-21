@@ -216,6 +216,7 @@ docker.io/library/xwiki
 docker.io/library/yourls
 docker.io/library/znc
 docker.io/library/zookeeper
+docker.io/libretranslate/libretranslate
 docker.io/linkease/ddnsto
 docker.io/linuxserver/**
 docker.io/lobehub/lobe-chat
