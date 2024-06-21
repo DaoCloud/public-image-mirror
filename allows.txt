@@ -225,6 +225,7 @@ docker.io/lobehub/lobe-chat
 docker.io/longhornio/**
 docker.io/louislam/**
 docker.io/menci/archlinuxarm
+docker.io/metabase/**
 docker.io/minio/**
 docker.io/moby/**
 docker.io/mohsinonxrm/**
