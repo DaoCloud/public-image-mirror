@@ -1,0 +1,52 @@
+name: Allows Image
+description: 添加白名单 (人工审核)
+labels:
+- allows image
+body:
+- type: markdown
+  attributes:
+    value: |
+      对于个人镜像建议存国内的 Registry, 不要出口转内销.
+      这个模板仅为不熟悉 PR 流程的用户, 对于熟悉的可以, 带上下面信息直接提 PR (优先审查)
+
+- type: dropdown
+  attributes:
+    label: 要同步的级别
+    options:
+      - 只需要这一个镜像 (如 docker.io/library/busybox) (要求满足下面的内容)
+      - 需要这个组织下所有镜像 (如 docker.io/library/**) (要求是知名的开源项目)
+      - 需要这个 Registry 下所有镜像 (如 docker.io/**) (要求是知名的开源自己的 Registry)
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Source
+    description: 镜像源码地址 或 组织地址
+    placeholder: |
+      https://github.com/...
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Dockerfile
+    description: 镜像构建的 Dockerfile
+    placeholder: |
+      路径/Dockerfile
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Image
+    description: 镜像仓库地址
+    placeholder: |
+      https://hub.docker.com/r/...
+  validations:
+    required: true
+
+- type: markdown
+  attributes:
+    value: |
+      有疑问反馈, 请添加我们的企微群 [#4183](https://github.com/DaoCloud/public-image-mirror/issues/4183)

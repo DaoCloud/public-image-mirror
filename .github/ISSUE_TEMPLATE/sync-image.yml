@@ -1,5 +1,5 @@
 name: Sync Image
-description: 同步一个镜像
+description: 同步一个镜像 (需要 Image 已在白名单里)
 labels:
 - sync image
 body:
