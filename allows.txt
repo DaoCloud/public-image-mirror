@@ -57,6 +57,7 @@ docker.io/kuberhealthy/**
 docker.io/kubernetesui/**
 docker.io/kubesphere/**
 docker.io/langgenius/**
+docker.io/liangjw/kube-webhook-certgen
 docker.io/library/adminer
 docker.io/library/aerospike
 docker.io/library/almalinux
