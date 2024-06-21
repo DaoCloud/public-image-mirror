@@ -36,6 +36,8 @@ docker.io/gztime/gzctf
 docker.io/halohub/halo
 docker.io/hyperledger/**
 docker.io/istio/**
+docker.io/iyuucn/iyuuplus
+docker.io/iyuucn/iyuuplus-dev
 docker.io/jaegertracing/**
 docker.io/jboss/**
 docker.io/jellyfin/**
