@@ -7,7 +7,6 @@ docker.io/apache/**
 docker.io/apitable/**
 docker.io/aquasec/**
 docker.io/arey/**
-docker.io/searxng/searxng
 docker.io/bats/**
 docker.io/bellsoft/**
 docker.io/binhex/arch-jellyfin
@@ -315,3 +314,4 @@ registry.jujucharms.com/**
 registry.k8s.io/**
 registry.opensource.zalan.do/**
 rocks.canonical.com/**
+docker.io/searxng/searxng
