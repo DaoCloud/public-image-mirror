@@ -269,6 +269,7 @@ docker.io/talebook/talebook
 docker.io/tensorflow/**
 docker.io/thanosio/**
 docker.io/timberio/**
+docker.io/tugraph/**
 docker.io/ubuntu/**
 docker.io/velero/**
 docker.io/vesoft/**
