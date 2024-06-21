@@ -59,6 +59,7 @@ docker.io/karmada/**
 docker.io/kennethreitz/**
 docker.io/kindest/**
 docker.io/kiwigrid/**
+docker.io/klakegg/hugo
 docker.io/koalaman/shellcheck
 docker.io/kubeedge/**
 docker.io/kubeflow/**
@@ -317,6 +318,7 @@ quay.io/cilium/**
 quay.io/coreos/**
 quay.io/external_storage/**
 quay.io/frrouting/frr
+quay.io/goswagger/**
 quay.io/grafana-operator/**
 quay.io/jaegertracing/**
 quay.io/jetstack/**
