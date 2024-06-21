@@ -278,6 +278,7 @@ docker.io/volcanosh/**
 docker.io/weaveworks/**
 docker.io/wiznote/wizserver
 docker.io/xhofe/alist
+docker.io/zerotier/**
 gcr.io/**
 ghcr.io/aquasecurity/**
 ghcr.io/benc-uk/kubeview
