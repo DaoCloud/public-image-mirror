@@ -1,6 +1,7 @@
 cr.l5d.io/**
 cr.weaviate.io/**
 docker.elastic.co/**
+docker.io/*
 docker.io/4pdosc/k8s-vdevice
 docker.io/adoptopenjdk/**
 docker.io/amambadev/**
