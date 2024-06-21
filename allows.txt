@@ -23,7 +23,6 @@ docker.io/cloudnativelabs/kube-router
 docker.io/coredns/**
 docker.io/csiplugin/**
 docker.io/curlimages/**
-docker.io/dani-garcia/vaultwarden
 docker.io/deepflowce/**
 docker.io/directus/**
 docker.io/dpage/**
@@ -55,6 +54,7 @@ docker.io/jenkins/**
 docker.io/jenkinsci/**
 docker.io/jettech/**
 docker.io/jimmidyson/**
+docker.io/jlesage/firefox
 docker.io/jxxghp/**
 docker.io/karmada/**
 docker.io/kennethreitz/**
@@ -262,8 +262,10 @@ docker.io/searxng/searxng
 docker.io/seataio/**
 docker.io/selenium/**
 docker.io/semitechnologies/**
+docker.io/solidnerd/bookstack
 docker.io/sonatype/nexus3
 docker.io/sonobuoy/**
+docker.io/soulter/astrbot
 docker.io/squidfunk/**
 docker.io/tailscale/**
 docker.io/talebook/talebook
@@ -272,6 +274,7 @@ docker.io/thanosio/**
 docker.io/timberio/**
 docker.io/tugraph/**
 docker.io/ubuntu/**
+docker.io/vaultwarden/server
 docker.io/velero/**
 docker.io/vesoft/**
 docker.io/victoriametrics/**
@@ -280,7 +283,9 @@ docker.io/volcanosh/**
 docker.io/weaveworks/**
 docker.io/wiznote/wizserver
 docker.io/xhofe/alist
+docker.io/xprobe/xinference
 docker.io/zerotier/**
+docker.io/zhayujie/chatgpt-on-wechat
 gcr.io/**
 ghcr.io/aquasecurity/**
 ghcr.io/benc-uk/kubeview
