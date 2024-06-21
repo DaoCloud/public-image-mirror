@@ -241,6 +241,7 @@ docker.io/pytorch/**
 docker.io/rancher/**
 docker.io/rclone/**
 docker.io/redislabs/**
+docker.io/schnell18/**
 docker.io/seataio/**
 docker.io/semitechnologies/**
 docker.io/sonobuoy/**
