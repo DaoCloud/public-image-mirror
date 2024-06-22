@@ -32,6 +32,7 @@ docker.io/emqx/**
 docker.io/envoyproxy/**
 docker.io/f5networks/**
 docker.io/falcosecurity/**
+docker.io/filebrowser/filebrowser
 docker.io/flannel/**
 docker.io/fluent/**
 docker.io/fortio/**
@@ -40,10 +41,12 @@ docker.io/frrouting/**
 docker.io/gitlab/**
 docker.io/gocd/gocd-server
 docker.io/goharbor/**
+docker.io/gotenberg/gotenberg
 docker.io/grafana/**
 docker.io/gztime/gzctf
 docker.io/halohub/halo
 docker.io/hectorqin/reader
+docker.io/homeassistant/**
 docker.io/hyperledger/**
 docker.io/istio/**
 docker.io/iyuucn/iyuuplus
@@ -266,6 +269,7 @@ docker.io/searxng/searxng
 docker.io/seataio/**
 docker.io/selenium/**
 docker.io/semitechnologies/**
+docker.io/sickcodes/docker-osx
 docker.io/solidnerd/bookstack
 docker.io/sonatype/nexus3
 docker.io/sonobuoy/**
@@ -288,6 +292,7 @@ docker.io/weaveworks/**
 docker.io/wiznote/wizserver
 docker.io/xhofe/alist
 docker.io/xprobe/xinference
+docker.io/zadam/trilium
 docker.io/zerotier/**
 docker.io/zhayujie/chatgpt-on-wechat
 gcr.io/**
@@ -311,6 +316,7 @@ ghcr.io/megacloudcontainer/**
 ghcr.io/mellanox/**
 ghcr.io/mosn/**
 ghcr.io/open-telemetry/**
+ghcr.io/open-webui/open-webui
 ghcr.io/openinsight-proj/**
 ghcr.io/projectcontour/**
 ghcr.io/spidernet-io/**
