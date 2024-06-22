@@ -6,8 +6,15 @@ body:
 - type: markdown
   attributes:
     value: |
-      这个模板仅为不熟悉 PR 流程的用户, 对于熟悉的可以, 带上下面信息直接提 提 PR 修改 [allows.txt](https://github.com/DaoCloud/public-image-mirror/blob/main/allows.txt) (优先审查)
+      这个模板仅为不熟悉 PR 流程的用户, 对于熟悉的可以带上下面信息直接提提 PR 修改 [allows.txt](https://github.com/DaoCloud/public-image-mirror/blob/main/allows.txt) (优先审查)
       - 此为 **人工审核** 请认证的填写下述问题
+
+- type: checkboxes
+  attributes:
+    label: 镜像是否符合下列要求
+    options:
+    - label: 确认这个镜像符合要求
+      required: true
 
 - type: markdown
   attributes:
@@ -30,8 +37,7 @@ body:
 
 - type: textarea
   attributes:
-    label: Source
-    description: 镜像源码地址 或 组织地址
+    label: 项目源码地址 或 组织地址
     placeholder: |
       https://github.com/...
   validations:
@@ -39,19 +45,21 @@ body:
 
 - type: textarea
   attributes:
-    label: Dockerfile
-    description: 项目源码中哪提及对应的镜像 (需要证明这个镜像和源码有实际关联)
+    label: 官网 或 文档 或 项目源码 中哪提及对应的镜像 (需要证明这个镜像和源码有实际关联)
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: Image
-    description: 镜像仓库地址
+    label: 镜像仓库地址
     placeholder: |
       https://hub.docker.com/r/...
   validations:
     required: true
+
+- type: textarea
+  attributes:
+    label: 补充说明
 
 - type: markdown
   attributes:

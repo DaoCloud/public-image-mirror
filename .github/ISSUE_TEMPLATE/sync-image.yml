@@ -11,7 +11,7 @@ body:
 
 - type: checkboxes
   attributes:
-    label: domain
+    label: 镜像域名 (镜像仓库)
     options:
     - label: 请确保包含域名(domain)
 - type: markdown
@@ -23,7 +23,7 @@ body:
 
 - type: checkboxes
   attributes:
-    label: tag
+    label: 镜像标签
     options:
     - label: 请确保包含镜像的标签(tag)
 - type: markdown
@@ -34,7 +34,7 @@ body:
 
 - type: checkboxes
   attributes:
-    label: check
+    label: 镜像存在
     options:
     - label: 请确保这个镜像真实存在
 - type: markdown
