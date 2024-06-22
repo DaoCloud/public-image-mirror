@@ -7,7 +7,7 @@ body:
   attributes:
     value: |
       这个模板仅为不熟悉 PR 流程的用户, 对于熟悉的可以带上下面信息直接提提 PR 修改 [allows.txt](https://github.com/DaoCloud/public-image-mirror/blob/main/allows.txt) (优先审查)
-      - 此为 **人工审核** 请认证的填写下述问题
+      - 此为 **人工审核** 请认证的填写下述问题 [查看成功案例](https://github.com/DaoCloud/public-image-mirror/issues?q=is%3Aissue+label%3A%22allows+image%22+is%3Aclosed+linked%3Apr)
 
 - type: checkboxes
   attributes:
