@@ -48,6 +48,7 @@ docker.io/istio/**
 docker.io/iyuucn/iyuuplus
 docker.io/iyuucn/iyuuplus-dev
 docker.io/jaegertracing/**
+docker.io/jasonrivers/nagios
 docker.io/jboss/**
 docker.io/jellyfin/**
 docker.io/jenkins/**
