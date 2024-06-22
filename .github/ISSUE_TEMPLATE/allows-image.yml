@@ -45,7 +45,7 @@ body:
 
 - type: textarea
   attributes:
-    label: 官网 或 文档 或 项目源码 中哪提及对应的镜像 (需要证明这个镜像和源码有实际关联)
+    label: 官网 或 文档 或 项目源码 中哪提及对应的镜像的地址 (需要证明这个镜像和源码有实际关联)
   validations:
     required: true
 
