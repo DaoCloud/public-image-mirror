@@ -349,6 +349,8 @@ ghcr.io/hwameistor/local-disk-manager
 ghcr.io/hwameistor/local-storage
 ghcr.io/hwameistor/operator
 ghcr.io/hwameistor/scheduler
+ghcr.io/immich-app/immich-machine-learning
+ghcr.io/immich-app/immich-server
 ghcr.io/k8snetworkplumbingwg/ib-sriov-cni
 ghcr.io/k8snetworkplumbingwg/multus-cni
 ghcr.io/k8snetworkplumbingwg/network-resources-injector
