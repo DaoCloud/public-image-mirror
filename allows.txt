@@ -27,6 +27,7 @@ docker.io/deepflowce/**
 docker.io/directus/**
 docker.io/dpage/**
 docker.io/elastic/**
+docker.io/emby/**
 docker.io/emqx/**
 docker.io/envoyproxy/**
 docker.io/f5networks/**
