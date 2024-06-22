@@ -37,6 +37,7 @@ docker.io/flannel/**
 docker.io/fluent/**
 docker.io/fortio/**
 docker.io/foxdalas/**
+docker.io/frooodle/s-pdf
 docker.io/frrouting/**
 docker.io/gitlab/**
 docker.io/gocd/gocd-server
@@ -263,6 +264,7 @@ docker.io/qdrant/qdrant
 docker.io/rancher/**
 docker.io/rclone/**
 docker.io/redislabs/**
+docker.io/redroid/redroid
 docker.io/resmoio/kubernetes-event-exporter
 docker.io/schnell18/rocketmq-dashboard
 docker.io/searxng/searxng
@@ -313,6 +315,7 @@ ghcr.io/klts-io/**
 ghcr.io/ksmartdata/**
 ghcr.io/kube-vip/**
 ghcr.io/kubean-io/**
+ghcr.io/librespeed/speedtest
 ghcr.io/megacloudcontainer/**
 ghcr.io/mellanox/**
 ghcr.io/mosn/**
