@@ -10,10 +10,10 @@ function guess_image() {
         return
     fi
 
-    if [[ "${image}" == *"registry.docker.com/r"* ]]; then
+    if [[ "${image}" == *"registry.hub.docker.com/r/"* ]]; then
         image="docker.io/${image##*registry.hub.docker.com\/r\/}"
     fi
-    if [[ "${image}" == *"hub.docker.com/r"* ]]; then
+    if [[ "${image}" == *"hub.docker.com/r/"* ]]; then
         image="docker.io/${image##*hub.docker.com\/r\/}"
     fi
     if [[ "${image%%/*}" != *"."* ]] || [[ "${image}" != *"/"* ]]; then
