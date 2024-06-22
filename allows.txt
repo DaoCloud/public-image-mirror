@@ -308,6 +308,8 @@ ghcr.io/dexidp/**
 ghcr.io/dtzar/**
 ghcr.io/hwameistor/**
 ghcr.io/immich-app/**
+ghcr.io/immich-app/immich-server
+ghcr.io/immich-app/immich-machine-learning
 ghcr.io/jimmidyson/configmap-reload
 ghcr.io/k8snetworkplumbingwg/**
 ghcr.io/kdoctor-io/**
