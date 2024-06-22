@@ -6,22 +6,25 @@ body:
 - type: markdown
   attributes:
     value: |
+      这个模板仅为不熟悉 PR 流程的用户, 对于熟悉的可以, 带上下面信息直接提 提 PR 修改 [allows.txt](https://github.com/DaoCloud/public-image-mirror/blob/main/allows.txt) (优先审查)
+      - 此为 **人工审核** 请认证的填写下述问题
+
+- type: markdown
+  attributes:
+    value: |
       对于有下列特征的镜像建议作者放国内 [阿里云镜像仓库](https://cr.console.aliyun.com), [华为云镜像仓库](https://console.huaweicloud.com/swr/) 等
       - **只有构建产物没有源码的**
       - **不是正经的开源项目**
       - **项目 ⭐️ 过低的**
       - **仅为国内用户服务的镜像 (绕一圈没必要)**
 
-      这个模板仅为不熟悉 PR 流程的用户, 对于熟悉的可以, 带上下面信息直接提 PR (优先审查)
-      - 此为 **人工审核** 请认证的填写下述问题
-
 - type: dropdown
   attributes:
     label: 要同步的级别
     options:
-      - 只需要这一个镜像 (如 docker.io/library/busybox) (要求满足下面的内容)
-      - 需要这个组织下所有镜像 (如 docker.io/library/**) (要求是开源项目的组织)
-      - 需要这个镜像仓库下所有镜像 (如 registry.k8s.io/**) (要求是开源项目的镜像仓库)
+      - 只需要这一个镜像 (如 docker.io/library/busybox)
+      - 需要这个组织下所有镜像 (如 docker.io/library/**)
+      - 需要这个镜像仓库下所有镜像 (如 registry.k8s.io/**)
   validations:
     required: true
 
@@ -37,7 +40,7 @@ body:
 - type: textarea
   attributes:
     label: Dockerfile
-    description: 项目源码中是否提及到所引用的镜像 (我们需要证明这个镜像和源码有实际关联)
+    description: 项目源码中哪提及对应的镜像 (需要证明这个镜像和源码有实际关联)
   validations:
     required: true
 
