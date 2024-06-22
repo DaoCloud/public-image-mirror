@@ -22,22 +22,17 @@ jobs:
         MESSAGE: "${{ github.event.issue.body }}"
       run: |
         ORIGIN_IMAGE=$(echo "${MESSAGE}" | grep SYNC | awk '{print $2}' | head -n 1 | sed "s/\r//g")
-        if [[ -z "${ORIGIN_IMAGE}" ]]; then
-          gh issue comment ${{ github.event.issue.number }} -b "找不到镜像呢"
-          gh issue edit ${{ github.event.issue.number }} --title "FAILED SYNC IMAGE"
-          gh issue close ${{ github.event.issue.number }} --reason "not planned"
+        CORRECT_IMAGE="$(./hack/correct-image.sh "${ORIGIN_IMAGE}")"
+        if [[ "${CORRECT_IMAGE}" == "" ]]; then
+          gh issue comment ${{ github.event.issue.number }} -b "镜像 '${ORIGIN_IMAGE}' 不是一个镜像"
           exit 1
         fi
-        if [[ "${ORIGIN_IMAGE}" != *":"* ]]; then
-          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 不存在呢, 请指定 tag, 如: ${ORIGIN_IMAGE}:latest"
-          gh issue edit ${{ github.event.issue.number }} --title "FAILED SYNC IMAGE"
-          gh issue close ${{ github.event.issue.number }} --reason "not planned"
-          exit 1
-        fi
-        if [[ "${ORIGIN_IMAGE%%/*}" != *"."* ]] || [[ "${ORIGIN_IMAGE}" != *"/"* ]]; then
-          gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 不存在呢, 请指定域名, 如: docker.io/${ORIGIN_IMAGE}"
-          gh issue edit ${{ github.event.issue.number }} --title "FAILED SYNC IMAGE"
-          gh issue close ${{ github.event.issue.number }} --reason "not planned"
+        if [[ "${CORRECT_IMAGE}" != "${ORIGIN_IMAGE}" ]]; then
+          if ! ./hack/verify-allows.sh ./allows.txt "${CORRECT_IMAGE}"; then
+            gh issue comment ${{ github.event.issue.number }} -b "镜像 '${ORIGIN_IMAGE}' 不存在呢, 也许应该是 '${CORRECT_IMAGE}', 并且不在白名单列表里, 不支持同步和访问<br>可以将其添加到[白名单](https://github.com/${{ github.repository }}/issues/2328)"
+          else
+            gh issue comment ${{ github.event.issue.number }} -b "镜像 '${ORIGIN_IMAGE}' 不存在呢, 也许应该是 '${CORRECT_IMAGE}'"
+          fi
           exit 1
         fi
         if ! ./hack/verify-allows.sh ./allows.txt "${ORIGIN_IMAGE}"; then

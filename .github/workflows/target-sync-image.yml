@@ -23,20 +23,17 @@ jobs:
         IMAGE: "${{ github.event.issue.title }}"
       run: |
         ORIGIN_IMAGE="${IMAGE}"
-        if [[ "${ORIGIN_IMAGE}" == *"//"* ]] || [[ "${ORIGIN_IMAGE}" == *" "* ]]; then
+        CORRECT_IMAGE="$(./hack/correct-image.sh "${ORIGIN_IMAGE}")"
+        if [[ "${CORRECT_IMAGE}" == "" ]]; then
           gh issue comment ${{ github.event.issue.number }} -b "镜像 '${ORIGIN_IMAGE}' 不是一个镜像"
           exit 1
         fi
-        if [[ "${ORIGIN_IMAGE%%/*}" != *"."* ]] || [[ "${ORIGIN_IMAGE}" != *"/"* ]]; then
-          if [[ "${ORIGIN_IMAGE}" != *":"* ]]; then
-            gh issue comment ${{ github.event.issue.number }} -b "镜像 '${ORIGIN_IMAGE}' 不存在呢, 请指定 域名 和 tag, 如: docker.io/${ORIGIN_IMAGE}:latest"
+        if [[ "${CORRECT_IMAGE}" != "${ORIGIN_IMAGE}" ]]; then
+          if ! ./hack/verify-allows.sh ./allows.txt "${CORRECT_IMAGE}"; then
+            gh issue comment ${{ github.event.issue.number }} -b "镜像 '${ORIGIN_IMAGE}' 不存在呢, 也许应该是 '${CORRECT_IMAGE}', 并且不在白名单列表里, 不支持同步和访问<br>可以将其添加到[白名单](https://github.com/${{ github.repository }}/issues/2328)"
           else
-            gh issue comment ${{ github.event.issue.number }} -b "镜像 '${ORIGIN_IMAGE}' 不存在呢, 请指定域名, 如: docker.io/${ORIGIN_IMAGE}"
+            gh issue comment ${{ github.event.issue.number }} -b "镜像 '${ORIGIN_IMAGE}' 不存在呢, 也许应该是 '${CORRECT_IMAGE}'"
           fi
-          exit 1
-        fi
-        if [[ "${ORIGIN_IMAGE}" != *":"* ]]; then
-          gh issue comment ${{ github.event.issue.number }} -b "镜像 '${ORIGIN_IMAGE}' 不存在呢, 请指定 tag, 如: ${ORIGIN_IMAGE}:latest"
           exit 1
         fi
         if ! ./hack/verify-allows.sh ./allows.txt "${ORIGIN_IMAGE}"; then
