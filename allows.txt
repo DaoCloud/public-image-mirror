@@ -322,6 +322,7 @@ ghcr.io/mosn/**
 ghcr.io/open-telemetry/**
 ghcr.io/open-webui/open-webui
 ghcr.io/openinsight-proj/**
+ghcr.io/parkervcp/ **
 ghcr.io/projectcontour/**
 ghcr.io/spidernet-io/**
 ghcr.io/spiffe/**
@@ -329,7 +330,6 @@ ghcr.io/sumologic/**
 ghcr.io/timeplus-io/**
 ghcr.io/wzshiming/**
 ghcr.io/zalando/**
-ghcr.io/parkervcp/ **
 k8s.gcr.io/**
 marketplace.azurecr.io/bitnami/**
 mcr.microsoft.com/**
