@@ -329,6 +329,7 @@ ghcr.io/sumologic/**
 ghcr.io/timeplus-io/**
 ghcr.io/wzshiming/**
 ghcr.io/zalando/**
+ghcr.io/parkervcp/ **
 k8s.gcr.io/**
 marketplace.azurecr.io/bitnami/**
 mcr.microsoft.com/**
