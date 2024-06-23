@@ -54,6 +54,7 @@ docker.io/deepflowce/deepflowio-init-grafana
 docker.io/deepflowce/deepflowio-init-grafana-ds-dh
 docker.io/deepflowce/grafana
 docker.io/deepflowce/mysql
+docker.io/docker/dockerfile
 docker.io/dpage/pgadmin4
 docker.io/elastic/filebeat
 docker.io/emby/embyserver
