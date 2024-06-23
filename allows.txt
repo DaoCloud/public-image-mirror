@@ -297,6 +297,7 @@ docker.io/xprobe/xinference
 docker.io/zadam/trilium
 docker.io/zerotier/**
 docker.io/zhayujie/chatgpt-on-wechat
+docker.io/jasminexzzz/blossom
 gcr.io/**
 ghcr.io/aquasecurity/**
 ghcr.io/benc-uk/kubeview
