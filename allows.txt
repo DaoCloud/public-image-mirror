@@ -330,6 +330,7 @@ ghcr.io/timeplus-io/**
 ghcr.io/wzshiming/**
 ghcr.io/zalando/**
 k8s.gcr.io/**
+marketplace.azurecr.io/bitnami/**
 mcr.microsoft.com/**
 nvcr.io/**
 ollama.ai/**
