@@ -3,8 +3,9 @@
 function guess_image() {
     local image="${1}"
 
-    image="${image# }"
-    image="${image% }"
+    image="${image// /}"
+    image="${image#\/}"
+    image="${image%\/}"
 
     if [[ -z "${image}" ]]; then
         return
