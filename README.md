@@ -6,10 +6,10 @@ Sync: 定期同步列表里的 image tag 的同步率, 只要 tag 存在就是�
 
 **!!!!!!!!!!!!!!!!!!!!!!!!通知!!!!!!!!!!!!!!!!!!!!!!!!**
 
-**由于近期使用量剧增, 近期进行统一限流, 以保证大多数的可用性.**
+**由于近期使用量剧增, 为保证大多数的可用性, 进行下列措施**
 
-- 如果有大量需求的[可以自己搭建服务器](https://github.com/wzshiming/crproxy/tree/master/examples/default)
 - 如有疑问请咨询企微群 [#4183](https://github.com/DaoCloud/public-image-mirror/issues/4183)
+- 如果有大量需求的[可以自己搭建服务器](https://github.com/wzshiming/crproxy/tree/master/examples/default)
 - 白名单 [#2328](https://github.com/DaoCloud/public-image-mirror/issues/2328)
 - 限流 [#6196](https://github.com/DaoCloud/public-image-mirror/issues/6196)
 
