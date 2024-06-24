@@ -7,7 +7,11 @@ body:
   attributes:
     value: |
       这个模板仅为不熟悉 PR 流程的用户, 对于熟悉的可以带上下面信息直接提提 PR 修改 [allows.txt](https://github.com/DaoCloud/public-image-mirror/blob/main/allows.txt) (优先审查)
-      - 此为 **人工审核** 请认证的填写下述问题 [查看成功案例](https://github.com/DaoCloud/public-image-mirror/issues?q=is%3Aissue+label%3A%22allows+image%22+is%3Aclosed+linked%3Apr)
+      - 对于镜像的要求 [#2328](https://github.com/DaoCloud/public-image-mirror/issues/2328)
+      - PR 合入后生效时间
+        - 主动同步 Issue 马上生效
+        - 服务器提供服务, 由于是人工的会延迟一段时间...
+      - 此为 **人工审核** (工作日, 不定时间) 请认证的填写下述问题 [查看成功案例](https://github.com/DaoCloud/public-image-mirror/issues?q=is%3Aissue+label%3A%22allows+image%22+is%3Aclosed+linked%3Apr)
 
 - type: checkboxes
   attributes:
@@ -15,15 +19,6 @@ body:
     options:
     - label: 确认这个镜像符合要求
       required: true
-
-- type: markdown
-  attributes:
-    value: |
-      对于有下列特征的镜像建议作者放国内 [阿里云镜像仓库](https://cr.console.aliyun.com), [华为云镜像仓库](https://console.huaweicloud.com/swr/) 等
-      - **只有构建产物没有源码的**
-      - **不是正经的开源项目**
-      - **项目 ⭐️ 过低的**
-      - **仅为国内用户服务的镜像 (绕一圈没必要)**
 
 - type: dropdown
   attributes:
