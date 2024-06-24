@@ -289,6 +289,8 @@ docker.io/sonatype/nexus3
 docker.io/sonobuoy/**
 docker.io/soulter/astrbot
 docker.io/squidfunk/**
+docker.io/starrocks/dev-env-centos7
+docker.io/starrocks/dev-env-ubuntu
 docker.io/tailscale/**
 docker.io/talebook/talebook
 docker.io/tensorflow/**
