@@ -387,3 +387,5 @@ registry.jujucharms.com/**
 registry.k8s.io/**
 registry.opensource.zalan.do/**
 rocks.canonical.com/**
+docker.io/starrocks/dev-env-ubuntu
+docker.io/starrocks/dev-env-centos7
