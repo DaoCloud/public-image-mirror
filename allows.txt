@@ -33,6 +33,7 @@ docker.io/determinedai/**
 docker.io/directus/**
 docker.io/docker/**
 docker.io/dpage/**
+docker.io/dustynv/**
 docker.io/elastic/**
 docker.io/emby/**
 docker.io/emqx/**
