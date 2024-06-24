@@ -298,6 +298,7 @@ docker.io/starrocks/dev-env-ubuntu
 docker.io/tailscale/**
 docker.io/talebook/talebook
 docker.io/tensorflow/**
+docker.io/zxyyang/**
 docker.io/thanosio/**
 docker.io/tiangolo/**
 docker.io/timberio/**
