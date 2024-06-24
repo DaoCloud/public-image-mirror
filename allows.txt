@@ -303,6 +303,7 @@ docker.io/tiangolo/**
 docker.io/timberio/**
 docker.io/tugraph/**
 docker.io/ubuntu/**
+docker.io/ultralytics/**
 docker.io/vaultwarden/server
 docker.io/velero/**
 docker.io/verdaccio/**
