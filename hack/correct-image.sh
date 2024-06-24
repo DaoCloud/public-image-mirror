@@ -17,7 +17,10 @@ function guess_image() {
     if [[ "${image}" == *"hub.docker.com/r/"* ]]; then
         image="docker.io/${image##*hub.docker.com\/r\/}"
     fi
-    if [[ "${image%%/*}" != *"."* ]] || [[ "${image}" != *"/"* ]]; then
+    if [[ "${image}" != *"/"* ]]; then
+        image="library/${image}"
+    fi
+    if [[ "${image%%/*}" != *"."* ]]; then
         image="docker.io/${image}"
     fi
     if [[ "${image}" != *":"* ]]; then
