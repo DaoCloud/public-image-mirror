@@ -2,6 +2,7 @@ cr.l5d.io/**
 cr.weaviate.io/**
 docker.elastic.co/**
 docker.io/*
+docker.io/1dev/**
 docker.io/4pdosc/k8s-vdevice
 docker.io/adoptopenjdk/**
 docker.io/amambadev/**
@@ -25,6 +26,7 @@ docker.io/coredns/**
 docker.io/csiplugin/**
 docker.io/curlimages/**
 docker.io/deepflowce/**
+docker.io/determinedai/**
 docker.io/directus/**
 docker.io/docker/**
 docker.io/dpage/**
@@ -41,6 +43,7 @@ docker.io/fortio/**
 docker.io/foxdalas/**
 docker.io/frooodle/s-pdf
 docker.io/frrouting/**
+docker.io/geoservercloud/**
 docker.io/gitlab/**
 docker.io/gocd/gocd-server
 docker.io/goharbor/**
@@ -234,6 +237,7 @@ docker.io/longhornio/**
 docker.io/louislam/**
 docker.io/menci/archlinuxarm
 docker.io/metabase/**
+docker.io/milvusdb/**
 docker.io/minio/**
 docker.io/moby/**
 docker.io/mohsinonxrm/**
@@ -243,11 +247,14 @@ docker.io/mwader/webdav
 docker.io/n8nio/**
 docker.io/nacos/**
 docker.io/neuvector/**
+docker.io/nocobase/nocobase
+docker.io/nvidia/**
 docker.io/nyanmisaka/jellyfin
 docker.io/oamdev/**
 docker.io/ogarcia/archlinux
 docker.io/oliver006/**
 docker.io/ollama/*
+docker.io/onlyoffice/**
 docker.io/openebs/**
 docker.io/openkruise/**
 docker.io/opensearchproject/**
@@ -256,6 +263,7 @@ docker.io/osixia/**
 docker.io/otel/**
 docker.io/percona/**
 docker.io/phpmyadmin/**
+docker.io/plexinc/pms-docker
 docker.io/portainer/**
 docker.io/projectcontour/contour-authserver
 docker.io/projecthami/**
@@ -294,6 +302,7 @@ docker.io/victoriametrics/**
 docker.io/vllm/**
 docker.io/volcanosh/**
 docker.io/weaveworks/**
+docker.io/whyour/qinglong
 docker.io/wiznote/wizserver
 docker.io/xhofe/alist
 docker.io/xprobe/xinference
@@ -309,6 +318,7 @@ ghcr.io/cowboysysop/pytest
 ghcr.io/daocloud/**
 ghcr.io/dexidp/**
 ghcr.io/dtzar/**
+ghcr.io/goauthentik/**
 ghcr.io/hwameistor/**
 ghcr.io/immich-app/**
 ghcr.io/jimmidyson/configmap-reload
