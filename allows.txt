@@ -7,6 +7,7 @@ docker.io/4pdosc/k8s-vdevice
 docker.io/adoptopenjdk/**
 docker.io/amambadev/**
 docker.io/amd64/*
+docker.io/andywuwu/coze2openai
 docker.io/apache/**
 docker.io/apitable/**
 docker.io/aquasec/**
@@ -26,6 +27,7 @@ docker.io/cloudnativelabs/kube-router
 docker.io/coredns/**
 docker.io/csiplugin/**
 docker.io/curlimages/**
+docker.io/darthsim/imgproxy
 docker.io/deepflowce/**
 docker.io/determinedai/**
 docker.io/directus/**
@@ -39,6 +41,7 @@ docker.io/f5networks/**
 docker.io/falcosecurity/**
 docker.io/filebrowser/filebrowser
 docker.io/flannel/**
+docker.io/floryn90/hugo
 docker.io/fluent/**
 docker.io/fortio/**
 docker.io/foxdalas/**
@@ -329,6 +332,7 @@ ghcr.io/goauthentik/**
 ghcr.io/hwameistor/**
 ghcr.io/immich-app/**
 ghcr.io/jimmidyson/configmap-reload
+ghcr.io/joeferner/redis-commander
 ghcr.io/k8snetworkplumbingwg/**
 ghcr.io/kdoctor-io/**
 ghcr.io/klts-io/**
