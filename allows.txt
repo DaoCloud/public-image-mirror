@@ -298,6 +298,7 @@ docker.io/tugraph/**
 docker.io/ubuntu/**
 docker.io/vaultwarden/server
 docker.io/velero/**
+docker.io/verdaccio/**
 docker.io/vesoft/**
 docker.io/victoriametrics/**
 docker.io/vllm/**
@@ -315,6 +316,7 @@ ghcr.io/aquasecurity/**
 ghcr.io/benc-uk/kubeview
 ghcr.io/chaos-mesh/**
 ghcr.io/cloudtty/cloudshell
+ghcr.io/coder/**
 ghcr.io/cowboysysop/pytest
 ghcr.io/daocloud/**
 ghcr.io/dexidp/**
