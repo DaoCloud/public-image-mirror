@@ -10,6 +10,7 @@ docker.io/apitable/**
 docker.io/aquasec/**
 docker.io/arey/**
 docker.io/argoproj/rollouts-demo
+docker.io/arm64v8/nginx
 docker.io/bats/**
 docker.io/bellsoft/**
 docker.io/binhex/arch-jellyfin
