@@ -44,6 +44,7 @@ docker.io/fortio/**
 docker.io/foxdalas/**
 docker.io/frooodle/s-pdf
 docker.io/frrouting/**
+docker.io/gdy666/lucky
 docker.io/geoservercloud/**
 docker.io/gitlab/**
 docker.io/gocd/gocd-server
