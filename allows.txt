@@ -6,12 +6,13 @@ docker.io/1dev/**
 docker.io/4pdosc/k8s-vdevice
 docker.io/adoptopenjdk/**
 docker.io/amambadev/**
+docker.io/amd64/*
 docker.io/apache/**
 docker.io/apitable/**
 docker.io/aquasec/**
 docker.io/arey/**
 docker.io/argoproj/rollouts-demo
-docker.io/arm64v8/nginx
+docker.io/arm64v8/*
 docker.io/bats/**
 docker.io/bellsoft/**
 docker.io/binhex/arch-jellyfin
