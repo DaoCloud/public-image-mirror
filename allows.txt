@@ -50,6 +50,7 @@ docker.io/gocd/gocd-server
 docker.io/goharbor/**
 docker.io/gotenberg/gotenberg
 docker.io/grafana/**
+docker.io/greenbone/**
 docker.io/gztime/gzctf
 docker.io/halohub/halo
 docker.io/hectorqin/reader
