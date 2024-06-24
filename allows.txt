@@ -56,6 +56,7 @@ docker.io/halohub/halo
 docker.io/hectorqin/reader
 docker.io/homeassistant/**
 docker.io/hyperledger/**
+docker.io/infmonkeys/**
 docker.io/istio/**
 docker.io/iyuucn/iyuuplus
 docker.io/iyuucn/iyuuplus-dev
