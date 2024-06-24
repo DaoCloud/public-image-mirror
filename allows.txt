@@ -25,6 +25,7 @@ docker.io/csiplugin/**
 docker.io/curlimages/**
 docker.io/deepflowce/**
 docker.io/directus/**
+docker.io/docker/**
 docker.io/dpage/**
 docker.io/elastic/**
 docker.io/emby/**
