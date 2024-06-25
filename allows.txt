@@ -240,6 +240,7 @@ docker.io/libretranslate/libretranslate
 docker.io/linkease/ddnsto
 docker.io/linuxserver/**
 docker.io/lobehub/lobe-chat
+docker.io/localai/localai
 docker.io/loggieio/loggie
 docker.io/longhornio/**
 docker.io/louislam/**
