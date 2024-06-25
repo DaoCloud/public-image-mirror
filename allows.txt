@@ -239,6 +239,7 @@ docker.io/libretranslate/libretranslate
 docker.io/linkease/ddnsto
 docker.io/linuxserver/**
 docker.io/lobehub/lobe-chat
+docker.io/loggieio/loggie
 docker.io/longhornio/**
 docker.io/louislam/**
 docker.io/menci/archlinuxarm
@@ -282,6 +283,7 @@ docker.io/rclone/**
 docker.io/redislabs/**
 docker.io/redroid/redroid
 docker.io/resmoio/kubernetes-event-exporter
+docker.io/rustdesk/rustdesk-server-s6
 docker.io/schnell18/rocketmq-dashboard
 docker.io/searxng/searxng
 docker.io/seataio/**
