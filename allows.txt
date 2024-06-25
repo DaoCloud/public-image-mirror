@@ -352,9 +352,9 @@ ghcr.io/open-webui/open-webui
 ghcr.io/openinsight-proj/**
 ghcr.io/parkervcp/yolks
 ghcr.io/projectcontour/**
+ghcr.io/sig-storage/**
 ghcr.io/spidernet-io/**
 ghcr.io/spiffe/**
-ghcr.io/sig-storage/**
 ghcr.io/sumologic/**
 ghcr.io/timeplus-io/**
 ghcr.io/wzshiming/**
