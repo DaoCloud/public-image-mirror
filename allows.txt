@@ -30,6 +30,7 @@ docker.io/curlimages/**
 docker.io/darthsim/imgproxy
 docker.io/deepflowce/**
 docker.io/determinedai/**
+docker.io/dezhao/lanraragi_cn
 docker.io/directus/**
 docker.io/docker/**
 docker.io/dpage/**
@@ -88,6 +89,7 @@ docker.io/kuberhealthy/**
 docker.io/kubernetesui/**
 docker.io/kubesphere/**
 docker.io/langgenius/**
+docker.io/lfedge/ekuiper
 docker.io/liangjw/kube-webhook-certgen
 docker.io/library/adminer
 docker.io/library/aerospike
@@ -244,6 +246,7 @@ docker.io/localai/localai
 docker.io/loggieio/loggie
 docker.io/longhornio/**
 docker.io/louislam/**
+docker.io/mageai/mageai
 docker.io/menci/archlinuxarm
 docker.io/metabase/**
 docker.io/milvusdb/**
@@ -321,6 +324,7 @@ docker.io/whyour/qinglong
 docker.io/wiznote/wizserver
 docker.io/xhofe/alist
 docker.io/xprobe/xinference
+docker.io/ydlhero/chatgpt-web-midjourney-proxy
 docker.io/zadam/trilium
 docker.io/zerotier/**
 docker.io/zhayujie/chatgpt-on-wechat
@@ -354,6 +358,7 @@ ghcr.io/open-webui/open-webui
 ghcr.io/openinsight-proj/**
 ghcr.io/parkervcp/yolks
 ghcr.io/projectcontour/**
+ghcr.io/songquanpeng/one-api
 ghcr.io/spidernet-io/**
 ghcr.io/spiffe/**
 ghcr.io/sumologic/**
