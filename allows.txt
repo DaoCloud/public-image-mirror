@@ -286,6 +286,7 @@ docker.io/projecthami/**
 docker.io/prom/**
 docker.io/prometheuscommunity/**
 docker.io/pytorch/**
+docker.io/qdrant/**
 docker.io/qdrant/qdrant
 docker.io/rancher/**
 docker.io/rclone/**
@@ -304,6 +305,7 @@ docker.io/sonatype/nexus3
 docker.io/sonobuoy/**
 docker.io/soulter/astrbot
 docker.io/squidfunk/**
+docker.io/starrocks/**
 docker.io/starrocks/dev-env-centos7
 docker.io/starrocks/dev-env-ubuntu
 docker.io/tailscale/**
@@ -332,6 +334,7 @@ docker.io/ydlhero/chatgpt-web-midjourney-proxy
 docker.io/zadam/trilium
 docker.io/zerotier/**
 docker.io/zhayujie/chatgpt-on-wechat
+docker.io/zilliz/**
 gcr.io/**
 ghcr.io/aquasecurity/**
 ghcr.io/benc-uk/kubeview
