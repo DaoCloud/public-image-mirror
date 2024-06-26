@@ -74,6 +74,7 @@ docker.io/jenkinsci/**
 docker.io/jettech/**
 docker.io/jimmidyson/**
 docker.io/jlesage/firefox
+docker.io/justsong/one-api
 docker.io/jxxghp/**
 docker.io/karmada/**
 docker.io/kennethreitz/**
