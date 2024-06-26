@@ -47,9 +47,11 @@ docker.io/floryn90/hugo
 docker.io/fluent/**
 docker.io/fortio/**
 docker.io/foxdalas/**
+docker.io/frappe/**
 docker.io/frooodle/s-pdf
 docker.io/frrouting/**
 docker.io/geoservercloud/**
+docker.io/gitea/**
 docker.io/gitlab/**
 docker.io/gocd/gocd-server
 docker.io/goharbor/**
@@ -248,6 +250,7 @@ docker.io/loggieio/loggie
 docker.io/longhornio/**
 docker.io/louislam/**
 docker.io/mageai/mageai
+docker.io/maxkeytop/**
 docker.io/menci/archlinuxarm
 docker.io/metabase/**
 docker.io/milvusdb/**
