@@ -11,18 +11,11 @@ body:
       - PR 合入后生效时间
         - 主动同步 Issue 马上生效
         - 服务器提供服务, 由于是人工的会延迟一段时间...
-      - 此为 **人工审核** (工作日, 不定时间) 请认证的填写下述问题 [查看成功案例](https://github.com/DaoCloud/public-image-mirror/issues?q=is%3Aissue+label%3A%22allows+image%22+is%3Aclosed+linked%3Apr)
-
-- type: checkboxes
-  attributes:
-    label: 镜像是否符合下列要求
-    options:
-    - label: 确认这个镜像符合要求
-      required: true
+      - 此为 **人工审核** (工作日, 不定时间) 请填写下述问题 [查看成功案例](https://github.com/DaoCloud/public-image-mirror/issues?q=is%3Aissue+label%3A%22allows+image%22+is%3Aclosed+linked%3Apr)
 
 - type: dropdown
   attributes:
-    label: 要同步的级别
+    label: 白名单级别
     options:
       - 只需要这一个镜像 (如 docker.io/library/busybox)
       - 需要这个组织下所有镜像 (如 docker.io/library/**)
