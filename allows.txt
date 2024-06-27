@@ -64,6 +64,7 @@ docker.io/gztime/gzctf
 docker.io/halohub/halo
 docker.io/hectorqin/reader
 docker.io/homeassistant/**
+docker.io/hyperf/hyperf
 docker.io/hyperledger/**
 docker.io/infmonkeys/**
 docker.io/istio/**
@@ -94,6 +95,7 @@ docker.io/kuberhealthy/**
 docker.io/kubernetesui/**
 docker.io/kubesphere/**
 docker.io/langgenius/**
+docker.io/langhuihui/monibuca
 docker.io/lfedge/ekuiper
 docker.io/liangjw/kube-webhook-certgen
 docker.io/library/adminer
@@ -310,6 +312,7 @@ docker.io/sonobuoy/**
 docker.io/soulter/astrbot
 docker.io/squidfunk/**
 docker.io/starrocks/**
+docker.io/swaggerapi/**
 docker.io/tailscale/**
 docker.io/talebook/talebook
 docker.io/tdengine/**
@@ -373,6 +376,7 @@ ghcr.io/songquanpeng/one-api
 ghcr.io/spidernet-io/**
 ghcr.io/spiffe/**
 ghcr.io/sumologic/**
+ghcr.io/tangly1024/notionnext
 ghcr.io/timeplus-io/**
 ghcr.io/wzshiming/**
 ghcr.io/zalando/**
