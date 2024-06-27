@@ -3,6 +3,7 @@ cr.weaviate.io/**
 docker.elastic.co/**
 docker.io/*
 docker.io/1dev/**
+docker.io/1panel/maxkb
 docker.io/4pdosc/k8s-vdevice
 docker.io/adoptopenjdk/**
 docker.io/amambadev/**
@@ -14,6 +15,7 @@ docker.io/aquasec/**
 docker.io/arey/**
 docker.io/argoproj/rollouts-demo
 docker.io/arm64v8/*
+docker.io/b3log/siyuan
 docker.io/bats/**
 docker.io/bellsoft/**
 docker.io/binhex/arch-jellyfin
@@ -262,7 +264,9 @@ docker.io/multiarch/**
 docker.io/mwader/webdav
 docker.io/n8nio/**
 docker.io/nacos/**
+docker.io/ncbi/pgap
 docker.io/neuvector/**
+docker.io/nextcloud/all-in-one
 docker.io/nocobase/nocobase
 docker.io/nvidia/**
 docker.io/nyanmisaka/jellyfin
@@ -292,6 +296,7 @@ docker.io/rclone/**
 docker.io/redislabs/**
 docker.io/redroid/redroid
 docker.io/resmoio/kubernetes-event-exporter
+docker.io/rustdesk/rustdesk-server
 docker.io/rustdesk/rustdesk-server-s6
 docker.io/schnell18/rocketmq-dashboard
 docker.io/searxng/searxng
@@ -312,6 +317,7 @@ docker.io/tensorflow/**
 docker.io/thanosio/**
 docker.io/tiangolo/**
 docker.io/timberio/**
+docker.io/tomkellygenetics/universc
 docker.io/tugraph/**
 docker.io/ubuntu/**
 docker.io/ultralytics/**
@@ -328,6 +334,7 @@ docker.io/wiznote/wizserver
 docker.io/xhofe/alist
 docker.io/xprobe/xinference
 docker.io/ydlhero/chatgpt-web-midjourney-proxy
+docker.io/zabbix/**
 docker.io/zadam/trilium
 docker.io/zerotier/**
 docker.io/zhayujie/chatgpt-on-wechat
