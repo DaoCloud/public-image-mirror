@@ -54,9 +54,9 @@ jobs:
 
       - name: Verify allows.txt sort
         run: |
-          ./hack/verify-fmt.sh allows.txt || {
-            echo "Please run './hack/fmt.sh allows.txt'"
-            gh pr comment "${{ github.event.pull_request.number }}" --body '请运行 `./hack/fmt.sh allows.txt` 对内容进行排序'
+          ./hack/verify-image-match.sh allows.txt || {
+            echo "Please run './hack/fmt-image-match.sh allows.txt'"
+            gh pr comment "${{ github.event.pull_request.number }}" --body '请运行 `./hack/fmt-image-match.sh allows.txt` 对内容进行排序'
             exit 1
           }
 
