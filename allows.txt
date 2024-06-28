@@ -26,6 +26,7 @@ docker.io/chrishirsch/kuberhealthy-storage-check
 docker.io/clickhouse/**
 docker.io/cloudflare/**
 docker.io/cloudnativelabs/kube-router
+docker.io/collabora/code
 docker.io/coredns/**
 docker.io/csiplugin/**
 docker.io/curlimages/**
@@ -38,6 +39,7 @@ docker.io/docker/**
 docker.io/dpage/**
 docker.io/dustynv/**
 docker.io/elastic/**
+docker.io/elsaworkflows/**
 docker.io/emby/**
 docker.io/emqx/**
 docker.io/envoyproxy/**
@@ -64,6 +66,7 @@ docker.io/gztime/gzctf
 docker.io/halohub/halo
 docker.io/hectorqin/reader
 docker.io/homeassistant/**
+docker.io/hoppscotch/hoppscotch
 docker.io/hyperf/hyperf
 docker.io/hyperledger/**
 docker.io/infmonkeys/**
@@ -254,6 +257,7 @@ docker.io/loggieio/loggie
 docker.io/longhornio/**
 docker.io/louislam/**
 docker.io/mageai/mageai
+docker.io/mattermost/focalboard
 docker.io/maxkeytop/**
 docker.io/menci/archlinuxarm
 docker.io/metabase/**
@@ -298,6 +302,7 @@ docker.io/rclone/**
 docker.io/redislabs/**
 docker.io/redroid/redroid
 docker.io/resmoio/kubernetes-event-exporter
+docker.io/rucio/**
 docker.io/rustdesk/rustdesk-server
 docker.io/rustdesk/rustdesk-server-s6
 docker.io/schnell18/rocketmq-dashboard
@@ -372,6 +377,7 @@ ghcr.io/open-webui/open-webui
 ghcr.io/openinsight-proj/**
 ghcr.io/parkervcp/yolks
 ghcr.io/projectcontour/**
+ghcr.io/puppeteer/puppeteer
 ghcr.io/songquanpeng/one-api
 ghcr.io/spidernet-io/**
 ghcr.io/spiffe/**
