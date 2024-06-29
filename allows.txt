@@ -351,6 +351,7 @@ gcr.io/**
 ghcr.io/aquasecurity/**
 ghcr.io/benc-uk/kubeview
 ghcr.io/chaos-mesh/**
+ghcr.io/cirruslabs/flutter
 ghcr.io/cloudtty/cloudshell
 ghcr.io/coder/**
 ghcr.io/cowboysysop/pytest
