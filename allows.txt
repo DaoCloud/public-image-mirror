@@ -426,4 +426,4 @@ registry.jujucharms.com/**
 registry.k8s.io/**
 registry.opensource.zalan.do/**
 rocks.canonical.com/**
-docker.io/haroldli/xiaoya-tvbox:latest
+docker.io/haroldli/xiaoya-tvbox
