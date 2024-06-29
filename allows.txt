@@ -9,7 +9,9 @@ docker.io/adoptopenjdk/**
 docker.io/amambadev/**
 docker.io/amd64/*
 docker.io/andywuwu/coze2openai
+docker.io/ankane/pgvector
 docker.io/apache/**
+docker.io/apachepulsar/**
 docker.io/apitable/**
 docker.io/aquasec/**
 docker.io/arey/**
@@ -33,6 +35,7 @@ docker.io/curlimages/**
 docker.io/darthsim/imgproxy
 docker.io/deepflowce/**
 docker.io/determinedai/**
+docker.io/devicefarmer/stf
 docker.io/dezhao/lanraragi_cn
 docker.io/directus/**
 docker.io/docker/**
@@ -46,6 +49,7 @@ docker.io/envoyproxy/**
 docker.io/f5networks/**
 docker.io/falcosecurity/**
 docker.io/filebrowser/filebrowser
+docker.io/fireflyiii/**
 docker.io/flannel/**
 docker.io/floryn90/hugo
 docker.io/fluent/**
@@ -67,6 +71,7 @@ docker.io/halohub/halo
 docker.io/hectorqin/reader
 docker.io/homeassistant/**
 docker.io/hoppscotch/hoppscotch
+docker.io/huggingface/**
 docker.io/hugomods/hugo
 docker.io/hyperf/hyperf
 docker.io/hyperledger/**
@@ -263,6 +268,7 @@ docker.io/maxkeytop/**
 docker.io/menci/archlinuxarm
 docker.io/metabase/**
 docker.io/milvusdb/**
+docker.io/mindsdb/mindsdb
 docker.io/minio/**
 docker.io/moby/**
 docker.io/mohsinonxrm/**
@@ -289,6 +295,7 @@ docker.io/openzipkin/**
 docker.io/osixia/**
 docker.io/otel/**
 docker.io/percona/**
+docker.io/pgvector/pgvector
 docker.io/phpmyadmin/**
 docker.io/plexinc/pms-docker
 docker.io/portainer/**
@@ -298,6 +305,7 @@ docker.io/prom/**
 docker.io/prometheuscommunity/**
 docker.io/pytorch/**
 docker.io/qdrant/**
+docker.io/ramonvc/freegpt-webui
 docker.io/rancher/**
 docker.io/rclone/**
 docker.io/redislabs/**
@@ -359,6 +367,7 @@ ghcr.io/cowboysysop/pytest
 ghcr.io/daocloud/**
 ghcr.io/dexidp/**
 ghcr.io/dtzar/**
+ghcr.io/gethomepage/homepage
 ghcr.io/goauthentik/**
 ghcr.io/hwameistor/**
 ghcr.io/immich-app/**
@@ -373,6 +382,7 @@ ghcr.io/kubean-io/**
 ghcr.io/librespeed/speedtest
 ghcr.io/megacloudcontainer/**
 ghcr.io/mellanox/**
+ghcr.io/metatube-community/metatube-server
 ghcr.io/mosn/**
 ghcr.io/open-telemetry/**
 ghcr.io/open-webui/open-webui
