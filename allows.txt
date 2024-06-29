@@ -67,6 +67,7 @@ docker.io/halohub/halo
 docker.io/hectorqin/reader
 docker.io/homeassistant/**
 docker.io/hoppscotch/hoppscotch
+docker.io/hugomods/hugo
 docker.io/hyperf/hyperf
 docker.io/hyperledger/**
 docker.io/infmonkeys/**
