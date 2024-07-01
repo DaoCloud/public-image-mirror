@@ -321,6 +321,7 @@ docker.io/rclone/**
 docker.io/redislabs/**
 docker.io/redroid/redroid
 docker.io/resmoio/kubernetes-event-exporter
+docker.io/rocm/rocm-terminal
 docker.io/rucio/**
 docker.io/rustdesk/rustdesk-server
 docker.io/rustdesk/rustdesk-server-s6
