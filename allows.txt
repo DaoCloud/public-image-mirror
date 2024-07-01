@@ -385,6 +385,7 @@ ghcr.io/dexidp/**
 ghcr.io/dtzar/**
 ghcr.io/gethomepage/homepage
 ghcr.io/goauthentik/**
+ghcr.io/helm/**
 ghcr.io/hwameistor/**
 ghcr.io/immich-app/**
 ghcr.io/jimmidyson/configmap-reload
