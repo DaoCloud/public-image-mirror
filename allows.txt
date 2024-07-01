@@ -6,6 +6,7 @@ docker.io/1dev/**
 docker.io/1panel/maxkb
 docker.io/4pdosc/k8s-vdevice
 docker.io/adoptopenjdk/**
+docker.io/altinity/**
 docker.io/amambadev/**
 docker.io/amd64/*
 docker.io/andywuwu/coze2openai
