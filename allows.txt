@@ -52,6 +52,7 @@ docker.io/filebrowser/filebrowser
 docker.io/fireflyiii/**
 docker.io/flannel/**
 docker.io/floryn90/hugo
+docker.io/flowiseai/flowise
 docker.io/fluent/**
 docker.io/fortio/**
 docker.io/foxdalas/**
