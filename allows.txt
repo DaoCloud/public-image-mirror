@@ -29,6 +29,7 @@ docker.io/clickhouse/**
 docker.io/cloudflare/**
 docker.io/cloudnativelabs/kube-router
 docker.io/collabora/code
+docker.io/continuumio/miniconda3
 docker.io/coredns/**
 docker.io/csiplugin/**
 docker.io/curlimages/**
