@@ -82,7 +82,9 @@ docker.m.daocloud.io/library/busybox
 
 如果想要新增, 提 PR 修改即可。例如 [PR#1](https://github.com/DaoCloud/public-image-mirror/pull/1/)， 并请在 PR 提交前排序： `./hack/fmt.sh mirror.txt`
 
-## 支持前缀替换的 Registry
+## 支持前缀替换的 Registry (不推荐)
+
+部分工具或库可能会提示未验证的错误, 如 podman, [google/go-containerregistry](https://github.com/google/go-containerregistry) 等, 推荐使用添加前缀的方式.
 
 前缀替换的 Registry 的规则, 这是人工配置的, 有需求提 Issue.
 
