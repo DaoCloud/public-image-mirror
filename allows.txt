@@ -310,6 +310,7 @@ docker.io/percona/**
 docker.io/pgvector/pgvector
 docker.io/phpmyadmin/**
 docker.io/plexinc/pms-docker
+docker.io/plugins/docker
 docker.io/portainer/**
 docker.io/projectcontour/contour-authserver
 docker.io/projecthami/**
