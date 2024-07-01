@@ -366,6 +366,7 @@ docker.io/zerotier/**
 docker.io/zhayujie/chatgpt-on-wechat
 docker.io/zilliz/**
 gcr.io/**
+ghcr.io/actions/**
 ghcr.io/aquasecurity/**
 ghcr.io/benc-uk/kubeview
 ghcr.io/chaos-mesh/**
