@@ -24,6 +24,8 @@ docker.io/binhex/arch-jellyfin
 docker.io/bitnami/**
 docker.io/budtmo/docker-android
 docker.io/calico/**
+docker.io/charlie0129/bupt-net-login
+docker.io/chigusa/bililive-go
 docker.io/chrishirsch/kuberhealthy-storage-check
 docker.io/clickhouse/**
 docker.io/cloudflare/**
@@ -70,9 +72,11 @@ docker.io/grafana/**
 docker.io/greenbone/**
 docker.io/gztime/gzctf
 docker.io/halohub/halo
+docker.io/haroldli/xiaoya-tvbox
 docker.io/hectorqin/reader
 docker.io/homeassistant/**
 docker.io/hoppscotch/hoppscotch
+docker.io/hslr/sun-panel
 docker.io/huggingface/**
 docker.io/hugomods/hugo
 docker.io/hyperf/hyperf
@@ -84,6 +88,7 @@ docker.io/iyuucn/iyuuplus-dev
 docker.io/jaegertracing/**
 docker.io/jasonrivers/nagios
 docker.io/jboss/**
+docker.io/jeessy/ddns-go
 docker.io/jellyfin/**
 docker.io/jenkins/**
 docker.io/jenkinsci/**
@@ -105,6 +110,7 @@ docker.io/kubeovn/kube-ovn
 docker.io/kuberhealthy/**
 docker.io/kubernetesui/**
 docker.io/kubesphere/**
+docker.io/kubespheredev/ksv-installer
 docker.io/langgenius/**
 docker.io/langhuihui/monibuca
 docker.io/lfedge/ekuiper
@@ -279,6 +285,7 @@ docker.io/multiarch/**
 docker.io/mwader/webdav
 docker.io/n8nio/**
 docker.io/nacos/**
+docker.io/nastools/nas-tools
 docker.io/ncbi/pgap
 docker.io/neuvector/**
 docker.io/nextcloud/all-in-one
@@ -401,6 +408,7 @@ ghcr.io/timeplus-io/**
 ghcr.io/wzshiming/**
 ghcr.io/zalando/**
 k8s.gcr.io/**
+lscr.io/linuxserver/**
 marketplace.azurecr.io/bitnami/**
 mcr.microsoft.com/**
 nvcr.io/**
