@@ -5,6 +5,7 @@ docker.io/*
 docker.io/1dev/**
 docker.io/1panel/maxkb
 docker.io/4pdosc/k8s-vdevice
+docker.io/acore/**
 docker.io/adoptopenjdk/**
 docker.io/altinity/**
 docker.io/amambadev/**
@@ -24,6 +25,7 @@ docker.io/bellsoft/**
 docker.io/binhex/arch-jellyfin
 docker.io/bitnami/**
 docker.io/budtmo/docker-android
+docker.io/bytelang/kplayer
 docker.io/calico/**
 docker.io/charlie0129/bupt-net-login
 docker.io/chigusa/bililive-go
@@ -313,6 +315,7 @@ docker.io/projectcontour/contour-authserver
 docker.io/projecthami/**
 docker.io/prom/**
 docker.io/prometheuscommunity/**
+docker.io/provectuslabs/kafka-ui
 docker.io/pytorch/**
 docker.io/qdrant/**
 docker.io/ramonvc/freegpt-webui
@@ -360,6 +363,7 @@ docker.io/weaveworks/**
 docker.io/whyour/qinglong
 docker.io/wiznote/wizserver
 docker.io/xhofe/alist
+docker.io/xiaoyaliu/alist
 docker.io/xprobe/xinference
 docker.io/ydlhero/chatgpt-web-midjourney-proxy
 docker.io/zabbix/**
@@ -410,6 +414,7 @@ ghcr.io/tangly1024/notionnext
 ghcr.io/timeplus-io/**
 ghcr.io/wzshiming/**
 ghcr.io/zalando/**
+ghcr.io/zitadel/**
 k8s.gcr.io/**
 lscr.io/linuxserver/**
 marketplace.azurecr.io/bitnami/**
