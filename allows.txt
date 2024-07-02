@@ -7,6 +7,7 @@ docker.io/1panel/maxkb
 docker.io/4pdosc/k8s-vdevice
 docker.io/acore/*
 docker.io/adoptopenjdk/*
+docker.io/adriansegura99/**
 docker.io/alpinelinux/**
 docker.io/altinity/*
 docker.io/amambadev/*
