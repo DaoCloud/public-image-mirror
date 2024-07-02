@@ -16,6 +16,7 @@ docker.io/ankane/pgvector
 docker.io/apache/*
 docker.io/apachepulsar/*
 docker.io/apitable/*
+docker.io/apolloconfig/*
 docker.io/aquasec/*
 docker.io/arey/*
 docker.io/argoproj/rollouts-demo
