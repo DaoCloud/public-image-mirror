@@ -6,6 +6,7 @@ docker.io/1dev/*
 docker.io/1panel/maxkb
 docker.io/4pdosc/k8s-vdevice
 docker.io/acore/*
+docker.io/adguard/adguardhome
 docker.io/adoptopenjdk/*
 docker.io/adriansegura99/**
 docker.io/alpinelinux/**
@@ -19,6 +20,7 @@ docker.io/apache/*
 docker.io/apachepulsar/*
 docker.io/apitable/*
 docker.io/apolloconfig/*
+docker.io/appsmith/appsmith-ee
 docker.io/aquasec/*
 docker.io/arey/*
 docker.io/argoproj/rollouts-demo
@@ -42,6 +44,7 @@ docker.io/continuumio/miniconda3
 docker.io/coredns/*
 docker.io/csiplugin/*
 docker.io/curlimages/*
+docker.io/daprio/*
 docker.io/darthsim/imgproxy
 docker.io/deepflowce/*
 docker.io/determinedai/*
@@ -86,6 +89,7 @@ docker.io/hengyunabc/arthas
 docker.io/heroiclabs/nakama-pluginbuilder
 docker.io/homeassistant/*
 docker.io/hoppscotch/hoppscotch
+docker.io/hpcaitech/pytorch-cuda
 docker.io/hslr/sun-panel
 docker.io/huggingface/*
 docker.io/hugomods/hugo
@@ -314,6 +318,7 @@ docker.io/opensearchproject/*
 docker.io/openzipkin/*
 docker.io/osixia/*
 docker.io/otel/*
+docker.io/outlinewiki/outline
 docker.io/percona/*
 docker.io/pgvector/pgvector
 docker.io/phpmyadmin/*
@@ -335,6 +340,7 @@ docker.io/redislabs/*
 docker.io/redroid/redroid
 docker.io/resmoio/kubernetes-event-exporter
 docker.io/rocm/rocm-terminal
+docker.io/rook/ceph
 docker.io/rucio/*
 docker.io/rustdesk/rustdesk-server
 docker.io/rustdesk/rustdesk-server-s6
