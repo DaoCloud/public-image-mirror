@@ -11,6 +11,7 @@ docker.io/adriansegura99/**
 docker.io/alpinelinux/**
 docker.io/altinity/*
 docker.io/amambadev/*
+docker.io/amazon/*
 docker.io/amd64/*
 docker.io/andywuwu/coze2openai
 docker.io/ankane/pgvector
@@ -317,6 +318,7 @@ docker.io/phpmyadmin/*
 docker.io/plexinc/pms-docker
 docker.io/plugins/docker
 docker.io/portainer/*
+docker.io/privoce/vocechat-server
 docker.io/projectcontour/contour-authserver
 docker.io/projecthami/*
 docker.io/prom/*
@@ -380,6 +382,7 @@ docker.io/zhayujie/chatgpt-on-wechat
 docker.io/zilliz/*
 gcr.io/**
 ghcr.io/actions/**
+ghcr.io/advplyr/audiobookshelf
 ghcr.io/aquasecurity/**
 ghcr.io/benc-uk/kubeview
 ghcr.io/chaos-mesh/**
