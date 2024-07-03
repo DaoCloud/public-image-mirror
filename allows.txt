@@ -84,6 +84,7 @@ docker.io/greenbone/*
 docker.io/gztime/gzctf
 docker.io/halohub/halo
 docker.io/haroldli/xiaoya-tvbox
+docker.io/heartexlabs/label-studio
 docker.io/hectorqin/reader
 docker.io/hengyunabc/arthas
 docker.io/heroiclabs/nakama-pluginbuilder
