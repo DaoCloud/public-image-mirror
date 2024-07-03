@@ -83,6 +83,7 @@ docker.io/halohub/halo
 docker.io/haroldli/xiaoya-tvbox
 docker.io/hectorqin/reader
 docker.io/hengyunabc/arthas
+docker.io/heroiclabs/nakama-pluginbuilder
 docker.io/homeassistant/*
 docker.io/hoppscotch/hoppscotch
 docker.io/hslr/sun-panel
@@ -351,6 +352,7 @@ docker.io/soulter/astrbot
 docker.io/squidfunk/*
 docker.io/starrocks/*
 docker.io/swaggerapi/*
+docker.io/tabbyml/tabby
 docker.io/tailscale/*
 docker.io/talebook/talebook
 docker.io/tdengine/*
@@ -465,6 +467,7 @@ quay.io/strimzi/*
 quay.io/submariner/*
 quay.io/tigera/*
 registry.gitlab.com/gitlab-org/**
+registry.heroiclabs.com/heroiclabs/nakama
 registry.jujucharms.com/**
 registry.k8s.io/**
 registry.opensource.zalan.do/**
