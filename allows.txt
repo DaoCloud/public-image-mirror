@@ -5,6 +5,7 @@ docker.io/*
 docker.io/1dev/*
 docker.io/1panel/maxkb
 docker.io/4pdosc/k8s-vdevice
+docker.io/6053537/portainer-ce
 docker.io/acore/*
 docker.io/adguard/adguardhome
 docker.io/adoptopenjdk/*
@@ -321,6 +322,7 @@ docker.io/osixia/*
 docker.io/otel/*
 docker.io/outlinewiki/outline
 docker.io/percona/*
+docker.io/pgautoupgrade/pgautoupgrade
 docker.io/pgvector/pgvector
 docker.io/phpmyadmin/*
 docker.io/plexinc/pms-docker
@@ -352,6 +354,7 @@ docker.io/seataio/*
 docker.io/selenium/*
 docker.io/semitechnologies/*
 docker.io/sickcodes/docker-osx
+docker.io/snowdreamtech/frps
 docker.io/solidnerd/bookstack
 docker.io/sonatype/nexus3
 docker.io/sonobuoy/*
@@ -368,6 +371,7 @@ docker.io/thanosio/*
 docker.io/tiangolo/*
 docker.io/timberio/*
 docker.io/tomkellygenetics/universc
+docker.io/traefik/whoami
 docker.io/tugraph/*
 docker.io/ubuntu/*
 docker.io/ultralytics/*
@@ -419,6 +423,7 @@ ghcr.io/kubean-io/**
 ghcr.io/librespeed/speedtest
 ghcr.io/megacloudcontainer/**
 ghcr.io/mellanox/**
+ghcr.io/metalbear-co/**
 ghcr.io/metatube-community/metatube-server
 ghcr.io/mosn/**
 ghcr.io/open-telemetry/**
@@ -446,8 +451,12 @@ ollama.ai/**
 quay.io/argoproj/*
 quay.io/brancz/*
 quay.io/calico/*
+quay.io/ceph/ceph
+quay.io/ceph/cosi
+quay.io/cephcsi/cephcsi
 quay.io/cilium/*
 quay.io/coreos/*
+quay.io/csiaddons/k8s-sidecar
 quay.io/external_storage/*
 quay.io/frrouting/frr
 quay.io/goswagger/*
