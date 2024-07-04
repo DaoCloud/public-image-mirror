@@ -253,6 +253,7 @@ docker.io/library/ruby
 docker.io/library/rust
 docker.io/library/sapmachine
 docker.io/library/satosa
+docker.io/library/savatar101/omniparse
 docker.io/library/silverpeas
 docker.io/library/sl
 docker.io/library/solr
