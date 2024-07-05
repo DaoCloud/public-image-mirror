@@ -313,6 +313,7 @@ docker.io/nvidia/*
 docker.io/nyanmisaka/jellyfin
 docker.io/oamdev/*
 docker.io/ogarcia/archlinux
+docker.io/oguzpastirmaci/gpu-burn
 docker.io/oliver006/*
 docker.io/ollama/*
 docker.io/onlyoffice/*
