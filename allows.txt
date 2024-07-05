@@ -128,6 +128,7 @@ docker.io/kuberhealthy/*
 docker.io/kubernetesui/*
 docker.io/kubesphere/*
 docker.io/kubespheredev/ksv-installer
+docker.io/langfuse/*
 docker.io/langgenius/*
 docker.io/langhuihui/monibuca
 docker.io/lfedge/ekuiper
