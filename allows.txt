@@ -120,8 +120,10 @@ docker.io/kindest/*
 docker.io/kiwigrid/*
 docker.io/klakegg/hugo
 docker.io/koalaman/shellcheck
+docker.io/kserve/*
 docker.io/kubeedge/*
 docker.io/kubeflow/*
+docker.io/kubeflowkatib/*
 docker.io/kubeflownotebookswg/*
 docker.io/kubeovn/kube-ovn
 docker.io/kuberhealthy/*
@@ -455,6 +457,7 @@ marketplace.azurecr.io/bitnami/**
 mcr.microsoft.com/**
 nvcr.io/**
 ollama.ai/**
+quay.io/aipipeline/*
 quay.io/argoproj/*
 quay.io/brancz/*
 quay.io/calico/*
