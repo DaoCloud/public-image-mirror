@@ -340,6 +340,7 @@ docker.io/qdrant/*
 docker.io/ramonvc/freegpt-webui
 docker.io/rancher/*
 docker.io/rclone/*
+docker.io/redash/*
 docker.io/redislabs/*
 docker.io/redroid/redroid
 docker.io/resmoio/kubernetes-event-exporter
@@ -350,7 +351,9 @@ docker.io/rucio/*
 docker.io/rustdesk/rustdesk-server
 docker.io/rustdesk/rustdesk-server-s6
 docker.io/sameersbn/gitlab
+docker.io/savatar101/omniparse
 docker.io/schnell18/rocketmq-dashboard
+docker.io/seafileltd/seafile-mc
 docker.io/searxng/searxng
 docker.io/seataio/*
 docker.io/selenium/*
@@ -399,6 +402,7 @@ docker.io/zilliz/*
 gcr.io/**
 ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
+ghcr.io/anduin2017/how-to-cook
 ghcr.io/aquasecurity/**
 ghcr.io/benc-uk/kubeview
 ghcr.io/chaos-mesh/**
