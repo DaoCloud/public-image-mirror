@@ -43,6 +43,7 @@ docker.io/calico/node-driver-registrar
 docker.io/calico/pod2daemon-flexvol
 docker.io/calico/typha
 docker.io/clickhouse/clickhouse-server
+docker.io/cloudnas/clouddrive2-unstable
 docker.io/coredns/coredns
 docker.io/csiplugin/snapshot-controller
 docker.io/curlimages/curl
