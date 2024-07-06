@@ -472,6 +472,7 @@ quay.io/external_storage/*
 quay.io/frrouting/frr
 quay.io/goswagger/*
 quay.io/grafana-operator/*
+quay.io/ibm-spectrum-scale/*
 quay.io/jaegertracing/*
 quay.io/jetstack/*
 quay.io/k8scsi/*
