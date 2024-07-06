@@ -429,6 +429,8 @@ quay.io/cilium/tetragon-operator
 quay.io/coreos/etcd
 quay.io/external_storage/nfs-client-provisioner
 quay.io/grafana-operator/grafana_plugins_init
+quay.io/ibm-spectrum-scale/ibm-spectrum-scale-csi-driver
+quay.io/ibm-spectrum-scale/ibm-spectrum-scale-csi-operator
 quay.io/jaegertracing/jaeger-operator
 quay.io/jetstack/cert-manager-cainjector
 quay.io/jetstack/cert-manager-controller
