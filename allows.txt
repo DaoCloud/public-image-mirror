@@ -10,6 +10,7 @@ docker.io/acore/*
 docker.io/adguard/adguardhome
 docker.io/adoptopenjdk/*
 docker.io/adriansegura99/**
+docker.io/allfunc/speedtest
 docker.io/alpinelinux/**
 docker.io/altinity/*
 docker.io/amambadev/*
@@ -321,6 +322,7 @@ docker.io/ollama/*
 docker.io/onlyoffice/*
 docker.io/openebs/*
 docker.io/openkruise/*
+docker.io/openpolicyagent/opa
 docker.io/opensearchproject/*
 docker.io/openzipkin/*
 docker.io/osixia/*
@@ -371,12 +373,14 @@ docker.io/soulter/astrbot
 docker.io/squidfunk/*
 docker.io/starrocks/*
 docker.io/swaggerapi/*
+docker.io/syncthing/syncthing
 docker.io/tabbyml/tabby
 docker.io/tailscale/*
 docker.io/talebook/talebook
 docker.io/tdengine/*
 docker.io/tensorflow/*
 docker.io/thanosio/*
+docker.io/thingsboard/tb-postgres
 docker.io/tiangolo/*
 docker.io/timberio/*
 docker.io/tomkellygenetics/universc
@@ -413,6 +417,7 @@ ghcr.io/chaos-mesh/**
 ghcr.io/cirruslabs/flutter
 ghcr.io/cloudtty/cloudshell
 ghcr.io/coder/**
+ghcr.io/codex-team/codex.docs
 ghcr.io/cowboysysop/pytest
 ghcr.io/daocloud/**
 ghcr.io/dexidp/**
@@ -449,6 +454,7 @@ ghcr.io/spiffe/**
 ghcr.io/sumologic/**
 ghcr.io/tangly1024/notionnext
 ghcr.io/timeplus-io/**
+ghcr.io/toeverything/affine-graphql
 ghcr.io/wzshiming/**
 ghcr.io/zalando/**
 ghcr.io/zitadel/**
