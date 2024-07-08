@@ -187,6 +187,7 @@ docker.io/library/fluentd
 docker.io/library/friendica
 docker.io/library/gazebo
 docker.io/library/gcc
+docker.io/azul/zulu-openjdk:17.0.10
 docker.io/library/geonetwork
 docker.io/library/ghost
 docker.io/library/golang
