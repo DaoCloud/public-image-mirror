@@ -67,6 +67,7 @@ docker.io/ensemblorg/ensembl-vep
 docker.io/envoyproxy/*
 docker.io/f5networks/*
 docker.io/falcosecurity/*
+docker.io/fatedier/frps
 docker.io/filebrowser/filebrowser
 docker.io/fireflyiii/*
 docker.io/flannel/*
