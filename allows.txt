@@ -412,6 +412,7 @@ docker.io/zadam/trilium
 docker.io/zerotier/*
 docker.io/zhayujie/chatgpt-on-wechat
 docker.io/zilliz/*
+docker.io/zlijingtao/neurobfuscator
 gcr.io/**
 ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
