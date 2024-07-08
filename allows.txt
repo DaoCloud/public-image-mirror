@@ -50,11 +50,13 @@ docker.io/curlimages/*
 docker.io/daprio/*
 docker.io/darthsim/imgproxy
 docker.io/deepflowce/*
+docker.io/derailed/k9s
 docker.io/determinedai/*
 docker.io/devicefarmer/stf
 docker.io/dezhao/lanraragi_cn
 docker.io/directus/*
 docker.io/docker/*
+docker.io/dockurr/windows
 docker.io/dpage/*
 docker.io/dustynv/*
 docker.io/elastic/*
@@ -118,6 +120,7 @@ docker.io/justsong/one-api
 docker.io/jxxghp/*
 docker.io/karmada/*
 docker.io/kennethreitz/*
+docker.io/keycloak/keycloak
 docker.io/kindest/*
 docker.io/kiwigrid/*
 docker.io/klakegg/hugo
@@ -348,6 +351,7 @@ docker.io/ramonvc/freegpt-webui
 docker.io/rancher/*
 docker.io/rclone/*
 docker.io/redash/*
+docker.io/redis/redis-stack-server
 docker.io/redislabs/*
 docker.io/redroid/redroid
 docker.io/resmoio/kubernetes-event-exporter
@@ -426,6 +430,7 @@ ghcr.io/dtzar/**
 ghcr.io/gethomepage/homepage
 ghcr.io/goauthentik/**
 ghcr.io/helm/**
+ghcr.io/home-assistant/**
 ghcr.io/hwameistor/**
 ghcr.io/immich-app/**
 ghcr.io/jimmidyson/configmap-reload
