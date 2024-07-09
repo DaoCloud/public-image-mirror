@@ -22,6 +22,7 @@ docker.io/apache/*
 docker.io/apachepulsar/*
 docker.io/apitable/*
 docker.io/apolloconfig/*
+docker.io/appsmith/appsmith-ce
 docker.io/appsmith/appsmith-ee
 docker.io/aquasec/*
 docker.io/arey/*
@@ -317,6 +318,7 @@ docker.io/neuvector/*
 docker.io/nextcloud/all-in-one
 docker.io/nginxinc/*
 docker.io/nocobase/nocobase
+docker.io/nodered/node-red
 docker.io/nvidia/*
 docker.io/nyanmisaka/jellyfin
 docker.io/oamdev/*
@@ -331,6 +333,7 @@ docker.io/openpolicyagent/opa
 docker.io/opensearchproject/*
 docker.io/openzipkin/*
 docker.io/osixia/*
+docker.io/osrf/*
 docker.io/otel/*
 docker.io/outlinewiki/outline
 docker.io/percona/*
