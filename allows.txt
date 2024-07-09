@@ -10,6 +10,7 @@ docker.io/acore/*
 docker.io/adguard/adguardhome
 docker.io/adoptopenjdk/*
 docker.io/adriansegura99/**
+docker.io/allanpk716/chinesesubfinder
 docker.io/allfunc/speedtest
 docker.io/alpinelinux/**
 docker.io/altinity/*
@@ -118,9 +119,11 @@ docker.io/jenkinsci/*
 docker.io/jettech/*
 docker.io/jimmidyson/*
 docker.io/jlesage/firefox
+docker.io/johngong/calibre-web
 docker.io/justsong/one-api
 docker.io/jxxghp/*
 docker.io/karmada/*
+docker.io/keelhq/keel
 docker.io/kennethreitz/*
 docker.io/keycloak/keycloak
 docker.io/kindest/*
@@ -314,6 +317,7 @@ docker.io/n8nio/*
 docker.io/nacos/*
 docker.io/nastools/nas-tools
 docker.io/ncbi/pgap
+docker.io/neosmemo/memos
 docker.io/neuvector/*
 docker.io/nextcloud/all-in-one
 docker.io/nginxinc/*
