@@ -394,6 +394,9 @@ ghcr.io/spidernet-io/egressgateway-controller
 ghcr.io/spidernet-io/spiderpool/spiderpool-agent
 ghcr.io/spidernet-io/spiderpool/spiderpool-controller
 ghcr.io/spidernet-io/spiderpool/spiderpool-plugins
+ghcr.io/spidernet-io/sriov-network-operator
+ghcr.io/spidernet-io/sriov-network-operator-config-daemon
+ghcr.io/spidernet-io/sriov-network-operator-webhook
 ghcr.io/spiffe/spire-agent
 ghcr.io/spiffe/spire-server
 ghcr.io/sumologic/tailing-sidecar
