@@ -371,6 +371,7 @@ docker.io/rustdesk/rustdesk-server
 docker.io/rustdesk/rustdesk-server-s6
 docker.io/sameersbn/gitlab
 docker.io/savatar101/omniparse
+docker.io/schemahero/*
 docker.io/schnell18/rocketmq-dashboard
 docker.io/seafileltd/seafile-mc
 docker.io/searxng/searxng
@@ -511,10 +512,12 @@ quay.io/opstree/*
 quay.io/prometheus-operator/*
 quay.io/prometheus/*
 quay.io/prometheuscommunity/*
+quay.io/quarkus/*
 quay.io/spotahome/*
 quay.io/strimzi/*
 quay.io/submariner/*
 quay.io/tigera/*
+registry.developers.crunchydata.com/crunchydata/pgo-deployer
 registry.gitlab.com/gitlab-org/**
 registry.heroiclabs.com/heroiclabs/nakama
 registry.jujucharms.com/**
