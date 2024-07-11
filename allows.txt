@@ -91,6 +91,7 @@ docker.io/grafana/*
 docker.io/greenbone/*
 docker.io/gztime/gzctf
 docker.io/halohub/halo
+docker.io/harness/*
 docker.io/haroldli/xiaoya-tvbox
 docker.io/hashicorp/consul
 docker.io/heartexlabs/label-studio
@@ -116,6 +117,7 @@ docker.io/jeessy/ddns-go
 docker.io/jellyfin/*
 docker.io/jenkins/*
 docker.io/jenkinsci/*
+docker.io/jetbrains/*
 docker.io/jettech/*
 docker.io/jimmidyson/*
 docker.io/jlesage/firefox
@@ -386,6 +388,7 @@ docker.io/sonobuoy/*
 docker.io/soulter/astrbot
 docker.io/squidfunk/*
 docker.io/starrocks/*
+docker.io/superng6/qbittorrentee
 docker.io/swaggerapi/*
 docker.io/syncthing/syncthing
 docker.io/tabbyml/tabby
