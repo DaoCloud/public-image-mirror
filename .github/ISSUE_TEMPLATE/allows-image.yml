@@ -25,6 +25,23 @@ body:
 
 - type: textarea
   attributes:
+    label: 镜像仓库地址
+    placeholder: |
+      https://hub.docker.com/r/...
+  validations:
+    required: true
+
+- type: dropdown
+  attributes:
+    label: 这是镜像仓库官方认证过的么?
+    options:
+      - 不是 (请补充下面的信息, 乱填将关闭申请)
+      - 是的 (不需要填下面的信息)
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
     label: 项目源码地址 或 组织地址
     placeholder: |
       https://github.com/...
@@ -34,14 +51,6 @@ body:
 - type: textarea
   attributes:
     label: 官网 或 文档 或 项目源码 中哪提及对应的镜像的地址 (需要证明这个镜像和源码有实际关联)
-  validations:
-    required: true
-
-- type: textarea
-  attributes:
-    label: 镜像仓库地址
-    placeholder: |
-      https://hub.docker.com/r/...
   validations:
     required: true
 
