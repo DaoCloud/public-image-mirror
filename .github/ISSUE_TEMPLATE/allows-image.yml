@@ -45,14 +45,10 @@ body:
     label: 项目源码地址 或 组织地址
     placeholder: |
       https://github.com/...
-  validations:
-    required: true
 
 - type: textarea
   attributes:
     label: 官网 或 文档 或 项目源码 中哪提及对应的镜像的地址 (需要证明这个镜像和源码有实际关联)
-  validations:
-    required: true
 
 - type: textarea
   attributes:
