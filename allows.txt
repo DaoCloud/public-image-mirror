@@ -359,6 +359,7 @@ docker.io/prometheuscommunity/*
 docker.io/provectuslabs/kafka-ui
 docker.io/pytorch/*
 docker.io/qdrant/*
+docker.io/qmcgaw/ddns-updater
 docker.io/ramonvc/freegpt-webui
 docker.io/rancher/*
 docker.io/rclone/*
