@@ -439,7 +439,7 @@ ghcr.io/cirruslabs/flutter
 ghcr.io/cloudtty/cloudshell
 ghcr.io/coder/**
 ghcr.io/codex-team/codex.docs
-ghcr.io/corentinth/**
+ghcr.io/corentinth/it-tools
 ghcr.io/cowboysysop/pytest
 ghcr.io/daocloud/**
 ghcr.io/dexidp/**
