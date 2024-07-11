@@ -21,7 +21,7 @@ Sync: 定期同步列表里的 image tag 的同步率, 只要 tag 存在就是�
   * 由于缓存的存在, 可能存在 1 小时的延迟。
   * 如超过 1 小时还未更新, 估计是国际带宽挂了。
 * 对于 镜像层(blob) 会缓存在第三方对象存储上
-  * 当前暂未对内容做任何检测。
+  * 当前暂未对内容做任何检测, 计划会添加检测。
 
 ## 快速开始
 
@@ -57,9 +57,6 @@ docker.m.daocloud.io/library/busybox
 > 原先已经在下的镜像还是会继续走原来的, 需要重启 docker 再重新拉取才能走已经同步好的缓存过, 所以推荐先单次同步再尝试拉取
 > 对于 latest 这种经常内容会发生变更的 tag 变更后会需要重新同步
 
-每个 Issue **带宽**
-- 国际带宽 3 * 50 Mbps
-
 ## 懒加载
 
 > 仅推荐用于小于 20MiB 的镜像
@@ -72,9 +69,7 @@ docker.m.daocloud.io/library/busybox
 所有懒加载 **带宽**
 - 国际带宽 6 * 30 Mbps
 
-## 定期同步列表
-
-> 不推荐, 由于数量已经比较多了初次提交, 到被同步到需要很长时间
+## 定期同步列表 (不推荐)
 
 强烈建议使用[单次单镜像同步](#单次单镜像同步)
 
@@ -88,20 +83,20 @@ docker.m.daocloud.io/library/busybox
 
 前缀替换的 Registry 的规则, 这是人工配置的, 有需求提 Issue.
 
-| 源站                    | 替换为                        |
-| ----------------------- | ----------------------------- |
-| cr.l5d.io               | l5d.m.daocloud.io             |
-| docker.elastic.co       | elastic.m.daocloud.io         |
-| docker.io               | docker.m.daocloud.io          |
-| gcr.io                  | gcr.m.daocloud.io             |
-| ghcr.io                 | ghcr.m.daocloud.io            |
-| k8s.gcr.io              | k8s-gcr.m.daocloud.io         |
-| registry.k8s.io         | k8s.m.daocloud.io             |
-| mcr.microsoft.com       | mcr.m.daocloud.io             |
-| nvcr.io                 | nvcr.m.daocloud.io            |
-| quay.io                 | quay.m.daocloud.io            |
-| registry.jujucharms.com | jujucharms.m.daocloud.io      |
-| rocks.canonical.com     | rocks-canonical.m.daocloud.io |
+| 源站                    | 替换为                        | 备注                                  |
+| ----------------------- | ----------------------------- | ------------------------------------- |
+| cr.l5d.io               | l5d.m.daocloud.io             | 将废弃请使用添加前缀的方式            |
+| docker.elastic.co       | elastic.m.daocloud.io         |                                       |
+| docker.io               | docker.m.daocloud.io          |                                       |
+| gcr.io                  | gcr.m.daocloud.io             |                                       |
+| ghcr.io                 | ghcr.m.daocloud.io            |                                       |
+| k8s.gcr.io              | k8s-gcr.m.daocloud.io         | k8s.gcr.io 以被迁移到 registry.k8s.io |
+| registry.k8s.io         | k8s.m.daocloud.io             |                                       |
+| mcr.microsoft.com       | mcr.m.daocloud.io             |                                       |
+| nvcr.io                 | nvcr.m.daocloud.io            |                                       |
+| quay.io                 | quay.m.daocloud.io            |                                       |
+| registry.jujucharms.com | jujucharms.m.daocloud.io      | 将废弃请使用添加前缀的方式            |
+| rocks.canonical.com     | rocks-canonical.m.daocloud.io | 将废弃请使用添加前缀的方式            |
 
 ## 最佳实践
 
