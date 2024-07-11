@@ -38,8 +38,8 @@ docker.io/budtmo/docker-android
 docker.io/bytelang/kplayer
 docker.io/calico/*
 docker.io/charlie0129/bupt-net-login
-docker.io/chengshiwen/influxdb
 docker.io/chengshiwen/influx-proxy
+docker.io/chengshiwen/influxdb
 docker.io/chigusa/bililive-go
 docker.io/chrishirsch/kuberhealthy-storage-check
 docker.io/clickhouse/*
@@ -408,6 +408,7 @@ docker.io/tugraph/*
 docker.io/ubuntu/*
 docker.io/ultralytics/*
 docker.io/vaultwarden/server
+docker.io/vdsm/virtual-dsm
 docker.io/velero/*
 docker.io/verdaccio/*
 docker.io/vesoft/*
@@ -427,7 +428,6 @@ docker.io/zerotier/*
 docker.io/zhayujie/chatgpt-on-wechat
 docker.io/zilliz/*
 docker.io/zlijingtao/neurobfuscator
-docker.io/vdsm/virtual-dsm
 gcr.io/**
 ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
