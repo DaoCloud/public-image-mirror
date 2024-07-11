@@ -39,6 +39,7 @@ docker.io/bytelang/kplayer
 docker.io/calico/*
 docker.io/charlie0129/bupt-net-login
 docker.io/chengshiwen/influxdb
+docker.io/chengshiwen/influx-proxy
 docker.io/chigusa/bililive-go
 docker.io/chrishirsch/kuberhealthy-storage-check
 docker.io/clickhouse/*
