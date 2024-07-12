@@ -398,6 +398,7 @@ docker.io/tabbyml/tabby
 docker.io/tailscale/*
 docker.io/talebook/talebook
 docker.io/tdengine/*
+docker.io/tensorchord/pgvecto-rs
 docker.io/tensorflow/*
 docker.io/thanosio/*
 docker.io/thingsboard/tb-postgres
@@ -475,6 +476,7 @@ ghcr.io/seriousm4x/upsnap
 ghcr.io/songquanpeng/one-api
 ghcr.io/spidernet-io/**
 ghcr.io/spiffe/**
+ghcr.io/sugarforever/peanut-shell
 ghcr.io/sumologic/**
 ghcr.io/tangly1024/notionnext
 ghcr.io/timeplus-io/**
