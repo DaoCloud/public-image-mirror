@@ -357,6 +357,7 @@ ghcr.io/k8snetworkplumbingwg/multus-cni
 ghcr.io/k8snetworkplumbingwg/network-resources-injector
 ghcr.io/k8snetworkplumbingwg/sriov-cni
 ghcr.io/k8snetworkplumbingwg/sriov-network-device-plugin
+ghcr.io/k8snetworkplumbingwg/sriov-network-metrics-exporter
 ghcr.io/k8snetworkplumbingwg/sriov-network-operator
 ghcr.io/k8snetworkplumbingwg/sriov-network-operator-config-daemon
 ghcr.io/k8snetworkplumbingwg/sriov-network-operator-webhook
