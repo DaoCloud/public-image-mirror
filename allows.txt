@@ -409,6 +409,7 @@ docker.io/timberio/*
 docker.io/tomkellygenetics/universc
 docker.io/traefik/whoami
 docker.io/tugraph/*
+docker.io/tunathu/bandersnatch
 docker.io/ubuntu/*
 docker.io/ultralytics/*
 docker.io/vaultwarden/server
