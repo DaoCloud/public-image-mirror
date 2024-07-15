@@ -87,6 +87,7 @@ docker.io/geoservercloud/*
 docker.io/gitea/*
 docker.io/gitlab/*
 docker.io/gocd/gocd-server
+docker.io/gogs/gogs
 docker.io/goharbor/*
 docker.io/gotenberg/gotenberg
 docker.io/grafana/*
