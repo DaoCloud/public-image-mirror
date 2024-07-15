@@ -404,6 +404,7 @@ docker.io/talebook/talebook
 docker.io/tdengine/*
 docker.io/tensorchord/pgvecto-rs
 docker.io/tensorflow/*
+docker.io/texlive/texlive
 docker.io/thanosio/*
 docker.io/thingsboard/tb-postgres
 docker.io/tiangolo/*
