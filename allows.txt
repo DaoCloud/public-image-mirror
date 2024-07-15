@@ -42,11 +42,11 @@ docker.io/chengshiwen/influx-proxy
 docker.io/chengshiwen/influxdb
 docker.io/chigusa/bililive-go
 docker.io/chrishirsch/kuberhealthy-storage-check
+docker.io/chromedp/headless-shell
 docker.io/clickhouse/*
 docker.io/cloudflare/*
 docker.io/cloudnas/clouddrive2-unstable
 docker.io/cloudnativelabs/kube-router
-docker.io/chromedp/headless-shell
 docker.io/collabora/code
 docker.io/continuumio/miniconda3
 docker.io/coredns/*
