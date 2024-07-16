@@ -62,7 +62,7 @@ docker.io/dragonflyoss/dfdaemon
 docker.io/dragonflyoss/dfinit
 docker.io/dragonflyoss/manager
 docker.io/dragonflyoss/scheduler
-dragonflyoss/trainer
+docker.io/dragonflyoss/trainer
 docker.io/elastic/filebeat
 docker.io/emby/embyserver
 docker.io/envoyproxy/envoy
