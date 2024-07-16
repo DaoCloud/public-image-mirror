@@ -52,6 +52,7 @@ docker.io/continuumio/miniconda3
 docker.io/coredns/*
 docker.io/csiplugin/*
 docker.io/curlimages/*
+docker.io/danielqsj/kafka-exporter
 docker.io/daprio/*
 docker.io/darthsim/imgproxy
 docker.io/deepflowce/*
@@ -354,8 +355,10 @@ docker.io/pgvector/pgvector
 docker.io/phpmyadmin/*
 docker.io/plexinc/pms-docker
 docker.io/plugins/docker
+docker.io/pointcloudlibrary/env
 docker.io/portainer/*
 docker.io/privoce/vocechat-server
+docker.io/prodrigestivill/postgres-backup-local
 docker.io/projectcontour/contour-authserver
 docker.io/projecthami/*
 docker.io/prom/*
@@ -410,6 +413,7 @@ docker.io/thingsboard/tb-postgres
 docker.io/tiangolo/*
 docker.io/timberio/*
 docker.io/tomkellygenetics/universc
+docker.io/tonistiigi/binfmt
 docker.io/traefik/whoami
 docker.io/tugraph/*
 docker.io/tunathu/bandersnatch
