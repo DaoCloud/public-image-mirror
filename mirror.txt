@@ -57,6 +57,12 @@ docker.io/deepflowce/grafana
 docker.io/deepflowce/mysql
 docker.io/docker/dockerfile
 docker.io/dpage/pgadmin4
+docker.io/dragonflyoss/client
+docker.io/dragonflyoss/dfdaemon
+docker.io/dragonflyoss/dfinit
+docker.io/dragonflyoss/manager
+docker.io/dragonflyoss/scheduler
+docker.io/dragonflyoss/trainer
 docker.io/elastic/filebeat
 docker.io/emby/embyserver
 docker.io/envoyproxy/envoy
