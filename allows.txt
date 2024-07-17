@@ -325,6 +325,7 @@ docker.io/mohsinonxrm/*
 docker.io/mtphotos/mt-photos
 docker.io/multiarch/*
 docker.io/mwader/webdav
+docker.io/mwalbeck/python-poetry
 docker.io/n8nio/*
 docker.io/nacos/*
 docker.io/nastools/nas-tools
