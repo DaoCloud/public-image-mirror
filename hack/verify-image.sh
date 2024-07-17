@@ -15,6 +15,7 @@ fi
 
 failed=()
 for image in ${list}; do
+    image="${image##:*}"
     echo "Checking image: ${image}"
     raw=$(skopeo list-tags --no-creds --tls-verify=false --retry-times 3 "docker://${image}")
     if [[ $? -ne 0 ]]; then
