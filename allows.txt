@@ -64,6 +64,8 @@ docker.io/directus/*
 docker.io/docker/*
 docker.io/dockurr/windows
 docker.io/dpage/*
+docker.io/dpanel/base-image
+docker.io/dpanel/dpanel
 docker.io/dustynv/*
 docker.io/elastic/*
 docker.io/elsaworkflows/*
