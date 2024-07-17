@@ -47,6 +47,7 @@ docker.io/clickhouse/*
 docker.io/cloudflare/*
 docker.io/cloudnas/clouddrive2-unstable
 docker.io/cloudnativelabs/kube-router
+docker.io/codercom/code-server
 docker.io/collabora/code
 docker.io/continuumio/miniconda3
 docker.io/coredns/*
