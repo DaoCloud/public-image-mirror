@@ -398,6 +398,7 @@ ghcr.io/projectcontour/contour
 ghcr.io/spidernet-io/cni-plugins/meta-plugins
 ghcr.io/spidernet-io/egressgateway-agent
 ghcr.io/spidernet-io/egressgateway-controller
+ghcr.io/spidernet-io/rdma-tools
 ghcr.io/spidernet-io/spiderpool/spiderpool-agent
 ghcr.io/spidernet-io/spiderpool/spiderpool-controller
 ghcr.io/spidernet-io/spiderpool/spiderpool-plugins
