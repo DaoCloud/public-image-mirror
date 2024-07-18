@@ -474,6 +474,7 @@ ghcr.io/joeferner/redis-commander
 ghcr.io/k8snetworkplumbingwg/**
 ghcr.io/kdoctor-io/**
 ghcr.io/klts-io/**
+ghcr.io/koordinator-sh/**
 ghcr.io/ksmartdata/**
 ghcr.io/kube-vip/**
 ghcr.io/kubean-io/**
