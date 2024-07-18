@@ -64,6 +64,7 @@ docker.io/dezhao/lanraragi_cn
 docker.io/directus/*
 docker.io/docker/*
 docker.io/dockurr/windows
+docker.io/dorowu/ubuntu-desktop-lxde-vnc
 docker.io/dpage/*
 docker.io/dpanel/base-image
 docker.io/dpanel/dpanel
@@ -140,6 +141,7 @@ docker.io/kindest/*
 docker.io/kiwigrid/*
 docker.io/klakegg/hugo
 docker.io/koalaman/shellcheck
+docker.io/kong/*
 docker.io/kserve/*
 docker.io/kubeedge/*
 docker.io/kubeflow/*
@@ -330,6 +332,7 @@ docker.io/nacos/*
 docker.io/nastools/nas-tools
 docker.io/ncbi/pgap
 docker.io/neosmemo/memos
+docker.io/networkstatic/iperf3
 docker.io/neuvector/*
 docker.io/nextcloud/all-in-one
 docker.io/nginxinc/*
@@ -393,6 +396,7 @@ docker.io/searxng/searxng
 docker.io/seataio/*
 docker.io/selenium/*
 docker.io/semitechnologies/*
+docker.io/senthilrch/*
 docker.io/sickcodes/docker-osx
 docker.io/snowdreamtech/frps
 docker.io/solidnerd/bookstack
@@ -474,6 +478,7 @@ ghcr.io/ksmartdata/**
 ghcr.io/kube-vip/**
 ghcr.io/kubean-io/**
 ghcr.io/librespeed/speedtest
+ghcr.io/maybe-finance/**
 ghcr.io/megacloudcontainer/**
 ghcr.io/mellanox/**
 ghcr.io/metalbear-co/**
