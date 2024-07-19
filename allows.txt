@@ -56,6 +56,7 @@ docker.io/curlimages/*
 docker.io/danielqsj/kafka-exporter
 docker.io/daprio/*
 docker.io/darthsim/imgproxy
+docker.io/debezium/*
 docker.io/deepflowce/*
 docker.io/derailed/k9s
 docker.io/determinedai/*
@@ -116,6 +117,7 @@ docker.io/hugomods/hugo
 docker.io/hyperf/hyperf
 docker.io/hyperledger/*
 docker.io/infmonkeys/*
+docker.io/instrumentisto/coturn
 docker.io/istio/*
 docker.io/iyuucn/iyuuplus
 docker.io/iyuucn/iyuuplus-dev
@@ -349,6 +351,7 @@ docker.io/onlyoffice/*
 docker.io/openebs/*
 docker.io/openkruise/*
 docker.io/openpolicyagent/opa
+docker.io/openresty/openresty
 docker.io/opensearchproject/*
 docker.io/openzipkin/*
 docker.io/osixia/*
@@ -441,6 +444,7 @@ docker.io/xhofe/alist
 docker.io/xiaoyaliu/alist
 docker.io/xprobe/xinference
 docker.io/ydlhero/chatgpt-web-midjourney-proxy
+docker.io/yedf/dtm
 docker.io/zabbix/*
 docker.io/zadam/trilium
 docker.io/zerotier/*
