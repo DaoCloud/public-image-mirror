@@ -425,6 +425,7 @@ docker.io/timberio/*
 docker.io/tomkellygenetics/universc
 docker.io/tonistiigi/binfmt
 docker.io/traefik/whoami
+docker.io/trinodb/trino
 docker.io/tugraph/*
 docker.io/tunathu/bandersnatch
 docker.io/ubuntu/*
