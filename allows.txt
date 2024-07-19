@@ -538,7 +538,7 @@ quay.io/kubespray/*
 quay.io/kubevirt/*
 quay.io/metallb/*
 quay.io/minio/*
-quay.io/mongodb/**
+quay.io/mongodb/*
 quay.io/nmstate/*
 quay.io/operator-framework/*
 quay.io/operatorhubio/minio-operator
