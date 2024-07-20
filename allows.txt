@@ -384,6 +384,7 @@ docker.io/redis/redis-stack-server
 docker.io/redislabs/*
 docker.io/redroid/redroid
 docker.io/resmoio/kubernetes-event-exporter
+docker.io/restcloud/*
 docker.io/rockylinux/rockylinux
 docker.io/rocm/rocm-terminal
 docker.io/rook/ceph
