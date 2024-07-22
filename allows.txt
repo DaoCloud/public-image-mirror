@@ -30,6 +30,7 @@ docker.io/arey/*
 docker.io/argoproj/rollouts-demo
 docker.io/arm64v8/*
 docker.io/b3log/siyuan
+docker.io/babashka/babashka
 docker.io/bats/*
 docker.io/bellsoft/*
 docker.io/binhex/arch-jellyfin
@@ -133,6 +134,7 @@ docker.io/jettech/*
 docker.io/jimmidyson/*
 docker.io/jlesage/firefox
 docker.io/johngong/calibre-web
+docker.io/juicedata/*
 docker.io/justsong/one-api
 docker.io/jxxghp/*
 docker.io/karmada/*
@@ -311,6 +313,7 @@ docker.io/linkease/ddnsto
 docker.io/linuxserver/*
 docker.io/linuxsuren/api-testing
 docker.io/linuxsuren/atest-ext-store-orm
+docker.io/lkw199711/smanga
 docker.io/lobehub/lobe-chat
 docker.io/localai/localai
 docker.io/loggieio/loggie
@@ -422,6 +425,7 @@ docker.io/thanosio/*
 docker.io/thingsboard/tb-postgres
 docker.io/tiangolo/*
 docker.io/timberio/*
+docker.io/timescale/timescaledb
 docker.io/tomkellygenetics/universc
 docker.io/tonistiigi/binfmt
 docker.io/traefik/whoami
