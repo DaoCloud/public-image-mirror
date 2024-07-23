@@ -498,6 +498,7 @@ ghcr.io/mosn/**
 ghcr.io/open-telemetry/**
 ghcr.io/open-webui/open-webui
 ghcr.io/openinsight-proj/**
+ghcr.io/ot-container-kit/**
 ghcr.io/parkervcp/yolks
 ghcr.io/projectcontour/**
 ghcr.io/puppeteer/puppeteer
