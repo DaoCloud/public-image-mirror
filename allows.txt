@@ -55,6 +55,7 @@ docker.io/coredns/*
 docker.io/csiplugin/*
 docker.io/curlimages/*
 docker.io/danielqsj/kafka-exporter
+docker.io/dannicool/docker-wechatbot-webhook
 docker.io/daprio/*
 docker.io/darthsim/imgproxy
 docker.io/debezium/*
