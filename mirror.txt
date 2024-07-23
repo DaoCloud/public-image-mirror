@@ -47,6 +47,7 @@ docker.io/cloudnas/clouddrive2-unstable
 docker.io/coredns/coredns
 docker.io/csiplugin/snapshot-controller
 docker.io/curlimages/curl
+docker.io/darthsim/imgproxy
 docker.io/deepflowce/clickhouse-server
 docker.io/deepflowce/deepflow-agent
 docker.io/deepflowce/deepflow-app
@@ -126,6 +127,7 @@ docker.io/kennethreitz/httpbin
 docker.io/kindest/haproxy
 docker.io/kindest/node
 docker.io/kiwigrid/k8s-sidecar
+docker.io/kong
 docker.io/kubeedge/cloudcore
 docker.io/kubeflow/training-operator
 docker.io/kubeflownotebookswg/jupyter-scipy
@@ -267,11 +269,20 @@ docker.io/prom/mysqld-exporter
 docker.io/prom/node-exporter
 docker.io/prom/prometheus
 docker.io/prometheuscommunity/postgres-exporter
+docker.io/postgrest/postgrest
 docker.io/rancher/k3s
 docker.io/rancher/kubectl
 docker.io/rancher/local-path-provisioner
 docker.io/rclone/rclone
 docker.io/redislabs/redisearch
+docker.io/supabase/studio
+docker.io/supabase/gotrue
+docker.io/supabase/realtime
+docker.io/supabase/storage-api
+docker.io/supabase/postgres-meta
+docker.io/supabase/edge-runtime
+docker.io/supabase/logflare
+docker.io/supabase/postgres
 docker.io/seataio/seata-server
 docker.io/sonobuoy/sonobuoy
 docker.io/squidfunk/mkdocs-material
