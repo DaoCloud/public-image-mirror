@@ -1,6 +1,7 @@
 cr.l5d.io/**
 cr.weaviate.io/**
 docker.elastic.co/**
+docker.getcollate.io/openmetadata/*
 docker.io/*
 docker.io/1dev/*
 docker.io/1panel/maxkb
