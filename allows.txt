@@ -1,5 +1,6 @@
 cr.l5d.io/**
 cr.weaviate.io/**
+docker.getcollate.io/openmetadata/*
 docker.elastic.co/**
 docker.io/*
 docker.io/1dev/*
