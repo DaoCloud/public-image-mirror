@@ -366,6 +366,7 @@ docker.io/percona/*
 docker.io/pgautoupgrade/pgautoupgrade
 docker.io/pgvector/pgvector
 docker.io/phpmyadmin/*
+docker.io/pingcap/*
 docker.io/plexinc/pms-docker
 docker.io/plugins/docker
 docker.io/pointcloudlibrary/env
