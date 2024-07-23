@@ -352,6 +352,7 @@ docker.io/oliver006/*
 docker.io/ollama/*
 docker.io/onlyoffice/*
 docker.io/openebs/*
+docker.io/openeuler/*
 docker.io/openkruise/*
 docker.io/openpolicyagent/opa
 docker.io/openresty/openresty
