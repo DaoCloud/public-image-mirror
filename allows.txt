@@ -382,6 +382,7 @@ docker.io/qdrant/*
 docker.io/qmcgaw/ddns-updater
 docker.io/ramonvc/freegpt-webui
 docker.io/rancher/*
+docker.io/rayproject/*
 docker.io/rclone/*
 docker.io/redash/*
 docker.io/redis/redis-stack-server
