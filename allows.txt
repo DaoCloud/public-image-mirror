@@ -340,6 +340,7 @@ docker.io/n8nio/*
 docker.io/nacos/*
 docker.io/nastools/nas-tools
 docker.io/ncbi/pgap
+docker.io/neilpang/acme.sh
 docker.io/neosmemo/memos
 docker.io/networkstatic/iperf3
 docker.io/neuvector/*
