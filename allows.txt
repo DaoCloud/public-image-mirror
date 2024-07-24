@@ -28,6 +28,7 @@ docker.io/appsmith/appsmith-ee
 docker.io/aquasec/*
 docker.io/arey/*
 docker.io/argoproj/rollouts-demo
+docker.io/arizephoenix/phoenix
 docker.io/arm64v8/*
 docker.io/b3log/siyuan
 docker.io/babashka/babashka
