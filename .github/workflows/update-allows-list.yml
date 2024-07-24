@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  sync-images:
+  update-allows-list:
     if: github.repository == 'DaoCloud/public-image-mirror'
     runs-on: ubuntu-latest
     steps:
