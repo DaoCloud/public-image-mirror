@@ -34,15 +34,4 @@ docker.io/library/ruby
 docker.io/library/rust
 docker.io/library/tomcat
 docker.io/library/ubuntu
-registry.k8s.io/addon-resizer
-registry.k8s.io/busybox
-registry.k8s.io/coredns
-registry.k8s.io/etcd
-registry.k8s.io/kube-apiserver
-registry.k8s.io/kube-controller-manager
-registry.k8s.io/kube-proxy
-registry.k8s.io/kube-scheduler
-registry.k8s.io/kubectl
-registry.k8s.io/nginx
-registry.k8s.io/node-problem-detector
-registry.k8s.io/pause
+registry.k8s.io/**
