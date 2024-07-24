@@ -37,6 +37,7 @@ docker.io/binhex/arch-jellyfin
 docker.io/bitnami/*
 docker.io/budtmo/docker-android
 docker.io/bytelang/kplayer
+docker.io/calciumion/new-api
 docker.io/calico/*
 docker.io/charlie0129/bupt-net-login
 docker.io/chengshiwen/influx-proxy
@@ -70,6 +71,7 @@ docker.io/dorowu/ubuntu-desktop-lxde-vnc
 docker.io/dpage/*
 docker.io/dpanel/base-image
 docker.io/dpanel/dpanel
+docker.io/dremio/dremio-oss
 docker.io/dustynv/*
 docker.io/elastic/*
 docker.io/elsaworkflows/*
@@ -393,6 +395,7 @@ docker.io/rocm/rocm-terminal
 docker.io/rook/ceph
 docker.io/rucio/*
 docker.io/rustdesk/rustdesk-server
+docker.io/rustdesk/rustdesk-server-pro
 docker.io/rustdesk/rustdesk-server-s6
 docker.io/sameersbn/gitlab
 docker.io/savatar101/omniparse
@@ -418,6 +421,7 @@ docker.io/syncthing/syncthing
 docker.io/tabbyml/tabby
 docker.io/tailscale/*
 docker.io/talebook/talebook
+docker.io/tarscloud/framework
 docker.io/tdengine/*
 docker.io/tensorchord/pgvecto-rs
 docker.io/tensorflow/*
