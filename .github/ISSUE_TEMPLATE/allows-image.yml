@@ -8,18 +8,14 @@ body:
     value: |
       这个模板仅为不熟悉 PR 流程的用户, 对于熟悉的可以带上下面信息直接提提 PR 修改 [allows.txt](https://github.com/DaoCloud/public-image-mirror/blob/main/allows.txt) (优先审查)
       - 对于镜像的要求 [#2328](https://github.com/DaoCloud/public-image-mirror/issues/2328)
-      - PR 合入后生效时间
-        - 主动同步 Issue 马上生效
-        - 服务器提供服务, 由于是人工的会延迟一段时间...
       - 此为 **人工审核** (工作日, 不定时间) 请填写下述问题 [查看成功案例](https://github.com/DaoCloud/public-image-mirror/issues?q=is%3Aissue+label%3A%22allows+image%22+is%3Aclosed+linked%3Apr)
 
 - type: dropdown
   attributes:
     label: 白名单级别
     options:
-      - 只需要这一个镜像 (如 docker.io/library/busybox)
-      - 需要这个组织下所有镜像 (如 docker.io/library/**)
-      - 需要这个镜像仓库下所有镜像 (如 registry.k8s.io/**)
+    - 只需要这一个镜像 (如 docker.io/library/busybox)
+    - 需要这个组织下所有镜像 (如 docker.io/library/**)
   validations:
     required: true
 
@@ -35,8 +31,8 @@ body:
   attributes:
     label: 这是镜像仓库官方认证过的么?
     options:
-      - 不是 (请补充下面的信息, 乱填将关闭申请)
-      - 是的 (不需要填下面的信息)
+    - 不是 (请补充下面的信息, 乱填将关闭申请)
+    - 是的 (不需要填下面的信息)
   validations:
     required: true
 
