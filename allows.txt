@@ -46,6 +46,7 @@ docker.io/chengshiwen/influxdb
 docker.io/chigusa/bililive-go
 docker.io/chrishirsch/kuberhealthy-storage-check
 docker.io/chromedp/headless-shell
+docker.io/clamav/*
 docker.io/clickhouse/*
 docker.io/cloudflare/*
 docker.io/cloudnas/clouddrive2-unstable
@@ -101,6 +102,7 @@ docker.io/gocd/gocd-server
 docker.io/gogs/gogs
 docker.io/goharbor/*
 docker.io/gotenberg/gotenberg
+docker.io/gotify/*
 docker.io/grafana/*
 docker.io/greenbone/*
 docker.io/gztime/gzctf
@@ -336,6 +338,7 @@ docker.io/mohsinonxrm/*
 docker.io/mtphotos/mt-photos
 docker.io/multiarch/*
 docker.io/mwader/webdav
+docker.io/myscale/myscaledb
 docker.io/n8nio/*
 docker.io/nacos/*
 docker.io/nastools/nas-tools
@@ -402,6 +405,7 @@ docker.io/rucio/*
 docker.io/rustdesk/rustdesk-server
 docker.io/rustdesk/rustdesk-server-pro
 docker.io/rustdesk/rustdesk-server-s6
+docker.io/rzuo/pose
 docker.io/sameersbn/gitlab
 docker.io/savatar101/omniparse
 docker.io/schemahero/*
