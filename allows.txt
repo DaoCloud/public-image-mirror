@@ -475,6 +475,7 @@ ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
 ghcr.io/anduin2017/how-to-cook
 ghcr.io/aquasecurity/**
+ghcr.io/baizeai/**
 ghcr.io/benc-uk/kubeview
 ghcr.io/chaos-mesh/**
 ghcr.io/cirruslabs/flutter
