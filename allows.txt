@@ -18,7 +18,6 @@ docker.io/amambadev/*
 docker.io/amazon/*
 docker.io/amd64/*
 docker.io/andywuwu/coze2openai
-docker.io/anjone/kicbase
 docker.io/ankane/pgvector
 docker.io/apache/*
 docker.io/apachepulsar/*
