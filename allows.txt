@@ -37,6 +37,7 @@ docker.io/bellsoft/*
 docker.io/binhex/arch-jellyfin
 docker.io/bitnami/*
 docker.io/budtmo/docker-android
+docker.io/bytebase/bytebase
 docker.io/bytelang/kplayer
 docker.io/calciumion/new-api
 docker.io/calico/*
@@ -81,6 +82,7 @@ docker.io/emby/*
 docker.io/emqx/*
 docker.io/ensemblorg/ensembl-vep
 docker.io/envoyproxy/*
+docker.io/eyeblue/tank
 docker.io/f5networks/*
 docker.io/falcosecurity/*
 docker.io/fatedier/frps
@@ -95,6 +97,7 @@ docker.io/foxdalas/*
 docker.io/frappe/*
 docker.io/frooodle/s-pdf
 docker.io/frrouting/*
+docker.io/funcman/115pc
 docker.io/geoservercloud/*
 docker.io/gitea/*
 docker.io/gitlab/*
@@ -106,6 +109,7 @@ docker.io/gotify/*
 docker.io/grafana/*
 docker.io/greenbone/*
 docker.io/gztime/gzctf
+docker.io/hakuyyf/tensorrtx
 docker.io/halohub/halo
 docker.io/harness/*
 docker.io/haroldli/xiaoya-tvbox
@@ -354,6 +358,7 @@ docker.io/nodered/node-red
 docker.io/nvidia/*
 docker.io/nyanmisaka/jellyfin
 docker.io/oamdev/*
+docker.io/obsidiandynamics/kafdrop
 docker.io/ogarcia/archlinux
 docker.io/oguzpastirmaci/gpu-burn
 docker.io/oliver006/*
@@ -517,6 +522,7 @@ ghcr.io/parkervcp/yolks
 ghcr.io/projectcontour/**
 ghcr.io/puppeteer/puppeteer
 ghcr.io/seriousm4x/upsnap
+ghcr.io/sillytavern/sillytavern
 ghcr.io/songquanpeng/one-api
 ghcr.io/spidernet-io/**
 ghcr.io/spiffe/**
@@ -568,6 +574,7 @@ quay.io/prometheus-operator/*
 quay.io/prometheus/*
 quay.io/prometheuscommunity/*
 quay.io/quarkus/*
+quay.io/sameersbn/squid
 quay.io/spotahome/*
 quay.io/strimzi/*
 quay.io/submariner/*
