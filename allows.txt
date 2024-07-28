@@ -128,6 +128,7 @@ docker.io/hyperf/hyperf
 docker.io/hyperledger/*
 docker.io/infmonkeys/*
 docker.io/instrumentisto/coturn
+docker.io/intelanalytics/ipex-llm-serving-cpu
 docker.io/istio/*
 docker.io/iyuucn/iyuuplus
 docker.io/iyuucn/iyuuplus-dev
@@ -337,6 +338,7 @@ docker.io/metabase/*
 docker.io/milvusdb/*
 docker.io/mindsdb/mindsdb
 docker.io/minio/*
+docker.io/mitmproxy/mitmproxy
 docker.io/moby/*
 docker.io/mohsinonxrm/*
 docker.io/mtphotos/mt-photos
@@ -405,6 +407,7 @@ docker.io/redroid/redroid
 docker.io/resmoio/kubernetes-event-exporter
 docker.io/rockylinux/rockylinux
 docker.io/rocm/rocm-terminal
+docker.io/rommapp/romm
 docker.io/rook/ceph
 docker.io/rucio/*
 docker.io/rustdesk/rustdesk-server
@@ -528,6 +531,7 @@ ghcr.io/spidernet-io/**
 ghcr.io/spiffe/**
 ghcr.io/sugarforever/peanut-shell
 ghcr.io/sumologic/**
+ghcr.io/suwayomi/tachidesk
 ghcr.io/tangly1024/notionnext
 ghcr.io/timeplus-io/**
 ghcr.io/toeverything/affine-graphql
