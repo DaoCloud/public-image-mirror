@@ -104,6 +104,7 @@ docker.io/gitlab/*
 docker.io/gocd/gocd-server
 docker.io/gogs/gogs
 docker.io/goharbor/*
+docker.io/google/*
 docker.io/gotenberg/gotenberg
 docker.io/gotify/*
 docker.io/grafana/*
@@ -126,6 +127,7 @@ docker.io/huggingface/*
 docker.io/hugomods/hugo
 docker.io/hyperf/hyperf
 docker.io/hyperledger/*
+docker.io/idootop/mi-gpt
 docker.io/infmonkeys/*
 docker.io/instrumentisto/coturn
 docker.io/intelanalytics/ipex-llm-serving-cpu
