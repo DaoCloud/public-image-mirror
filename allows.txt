@@ -477,6 +477,7 @@ docker.io/yedf/dtm
 docker.io/zabbix/*
 docker.io/zadam/trilium
 docker.io/zerotier/*
+docker.io/zhaojun1998/zfile-pro
 docker.io/zhayujie/chatgpt-on-wechat
 docker.io/zilliz/*
 docker.io/zlijingtao/neurobfuscator
