@@ -100,6 +100,7 @@ docker.io/frooodle/s-pdf
 docker.io/frrouting/*
 docker.io/funcman/115pc
 docker.io/geoservercloud/*
+docker.io/gestioip/gestioip
 docker.io/gitea/*
 docker.io/gitlab/*
 docker.io/gocd/gocd-server
@@ -383,6 +384,8 @@ docker.io/outlinewiki/outline
 docker.io/percona/*
 docker.io/pgautoupgrade/pgautoupgrade
 docker.io/pgvector/pgvector
+docker.io/phpipam/phpipam-cron
+docker.io/phpipam/phpipam-www
 docker.io/phpmyadmin/*
 docker.io/pingcap/*
 docker.io/plexinc/pms-docker
