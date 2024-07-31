@@ -26,6 +26,7 @@ docker.io/apolloconfig/*
 docker.io/appsmith/appsmith-ce
 docker.io/appsmith/appsmith-ee
 docker.io/aquasec/*
+docker.io/arexadmin01/*
 docker.io/arey/*
 docker.io/argoproj/rollouts-demo
 docker.io/arizephoenix/phoenix
