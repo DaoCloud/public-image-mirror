@@ -78,8 +78,8 @@ ghcr.io/ksmartdata/**
 ghcr.io/kubean-io/**
 ghcr.io/megacloudcontainer/kube-hunter
 ghcr.io/megacloudcontainer/kubeaudit
-ghcr.io/open-telemetry/*
-ghcr.io/openinsight-proj/*
+ghcr.io/open-telemetry/**
+ghcr.io/openinsight-proj/**
 ghcr.io/sumologic/tailing-sidecar-operator
 ghcr.io/zalando/postgres-operator
 ghcr.io/zalando/spilo-15
