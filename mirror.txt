@@ -231,7 +231,6 @@ docker.io/minio/console
 docker.io/minio/mc
 docker.io/minio/minio
 docker.io/minio/operator
-docker.io/mirrorgooglecontainers/defaultbackend-amd64
 docker.io/moby/buildkit
 docker.io/mohsinonxrm/mongodb-agent
 docker.io/mohsinonxrm/mongodb-kubernetes-operator

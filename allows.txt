@@ -76,6 +76,12 @@ docker.io/dorowu/ubuntu-desktop-lxde-vnc
 docker.io/dpage/*
 docker.io/dpanel/base-image
 docker.io/dpanel/dpanel
+docker.io/dragonflyoss/client
+docker.io/dragonflyoss/dfdaemon
+docker.io/dragonflyoss/dfinit
+docker.io/dragonflyoss/manager
+docker.io/dragonflyoss/scheduler
+docker.io/dragonflyoss/trainer
 docker.io/dremio/dremio-oss
 docker.io/dustynv/*
 docker.io/e2bdev/code-interpreter
@@ -242,6 +248,7 @@ docker.io/library/ibm-semeru-runtimes
 docker.io/library/ibmjava
 docker.io/library/influxdb
 docker.io/library/irssi
+docker.io/library/java
 docker.io/library/jetty
 docker.io/library/jobber
 docker.io/library/joomla
@@ -277,6 +284,7 @@ docker.io/library/open-liberty
 docker.io/library/openjdk
 docker.io/library/oraclelinux
 docker.io/library/orientdb
+docker.io/library/owncloud
 docker.io/library/percona
 docker.io/library/perl
 docker.io/library/photon
@@ -302,6 +310,7 @@ docker.io/library/ruby
 docker.io/library/rust
 docker.io/library/sapmachine
 docker.io/library/satosa
+docker.io/library/sentry
 docker.io/library/silverpeas
 docker.io/library/sl
 docker.io/library/solr
