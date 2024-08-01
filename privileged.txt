@@ -74,8 +74,8 @@ ghcr.io/dexidp/dex
 ghcr.io/dtzar/helm-kubectl
 ghcr.io/hwameistor/*
 ghcr.io/jimmidyson/configmap-reload
-ghcr.io/ksmartdata/*
-ghcr.io/kubean-io/*
+ghcr.io/ksmartdata/**
+ghcr.io/kubean-io/**
 ghcr.io/megacloudcontainer/kube-hunter
 ghcr.io/megacloudcontainer/kubeaudit
 ghcr.io/open-telemetry/*
