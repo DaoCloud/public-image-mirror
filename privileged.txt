@@ -72,7 +72,7 @@ docker.io/victoriametrics/*
 gcr.io/kubebuilder/kube-rbac-proxy
 ghcr.io/dexidp/dex
 ghcr.io/dtzar/helm-kubectl
-ghcr.io/hwameistor/*
+ghcr.io/hwameistor/**
 ghcr.io/jimmidyson/configmap-reload
 ghcr.io/ksmartdata/**
 ghcr.io/kubean-io/**
