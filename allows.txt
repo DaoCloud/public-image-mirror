@@ -21,7 +21,6 @@ docker.io/andywuwu/coze2openai
 docker.io/ankane/pgvector
 docker.io/apache/*
 docker.io/apachepulsar/*
-docker.io/streamnative/*
 docker.io/apitable/*
 docker.io/apolloconfig/*
 docker.io/appsmith/appsmith-ce
@@ -436,6 +435,7 @@ docker.io/sonobuoy/*
 docker.io/soulter/astrbot
 docker.io/squidfunk/*
 docker.io/starrocks/*
+docker.io/streamnative/*
 docker.io/superng6/qbittorrentee
 docker.io/swaggerapi/*
 docker.io/syncthing/syncthing
