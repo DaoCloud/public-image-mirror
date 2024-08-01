@@ -7,6 +7,7 @@ docker.io/1panel/maxkb
 docker.io/4pdosc/k8s-vdevice
 docker.io/6053537/portainer-ce
 docker.io/acore/*
+docker.io/langgenius/*
 docker.io/adguard/adguardhome
 docker.io/adoptopenjdk/*
 docker.io/adriansegura99/**
