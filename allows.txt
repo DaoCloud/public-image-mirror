@@ -36,6 +36,7 @@ docker.io/babashka/babashka
 docker.io/bats/*
 docker.io/bellsoft/*
 docker.io/binhex/arch-jellyfin
+docker.io/binwiederhier/ntfy
 docker.io/bitnami/*
 docker.io/budtmo/docker-android
 docker.io/bytebase/bytebase
@@ -77,6 +78,7 @@ docker.io/dpanel/base-image
 docker.io/dpanel/dpanel
 docker.io/dremio/dremio-oss
 docker.io/dustynv/*
+docker.io/e2bdev/code-interpreter
 docker.io/elastic/*
 docker.io/elsaworkflows/*
 docker.io/emby/*
@@ -109,6 +111,8 @@ docker.io/google/*
 docker.io/gotenberg/gotenberg
 docker.io/gotify/*
 docker.io/grafana/*
+docker.io/graylog/graylog
+docker.io/graylog/graylog-datanode
 docker.io/greenbone/*
 docker.io/gztime/gzctf
 docker.io/hakuyyf/tensorrtx
@@ -372,6 +376,7 @@ docker.io/onlyoffice/*
 docker.io/openebs/*
 docker.io/openeuler/*
 docker.io/openkruise/*
+docker.io/openmetadata/*
 docker.io/openpolicyagent/opa
 docker.io/openresty/openresty
 docker.io/opensearchproject/*
@@ -448,6 +453,7 @@ docker.io/tensorflow/*
 docker.io/texlive/texlive
 docker.io/thanosio/*
 docker.io/thingsboard/tb-postgres
+docker.io/thomassong/gpu-admission
 docker.io/tiangolo/*
 docker.io/timberio/*
 docker.io/timescale/timescaledb
