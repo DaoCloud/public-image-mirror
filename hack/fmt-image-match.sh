@@ -4,15 +4,29 @@ function check_match() {
     local image=$1
     local lines=$2
     for line in ${lines}; do
-        if [[ "${line}" == *"**" ]]; then
+        if [[ "${line}" == *"/**" ]]; then
             if [[ "${image}" == "${line%\*\*}"* ]]; then
                 return
             fi
-        elif [[ "${line}" == *"*" ]]; then
+        elif [[ "${line}" == *"/*" ]]; then
             if [[ "${image}" == "${line%\*}"* ]]; then
                 if [[ "${image#"${line%\*}"}" != *"/"* ]]; then
                     return
                 fi
+            fi
+        fi
+    done
+
+    echo "${image}"
+}
+
+function check_match_more() {
+    local image=$1
+    local lines=$2
+    for line in ${lines}; do
+        if [[ "${line}" == *"/**" ]]; then
+            if [[ "${image}" == "${line%\*\*}"* ]]; then
+                return
             fi
         fi
     done
@@ -30,8 +44,10 @@ function format() {
     done
 
     for line in ${lines}; do
-        if [[ "${line}" == *"*" ]]; then
-            echo ${line}
+        if [[ "${line}" == *"/**" ]]; then
+            echo "${line}"
+        elif [[ "${line}" == *"/*" ]]; then
+            check_match_more  "${line}" "${lines}"
         fi
     done
 }
