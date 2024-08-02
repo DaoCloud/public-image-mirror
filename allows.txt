@@ -531,6 +531,8 @@ ghcr.io/koordinator-sh/**
 ghcr.io/ksmartdata/**
 ghcr.io/kube-vip/**
 ghcr.io/kubean-io/**
+ghcr.io/labring/fastgpt
+ghcr.io/labring/fastgpt-sandbox
 ghcr.io/librespeed/speedtest
 ghcr.io/maybe-finance/**
 ghcr.io/megacloudcontainer/**
