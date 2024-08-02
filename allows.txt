@@ -611,4 +611,5 @@ registry.heroiclabs.com/heroiclabs/nakama
 registry.jujucharms.com/**
 registry.k8s.io/**
 registry.opensource.zalan.do/**
+registry.rocket.chat/**
 rocks.canonical.com/**
