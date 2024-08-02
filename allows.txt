@@ -114,6 +114,7 @@ docker.io/gocd/gocd-server
 docker.io/gogs/gogs
 docker.io/goharbor/*
 docker.io/google/*
+docker.io/goreleaser/goreleaser
 docker.io/gotenberg/gotenberg
 docker.io/gotify/*
 docker.io/grafana/*
