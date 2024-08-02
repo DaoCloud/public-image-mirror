@@ -31,8 +31,8 @@ body:
   attributes:
     label: 这是镜像仓库官方认证过的么?
     options:
-    - 不是 (请补充下面的信息, 乱填将关闭申请)
-    - 是的 (不需要填下面的信息)
+    - 不是 - 请补充下面的信息
+    - 是的 - **镜像仓库**认证可信的 **验证过的发布者(Verified Publisher)**或者**赞助的项目(Sponsored OSS)** 不需要填下面的信息
   validations:
     required: true
 
