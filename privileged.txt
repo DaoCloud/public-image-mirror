@@ -12,13 +12,11 @@ docker.io/fluent/fluent-bit
 docker.io/foxdalas/kafka-manager
 docker.io/goharbor/*
 docker.io/grafana/grafana
-docker.io/istio/install-cni
-docker.io/istio/pilot
-docker.io/istio/proxyv2
+docker.io/istio/*
 docker.io/jaegertracing/jaeger-collector
 docker.io/jaegertracing/jaeger-query
 docker.io/jenkins/inbound-agent
-docker.io/kindest/node
+docker.io/kindest/*
 docker.io/koalaman/shellcheck
 docker.io/library/alpine
 docker.io/library/archlinux
