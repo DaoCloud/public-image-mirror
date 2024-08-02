@@ -449,6 +449,7 @@ docker.io/sonobuoy/*
 docker.io/soulter/astrbot
 docker.io/squidfunk/*
 docker.io/starrocks/*
+docker.io/streamnative/*
 docker.io/superng6/qbittorrentee
 docker.io/swaggerapi/*
 docker.io/syncthing/syncthing
