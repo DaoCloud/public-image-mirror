@@ -488,6 +488,7 @@ docker.io/wiznote/wizserver
 docker.io/xhofe/alist
 docker.io/xiaoyaliu/alist
 docker.io/xprobe/xinference
+docker.io/xuxueli/xxl-job-admin
 docker.io/ydlhero/chatgpt-web-midjourney-proxy
 docker.io/yedf/dtm
 docker.io/zabbix/*
@@ -538,6 +539,7 @@ ghcr.io/metatube-community/metatube-server
 ghcr.io/mosn/**
 ghcr.io/open-telemetry/**
 ghcr.io/open-webui/open-webui
+ghcr.io/openfaas/**
 ghcr.io/openinsight-proj/**
 ghcr.io/ot-container-kit/**
 ghcr.io/parkervcp/yolks
