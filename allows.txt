@@ -149,6 +149,7 @@ docker.io/iyuucn/iyuuplus-dev
 docker.io/jaegertracing/*
 docker.io/jasonrivers/nagios
 docker.io/jboss/*
+docker.io/jc21/nginx-proxy-manager
 docker.io/jeessy/ddns-go
 docker.io/jellyfin/*
 docker.io/jenkins/*
