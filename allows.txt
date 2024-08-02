@@ -612,3 +612,4 @@ registry.jujucharms.com/**
 registry.k8s.io/**
 registry.opensource.zalan.do/**
 rocks.canonical.com/**
+m.daocloud.io/registry.rocket.chat/**
