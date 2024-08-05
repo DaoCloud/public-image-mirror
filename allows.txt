@@ -163,6 +163,7 @@ docker.io/juicedata/*
 docker.io/justsong/one-api
 docker.io/jxxghp/*
 docker.io/karmada/*
+docker.io/kasmweb/chrome
 docker.io/keelhq/keel
 docker.io/kennethreitz/*
 docker.io/keycloak/keycloak
@@ -405,6 +406,7 @@ docker.io/plexinc/pms-docker
 docker.io/plugins/docker
 docker.io/pointcloudlibrary/env
 docker.io/portainer/*
+docker.io/postgis/postgis
 docker.io/privoce/vocechat-server
 docker.io/prodrigestivill/postgres-backup-local
 docker.io/projectcontour/contour-authserver
@@ -525,6 +527,7 @@ ghcr.io/home-assistant/**
 ghcr.io/huggingface/text-generation-inference
 ghcr.io/hwameistor/**
 ghcr.io/immich-app/**
+ghcr.io/jd-opensource/**
 ghcr.io/jimmidyson/configmap-reload
 ghcr.io/joeferner/redis-commander
 ghcr.io/k8snetworkplumbingwg/**
