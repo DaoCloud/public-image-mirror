@@ -522,6 +522,7 @@ ghcr.io/gethomepage/homepage
 ghcr.io/goauthentik/**
 ghcr.io/helm/**
 ghcr.io/home-assistant/**
+ghcr.io/huggingface/text-generation-inference
 ghcr.io/hwameistor/**
 ghcr.io/immich-app/**
 ghcr.io/jimmidyson/configmap-reload
