@@ -568,6 +568,7 @@ ghcr.io/suwayomi/tachidesk
 ghcr.io/tangly1024/notionnext
 ghcr.io/timeplus-io/**
 ghcr.io/toeverything/affine-graphql
+ghcr.io/universaloj/**
 ghcr.io/wzshiming/**
 ghcr.io/zalando/**
 ghcr.io/zitadel/**
