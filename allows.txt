@@ -43,6 +43,7 @@ docker.io/bytebase/bytebase
 docker.io/bytelang/kplayer
 docker.io/calciumion/new-api
 docker.io/calico/*
+docker.io/certbot/*
 docker.io/chaosbladeio/chaosblade-box
 docker.io/charlie0129/bupt-net-login
 docker.io/chengshiwen/influx-proxy
