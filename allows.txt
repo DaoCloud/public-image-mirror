@@ -399,6 +399,7 @@ docker.io/osixia/*
 docker.io/osrf/*
 docker.io/otel/*
 docker.io/outlinewiki/outline
+docker.io/pandoc/*
 docker.io/percona/*
 docker.io/pgautoupgrade/pgautoupgrade
 docker.io/pgvector/pgvector
