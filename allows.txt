@@ -43,6 +43,7 @@ docker.io/bytebase/bytebase
 docker.io/bytelang/kplayer
 docker.io/calciumion/new-api
 docker.io/calico/*
+docker.io/chaosbladeio/chaosblade-box
 docker.io/charlie0129/bupt-net-login
 docker.io/chengshiwen/influx-proxy
 docker.io/chengshiwen/influxdb
@@ -511,6 +512,7 @@ ghcr.io/aquasecurity/**
 ghcr.io/baizeai/**
 ghcr.io/benc-uk/kubeview
 ghcr.io/chaos-mesh/**
+ghcr.io/chaosblade-io/**
 ghcr.io/cirruslabs/flutter
 ghcr.io/cloudtty/cloudshell
 ghcr.io/coder/**
