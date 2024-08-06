@@ -158,6 +158,7 @@ docker.io/jenkinsci/*
 docker.io/jetbrains/*
 docker.io/jettech/*
 docker.io/jimmidyson/*
+docker.io/jitsi/*
 docker.io/jlesage/firefox
 docker.io/johngong/calibre-web
 docker.io/juicedata/*
