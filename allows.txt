@@ -61,6 +61,7 @@ docker.io/continuumio/miniconda3
 docker.io/coredns/*
 docker.io/csiplugin/*
 docker.io/curlimages/*
+docker.io/certbot/*
 docker.io/danielqsj/kafka-exporter
 docker.io/daprio/*
 docker.io/darthsim/imgproxy
