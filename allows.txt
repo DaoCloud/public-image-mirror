@@ -620,6 +620,7 @@ quay.io/prometheus/*
 quay.io/prometheuscommunity/*
 quay.io/quarkus/*
 quay.io/sameersbn/squid
+quay.io/skopeo/*
 quay.io/spotahome/*
 quay.io/strimzi/*
 quay.io/submariner/*
