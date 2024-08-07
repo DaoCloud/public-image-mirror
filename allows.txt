@@ -389,6 +389,7 @@ docker.io/ollama/*
 docker.io/onlyoffice/*
 docker.io/openebs/*
 docker.io/openeuler/*
+docker.io/opengrok/docker
 docker.io/openkruise/*
 docker.io/openmetadata/*
 docker.io/openpolicyagent/opa
