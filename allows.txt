@@ -56,6 +56,7 @@ docker.io/clickhouse/*
 docker.io/cloudflare/*
 docker.io/cloudnas/clouddrive2-unstable
 docker.io/cloudnativelabs/kube-router
+docker.io/cloudreve/cloudreve
 docker.io/codercom/code-server
 docker.io/collabora/code
 docker.io/continuumio/miniconda3
@@ -93,6 +94,7 @@ docker.io/emby/*
 docker.io/emqx/*
 docker.io/ensemblorg/ensembl-vep
 docker.io/envoyproxy/*
+docker.io/exadel/compreface-core
 docker.io/eyeblue/tank
 docker.io/f5networks/*
 docker.io/falcosecurity/*
@@ -401,6 +403,7 @@ docker.io/osixia/*
 docker.io/osrf/*
 docker.io/otel/*
 docker.io/outlinewiki/outline
+docker.io/oven/bun
 docker.io/pandoc/*
 docker.io/percona/*
 docker.io/pgautoupgrade/pgautoupgrade
@@ -421,6 +424,7 @@ docker.io/prometheuscommunity/*
 docker.io/provectuslabs/kafka-ui
 docker.io/pytorch/*
 docker.io/qdrant/*
+docker.io/qemux/qemu-docker
 docker.io/qmcgaw/ddns-updater
 docker.io/ramonvc/freegpt-webui
 docker.io/rancher/*
