@@ -43,6 +43,7 @@ docker.io/bytebase/bytebase
 docker.io/bytelang/kplayer
 docker.io/calciumion/new-api
 docker.io/calico/*
+docker.io/camunda/zeebe
 docker.io/certbot/*
 docker.io/chaosbladeio/chaosblade-box
 docker.io/charlie0129/bupt-net-login
@@ -361,6 +362,7 @@ docker.io/mattermost/focalboard
 docker.io/maxkeytop/*
 docker.io/menci/archlinuxarm
 docker.io/metabase/*
+docker.io/metacontrollerio/metacontroller
 docker.io/milvusdb/*
 docker.io/mindsdb/mindsdb
 docker.io/minio/*
@@ -401,6 +403,7 @@ docker.io/openmetadata/*
 docker.io/openpolicyagent/opa
 docker.io/openresty/openresty
 docker.io/opensearchproject/*
+docker.io/openwhisk/*
 docker.io/openzipkin/*
 docker.io/osixia/*
 docker.io/osrf/*
@@ -434,7 +437,7 @@ docker.io/rancher/*
 docker.io/rayproject/*
 docker.io/rclone/*
 docker.io/redash/*
-docker.io/redis/redis-stack-server
+docker.io/redis/*
 docker.io/redislabs/*
 docker.io/redroid/redroid
 docker.io/resmoio/kubernetes-event-exporter
@@ -466,6 +469,7 @@ docker.io/soulter/astrbot
 docker.io/squidfunk/*
 docker.io/starrocks/*
 docker.io/streamnative/*
+docker.io/styletang/rocketmq-console-ng
 docker.io/superng6/qbittorrentee
 docker.io/swaggerapi/*
 docker.io/syncthing/syncthing
@@ -489,6 +493,7 @@ docker.io/traefik/whoami
 docker.io/trinodb/trino
 docker.io/tugraph/*
 docker.io/tunathu/bandersnatch
+docker.io/tusproject/tusd
 docker.io/ubuntu/*
 docker.io/ultralytics/*
 docker.io/vaultwarden/server
