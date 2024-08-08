@@ -64,6 +64,6 @@ jobs:
       if: failure()
       run: |
         ORIGIN_IMAGE="${{ steps.get-image.outputs.image }}"
-        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步失败[详情请查看](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})<br>如有疑问请回复 /auto-cc 召唤帮助"
+        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步失败[详情请查看](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})<br>如有疑问请回复 /auto-cc 召唤帮助, 或者查看[成功案例](https://github.com/${{ github.repository }}/issues?q=is%3Aissue+label%3A%22allows+image%22+is%3Aclosed+linked%3Apr)"
         gh issue edit ${{ github.event.issue.number }} --add-label "sync image failure" -b "IMAGE SYNC"
         gh issue close ${{ github.event.issue.number }} --reason "not planned"
