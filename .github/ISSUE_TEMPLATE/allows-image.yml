@@ -16,7 +16,7 @@ body:
     label: 白名单级别
     options:
     - 只需要这一个镜像 (如 docker.io/library/busybox)
-    - 需要这个组织下所有镜像 (如 docker.io/library/**)
+    - 需要这个组织下所有镜像 (如 docker.io/library/*)
   validations:
     required: true
 
