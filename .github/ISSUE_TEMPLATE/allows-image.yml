@@ -6,12 +6,10 @@ body:
 - type: markdown
   attributes:
     value: |
-      一般次日审查, 最多 2个工作日内 🐢 (周五提的, 预计会是下周一)
-      自己提 [PR](https://github.com/DaoCloud/public-image-mirror/blob/main/allows.txt) 修改白名单优先审查 🚀
-      注意在 PR 的内容里描述 Fixed # 这个 issue 的 id [示例](https://github.com/DaoCloud/public-image-mirror/pull/23762)
-
       - 对于镜像的要求 [#2328](https://github.com/DaoCloud/public-image-mirror/issues/2328)
-      - 此为 **人工审核** (工作日, 不定时间) 请填写下述问题 [查看成功案例](https://github.com/DaoCloud/public-image-mirror/issues?q=is%3Aissue+label%3A%22allows+image%22+is%3Aclosed+linked%3Apr)
+      - 一般次日工作日审查(周五提的, 预计会是下周一), 最多 2个工作日内 🐢 [查看成功案例](https://github.com/DaoCloud/public-image-mirror/issues?q=is%3Aissue+label%3A%22allows+image%22+is%3Aclosed+linked%3Apr)
+      - 自己提 [PR](https://github.com/DaoCloud/public-image-mirror/blob/main/allows.txt) 修改白名单优先审查 🚀
+      - 注意在 PR 的内容里描述 Fixed # 这个 issue 的 id [示例](https://github.com/DaoCloud/public-image-mirror/pull/23762)
 
 - type: dropdown
   attributes:
