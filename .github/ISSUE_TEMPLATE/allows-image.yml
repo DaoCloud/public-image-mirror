@@ -6,7 +6,10 @@ body:
 - type: markdown
   attributes:
     value: |
-      这个模板仅为不熟悉 PR 流程的用户, 对于熟悉的可以带上下面信息直接提提 PR 修改 [allows.txt](https://github.com/DaoCloud/public-image-mirror/blob/main/allows.txt) (优先审查)
+      一般次日审查, 最多 2个工作日内 🐢 (周五提的, 预计会是下周一)
+      自己提 [PR](https://github.com/DaoCloud/public-image-mirror/blob/main/allows.txt) 修改白名单优先审查 🚀
+      注意在 PR 的内容里描述 Fixed # 这个 issue 的 id [示例](https://github.com/DaoCloud/public-image-mirror/pull/23762)
+
       - 对于镜像的要求 [#2328](https://github.com/DaoCloud/public-image-mirror/issues/2328)
       - 此为 **人工审核** (工作日, 不定时间) 请填写下述问题 [查看成功案例](https://github.com/DaoCloud/public-image-mirror/issues?q=is%3Aissue+label%3A%22allows+image%22+is%3Aclosed+linked%3Apr)
 
@@ -29,10 +32,10 @@ body:
 
 - type: dropdown
   attributes:
-    label: 这是镜像仓库官方认证过的么?
+    label: 这是 **镜像仓库** 认证可信的 **验证过的发布者(Verified Publisher)**或者**赞助的项目(Sponsored OSS)** 么?
     options:
     - 不是 - 请补充下面的信息
-    - 是的 - **镜像仓库**认证可信的 **验证过的发布者(Verified Publisher)**或者**赞助的项目(Sponsored OSS)** 不需要填下面的信息
+    - 是的 - 不需要填下面的信息 - 如果实际上不是将不再继续核查
   validations:
     required: true
 
