@@ -382,6 +382,7 @@ docker.io/neuvector/*
 docker.io/nextcloud/all-in-one
 docker.io/nginxinc/*
 docker.io/nocobase/nocobase
+docker.io/nocodb/nocodb
 docker.io/nodered/node-red
 docker.io/nvidia/*
 docker.io/nyanmisaka/jellyfin
