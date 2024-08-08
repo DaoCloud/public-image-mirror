@@ -118,6 +118,7 @@ docker.io/gocd/gocd-server
 docker.io/gogs/gogs
 docker.io/goharbor/*
 docker.io/google/*
+docker.io/goproxy/goproxy
 docker.io/goreleaser/goreleaser
 docker.io/gotenberg/gotenberg
 docker.io/gotify/*
@@ -165,6 +166,7 @@ docker.io/jitsi/*
 docker.io/jlesage/firefox
 docker.io/johngong/calibre-web
 docker.io/juicedata/*
+docker.io/jumpserver/*
 docker.io/justsong/one-api
 docker.io/jxxghp/*
 docker.io/karmada/*
