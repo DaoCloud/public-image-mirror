@@ -145,6 +145,7 @@ docker.io/huggingface/*
 docker.io/hugomods/hugo
 docker.io/hyperf/hyperf
 docker.io/hyperledger/*
+docker.io/ibmcom/*
 docker.io/idootop/mi-gpt
 docker.io/infmonkeys/*
 docker.io/instrumentisto/coturn
