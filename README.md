@@ -90,7 +90,7 @@ docker.m.daocloud.io/library/busybox
 | docker.io               | docker.m.daocloud.io          |                                       |
 | gcr.io                  | gcr.m.daocloud.io             |                                       |
 | ghcr.io                 | ghcr.m.daocloud.io            |                                       |
-| k8s.gcr.io              | k8s-gcr.m.daocloud.io         | k8s.gcr.io 以被迁移到 registry.k8s.io |
+| k8s.gcr.io              | k8s-gcr.m.daocloud.io         | k8s.gcr.io 已被迁移到 registry.k8s.io |
 | registry.k8s.io         | k8s.m.daocloud.io             |                                       |
 | mcr.microsoft.com       | mcr.m.daocloud.io             |                                       |
 | nvcr.io                 | nvcr.m.daocloud.io            |                                       |
