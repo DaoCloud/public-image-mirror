@@ -575,6 +575,7 @@ ghcr.io/ot-container-kit/**
 ghcr.io/parkervcp/yolks
 ghcr.io/projectcontour/**
 ghcr.io/puppeteer/puppeteer
+ghcr.io/rails/**
 ghcr.io/seriousm4x/upsnap
 ghcr.io/sillytavern/sillytavern
 ghcr.io/songquanpeng/one-api
