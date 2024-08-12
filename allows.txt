@@ -180,6 +180,7 @@ docker.io/kindest/*
 docker.io/kiwigrid/*
 docker.io/klakegg/hugo
 docker.io/koalaman/shellcheck
+docker.io/koide3/direct_visual_lidar_calibration
 docker.io/kong/*
 docker.io/kserve/*
 docker.io/kubeedge/*
@@ -451,7 +452,7 @@ docker.io/rustdesk/rustdesk-server
 docker.io/rustdesk/rustdesk-server-pro
 docker.io/rustdesk/rustdesk-server-s6
 docker.io/rzuo/pose
-docker.io/sameersbn/gitlab
+docker.io/sameersbn/**
 docker.io/savatar101/omniparse
 docker.io/schemahero/*
 docker.io/schnell18/rocketmq-dashboard
@@ -539,6 +540,7 @@ ghcr.io/cowboysysop/pytest
 ghcr.io/daocloud/**
 ghcr.io/dexidp/**
 ghcr.io/dtzar/**
+ghcr.io/estrellaxd/auto_bangumi
 ghcr.io/gethomepage/homepage
 ghcr.io/goauthentik/**
 ghcr.io/helm/**
@@ -588,6 +590,7 @@ ghcr.io/tangly1024/notionnext
 ghcr.io/timeplus-io/**
 ghcr.io/toeverything/affine-graphql
 ghcr.io/universaloj/**
+ghcr.io/wg-easy/wg-easy
 ghcr.io/wzshiming/**
 ghcr.io/zalando/**
 ghcr.io/zitadel/**
