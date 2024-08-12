@@ -395,7 +395,6 @@ ghcr.io/openinsight-proj/demo
 ghcr.io/openinsight-proj/elastic-alert
 ghcr.io/openinsight-proj/tailing-sidecar
 ghcr.io/projectcontour/contour
-ghcr.io/rails/devcontainer/images/ruby
 ghcr.io/spidernet-io/cni-plugins/meta-plugins
 ghcr.io/spidernet-io/egressgateway-agent
 ghcr.io/spidernet-io/egressgateway-controller
