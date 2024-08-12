@@ -272,7 +272,6 @@ docker.io/rancher/local-path-provisioner
 docker.io/rclone/rclone
 docker.io/redislabs/redisearch
 docker.io/seataio/seata-server
-docker.io/selenium/standalone-chromium
 docker.io/sonobuoy/sonobuoy
 docker.io/squidfunk/mkdocs-material
 docker.io/tensorflow/tensorflow
