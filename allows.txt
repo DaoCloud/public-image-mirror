@@ -381,6 +381,7 @@ docker.io/nastools/nas-tools
 docker.io/ncbi/pgap
 docker.io/neilpang/acme.sh
 docker.io/neosmemo/memos
+docker.io/netdata/netdata
 docker.io/networkstatic/iperf3
 docker.io/neuvector/*
 docker.io/nextcloud/all-in-one
@@ -445,6 +446,7 @@ docker.io/redroid/redroid
 docker.io/resmoio/kubernetes-event-exporter
 docker.io/rockylinux/rockylinux
 docker.io/rocm/rocm-terminal
+docker.io/romancin/tinymediamanager
 docker.io/rommapp/romm
 docker.io/rook/ceph
 docker.io/rucio/*
@@ -463,6 +465,7 @@ docker.io/selenium/*
 docker.io/semitechnologies/*
 docker.io/senthilrch/*
 docker.io/sickcodes/docker-osx
+docker.io/snowdreamtech/frpc
 docker.io/snowdreamtech/frps
 docker.io/solidnerd/bookstack
 docker.io/sonatype/nexus3
@@ -506,6 +509,7 @@ docker.io/vesoft/*
 docker.io/victoriametrics/*
 docker.io/vllm/*
 docker.io/volcanosh/*
+docker.io/vulhub/kkfileview
 docker.io/weaveworks/*
 docker.io/whyour/qinglong
 docker.io/wiznote/wizserver
@@ -540,6 +544,7 @@ ghcr.io/cowboysysop/pytest
 ghcr.io/daocloud/**
 ghcr.io/dexidp/**
 ghcr.io/dtzar/**
+ghcr.io/esphome/esphome
 ghcr.io/estrellaxd/auto_bangumi
 ghcr.io/gethomepage/homepage
 ghcr.io/goauthentik/**
