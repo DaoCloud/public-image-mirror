@@ -385,6 +385,7 @@ docker.io/netdata/netdata
 docker.io/networkstatic/iperf3
 docker.io/neuvector/*
 docker.io/nextcloud/all-in-one
+docker.io/nginx/*
 docker.io/nginxinc/*
 docker.io/nocobase/nocobase
 docker.io/nocodb/nocodb
