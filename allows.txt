@@ -534,6 +534,7 @@ ghcr.io/anduin2017/how-to-cook
 ghcr.io/aquasecurity/**
 ghcr.io/baizeai/**
 ghcr.io/benc-uk/kubeview
+ghcr.io/brenner-tobias/cloudflared/*
 ghcr.io/chaos-mesh/**
 ghcr.io/chaosblade-io/**
 ghcr.io/cirruslabs/flutter
