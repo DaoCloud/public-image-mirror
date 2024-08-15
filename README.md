@@ -95,8 +95,6 @@ docker.m.daocloud.io/library/busybox
 | mcr.microsoft.com       | mcr.m.daocloud.io             |                                       |
 | nvcr.io                 | nvcr.m.daocloud.io            |                                       |
 | quay.io                 | quay.m.daocloud.io            |                                       |
-| registry.jujucharms.com | jujucharms.m.daocloud.io      | 将废弃请使用添加前缀的方式            |
-| rocks.canonical.com     | rocks-canonical.m.daocloud.io | 将废弃请使用添加前缀的方式            |
 
 ## 最佳实践
 
