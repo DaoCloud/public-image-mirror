@@ -411,6 +411,7 @@ docker.io/openwhisk/*
 docker.io/openzipkin/*
 docker.io/osixia/*
 docker.io/osrf/*
+docker.io/ossrs/srs
 docker.io/otel/*
 docker.io/outlinewiki/outline
 docker.io/oven/bun
@@ -486,6 +487,7 @@ docker.io/tarscloud/framework
 docker.io/tdengine/*
 docker.io/tensorchord/pgvecto-rs
 docker.io/tensorflow/*
+docker.io/testcontainers/*
 docker.io/texlive/texlive
 docker.io/thanosio/*
 docker.io/thingsboard/tb-postgres
