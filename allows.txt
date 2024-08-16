@@ -514,6 +514,7 @@ docker.io/victoriametrics/*
 docker.io/vllm/*
 docker.io/volcanosh/*
 docker.io/vulhub/kkfileview
+docker.io/wandb/*
 docker.io/weaveworks/*
 docker.io/whyour/qinglong
 docker.io/wiznote/wizserver
@@ -530,6 +531,7 @@ docker.io/zhaojun1998/zfile-pro
 docker.io/zhayujie/chatgpt-on-wechat
 docker.io/zilliz/*
 docker.io/zlijingtao/neurobfuscator
+docker.io/zlmediakit/zlmediakit
 gcr.io/**
 ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
@@ -552,6 +554,7 @@ ghcr.io/dexidp/**
 ghcr.io/dtzar/**
 ghcr.io/esphome/esphome
 ghcr.io/estrellaxd/auto_bangumi
+ghcr.io/fluent/fluent-operator/*
 ghcr.io/gethomepage/homepage
 ghcr.io/goauthentik/**
 ghcr.io/helm/**
