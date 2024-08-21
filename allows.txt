@@ -451,6 +451,7 @@ docker.io/redislabs/*
 docker.io/redroid/redroid
 docker.io/resmoio/kubernetes-event-exporter
 docker.io/rockylinux/rockylinux
+docker.io/rocm/k8s-device-plugin
 docker.io/rocm/rocm-terminal
 docker.io/romancin/tinymediamanager
 docker.io/rommapp/romm
