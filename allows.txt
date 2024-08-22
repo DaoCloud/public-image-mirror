@@ -357,6 +357,7 @@ docker.io/linuxserver/*
 docker.io/linuxsuren/api-testing
 docker.io/linuxsuren/atest-ext-store-orm
 docker.io/lkw199711/smanga
+docker.io/lmsysorg/sglang
 docker.io/lobehub/lobe-chat
 docker.io/localai/localai
 docker.io/loggieio/loggie
@@ -374,6 +375,7 @@ docker.io/minio/*
 docker.io/mitmproxy/mitmproxy
 docker.io/moby/*
 docker.io/mohsinonxrm/*
+docker.io/mplatform/manifest-tool
 docker.io/mtphotos/mt-photos
 docker.io/multiarch/*
 docker.io/mwader/webdav
@@ -507,6 +509,7 @@ docker.io/trinodb/trino
 docker.io/tugraph/*
 docker.io/tunathu/bandersnatch
 docker.io/tusproject/tusd
+docker.io/twinproduction/gatus
 docker.io/ubuntu/*
 docker.io/ultralytics/*
 docker.io/vaultwarden/server
@@ -523,6 +526,7 @@ docker.io/weaveworks/*
 docker.io/whyour/qinglong
 docker.io/wiznote/wizserver
 docker.io/xhofe/alist
+docker.io/xhongc/music_tag_web
 docker.io/xiaoyaliu/alist
 docker.io/xprobe/xinference
 docker.io/xuxueli/xxl-job-admin
