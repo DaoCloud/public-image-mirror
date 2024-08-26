@@ -101,6 +101,8 @@ docker.io/eyeblue/tank
 docker.io/f5networks/*
 docker.io/falcosecurity/*
 docker.io/fatedier/frps
+docker.io/feiyuyu/filecodebox
+docker.io/fffaraz/fakessh
 docker.io/filebrowser/filebrowser
 docker.io/fireflyiii/*
 docker.io/flannel/*
@@ -482,6 +484,7 @@ docker.io/sonobuoy/*
 docker.io/soulter/astrbot
 docker.io/squidfunk/*
 docker.io/starrocks/*
+docker.io/stilleshan/frps
 docker.io/streamnative/*
 docker.io/styletang/rocketmq-console-ng
 docker.io/superng6/qbittorrentee
