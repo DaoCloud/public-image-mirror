@@ -172,6 +172,7 @@ docker.io/jimmidyson/*
 docker.io/jitsi/*
 docker.io/jlesage/firefox
 docker.io/johngong/calibre-web
+docker.io/joxit/docker-registry-ui
 docker.io/juicedata/*
 docker.io/jumpserver/*
 docker.io/justsong/one-api
@@ -532,6 +533,7 @@ docker.io/xhofe/alist
 docker.io/xhongc/music_tag_web
 docker.io/xiaoyaliu/alist
 docker.io/xprobe/xinference
+docker.io/xukuanhit/air_slam
 docker.io/xuxueli/xxl-job-admin
 docker.io/ydlhero/chatgpt-web-midjourney-proxy
 docker.io/yedf/dtm
@@ -569,6 +571,7 @@ ghcr.io/estrellaxd/auto_bangumi
 ghcr.io/fluent/fluent-operator/*
 ghcr.io/gethomepage/homepage
 ghcr.io/goauthentik/**
+ghcr.io/hassio-addons/**
 ghcr.io/helm/**
 ghcr.io/home-assistant/**
 ghcr.io/huggingface/text-generation-inference
