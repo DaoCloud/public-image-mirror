@@ -175,6 +175,7 @@ docker.io/johngong/calibre-web
 docker.io/joxit/docker-registry-ui
 docker.io/juicedata/*
 docker.io/jumpserver/*
+docker.io/jupyterhub/*
 docker.io/justsong/one-api
 docker.io/jxxghp/*
 docker.io/karmada/*
@@ -485,6 +486,7 @@ docker.io/sonobuoy/*
 docker.io/soulter/astrbot
 docker.io/squidfunk/*
 docker.io/starrocks/*
+docker.io/steamcmd/*
 docker.io/stilleshan/frps
 docker.io/streamnative/*
 docker.io/styletang/rocketmq-console-ng
