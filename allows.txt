@@ -29,6 +29,7 @@ docker.io/aquasec/*
 docker.io/arexadmin01/*
 docker.io/arey/*
 docker.io/argoproj/rollouts-demo
+docker.io/arigaio/*
 docker.io/arizephoenix/phoenix
 docker.io/arm64v8/*
 docker.io/b3log/siyuan
