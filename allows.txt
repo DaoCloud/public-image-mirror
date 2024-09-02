@@ -380,6 +380,7 @@ docker.io/minio/*
 docker.io/mitmproxy/mitmproxy
 docker.io/moby/*
 docker.io/mohsinonxrm/*
+docker.io/mpioperator/mpi-operator
 docker.io/mplatform/manifest-tool
 docker.io/mtphotos/mt-photos
 docker.io/multiarch/*
