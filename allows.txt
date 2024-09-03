@@ -1,6 +1,7 @@
 cr.l5d.io/**
 cr.weaviate.io/**
 docker.elastic.co/**
+docker.getcollate.io/openmetadata/*
 docker.io/*
 docker.io/1dev/*
 docker.io/1panel/maxkb
@@ -76,6 +77,7 @@ docker.io/determinedai/*
 docker.io/devicefarmer/stf
 docker.io/dezhao/lanraragi_cn
 docker.io/directus/*
+docker.io/discourse/*
 docker.io/docker/*
 docker.io/dockurr/windows
 docker.io/dorowu/ubuntu-desktop-lxde-vnc
@@ -653,6 +655,7 @@ quay.io/jetstack/*
 quay.io/k8scsi/*
 quay.io/kiali/*
 quay.io/kiwigrid/*
+quay.io/kubernetes-ingress-controller/*
 quay.io/kubernetes-sigs/*
 quay.io/kubespray/*
 quay.io/kubevirt/*
