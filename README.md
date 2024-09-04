@@ -85,7 +85,6 @@ docker.m.daocloud.io/library/busybox
 
 | 源站                    | 替换为                        | 备注                                  |
 | ----------------------- | ----------------------------- | ------------------------------------- |
-| cr.l5d.io               | l5d.m.daocloud.io             | 将废弃请使用添加前缀的方式            |
 | docker.elastic.co       | elastic.m.daocloud.io         |                                       |
 | docker.io               | docker.m.daocloud.io          |                                       |
 | gcr.io                  | gcr.m.daocloud.io             |                                       |
