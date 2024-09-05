@@ -3,6 +3,7 @@ cr.weaviate.io/**
 docker.elastic.co/**
 docker.getcollate.io/openmetadata/*
 docker.io/*
+docker.io/1activegeek/airconnect
 docker.io/1dev/*
 docker.io/1panel/maxkb
 docker.io/4pdosc/k8s-vdevice
@@ -421,6 +422,7 @@ docker.io/openmetadata/*
 docker.io/openpolicyagent/opa
 docker.io/openresty/openresty
 docker.io/opensearchproject/*
+docker.io/opensuse/*
 docker.io/openwhisk/*
 docker.io/openzipkin/*
 docker.io/osixia/*
@@ -478,6 +480,7 @@ docker.io/schnell18/rocketmq-dashboard
 docker.io/seafileltd/seafile-mc
 docker.io/searxng/searxng
 docker.io/seataio/*
+docker.io/selectdb/*
 docker.io/selenium/*
 docker.io/semitechnologies/*
 docker.io/senthilrch/*
