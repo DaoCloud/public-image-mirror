@@ -93,6 +93,7 @@ docker.io/dragonflyoss/scheduler
 docker.io/dragonflyoss/trainer
 docker.io/dremio/dremio-oss
 docker.io/dustynv/*
+docker.io/dxflrs/*
 docker.io/e2bdev/code-interpreter
 docker.io/elastic/*
 docker.io/elsaworkflows/*
@@ -453,6 +454,7 @@ docker.io/pytorch/*
 docker.io/qdrant/*
 docker.io/qemux/qemu-docker
 docker.io/qmcgaw/ddns-updater
+docker.io/quickwit/*
 docker.io/ramonvc/freegpt-webui
 docker.io/rancher/*
 docker.io/rayproject/*
@@ -555,6 +557,7 @@ docker.io/zhayujie/chatgpt-on-wechat
 docker.io/zilliz/*
 docker.io/zlijingtao/neurobfuscator
 docker.io/zlmediakit/zlmediakit
+docker.osgeo.org/**
 gcr.io/**
 ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
