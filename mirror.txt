@@ -410,7 +410,6 @@ ghcr.io/spiffe/spire-server
 ghcr.io/sumologic/tailing-sidecar
 ghcr.io/sumologic/tailing-sidecar-operator
 ghcr.io/timeplus-io/proton
-ghcr.io/umami-software/umami
 nvcr.io/nvidia/mellanox/doca-driver:24.04.*
 nvcr.io/nvidia/mellanox/network-operator
 nvcr.io/nvidia/pytorch
