@@ -630,6 +630,7 @@ ghcr.io/suwayomi/tachidesk
 ghcr.io/tangly1024/notionnext
 ghcr.io/timeplus-io/**
 ghcr.io/toeverything/affine-graphql
+ghcr.io/umami-software/umami
 ghcr.io/universaloj/**
 ghcr.io/wg-easy/wg-easy
 ghcr.io/wzshiming/**
