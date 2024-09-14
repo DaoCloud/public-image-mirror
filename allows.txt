@@ -494,6 +494,7 @@ docker.io/solidnerd/bookstack
 docker.io/sonatype/nexus3
 docker.io/sonobuoy/*
 docker.io/soulter/astrbot
+docker.io/spacemeowx2/*
 docker.io/squidfunk/*
 docker.io/starrocks/*
 docker.io/steamcmd/*
