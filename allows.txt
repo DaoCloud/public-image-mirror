@@ -128,6 +128,7 @@ docker.io/gitpod/openvscode-server
 docker.io/gocd/gocd-server
 docker.io/gogs/gogs
 docker.io/goharbor/*
+docker.io/golangci/golangci-lint
 docker.io/google/*
 docker.io/goproxy/goproxy
 docker.io/goreleaser/goreleaser
