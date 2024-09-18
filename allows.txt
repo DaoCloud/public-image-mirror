@@ -142,6 +142,7 @@ docker.io/greenbone/*
 docker.io/gztime/gzctf
 docker.io/hakuyyf/tensorrtx
 docker.io/halohub/halo
+docker.io/hanxi/xiaomusic
 docker.io/harness/*
 docker.io/haroldli/xiaoya-tvbox
 docker.io/hashicorp/consul
