@@ -19,6 +19,7 @@ docker.io/altinity/*
 docker.io/amambadev/*
 docker.io/amazon/*
 docker.io/amd64/*
+docker.io/amtoaer/bili-sync-rs
 docker.io/andywuwu/coze2openai
 docker.io/ankane/pgvector
 docker.io/apache/*
@@ -163,6 +164,7 @@ docker.io/infmonkeys/*
 docker.io/instrumentisto/coturn
 docker.io/intelanalytics/ipex-llm-serving-cpu
 docker.io/istio/*
+docker.io/itzg/minecraft-server
 docker.io/iyuucn/iyuuplus
 docker.io/iyuucn/iyuuplus-dev
 docker.io/jaegertracing/*
@@ -401,6 +403,7 @@ docker.io/neosmemo/memos
 docker.io/netdata/netdata
 docker.io/networkstatic/iperf3
 docker.io/neuvector/*
+docker.io/newsnowlabs/dockside
 docker.io/nextcloud/all-in-one
 docker.io/nginx/*
 docker.io/nginxinc/*
@@ -493,6 +496,7 @@ docker.io/snowdreamtech/frpc
 docker.io/snowdreamtech/frps
 docker.io/solidnerd/bookstack
 docker.io/sonatype/nexus3
+docker.io/sonicorg/sonic-client-web-base
 docker.io/sonobuoy/*
 docker.io/soulter/astrbot
 docker.io/squidfunk/*
@@ -568,6 +572,7 @@ ghcr.io/anduin2017/how-to-cook
 ghcr.io/aquasecurity/**
 ghcr.io/baizeai/**
 ghcr.io/benc-uk/kubeview
+ghcr.io/blakeblackshear/**
 ghcr.io/brenner-tobias/cloudflared/*
 ghcr.io/chaos-mesh/**
 ghcr.io/chaosblade-io/**
