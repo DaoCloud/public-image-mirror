@@ -82,6 +82,7 @@ docker.io/directus/*
 docker.io/discourse/*
 docker.io/docker/*
 docker.io/dockurr/windows
+docker.io/doocs/*
 docker.io/dorowu/ubuntu-desktop-lxde-vnc
 docker.io/dpage/*
 docker.io/dpanel/base-image
@@ -161,6 +162,7 @@ docker.io/hyperf/hyperf
 docker.io/hyperledger/*
 docker.io/ibmcom/*
 docker.io/idootop/mi-gpt
+docker.io/infiniflow/ragflow-base
 docker.io/infmonkeys/*
 docker.io/instrumentisto/coturn
 docker.io/intelanalytics/ipex-llm-serving-cpu
@@ -181,6 +183,7 @@ docker.io/jettech/*
 docker.io/jimmidyson/*
 docker.io/jitsi/*
 docker.io/jlesage/firefox
+docker.io/jmal/jmalcloud
 docker.io/johngong/calibre-web
 docker.io/joxit/docker-registry-ui
 docker.io/juicedata/*
@@ -444,6 +447,7 @@ docker.io/pgautoupgrade/pgautoupgrade
 docker.io/pgvector/pgvector
 docker.io/phpmyadmin/*
 docker.io/pingcap/*
+docker.io/plantuml/plantuml-server
 docker.io/plexinc/pms-docker
 docker.io/plugins/docker
 docker.io/pointcloudlibrary/env
@@ -547,6 +551,7 @@ docker.io/vulhub/kkfileview
 docker.io/wandb/*
 docker.io/weaveworks/*
 docker.io/whyour/qinglong
+docker.io/willfarrell/autoheal
 docker.io/wiznote/wizserver
 docker.io/xhofe/alist
 docker.io/xhongc/music_tag_web
@@ -570,6 +575,7 @@ gcr.io/**
 ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
 ghcr.io/anduin2017/how-to-cook
+ghcr.io/apache/**
 ghcr.io/aquasecurity/**
 ghcr.io/baizeai/**
 ghcr.io/benc-uk/kubeview
@@ -582,6 +588,7 @@ ghcr.io/cloudtty/cloudshell
 ghcr.io/coder/**
 ghcr.io/codex-team/codex.docs
 ghcr.io/containerd/**
+ghcr.io/coollabsio/coolify-helper
 ghcr.io/corentinth/it-tools
 ghcr.io/cowboysysop/pytest
 ghcr.io/daocloud/**
