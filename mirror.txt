@@ -260,7 +260,9 @@ docker.io/otel/opentelemetry-collector
 docker.io/otel/opentelemetry-collector-contrib
 docker.io/percona/mongodb_exporter
 docker.io/phpmyadmin/phpmyadmin
+docker.io/portainer/agent
 docker.io/portainer/portainer-ce
+docker.io/portainer/portainer-ee
 docker.io/projecthami/hami
 docker.io/prom/alertmanager
 docker.io/prom/mysqld-exporter
