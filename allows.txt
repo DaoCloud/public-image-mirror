@@ -193,6 +193,7 @@ docker.io/justsong/one-api
 docker.io/jxxghp/*
 docker.io/karmada/*
 docker.io/kasmweb/chrome
+docker.io/kasmweb/core-ubuntu-focal
 docker.io/keelhq/keel
 docker.io/kennethreitz/*
 docker.io/keycloak/keycloak
@@ -574,6 +575,7 @@ docker.osgeo.org/**
 gcr.io/**
 ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
+ghcr.io/ajnart/homarr
 ghcr.io/anduin2017/how-to-cook
 ghcr.io/apache/**
 ghcr.io/aquasecurity/**
