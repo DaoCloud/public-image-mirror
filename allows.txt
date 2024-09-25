@@ -128,7 +128,7 @@ docker.io/geoservercloud/*
 docker.io/gitea/*
 docker.io/gitlab/*
 docker.io/gitpod/openvscode-server
-docker.io/gocd/gocd-server
+docker.io/gocd/*
 docker.io/gogs/gogs
 docker.io/goharbor/*
 docker.io/golangci/golangci-lint
@@ -218,6 +218,7 @@ docker.io/kusionstack/*
 docker.io/langfuse/*
 docker.io/langgenius/*
 docker.io/langhuihui/monibuca
+docker.io/laradock/*
 docker.io/lfedge/ekuiper
 docker.io/liangjw/kube-webhook-certgen
 docker.io/library/adminer
@@ -446,6 +447,7 @@ docker.io/oven/bun
 docker.io/pandoc/*
 docker.io/percona/*
 docker.io/pgautoupgrade/pgautoupgrade
+docker.io/pgrouting/pgrouting
 docker.io/pgvector/pgvector
 docker.io/phpmyadmin/*
 docker.io/pingcap/*
@@ -555,6 +557,7 @@ docker.io/weaveworks/*
 docker.io/whyour/qinglong
 docker.io/willfarrell/autoheal
 docker.io/wiznote/wizserver
+docker.io/woodpeckerci/*
 docker.io/xhofe/alist
 docker.io/xhongc/music_tag_web
 docker.io/xiaoyaliu/alist
