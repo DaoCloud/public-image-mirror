@@ -537,6 +537,7 @@ docker.io/timescale/timescaledb
 docker.io/tomkellygenetics/universc
 docker.io/tonistiigi/binfmt
 docker.io/traefik/whoami
+docker.io/triliumnext/notes
 docker.io/trinodb/trino
 docker.io/tugraph/*
 docker.io/tunathu/bandersnatch
