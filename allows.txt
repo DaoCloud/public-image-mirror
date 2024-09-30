@@ -57,6 +57,7 @@ docker.io/chengshiwen/influxdb
 docker.io/chigusa/bililive-go
 docker.io/chrishirsch/kuberhealthy-storage-check
 docker.io/chromedp/headless-shell
+docker.io/cimg/go
 docker.io/clamav/*
 docker.io/clickhouse/*
 docker.io/cloudflare/*
@@ -70,6 +71,7 @@ docker.io/coredns/*
 docker.io/cp2k/cp2k
 docker.io/csiplugin/*
 docker.io/curlimages/*
+docker.io/dadoum/anisette-v3-server
 docker.io/danielqsj/kafka-exporter
 docker.io/daprio/*
 docker.io/darthsim/imgproxy
@@ -118,6 +120,7 @@ docker.io/flannelcni/*
 docker.io/floryn90/hugo
 docker.io/flowiseai/flowise
 docker.io/fluent/*
+docker.io/flyway/flyway
 docker.io/fortio/*
 docker.io/foxdalas/*
 docker.io/frappe/*
@@ -125,6 +128,7 @@ docker.io/frooodle/s-pdf
 docker.io/frrouting/*
 docker.io/funcman/115pc
 docker.io/geoservercloud/*
+docker.io/gerritcodereview/gerrit
 docker.io/gitea/*
 docker.io/gitlab/*
 docker.io/gitpod/openvscode-server
@@ -562,6 +566,9 @@ docker.io/woodpeckerci/*
 docker.io/xhofe/alist
 docker.io/xhongc/music_tag_web
 docker.io/xiaoyaliu/alist
+docker.io/xixihahaliu01/qanything-linux
+docker.io/xixihahaliu01/qanything-mac
+docker.io/xixihahaliu01/qanything-win
 docker.io/xprobe/xinference
 docker.io/xukuanhit/air_slam
 docker.io/xuxueli/xxl-job-admin
@@ -605,11 +612,12 @@ ghcr.io/esphome/esphome
 ghcr.io/estrellaxd/auto_bangumi
 ghcr.io/fluent/fluent-operator/*
 ghcr.io/gethomepage/homepage
+ghcr.io/ggerganov/llama.cpp
 ghcr.io/goauthentik/**
 ghcr.io/hassio-addons/**
 ghcr.io/helm/**
 ghcr.io/home-assistant/**
-ghcr.io/huggingface/text-generation-inference
+ghcr.io/huggingface/*
 ghcr.io/hwameistor/**
 ghcr.io/immich-app/**
 ghcr.io/jd-opensource/**
@@ -622,6 +630,7 @@ ghcr.io/koordinator-sh/**
 ghcr.io/ksmartdata/**
 ghcr.io/kube-vip/**
 ghcr.io/kubean-io/**
+ghcr.io/kyverno/**
 ghcr.io/labring/fastgpt
 ghcr.io/labring/fastgpt-sandbox
 ghcr.io/librespeed/speedtest
