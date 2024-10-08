@@ -478,6 +478,9 @@ docker.io/ramonvc/freegpt-webui
 docker.io/rancher/*
 docker.io/rayproject/*
 docker.io/rclone/*
+docker.io/reallibrephotos/librephotos
+docker.io/reallibrephotos/librephotos-frontend
+docker.io/reallibrephotos/librephotos-proxy
 docker.io/redash/*
 docker.io/redis/*
 docker.io/redislabs/*
@@ -573,6 +576,7 @@ docker.io/xixihahaliu01/qanything-win
 docker.io/xprobe/xinference
 docker.io/xukuanhit/air_slam
 docker.io/xuxueli/xxl-job-admin
+docker.io/yandex/clickhouse-server
 docker.io/ydlhero/chatgpt-web-midjourney-proxy
 docker.io/yedf/dtm
 docker.io/yidadaa/chatgpt-next-web
@@ -584,6 +588,7 @@ docker.io/zhayujie/chatgpt-on-wechat
 docker.io/zilliz/*
 docker.io/zlijingtao/neurobfuscator
 docker.io/zlmediakit/zlmediakit
+docker.io/zmisgod/iptvchecker
 docker.osgeo.org/**
 gcr.io/**
 ghcr.io/actions/**
@@ -677,6 +682,7 @@ nvcr.io/**
 ollama.ai/**
 quay.io/aipipeline/*
 quay.io/argoproj/*
+quay.io/argoprojlabs/*
 quay.io/brancz/*
 quay.io/calico/*
 quay.io/ceph/ceph
