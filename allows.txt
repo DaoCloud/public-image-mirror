@@ -23,6 +23,7 @@ docker.io/amtoaer/bili-sync-rs
 docker.io/andywuwu/coze2openai
 docker.io/ankane/pgvector
 docker.io/apache/*
+docker.io/apacherocketmq/rocketmq-dashboard
 docker.io/apachepulsar/*
 docker.io/apitable/*
 docker.io/apolloconfig/*
