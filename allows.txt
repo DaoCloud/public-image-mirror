@@ -193,6 +193,7 @@ docker.io/johngong/calibre-web
 docker.io/joxit/docker-registry-ui
 docker.io/juicedata/*
 docker.io/jumpserver/*
+docker.io/jupyter/*
 docker.io/jupyterhub/*
 docker.io/justsong/one-api
 docker.io/jxxghp/*
