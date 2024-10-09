@@ -7,7 +7,6 @@ on:
       - 'domain.txt'
       - 'mirror.txt'
       - 'allows.txt'
-      - 'privileged.txt'
 
 permissions:
   issues: write
@@ -58,23 +57,6 @@ jobs:
           ./hack/verify-image-match.sh allows.txt || {
             echo "Please run './hack/fmt-image-match.sh allows.txt'"
             gh pr comment "${{ github.event.pull_request.number }}" --body '请运行 `./hack/fmt-image-match.sh allows.txt` 对内容进行排序'
-            exit 1
-          }
-
-      - name: Verify privileged.txt sort
-        run: |
-          ./hack/verify-image-match.sh privileged.txt || {
-            echo "Please run './hack/fmt-image-match.sh privileged.txt'"
-            gh pr comment "${{ github.event.pull_request.number }}" --body '请运行 `./hack/fmt-image-match.sh privileged.txt` 对内容进行排序'
-            exit 1
-          }
-
-      - name: Verify privileged.txt in allows.txt
-        run: |
-          cat privileged.txt >>allows.txt
-          ./hack/fmt-image-match.sh allows.txt
-          git --no-pager diff --exit-code || {
-            gh pr comment "${{ github.event.pull_request.number }}" --body '部分 privileged.txt 镜像未加到 allows.txt. 请运行 `cat privileged.txt >>allows.txt; ./hack/fmt-image-match.sh allows.txt`'
             exit 1
           }
 
