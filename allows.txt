@@ -502,7 +502,6 @@ docker.io/rzuo/pose
 docker.io/sameersbn/**
 docker.io/savatar101/omniparse
 docker.io/schemahero/*
-docker.io/apacherocketmq/rocketmq-dashboard
 docker.io/seafileltd/seafile-mc
 docker.io/searxng/searxng
 docker.io/seataio/*
