@@ -673,6 +673,7 @@ ghcr.io/universaloj/**
 ghcr.io/wg-easy/wg-easy
 ghcr.io/wzshiming/**
 ghcr.io/zalando/**
+ghcr.io/zammad/zammad
 ghcr.io/zitadel/**
 k8s.gcr.io/**
 lscr.io/linuxserver/**
