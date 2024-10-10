@@ -77,6 +77,7 @@ docker.io/daprio/*
 docker.io/darthsim/imgproxy
 docker.io/debezium/*
 docker.io/deepflowce/*
+docker.io/deluan/navidrome
 docker.io/derailed/k9s
 docker.io/determinedai/*
 docker.io/devicefarmer/stf
@@ -111,6 +112,7 @@ docker.io/eyeblue/tank
 docker.io/f5networks/*
 docker.io/falcosecurity/*
 docker.io/fatedier/frps
+docker.io/feiyu563/prometheus-alert
 docker.io/feiyuyu/filecodebox
 docker.io/fffaraz/fakessh
 docker.io/filebrowser/filebrowser
@@ -470,6 +472,7 @@ docker.io/projecthami/*
 docker.io/prom/*
 docker.io/prometheuscommunity/*
 docker.io/provectuslabs/kafka-ui
+docker.io/proxysql/proxysql
 docker.io/pytorch/*
 docker.io/qdrant/*
 docker.io/qemux/qemu-docker
