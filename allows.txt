@@ -463,6 +463,7 @@ docker.io/plantuml/plantuml-server
 docker.io/plexinc/pms-docker
 docker.io/plugins/docker
 docker.io/pointcloudlibrary/env
+docker.io/polardbx/polardb-x
 docker.io/portainer/*
 docker.io/postgis/postgis
 docker.io/privoce/vocechat-server
@@ -535,6 +536,7 @@ docker.io/tailscale/*
 docker.io/talebook/talebook
 docker.io/tarscloud/framework
 docker.io/tdengine/*
+docker.io/techblog/broadlinkmanager
 docker.io/tensorchord/pgvecto-rs
 docker.io/tensorflow/*
 docker.io/testcontainers/*
