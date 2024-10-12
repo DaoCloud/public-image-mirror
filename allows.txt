@@ -131,6 +131,7 @@ docker.io/frrouting/*
 docker.io/funcman/115pc
 docker.io/geoservercloud/*
 docker.io/gerritcodereview/gerrit
+docker.io/getmeili/*
 docker.io/gitea/*
 docker.io/gitlab/*
 docker.io/gitpod/openvscode-server
@@ -403,6 +404,7 @@ docker.io/minio/*
 docker.io/mitmproxy/mitmproxy
 docker.io/moby/*
 docker.io/mohsinonxrm/*
+docker.io/moonrailgun/tianji
 docker.io/mpioperator/mpi-operator
 docker.io/mplatform/manifest-tool
 docker.io/mtphotos/mt-photos
@@ -625,6 +627,7 @@ ghcr.io/estrellaxd/auto_bangumi
 ghcr.io/fluent/fluent-operator/*
 ghcr.io/gethomepage/homepage
 ghcr.io/ggerganov/llama.cpp
+ghcr.io/go-rod/rod
 ghcr.io/goauthentik/**
 ghcr.io/hassio-addons/**
 ghcr.io/helm/**
