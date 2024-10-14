@@ -35,6 +35,7 @@ docker.io/argoproj/rollouts-demo
 docker.io/arigaio/*
 docker.io/arizephoenix/phoenix
 docker.io/arm64v8/*
+docker.io/artalk/artalk-go
 docker.io/autumn27/scopesentry-scan
 docker.io/b3log/siyuan
 docker.io/babashka/babashka
@@ -602,6 +603,7 @@ gcr.io/**
 ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
 ghcr.io/ajnart/homarr
+ghcr.io/analogj/scrutiny
 ghcr.io/anduin2017/how-to-cook
 ghcr.io/apache/**
 ghcr.io/aquasecurity/**
