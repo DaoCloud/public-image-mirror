@@ -540,6 +540,7 @@ docker.io/talebook/talebook
 docker.io/tarscloud/framework
 docker.io/tdengine/*
 docker.io/techblog/broadlinkmanager
+docker.io/technitium/dns-server
 docker.io/tensorchord/pgvecto-rs
 docker.io/tensorflow/*
 docker.io/testcontainers/*
@@ -555,6 +556,7 @@ docker.io/tonistiigi/binfmt
 docker.io/traefik/whoami
 docker.io/triliumnext/notes
 docker.io/trinodb/trino
+docker.io/trustpilot/beat-exporter
 docker.io/tugraph/*
 docker.io/tunathu/bandersnatch
 docker.io/tusproject/tusd
@@ -570,6 +572,7 @@ docker.io/victoriametrics/*
 docker.io/vllm/*
 docker.io/volcanosh/*
 docker.io/vulhub/kkfileview
+docker.io/wallabag/wallabag
 docker.io/wandb/*
 docker.io/weaveworks/*
 docker.io/whyour/qinglong
@@ -642,6 +645,7 @@ ghcr.io/jimmidyson/configmap-reload
 ghcr.io/joeferner/redis-commander
 ghcr.io/k8snetworkplumbingwg/**
 ghcr.io/kdoctor-io/**
+ghcr.io/kedacore/*
 ghcr.io/klts-io/**
 ghcr.io/koordinator-sh/**
 ghcr.io/ksmartdata/**
