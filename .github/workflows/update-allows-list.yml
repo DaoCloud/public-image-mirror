@@ -4,6 +4,8 @@ on:
   push:
     paths:
     - allows.txt
+    branches:
+    - main
   workflow_dispatch:
 
 jobs:
