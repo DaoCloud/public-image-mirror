@@ -98,6 +98,7 @@ docker.io/dragonflyoss/dfinit
 docker.io/dragonflyoss/manager
 docker.io/dragonflyoss/scheduler
 docker.io/dragonflyoss/trainer
+docker.io/drakkan/sftpgo
 docker.io/dremio/dremio-oss
 docker.io/dustynv/*
 docker.io/dxflrs/*
@@ -116,6 +117,8 @@ docker.io/falcosecurity/*
 docker.io/fatedier/frps
 docker.io/feiyu563/prometheus-alert
 docker.io/feiyuyu/filecodebox
+docker.io/ffdfgdfg/npc
+docker.io/ffdfgdfg/nps
 docker.io/fffaraz/fakessh
 docker.io/filebrowser/filebrowser
 docker.io/fireflyiii/*
@@ -157,6 +160,8 @@ docker.io/hanxi/xiaomusic
 docker.io/harness/*
 docker.io/haroldli/xiaoya-tvbox
 docker.io/hashicorp/consul
+docker.io/hashicorp/vault
+docker.io/hashicorp/vault-k8s
 docker.io/headscale/headscale
 docker.io/heartexlabs/label-studio
 docker.io/hectorqin/reader
