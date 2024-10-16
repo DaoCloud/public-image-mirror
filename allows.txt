@@ -413,6 +413,7 @@ docker.io/mtphotos/mt-photos
 docker.io/multiarch/*
 docker.io/mwader/webdav
 docker.io/myscale/myscaledb
+docker.io/mysql/*
 docker.io/n8nio/*
 docker.io/nacos/*
 docker.io/nastools/nas-tools
