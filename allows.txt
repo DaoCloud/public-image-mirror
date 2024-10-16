@@ -108,6 +108,7 @@ docker.io/emby/*
 docker.io/emqx/*
 docker.io/ensemblorg/ensembl-vep
 docker.io/envoyproxy/*
+docker.io/eosphorosai/*
 docker.io/exadel/compreface-core
 docker.io/eyeblue/tank
 docker.io/f5networks/*
