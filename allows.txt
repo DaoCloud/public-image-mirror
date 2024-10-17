@@ -159,9 +159,7 @@ docker.io/halohub/halo
 docker.io/hanxi/xiaomusic
 docker.io/harness/*
 docker.io/haroldli/xiaoya-tvbox
-docker.io/hashicorp/consul
-docker.io/hashicorp/vault
-docker.io/hashicorp/vault-k8s
+docker.io/hashicorp/*
 docker.io/headscale/headscale
 docker.io/heartexlabs/label-studio
 docker.io/hectorqin/reader
