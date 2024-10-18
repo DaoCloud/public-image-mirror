@@ -44,6 +44,7 @@ docker.io/bellsoft/*
 docker.io/binhex/arch-jellyfin
 docker.io/binwiederhier/ntfy
 docker.io/bitnami/*
+docker.io/bitnamicharts/kibana
 docker.io/budtmo/docker-android
 docker.io/bytebase/bytebase
 docker.io/bytelang/kplayer
@@ -466,6 +467,7 @@ docker.io/pgautoupgrade/pgautoupgrade
 docker.io/pgrouting/pgrouting
 docker.io/pgvector/pgvector
 docker.io/phpmyadmin/*
+docker.io/phpswoole/swoole
 docker.io/pingcap/*
 docker.io/plantuml/plantuml-server
 docker.io/plexinc/pms-docker
