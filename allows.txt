@@ -379,6 +379,7 @@ docker.io/library/ubuntu
 docker.io/library/unit
 docker.io/library/varnish
 docker.io/library/vault
+docker.io/library/valkey
 docker.io/library/websphere-liberty
 docker.io/library/wordpress
 docker.io/library/xwiki
