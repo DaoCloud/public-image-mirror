@@ -619,6 +619,7 @@ ghcr.io/apache/**
 ghcr.io/aquasecurity/**
 ghcr.io/baizeai/**
 ghcr.io/benc-uk/kubeview
+ghcr.io/binary-husky/gpt_academic_with_latex
 ghcr.io/blakeblackshear/**
 ghcr.io/brenner-tobias/cloudflared/*
 ghcr.io/chaos-mesh/**
@@ -669,6 +670,7 @@ ghcr.io/megacloudcontainer/**
 ghcr.io/mellanox/**
 ghcr.io/metalbear-co/**
 ghcr.io/metatube-community/metatube-server
+ghcr.io/mlflow/*
 ghcr.io/mosn/**
 ghcr.io/open-telemetry/**
 ghcr.io/open-webui/open-webui
