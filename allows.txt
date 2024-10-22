@@ -45,6 +45,7 @@ docker.io/binhex/arch-jellyfin
 docker.io/binwiederhier/ntfy
 docker.io/bitnami/*
 docker.io/bitnamicharts/kibana
+docker.io/budibase/budibase
 docker.io/budtmo/docker-android
 docker.io/bytebase/bytebase
 docker.io/bytelang/kplayer
@@ -461,6 +462,7 @@ docker.io/ossrs/srs
 docker.io/otel/*
 docker.io/outlinewiki/outline
 docker.io/oven/bun
+docker.io/p3terx/aria2-pro
 docker.io/pandoc/*
 docker.io/percona/*
 docker.io/pgautoupgrade/pgautoupgrade
