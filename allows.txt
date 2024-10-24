@@ -332,7 +332,6 @@ docker.io/library/nextcloud
 docker.io/library/nginx
 docker.io/library/node
 docker.io/library/notary
-docker.io/jenkins/*
 docker.io/library/odoo
 docker.io/library/open-liberty
 docker.io/library/openjdk
