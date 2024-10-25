@@ -103,6 +103,7 @@ docker.io/dragonflyoss/scheduler
 docker.io/dragonflyoss/trainer
 docker.io/drakkan/sftpgo
 docker.io/dremio/dremio-oss
+docker.io/drumsergio/genieacs
 docker.io/dustynv/*
 docker.io/dxflrs/*
 docker.io/e2bdev/code-interpreter
@@ -213,6 +214,7 @@ docker.io/karmada/*
 docker.io/kasmweb/chrome
 docker.io/kasmweb/core-ubuntu-focal
 docker.io/keelhq/keel
+docker.io/keking/kkfileview
 docker.io/kennethreitz/*
 docker.io/keycloak/keycloak
 docker.io/kindest/*
@@ -548,6 +550,7 @@ docker.io/syncthing/syncthing
 docker.io/tabbyml/tabby
 docker.io/tailscale/*
 docker.io/talebook/talebook
+docker.io/talkincode/toughradius
 docker.io/tarscloud/framework
 docker.io/tdengine/*
 docker.io/techblog/broadlinkmanager
