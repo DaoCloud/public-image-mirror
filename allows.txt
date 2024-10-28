@@ -415,6 +415,7 @@ docker.io/minio/*
 docker.io/mitmproxy/mitmproxy
 docker.io/moby/*
 docker.io/mohsinonxrm/*
+docker.io/mongodb/mongodb-community-server
 docker.io/moonrailgun/tianji
 docker.io/mpioperator/mpi-operator
 docker.io/mplatform/manifest-tool
@@ -681,6 +682,7 @@ ghcr.io/mlflow/*
 ghcr.io/mosn/**
 ghcr.io/open-telemetry/**
 ghcr.io/open-webui/open-webui
+ghcr.io/open-webui/pipelines
 ghcr.io/openfaas/**
 ghcr.io/openinsight-proj/**
 ghcr.io/ot-container-kit/**
