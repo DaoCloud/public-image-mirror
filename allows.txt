@@ -64,6 +64,7 @@ docker.io/chromedp/headless-shell
 docker.io/cimg/go
 docker.io/clamav/*
 docker.io/clickhouse/*
+docker.io/clidey/whodb
 docker.io/cloudflare/*
 docker.io/cloudnas/clouddrive2-unstable
 docker.io/cloudnativelabs/kube-router
@@ -200,6 +201,7 @@ docker.io/jettech/*
 docker.io/jimmidyson/*
 docker.io/jitsi/*
 docker.io/jlesage/firefox
+docker.io/jlesage/handbrake
 docker.io/jmal/jmalcloud
 docker.io/johngong/calibre-web
 docker.io/joxit/docker-registry-ui
