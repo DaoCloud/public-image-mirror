@@ -112,6 +112,7 @@ docker.io/dustynv/*
 docker.io/dxflrs/*
 docker.io/e2bdev/code-interpreter
 docker.io/elastic/*
+docker.io/elf-io/*
 docker.io/elsaworkflows/*
 docker.io/emby/*
 docker.io/emqx/*
