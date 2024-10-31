@@ -652,6 +652,7 @@ ghcr.io/cowboysysop/pytest
 ghcr.io/daocloud/**
 ghcr.io/dexidp/**
 ghcr.io/dtzar/**
+ghcr.io/elf-io/*
 ghcr.io/esphome/esphome
 ghcr.io/estrellaxd/auto_bangumi
 ghcr.io/fluent/fluent-operator/*
