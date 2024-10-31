@@ -41,6 +41,7 @@ docker.io/artalk/artalk-go
 docker.io/autumn27/scopesentry-scan
 docker.io/b3log/siyuan
 docker.io/babashka/babashka
+docker.io/basecamp/*
 docker.io/bats/*
 docker.io/bellsoft/*
 docker.io/binhex/arch-jellyfin
