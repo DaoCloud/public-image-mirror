@@ -64,6 +64,10 @@ docker.io/dragonflyoss/manager
 docker.io/dragonflyoss/scheduler
 docker.io/dragonflyoss/trainer
 docker.io/elastic/filebeat
+ghcr.io/elf-io/balancing-agent
+ghcr.io/elf-io/balancing-backend-server
+ghcr.io/elf-io/balancing-controller
+ghcr.io/elf-io/balancing-proxy-server
 docker.io/emby/embyserver
 docker.io/envoyproxy/envoy
 docker.io/envoyproxy/gateway
