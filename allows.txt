@@ -8,6 +8,7 @@ docker.io/1activegeek/airconnect
 docker.io/1dev/*
 docker.io/1panel/maxkb
 docker.io/4pdosc/k8s-vdevice
+docker.io/569107519/alertsnitch-mysql
 docker.io/6053537/portainer-ce
 docker.io/acore/*
 docker.io/adguard/adguardhome
@@ -505,6 +506,7 @@ docker.io/qdrant/*
 docker.io/qemux/qemu-docker
 docker.io/qmcgaw/ddns-updater
 docker.io/quickwit/*
+docker.io/radondb/percona
 docker.io/ramonvc/freegpt-webui
 docker.io/rancher/*
 docker.io/rayproject/*
@@ -641,6 +643,7 @@ ghcr.io/blakeblackshear/**
 ghcr.io/brenner-tobias/cloudflared/*
 ghcr.io/chaos-mesh/**
 ghcr.io/chaosblade-io/**
+ghcr.io/chroma-core/chroma
 ghcr.io/cirruslabs/flutter
 ghcr.io/cloudtty/cloudshell
 ghcr.io/coder/**
