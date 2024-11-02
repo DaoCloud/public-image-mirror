@@ -506,7 +506,7 @@ docker.io/qdrant/*
 docker.io/qemux/qemu-docker
 docker.io/qmcgaw/ddns-updater
 docker.io/quickwit/*
-docker.io/radondb/percona
+docker.io/radondb/*
 docker.io/ramonvc/freegpt-webui
 docker.io/rancher/*
 docker.io/rayproject/*
