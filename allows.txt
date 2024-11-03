@@ -628,7 +628,6 @@ docker.io/zilliz/*
 docker.io/zlijingtao/neurobfuscator
 docker.io/zlmediakit/zlmediakit
 docker.io/zmisgod/iptvchecker
-docker.io/zmisgod/iptvchecker
 docker.osgeo.org/**
 gcr.io/**
 ghcr.io/actions/**
