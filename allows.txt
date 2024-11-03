@@ -622,8 +622,8 @@ docker.io/zabbix/*
 docker.io/zadam/trilium
 docker.io/zerotier/*
 docker.io/zhaojun1998/zfile-pro
-docker.io/zhongyuanzhao000/docker_elastic_co_kibana_kibana-oss
 docker.io/zhayujie/chatgpt-on-wechat
+docker.io/zhongyuanzhao000/docker_elastic_co_kibana_kibana-oss
 docker.io/zilliz/*
 docker.io/zlijingtao/neurobfuscator
 docker.io/zlmediakit/zlmediakit
