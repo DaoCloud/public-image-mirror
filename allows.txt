@@ -44,6 +44,7 @@ docker.io/babashka/babashka
 docker.io/basecamp/*
 docker.io/bats/*
 docker.io/bellsoft/*
+docker.io/benzino77/clamav-rest-api
 docker.io/binhex/arch-jellyfin
 docker.io/binwiederhier/ntfy
 docker.io/bitnami/*
@@ -502,6 +503,7 @@ docker.io/provectuslabs/kafka-ui
 docker.io/proxysql/proxysql
 docker.io/pytorch/*
 docker.io/qdrant/*
+docker.io/qdtoday/qd
 docker.io/qemux/qemu-docker
 docker.io/qmcgaw/ddns-updater
 docker.io/quickwit/*
@@ -567,6 +569,7 @@ docker.io/techblog/broadlinkmanager
 docker.io/technitium/dns-server
 docker.io/tensorchord/pgvecto-rs
 docker.io/tensorflow/*
+docker.io/teslamate/*
 docker.io/testcontainers/*
 docker.io/texlive/texlive
 docker.io/thanosio/*
@@ -593,6 +596,7 @@ docker.io/velero/*
 docker.io/verdaccio/*
 docker.io/vesoft/*
 docker.io/victoriametrics/*
+docker.io/viktorstrate/*
 docker.io/vllm/*
 docker.io/volcanosh/*
 docker.io/vulhub/kkfileview
