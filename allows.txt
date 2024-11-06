@@ -609,6 +609,8 @@ docker.io/whyour/qinglong
 docker.io/willfarrell/autoheal
 docker.io/wiznote/wizserver
 docker.io/woodpeckerci/*
+docker.io/wurstmeister/kafka
+docker.io/wurstmeister/zookeeper
 docker.io/xhofe/alist
 docker.io/xhongc/music_tag_web
 docker.io/xiaoyaliu/alist
@@ -681,6 +683,7 @@ ghcr.io/k8snetworkplumbingwg/**
 ghcr.io/kdoctor-io/**
 ghcr.io/kedacore/*
 ghcr.io/klts-io/**
+ghcr.io/koodo-reader/koodo-reader
 ghcr.io/koordinator-sh/**
 ghcr.io/ksmartdata/**
 ghcr.io/kube-vip/**
