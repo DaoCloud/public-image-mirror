@@ -175,6 +175,8 @@ docker.io/headscale/headscale
 docker.io/heartexlabs/label-studio
 docker.io/hectorqin/reader
 docker.io/hengyunabc/arthas
+docker.io/henrygd/beszel
+docker.io/henrygd/beszel-agent
 docker.io/heroiclabs/nakama-pluginbuilder
 docker.io/homeassistant/*
 docker.io/hoppscotch/hoppscotch
@@ -185,6 +187,7 @@ docker.io/hugomods/hugo
 docker.io/hybridnetdev/hybridnet
 docker.io/hyperf/hyperf
 docker.io/hyperledger/*
+docker.io/hystax/error_pages_base
 docker.io/ibmcom/*
 docker.io/idootop/mi-gpt
 docker.io/infiniflow/ragflow-base
