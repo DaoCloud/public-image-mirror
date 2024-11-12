@@ -410,6 +410,7 @@ docker.io/linuxserver/*
 docker.io/linuxsuren/api-testing
 docker.io/linuxsuren/atest-ext-store-orm
 docker.io/liwei2633/gopeed
+docker.io/lizheming/waline
 docker.io/lkw199711/smanga
 docker.io/lmsysorg/sglang
 docker.io/lobehub/*
