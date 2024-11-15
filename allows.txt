@@ -195,6 +195,7 @@ docker.io/infiniflow/ragflow-base
 docker.io/infmonkeys/*
 docker.io/instrumentisto/coturn
 docker.io/intelanalytics/ipex-llm-serving-cpu
+docker.io/islandora/code-server
 docker.io/istio/*
 docker.io/itzg/minecraft-server
 docker.io/iyuucn/iyuuplus
@@ -482,6 +483,7 @@ docker.io/osixia/*
 docker.io/osrf/*
 docker.io/ossrs/srs
 docker.io/otel/*
+docker.io/outlinesdev/outlines
 docker.io/outlinewiki/outline
 docker.io/oven/bun
 docker.io/p3terx/aria2-pro
@@ -757,6 +759,7 @@ quay.io/coreos/*
 quay.io/csiaddons/k8s-sidecar
 quay.io/external_storage/*
 quay.io/frrouting/frr
+quay.io/go-skynet/local-ai
 quay.io/goswagger/*
 quay.io/grafana-operator/*
 quay.io/ibm-spectrum-scale/*
