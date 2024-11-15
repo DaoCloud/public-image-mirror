@@ -95,7 +95,7 @@ docker.io/dezhao/lanraragi_cn
 docker.io/directus/*
 docker.io/discourse/*
 docker.io/docker/*
-docker.io/dockurr/windows
+docker.io/dockurr/*
 docker.io/doocs/*
 docker.io/dorowu/ubuntu-desktop-lxde-vnc
 docker.io/dpage/*
