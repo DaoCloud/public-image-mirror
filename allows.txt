@@ -76,6 +76,7 @@ docker.io/cloudreve/cloudreve
 docker.io/codercom/code-server
 docker.io/codewisdom/*
 docker.io/collabora/code
+docker.io/containrrr/watchtower
 docker.io/continuumio/miniconda3
 docker.io/coredns/*
 docker.io/cp2k/cp2k
@@ -164,6 +165,7 @@ docker.io/grafana/*
 docker.io/graylog/graylog
 docker.io/graylog/graylog-datanode
 docker.io/greenbone/*
+docker.io/guacamole/*
 docker.io/gztime/gzctf
 docker.io/hakuyyf/tensorrtx
 docker.io/halohub/halo
@@ -486,6 +488,7 @@ docker.io/otel/*
 docker.io/outlinesdev/outlines
 docker.io/outlinewiki/outline
 docker.io/oven/bun
+docker.io/owncloud/server
 docker.io/p3terx/aria2-pro
 docker.io/pandoc/*
 docker.io/percona/*
@@ -515,6 +518,7 @@ docker.io/pytorch/*
 docker.io/qdrant/*
 docker.io/qdtoday/qd
 docker.io/qemux/qemu-docker
+docker.io/qingpan/rnacos
 docker.io/qmcgaw/ddns-updater
 docker.io/quickwit/*
 docker.io/radondb/*
