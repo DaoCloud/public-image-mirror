@@ -52,6 +52,7 @@ docker.io/bitnami/*
 docker.io/bitnamicharts/kibana
 docker.io/budibase/budibase
 docker.io/budtmo/docker-android
+docker.io/bvlc/caffe
 docker.io/bytebase/bytebase
 docker.io/bytelang/kplayer
 docker.io/calciumion/new-api
@@ -218,6 +219,7 @@ docker.io/jlesage/firefox
 docker.io/jlesage/handbrake
 docker.io/jmal/jmalcloud
 docker.io/johngong/calibre-web
+docker.io/joinsunsoft/docker.ui
 docker.io/joxit/docker-registry-ui
 docker.io/juicedata/*
 docker.io/jumpserver/*
@@ -237,6 +239,7 @@ docker.io/kindest/*
 docker.io/kiwigrid/*
 docker.io/klakegg/hugo
 docker.io/koalaman/shellcheck
+docker.io/koenkk/zigbee2mqtt
 docker.io/koide3/direct_visual_lidar_calibration
 docker.io/kong/*
 docker.io/kserve/*
@@ -606,6 +609,7 @@ docker.io/tusproject/tusd
 docker.io/twinproduction/gatus
 docker.io/ubuntu/*
 docker.io/ultralytics/*
+docker.io/uozi/nginx-ui
 docker.io/vaultwarden/server
 docker.io/vdsm/virtual-dsm
 docker.io/velero/*
