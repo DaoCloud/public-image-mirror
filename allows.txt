@@ -250,6 +250,7 @@ docker.io/kubeflownotebookswg/*
 docker.io/kubeovn/kube-ovn
 docker.io/kuberhealthy/*
 docker.io/kubernetesui/*
+docker.io/kubeshark/*
 docker.io/kubeskoop/*
 docker.io/kubesphere/*
 docker.io/kubespheredev/ksv-installer
@@ -556,6 +557,7 @@ docker.io/schnell18/rocketmq-dashboard
 docker.io/seafileltd/seafile-mc
 docker.io/searxng/searxng
 docker.io/seataio/*
+docker.io/secoresearch/rsync
 docker.io/selectdb/*
 docker.io/selenium/*
 docker.io/semitechnologies/*
@@ -738,6 +740,7 @@ ghcr.io/spiffe/**
 ghcr.io/sugarforever/peanut-shell
 ghcr.io/sumologic/**
 ghcr.io/suwayomi/tachidesk
+ghcr.io/systemed/tilemaker
 ghcr.io/tangly1024/notionnext
 ghcr.io/timeplus-io/**
 ghcr.io/toeverything/affine-graphql
