@@ -345,6 +345,10 @@ ghcr.io/daocloud/dao-2048
 ghcr.io/daocloud/netmaterial
 ghcr.io/dexidp/dex
 ghcr.io/dtzar/helm-kubectl
+ghcr.io/elf-io/balancing-agent
+ghcr.io/elf-io/balancing-backend-server
+ghcr.io/elf-io/balancing-controller
+ghcr.io/elf-io/balancing-proxy-server
 ghcr.io/hwameistor/admission
 ghcr.io/hwameistor/apiserver
 ghcr.io/hwameistor/drbd9-bionic
