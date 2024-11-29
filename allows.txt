@@ -735,6 +735,7 @@ ghcr.io/projectcontour/**
 ghcr.io/puppeteer/puppeteer
 ghcr.io/rails/**
 ghcr.io/seriousm4x/upsnap
+ghcr.io/siemens/**
 ghcr.io/sillytavern/sillytavern
 ghcr.io/songquanpeng/one-api
 ghcr.io/spidernet-io/**
