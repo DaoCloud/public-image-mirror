@@ -16,6 +16,7 @@ docker.io/adoptopenjdk/*
 docker.io/adriansegura99/**
 docker.io/allanpk716/chinesesubfinder
 docker.io/allfunc/speedtest
+docker.io/almalinux/*
 docker.io/alpinelinux/**
 docker.io/altinity/*
 docker.io/amambadev/*
@@ -612,6 +613,7 @@ docker.io/twinproduction/gatus
 docker.io/ubuntu/*
 docker.io/ultralytics/*
 docker.io/uozi/nginx-ui
+docker.io/valkey/valkey
 docker.io/vaultwarden/server
 docker.io/vdsm/virtual-dsm
 docker.io/velero/*
@@ -682,6 +684,7 @@ ghcr.io/cowboysysop/pytest
 ghcr.io/daocloud/**
 ghcr.io/dexidp/**
 ghcr.io/dtzar/**
+ghcr.io/elastic/opentelemetry-demo
 ghcr.io/elf-io/*
 ghcr.io/esphome/esphome
 ghcr.io/estrellaxd/auto_bangumi
