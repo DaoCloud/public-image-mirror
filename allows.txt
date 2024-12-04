@@ -575,8 +575,10 @@ docker.io/squidfunk/*
 docker.io/starrocks/*
 docker.io/steamcmd/*
 docker.io/stilleshan/frps
+docker.io/stirlingtools/stirling-pdf
 docker.io/streamnative/*
 docker.io/styletang/rocketmq-console-ng
+docker.io/supabase/*
 docker.io/superng6/qbittorrentee
 docker.io/svhd/logto
 docker.io/swaggerapi/*
