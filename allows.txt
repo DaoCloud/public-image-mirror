@@ -195,7 +195,7 @@ docker.io/hyperledger/*
 docker.io/hystax/error_pages_base
 docker.io/ibmcom/*
 docker.io/idootop/mi-gpt
-docker.io/infiniflow/ragflow-base
+docker.io/infiniflow/*
 docker.io/infmonkeys/*
 docker.io/instrumentisto/coturn
 docker.io/intelanalytics/ipex-llm-serving-cpu
@@ -722,6 +722,7 @@ ghcr.io/labring/fastgpt-sandbox
 ghcr.io/librespeed/speedtest
 ghcr.io/linuxsuren/api-testing
 ghcr.io/linuxsuren/atest-ext-store-orm
+ghcr.io/mastodon/mastodon
 ghcr.io/maybe-finance/**
 ghcr.io/megacloudcontainer/**
 ghcr.io/mellanox/**
