@@ -19,6 +19,7 @@ docker.io/apitable/room-server
 docker.io/apitable/web-server
 docker.io/aquasec/kube-bench
 docker.io/arey/mysql-client
+docker.io/authelia/authelia
 docker.io/bats/bats
 docker.io/bitnami/bitnami-shell
 docker.io/bitnami/contour
@@ -224,6 +225,7 @@ docker.io/library/wordpress
 docker.io/library/yourls
 docker.io/library/zookeeper
 docker.io/linuxserver/jellyfin
+docker.io/lldap/lldap
 docker.io/longhornio/longhorn-engine
 docker.io/longhornio/longhorn-manager
 docker.io/longhornio/longhorn-ui
