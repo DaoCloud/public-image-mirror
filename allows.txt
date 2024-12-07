@@ -40,6 +40,7 @@ docker.io/arigaio/*
 docker.io/arizephoenix/phoenix
 docker.io/arm64v8/*
 docker.io/artalk/artalk-go
+docker.io/authelia/authelia
 docker.io/autumn27/scopesentry-scan
 docker.io/b3log/siyuan
 docker.io/babashka/babashka
@@ -420,6 +421,7 @@ docker.io/linuxsuren/atest-ext-store-orm
 docker.io/liwei2633/gopeed
 docker.io/lizheming/waline
 docker.io/lkw199711/smanga
+docker.io/lldap/lldap
 docker.io/lmsysorg/sglang
 docker.io/lobehub/*
 docker.io/localai/localai
