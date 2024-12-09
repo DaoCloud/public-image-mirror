@@ -225,7 +225,6 @@ docker.io/library/wordpress
 docker.io/library/yourls
 docker.io/library/zookeeper
 docker.io/linuxserver/jellyfin
-docker.io/lldap/lldap
 docker.io/longhornio/longhorn-engine
 docker.io/longhornio/longhorn-manager
 docker.io/longhornio/longhorn-ui
