@@ -668,6 +668,7 @@ ghcr.io/analogj/scrutiny
 ghcr.io/anduin2017/how-to-cook
 ghcr.io/apache/**
 ghcr.io/aquasecurity/**
+ghcr.io/armbian/**
 ghcr.io/authzed/spicedb-operator
 ghcr.io/baizeai/**
 ghcr.io/benc-uk/kubeview
