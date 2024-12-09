@@ -19,7 +19,6 @@ docker.io/apitable/room-server
 docker.io/apitable/web-server
 docker.io/aquasec/kube-bench
 docker.io/arey/mysql-client
-docker.io/authelia/authelia
 docker.io/bats/bats
 docker.io/bitnami/bitnami-shell
 docker.io/bitnami/contour
