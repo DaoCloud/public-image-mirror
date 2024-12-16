@@ -17,6 +17,7 @@ docker.io/adriansegura99/**
 docker.io/allanpk716/chinesesubfinder
 docker.io/allfunc/speedtest
 docker.io/almalinux/*
+docker.io/alpine/*
 docker.io/alpinelinux/**
 docker.io/altinity/*
 docker.io/amambadev/*
@@ -121,6 +122,7 @@ docker.io/elastic/*
 docker.io/elsaworkflows/*
 docker.io/emby/*
 docker.io/emqx/*
+docker.io/enable/nessus
 docker.io/ensemblorg/ensembl-vep
 docker.io/envoyproxy/*
 docker.io/eosphorosai/*
@@ -455,6 +457,7 @@ docker.io/nastools/nas-tools
 docker.io/ncbi/pgap
 docker.io/neilpang/acme.sh
 docker.io/neosmemo/memos
+docker.io/netbox-community/netbox
 docker.io/netdata/netdata
 docker.io/networkstatic/iperf3
 docker.io/neuvector/*
@@ -725,6 +728,7 @@ ghcr.io/labring/fastgpt-sandbox
 ghcr.io/librespeed/speedtest
 ghcr.io/linuxsuren/api-testing
 ghcr.io/linuxsuren/atest-ext-store-orm
+ghcr.io/logseq/logseq-webapp
 ghcr.io/mastodon/mastodon
 ghcr.io/maybe-finance/**
 ghcr.io/megacloudcontainer/**
