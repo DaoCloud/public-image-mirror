@@ -1,12 +1,6 @@
 # public-image-mirror
 
-[![Sync](https://github.com/DaoCloud/public-image-mirror/raw/gh-pages/daocloud-sync-badge.svg)](https://github.com/DaoCloud/public-image-mirror/raw/gh-pages/daocloud-sync.log)
-
-Sync: 定期同步列表里的 image tag 的同步率, 只要 tag 存在就是同步的.
-
-**由于近期使用量剧增, 为保证大多数的可用性**
-
-- 白名单 & 限流 & 降级 的公开信息 [#2328](https://github.com/DaoCloud/public-image-mirror/issues/2328)
+- 白名单 & 限流 的公开信息 [#2328](https://github.com/DaoCloud/public-image-mirror/issues/2328)
 - 如有疑问请咨询 [#4183](https://github.com/DaoCloud/public-image-mirror/issues/4183)
 
 ## 背景 & 目标
@@ -66,16 +60,11 @@ docker.m.daocloud.io/library/busybox
 
 就算没同步也能 **直接拉取**, 初次拉取会比已经同步过的慢.
 
-所有懒加载 **带宽**
-- 国际带宽 6 * 30 Mbps
-
 ## 定期同步列表 (不推荐)
 
-强烈建议使用[单次单镜像同步](#单次单镜像同步)
+已经太大了, 不再支持添加, 请使用[单次单镜像同步](#单次单镜像同步)
 
 [mirror.txt](mirror.txt)
-
-如果想要新增, 提 PR 修改即可。例如 [PR#1](https://github.com/DaoCloud/public-image-mirror/pull/1/)， 并请在 PR 提交前排序： `./hack/fmt.sh mirror.txt`
 
 ## 支持前缀替换的 Registry (不推荐)
 
