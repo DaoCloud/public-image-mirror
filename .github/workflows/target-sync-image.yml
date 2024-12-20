@@ -1,4 +1,6 @@
 name: Target Sync Image
+run-name: Target Sync ${{ github.event.issue.title }} by @${{ github.actor }}
+
 on:
   issues:
     types:
@@ -49,13 +51,16 @@ jobs:
 
     - name: Set up crproxy
       run: |
-        wget https://github.com/DaoCloud/crproxy/releases/download/v0.8.0/crproxy_linux_amd64 -O /usr/local/bin/crproxy && chmod +x /usr/local/bin/crproxy
-        /usr/local/bin/crproxy -a :8000 ${{ secrets.CRPROXY_ARGS }} &
+        wget https://github.com/DaoCloud/crproxy/releases/download/v0.13.0-alpha.43/crproxy_linux_amd64 -O /usr/local/bin/crproxy && chmod +x /usr/local/bin/crproxy
 
-    - name: Sync Images
+    - name: Sync Images to OSS&OBS
       run: |
         ORIGIN_IMAGE="${{ steps.get-image.outputs.image }}"
-        curl --fail -X PUT "http://127.0.0.1:8000/internal/api/image/sync?image=${ORIGIN_IMAGE}"
+        /usr/local/bin/crproxy sync --deep --max-warn 1 ${{ secrets.STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --list ${ORIGIN_IMAGE}
+
+    - name: Succeeded Sync
+      run: |
+        ORIGIN_IMAGE="${{ steps.get-image.outputs.image }}"
         gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步完成<br>请使用 m.daocloud.io/${ORIGIN_IMAGE} 替代源镜像"
         gh issue edit ${{ github.event.issue.number }} --add-label "sync image succeeded" -b "IMAGE SYNC"
         gh issue close ${{ github.event.issue.number }} --reason "completed"
