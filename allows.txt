@@ -690,6 +690,7 @@ ghcr.io/containerd/**
 ghcr.io/coollabsio/coolify-helper
 ghcr.io/corentinth/it-tools
 ghcr.io/cowboysysop/pytest
+ghcr.io/cross-rs/**
 ghcr.io/daocloud/**
 ghcr.io/dexidp/**
 ghcr.io/dtzar/**
