@@ -569,6 +569,7 @@ docker.io/selectdb/*
 docker.io/selenium/*
 docker.io/semitechnologies/*
 docker.io/senthilrch/*
+docker.io/serengil/deepface
 docker.io/sickcodes/docker-osx
 docker.io/snowdreamtech/frpc
 docker.io/snowdreamtech/frps
