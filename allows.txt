@@ -705,6 +705,7 @@ ghcr.io/fission/**
 ghcr.io/fluent/fluent-operator/*
 ghcr.io/gethomepage/homepage
 ghcr.io/ggerganov/llama.cpp
+ghcr.io/gohugoio/hugo
 ghcr.io/go-rod/rod
 ghcr.io/goauthentik/**
 ghcr.io/graalvm/*
