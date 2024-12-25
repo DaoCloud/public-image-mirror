@@ -573,6 +573,7 @@ docker.io/serengil/deepface
 docker.io/sickcodes/docker-osx
 docker.io/snowdreamtech/frpc
 docker.io/snowdreamtech/frps
+docker.io/solace/solace-pubsub-standard
 docker.io/solidnerd/bookstack
 docker.io/sonatype/nexus3
 docker.io/sonicorg/sonic-client-web-base
