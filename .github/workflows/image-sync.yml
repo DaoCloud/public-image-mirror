@@ -60,6 +60,9 @@ jobs:
       run: |
         ORIGIN_IMAGE=$(echo "${MESSAGE}" | grep SYNC | awk '{print $2}' | head -n 1 | sed "s/\r//g")
         /usr/local/bin/crproxy sync --deep --max-warn 1 ${{ secrets.STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --list ${ORIGIN_IMAGE}
+        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步完成<br>请使用 m.daocloud.io/${ORIGIN_IMAGE} 替代源镜像"
+        gh issue edit ${{ github.event.issue.number }} --add-label "sync image succeeded" -b "IMAGE SYNC"
+        gh issue close ${{ github.event.issue.number }} --reason "completed"
 
     - name: Fail Sync
       if: failure()
