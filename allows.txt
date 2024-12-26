@@ -707,6 +707,7 @@ ghcr.io/gethomepage/homepage
 ghcr.io/ggerganov/llama.cpp
 ghcr.io/go-rod/rod
 ghcr.io/goauthentik/**
+ghcr.io/gohugoio/hugo
 ghcr.io/graalvm/*
 ghcr.io/hassio-addons/**
 ghcr.io/helm/**
