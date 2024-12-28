@@ -730,6 +730,7 @@ ghcr.io/kubean-io/**
 ghcr.io/kyverno/**
 ghcr.io/labring/fastgpt
 ghcr.io/labring/fastgpt-sandbox
+ghcr.io/labring/lvscare
 ghcr.io/librespeed/speedtest
 ghcr.io/linuxsuren/api-testing
 ghcr.io/linuxsuren/atest-ext-store-orm
