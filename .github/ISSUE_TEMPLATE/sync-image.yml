@@ -9,22 +9,6 @@ body:
       # ↑↑↑↑↑↑↑↑↑↑↑ 填入你要同步的 Image
       ## 请包含 域名/路径:标签
 
-- type: markdown
-  attributes:
-    value: |
-      ## 也可以调用接口触发, 集成进 CI
-      ``` bash
-      curl -X POST \
-        -H "Authorization: Bearer ${TOKEN}" \
-        -H "Accept: application/vnd.github+json" \
-        https://api.github.com/repos/DaoCloud/public-image-mirror/issues \
-        -d "{
-          \"title\": \"${IMAGE}\",
-          \"labels\": [\"sync image\"],
-          \"template\": \"sync-image\"
-      }"
-      ```
-
 - type: checkboxes
   attributes:
     label: 镜像域名 (镜像仓库)
