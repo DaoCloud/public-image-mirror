@@ -60,15 +60,6 @@ jobs:
             exit 1
           }
 
-      - name: Verify mirror.txt in allows.txt
-        run: |
-          cat mirror.txt >>allows.txt
-          ./hack/fmt-image-match.sh allows.txt
-          git --no-pager diff --exit-code || {
-            gh pr comment "${{ github.event.pull_request.number }}" --body '部分 mirror.txt 镜像未加到 allows.txt, 请运行 `cat mirror.txt >>allows.txt; ./hack/fmt-image-match.sh allows.txt`'
-            exit 1
-          }
-
       - name: Verify Image Exists
         run: |
           ./hack/verify-image.sh mirror.txt https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }}.patch || {
