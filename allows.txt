@@ -1,3 +1,4 @@
+codeberg.org/forgejo/forgejo
 container-registry.oracle.com/**
 cr.l5d.io/**
 cr.weaviate.io/**
@@ -678,6 +679,8 @@ ghcr.io/armbian/**
 ghcr.io/authzed/spicedb-operator
 ghcr.io/baizeai/**
 ghcr.io/benc-uk/kubeview
+ghcr.io/bigcode-project/evaluation-harness
+ghcr.io/bigcode-project/evaluation-harness-multiple
 ghcr.io/binary-husky/gpt_academic_with_latex
 ghcr.io/blakeblackshear/**
 ghcr.io/brenner-tobias/cloudflared/*
