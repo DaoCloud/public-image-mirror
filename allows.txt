@@ -802,6 +802,7 @@ quay.io/grafana-operator/*
 quay.io/ibm-spectrum-scale/*
 quay.io/jaegertracing/*
 quay.io/jetstack/*
+quay.io/jupyterhub/*
 quay.io/k8scsi/*
 quay.io/kiali/*
 quay.io/kiwigrid/*
