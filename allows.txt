@@ -15,6 +15,7 @@ docker.io/acore/*
 docker.io/adguard/adguardhome
 docker.io/adoptopenjdk/*
 docker.io/adriansegura99/**
+docker.io/agentaai/*
 docker.io/allanpk716/chinesesubfinder
 docker.io/allfunc/speedtest
 docker.io/almalinux/*
@@ -115,6 +116,7 @@ docker.io/dragonflyoss/scheduler
 docker.io/dragonflyoss/trainer
 docker.io/drakkan/sftpgo
 docker.io/dremio/dremio-oss
+docker.io/drone/drone
 docker.io/drumsergio/genieacs
 docker.io/dustynv/*
 docker.io/dxflrs/*
