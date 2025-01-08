@@ -203,6 +203,7 @@ docker.io/ibmcom/*
 docker.io/idootop/mi-gpt
 docker.io/infiniflow/*
 docker.io/infmonkeys/*
+docker.io/innei/mx-server
 docker.io/instrumentisto/coturn
 docker.io/intelanalytics/ipex-llm-serving-cpu
 docker.io/islandora/code-server
@@ -613,6 +614,7 @@ docker.io/thomassong/gpu-admission
 docker.io/tiangolo/*
 docker.io/timberio/*
 docker.io/timescale/timescaledb
+docker.io/timothyjmiller/cloudflare-ddns
 docker.io/tomkellygenetics/universc
 docker.io/tonistiigi/binfmt
 docker.io/traefik/whoami
