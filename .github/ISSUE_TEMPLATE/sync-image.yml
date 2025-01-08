@@ -1,5 +1,5 @@
 name: Sync Image
-description: 同步一个镜像 (需要 Image 已在白名单里)
+description: 同步一个镜像 (需要 Image 已在白名单里, Gitee 中不生效, 只支持 Github)
 labels:
 - sync image
 body:
