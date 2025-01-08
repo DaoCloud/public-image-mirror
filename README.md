@@ -1,5 +1,8 @@
 # public-image-mirror
 
+源仓库 [Github](https://github.com/DaoCloud/public-image-mirror)  
+Mirror 仓库 [Gitee](https://gitee.com/daocloud/public-image-mirror)  
+
 - 白名单 & 限流 的公开信息 [#2328](https://github.com/DaoCloud/public-image-mirror/issues/2328)
 - 如有疑问请咨询 [#4183](https://github.com/DaoCloud/public-image-mirror/issues/4183)
 
