@@ -781,7 +781,6 @@ ghcr.io/zammad/zammad
 ghcr.io/zitadel/**
 k8s.gcr.io/**
 lscr.io/linuxserver/**
-marketplace.azurecr.io/bitnami/**
 mcr.microsoft.com/**
 nvcr.io/**
 ollama.ai/**
