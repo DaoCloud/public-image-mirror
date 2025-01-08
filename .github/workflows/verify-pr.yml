@@ -4,7 +4,6 @@ on:
   pull_request_target:
     branches: [main]
     paths:
-      - 'domain.txt'
       - 'mirror.txt'
       - 'allows.txt'
 
@@ -27,14 +26,6 @@ jobs:
           wget -O pr.patch https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }}.patch && \
             git am -3 pr.patch &&
             rm -rf pr.patch
-
-      - name: Verify domain.txt
-        run: |
-          ./hack/verify-fmt.sh domain.txt || {
-            echo "Please run './hack/fmt.sh domain.txt'"
-            gh pr comment "${{ github.event.pull_request.number }}" --body '请运行 `./hack/fmt.sh domain.txt` 对内容进行排序'
-            exit 1
-          }
 
       - name: Verify mirror.txt image
         run: |
