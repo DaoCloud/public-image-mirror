@@ -716,6 +716,7 @@ ghcr.io/go-rod/rod
 ghcr.io/goauthentik/**
 ghcr.io/gohugoio/hugo
 ghcr.io/graalvm/*
+ghcr.io/grafana/*
 ghcr.io/hassio-addons/**
 ghcr.io/helm/**
 ghcr.io/home-assistant/**
