@@ -628,6 +628,7 @@ docker.io/twinproduction/gatus
 docker.io/ubuntu/*
 docker.io/ultralytics/*
 docker.io/uozi/nginx-ui
+docker.io/uwang/115-strm
 docker.io/valkey/valkey
 docker.io/vaultwarden/server
 docker.io/vdsm/virtual-dsm
