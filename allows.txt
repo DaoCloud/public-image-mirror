@@ -443,6 +443,7 @@ docker.io/metacontrollerio/metacontroller
 docker.io/milvusdb/*
 docker.io/mindsdb/mindsdb
 docker.io/minio/*
+docker.io/mirantis/*
 docker.io/mitmproxy/mitmproxy
 docker.io/moby/*
 docker.io/mohsinonxrm/*
@@ -722,6 +723,7 @@ ghcr.io/helm/**
 ghcr.io/home-assistant/**
 ghcr.io/huggingface/*
 ghcr.io/hwameistor/**
+ghcr.io/imagegenius/immich
 ghcr.io/immich-app/**
 ghcr.io/jd-opensource/**
 ghcr.io/jimmidyson/configmap-reload
