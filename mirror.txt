@@ -45,11 +45,11 @@ docker.io/library/matomo
 docker.io/library/maven
 docker.io/library/mediawiki
 docker.io/library/memcached
-docker.io/library/mongo-express
 docker.io/library/mongo
+docker.io/library/mongo-express
 docker.io/library/mysql
-docker.io/library/nats-streaming
 docker.io/library/nats
+docker.io/library/nats-streaming
 docker.io/library/neo4j
 docker.io/library/nextcloud
 docker.io/library/nginx
