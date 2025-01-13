@@ -154,6 +154,7 @@ docker.io/frappe/*
 docker.io/frooodle/s-pdf
 docker.io/frrouting/*
 docker.io/funcman/115pc
+docker.io/gaecfovdocker/pulsar-console
 docker.io/geoservercloud/*
 docker.io/gerritcodereview/gerrit
 docker.io/getmeili/*
