@@ -24,4 +24,4 @@ jobs:
 
       - name: Sync Images to OSS&OBS
         run: |
-          /usr/local/bin/crproxy sync --max-warn 100 ${{ secrets.STORAGE_ARGS }} --list-from-file ./mirror.txt --quic
+          /usr/local/bin/crproxy sync --max-warn 100 ${{ secrets.STORAGE_ARGS }} --list-from-file ./mirror.txt --quick
