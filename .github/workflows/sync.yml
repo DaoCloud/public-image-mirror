@@ -16,7 +16,7 @@ jobs:
 
       - name: Set up crproxy
         run: |
-          wget https://github.com/DaoCloud/crproxy/releases/download/v0.13.0-alpha.43/crproxy_linux_amd64 -O /usr/local/bin/crproxy && chmod +x /usr/local/bin/crproxy
+          wget https://github.com/DaoCloud/crproxy/releases/download/v0.13.0-alpha.108/crproxy_linux_amd64 -O /usr/local/bin/crproxy && chmod +x /usr/local/bin/crproxy
 
       - name: Sync Images to OSS&OBS
         run: |
