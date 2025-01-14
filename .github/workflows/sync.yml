@@ -2,7 +2,7 @@ name: Sync
 
 on:
   schedule:
-    - cron: "1 0 * * *"
+    - cron: "1 * * * *"
 
   workflow_dispatch:
 
@@ -20,8 +20,8 @@ jobs:
 
       - name: Deep Images to OSS&OBS
         run: |
-          /usr/local/bin/crproxy sync --max-warn 10 ${{ secrets.STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --list-from-file ./mirror-deep.txt
+          /usr/local/bin/crproxy sync --max-warn 10 ${{ secrets.STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --list-from-file ./mirror.txt
 
       - name: Quick Sync Images to OSS&OBS
         run: |
-          /usr/local/bin/crproxy sync --max-warn 10 ${{ secrets.STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --list-from-file ./mirror.txt --quick
+          /usr/local/bin/crproxy sync --max-warn 10 ${{ secrets.STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --list-from-file ./mirror-quick.txt --quick
