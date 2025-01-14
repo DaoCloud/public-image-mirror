@@ -18,10 +18,10 @@ jobs:
         run: |
           wget https://github.com/DaoCloud/crproxy/releases/download/v0.13.0-alpha.109/crproxy_linux_amd64 -O /usr/local/bin/crproxy && chmod +x /usr/local/bin/crproxy
 
-      - name: Deep Sync Images to OSS&OBS
+      - name: Deep Images to OSS&OBS
         run: |
-          /usr/local/bin/crproxy sync --max-warn 10 ${{ secrets.STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --list-from-file ./mirror-deep.txt --deep
+          /usr/local/bin/crproxy sync --max-warn 10 ${{ secrets.STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --list-from-file ./mirror-deep.txt
 
-      - name: Sync Images to OSS&OBS
+      - name: Quick Sync Images to OSS&OBS
         run: |
           /usr/local/bin/crproxy sync --max-warn 10 ${{ secrets.STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --list-from-file ./mirror.txt --quick
