@@ -292,6 +292,7 @@ docker.io/library/chronograf
 docker.io/library/cirros
 docker.io/library/clearlinux
 docker.io/library/clefos
+docker.io/library/clickhouse
 docker.io/library/clojure
 docker.io/library/composer
 docker.io/library/consul
