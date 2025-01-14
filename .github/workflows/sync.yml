@@ -20,8 +20,8 @@ jobs:
 
       - name: Deep Sync Images to OSS&OBS
         run: |
-          /usr/local/bin/crproxy sync --max-warn 100 ${{ secrets.STORAGE_ARGS }} --list-from-file ./mirror-deep.txt --deep
+          /usr/local/bin/crproxy sync --max-warn 10 ${{ secrets.STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --list-from-file ./mirror-deep.txt --deep
 
       - name: Sync Images to OSS&OBS
         run: |
-          /usr/local/bin/crproxy sync --max-warn 100 ${{ secrets.STORAGE_ARGS }} --list-from-file ./mirror.txt --quick
+          /usr/local/bin/crproxy sync --max-warn 10 ${{ secrets.STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --list-from-file ./mirror.txt --quick
