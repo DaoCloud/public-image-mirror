@@ -92,6 +92,7 @@ docker.io/dadoum/anisette-v3-server
 docker.io/danielqsj/kafka-exporter
 docker.io/daprio/*
 docker.io/darthsim/imgproxy
+docker.io/datastax/*
 docker.io/debezium/*
 docker.io/deepflowce/*
 docker.io/deluan/navidrome
