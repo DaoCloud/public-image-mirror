@@ -1,0 +1,20 @@
+name: Sync Runner
+
+on:
+  schedule:
+    - cron: "30 * * * *"
+
+  workflow_dispatch:
+
+jobs:
+  sync-images:
+    runs-on: ubuntu-latest
+    if: github.repository == 'DaoCloud/public-image-mirror'
+    steps:
+      - name: Set up crproxy
+        run: |
+          wget https://github.com/DaoCloud/crproxy/releases/download/v0.13.0-alpha.114/crproxy_linux_amd64 -O /usr/local/bin/crproxy && chmod +x /usr/local/bin/crproxy
+
+      - name: Sync Runner
+        run: |
+          /usr/local/bin/crproxy cluster runner ${{ secrets.STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' ${{ secrets.RUNNER_ARGS }}
