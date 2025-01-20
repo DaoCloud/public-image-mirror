@@ -539,6 +539,7 @@ docker.io/qdtoday/qd
 docker.io/qemux/qemu-docker
 docker.io/qingpan/rnacos
 docker.io/qmcgaw/ddns-updater
+docker.io/questdb/questdb
 docker.io/quickwit/*
 docker.io/radondb/*
 docker.io/ramonvc/freegpt-webui
