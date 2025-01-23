@@ -88,6 +88,7 @@ docker.io/coredns/*
 docker.io/cp2k/cp2k
 docker.io/csiplugin/*
 docker.io/curlimages/*
+docker.io/cvat/server
 docker.io/dadoum/anisette-v3-server
 docker.io/danielqsj/kafka-exporter
 docker.io/daprio/*
