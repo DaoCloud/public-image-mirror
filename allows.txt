@@ -89,6 +89,7 @@ docker.io/cp2k/cp2k
 docker.io/csiplugin/*
 docker.io/curlimages/*
 docker.io/cvat/server
+docker.io/cvat/ui
 docker.io/dadoum/anisette-v3-server
 docker.io/danielqsj/kafka-exporter
 docker.io/daprio/*
@@ -119,11 +120,13 @@ docker.io/dragonflyoss/trainer
 docker.io/drakkan/sftpgo
 docker.io/dremio/dremio-oss
 docker.io/drone/drone
+docker.io/drone/drone-runner-docker
 docker.io/drumsergio/genieacs
 docker.io/dustynv/*
 docker.io/dxflrs/*
 docker.io/e2bdev/code-interpreter
 docker.io/elastic/*
+docker.io/electronuserland/builder
 docker.io/elsaworkflows/*
 docker.io/emby/*
 docker.io/emqx/*
@@ -447,6 +450,7 @@ docker.io/metacontrollerio/metacontroller
 docker.io/milvusdb/*
 docker.io/mindsdb/mindsdb
 docker.io/minio/*
+docker.io/mintplexlabs/anythingllm
 docker.io/mirantis/*
 docker.io/mitmproxy/mitmproxy
 docker.io/moby/*
