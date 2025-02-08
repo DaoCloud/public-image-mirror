@@ -54,7 +54,7 @@ docker.io/benzino77/clamav-rest-api
 docker.io/binhex/arch-jellyfin
 docker.io/binwiederhier/ntfy
 docker.io/bitnami/*
-docker.io/bitnamicharts/kibana
+docker.io/bitnamicharts/*
 docker.io/budibase/budibase
 docker.io/budtmo/docker-android
 docker.io/bvlc/caffe
