@@ -7,6 +7,9 @@ image=$2
 function check_allows() {
     local file=$1
     local image=$2
+    if [[ "${image}" == *":" ]]; then
+        return 1
+    fi
     while read line; do
         if [[ "${line}" == *"**" ]]; then
             if [[ "${image}" == "${line%\*\*}"* ]]; then
