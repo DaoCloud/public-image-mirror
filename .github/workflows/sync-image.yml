@@ -28,6 +28,7 @@ jobs:
         CORRECT_IMAGE="$(./hack/correct-image.sh "${ORIGIN_IMAGE}")"
         if [[ "${CORRECT_IMAGE}" == "" ]]; then
           gh issue comment ${{ github.event.issue.number }} -b "镜像 '${ORIGIN_IMAGE}' 不是一个镜像"
+          gh issue close ${{ github.event.issue.number }} --reason "not planned"
           exit 1
         fi
         if [[ "${CORRECT_IMAGE}" != "${ORIGIN_IMAGE}" ]]; then
@@ -36,39 +37,61 @@ jobs:
           else
             gh issue comment ${{ github.event.issue.number }} -b "镜像 '${ORIGIN_IMAGE}' 不存在呢, 也许应该是 '${CORRECT_IMAGE}'"
           fi
+          gh issue close ${{ github.event.issue.number }} --reason "not planned"
           exit 1
         fi
         if ! ./hack/verify-allows.sh ./allows.txt "${ORIGIN_IMAGE}"; then
           gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 不在白名单列表里, 不支持同步和访问<br>可以将其添加到[白名单](https://github.com/${{ github.repository }}/issues/2328)"
+          gh issue close ${{ github.event.issue.number }} --reason "not planned"
           exit 1
         fi
         echo "image=${ORIGIN_IMAGE}" >> $GITHUB_OUTPUT
 
-    - name: Check Image
-      run: |
-        ORIGIN_IMAGE="${{ steps.get-image.outputs.image }}"
-        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步中...<br>[详情请查看](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})"
-
     - name: Set up crproxy
       run: |
-        wget https://github.com/DaoCloud/crproxy/releases/download/v0.13.0-alpha.109/crproxy_linux_amd64 -O /usr/local/bin/crproxy && chmod +x /usr/local/bin/crproxy
+        wget https://github.com/DaoCloud/crproxy/releases/download/v0.13.0-alpha.141/crproxy_linux_amd64 -O /usr/local/bin/crproxy && chmod +x /usr/local/bin/crproxy
 
-    - name: Sync Images to OSS&OBS
+    - name: Create message to queue
+      id: get-message
+      run: |
+        MESSAGE_ID=$(curl -X 'PUT' \
+          'https://queue.m.daocloud.io/apis/v1/messages' \
+          -H 'Authorization: Bearer ${{ secrets.QUEUE_TOKEN }}' \
+          -H 'Content-Type: application/json' \
+          -d '{
+            "content": "${{ steps.get-image.outputs.image }}",
+            "priority": 10
+          }' | jq -r .id)
+        
+        echo "message_id=${MESSAGE_ID}" >> $GITHUB_OUTPUT
+
+    - name: Sync Status
       run: |
         ORIGIN_IMAGE="${{ steps.get-image.outputs.image }}"
-        /usr/local/bin/crproxy sync --deep --max-warn 1 ${{ secrets.STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --list ${ORIGIN_IMAGE}
+        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 添加到同步队列...<br>[同步队列](https://queue.m.daocloud.io/status/)<br>[详细信息](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})"
 
-    - name: Succeeded Sync
+    - name: Sync Runner
       run: |
-        ORIGIN_IMAGE="${{ steps.get-image.outputs.image }}"
-        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步完成<br>请使用 m.daocloud.io/${ORIGIN_IMAGE} 替代源镜像"
-        gh issue edit ${{ github.event.issue.number }} --add-label "sync image succeeded" -b "IMAGE SYNC"
-        gh issue close ${{ github.event.issue.number }} --reason "completed"
+        (
+          ORIGIN_IMAGE="${{ steps.get-image.outputs.image }}"
+          last_json="$(curl -X GET 'https://queue.m.daocloud.io/apis/v1/messages/${{ steps.get-message.outputs.message_id }}?watch=true' | jq -n 'reduce inputs as $item (null; $item)')"
+          status_code=$(echo "$last_json" | jq -r .status)
+          if [[ $status_code -eq 20 ]]; then
+              gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步完成<br>请使用 m.daocloud.io/${ORIGIN_IMAGE} 替代源镜像"
+              gh issue edit ${{ github.event.issue.number }} --add-label "sync image succeeded" -b "IMAGE SYNC"
+              gh issue close ${{ github.event.issue.number }} --reason "completed"
+          elif [[ $status_code -eq 30 ]]; then
+              error_message=$(echo "$last_json" | jq -r .data.error)
+              gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步失败<br> ${error_message}"
+              gh issue edit ${{ github.event.issue.number }} --add-label "sync image failure" -b "IMAGE SYNC"
+              gh issue close ${{ github.event.issue.number }} --reason "not planned"
+          else
+              gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步异常<br>[详情请查看](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})"
+              gh issue edit ${{ github.event.issue.number }} --add-label "sync image failure" -b "IMAGE SYNC"
+              gh issue close ${{ github.event.issue.number }} --reason "not planned"
+          fi
+        ) &
+        
+        /usr/local/bin/crproxy cluster runner ${{ secrets.STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --queue-token '${{ secrets.QUEUE_TOKEN }}' --queue-url https://queue.m.daocloud.io/apis/v1 --duration 10s --retry=3 --retry-interval=2s &
 
-    - name: Fail Sync
-      if: failure()
-      run: |
-        ORIGIN_IMAGE="${{ steps.get-image.outputs.image }}"
-        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步失败[详情请查看](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})<br>如有疑问请回复 /auto-cc 召唤帮助, 或者查看[同步成功案例](https://github.com/${{ github.repository }}/issues?q=is%3Aissue+is%3Aclosed+label%3A%22sync+image+succeeded%22)或[白名单申请案例](https://github.com/${{ github.repository }}/issues?q=is%3Aissue+label%3A%22allows+image%22+is%3Aclosed+linked%3Apr)"
-        gh issue edit ${{ github.event.issue.number }} --add-label "sync image failure" -b "IMAGE SYNC"
-        gh issue close ${{ github.event.issue.number }} --reason "not planned"
+        wait
