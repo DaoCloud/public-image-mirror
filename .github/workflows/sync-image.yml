@@ -45,6 +45,9 @@ jobs:
           gh issue close ${{ github.event.issue.number }} --reason "not planned"
           exit 1
         fi
+        if [[ "${ORIGIN_IMAGE}" =~ ^docker.io/ ]]; then
+          ORIGIN_IMAGE="registry-1.${ORIGIN_IMAGE}"
+        fi
         echo "image=${ORIGIN_IMAGE}" >> $GITHUB_OUTPUT
 
     - name: Set up crproxy
