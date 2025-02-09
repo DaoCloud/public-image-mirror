@@ -735,6 +735,7 @@ ghcr.io/huggingface/*
 ghcr.io/hwameistor/**
 ghcr.io/imagegenius/immich
 ghcr.io/immich-app/**
+ghcr.io/infrastructure-io/**
 ghcr.io/jd-opensource/**
 ghcr.io/jimmidyson/configmap-reload
 ghcr.io/joeferner/redis-commander
