@@ -49,6 +49,10 @@ jobs:
         if [[ "${ORIGIN_IMAGE}" =~ ^docker.io/ ]]; then
           ORIGIN_IMAGE="registry-1.${ORIGIN_IMAGE}"
         fi
+
+        if [[ "${ORIGIN_IMAGE}" =~ ^registry-1\.docker\.io/[^/]+$ ]]; then
+          ORIGIN_IMAGE="registry-1.docker.io/library/${ORIGIN_IMAGE#registry-1.docker.io/}"
+        fi
         echo "sync_image=${ORIGIN_IMAGE}" >> $GITHUB_OUTPUT
 
     - name: Set up crproxy
