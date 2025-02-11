@@ -2,7 +2,7 @@ name: Sync
 
 on:
   schedule:
-    - cron: "1 16 * * *"
+    - cron: "1 * * * *"
 
   workflow_dispatch:
 
@@ -16,9 +16,12 @@ jobs:
 
       - name: Set up crproxy
         run: |
-          wget https://github.com/DaoCloud/crproxy/releases/download/v0.13.0-alpha.43/crproxy_linux_amd64 -O /usr/local/bin/crproxy && chmod +x /usr/local/bin/crproxy
+          wget https://github.com/DaoCloud/crproxy/releases/download/v0.13.0-alpha.154/crproxy_linux_amd64 -O /usr/local/bin/crproxy && chmod +x /usr/local/bin/crproxy
 
       - name: Sync Images to OSS&OBS
         run: |
-          ORIGIN_IMAGE=$(echo "${MESSAGE}" | grep SYNC | awk '{print $2}' | head -n 1 | sed "s/\r//g")
-          /usr/local/bin/crproxy sync --max-warn 100 ${{ secrets.STORAGE_ARGS }} --list-from-file ./mirror.txt
+          /usr/local/bin/crproxy sync --max-warn 100 ${{ secrets.STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --list-from-file ./mirror.txt
+
+      - name: Quick Sync Images to OSS&OBS
+        run: |
+          /usr/local/bin/crproxy sync --max-warn 10 ${{ secrets.STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --list-from-file ./mirror-quick.txt --quick

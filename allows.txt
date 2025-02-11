@@ -54,7 +54,7 @@ docker.io/benzino77/clamav-rest-api
 docker.io/binhex/arch-jellyfin
 docker.io/binwiederhier/ntfy
 docker.io/bitnami/*
-docker.io/bitnamicharts/kibana
+docker.io/bitnamicharts/*
 docker.io/budibase/budibase
 docker.io/budtmo/docker-android
 docker.io/bvlc/caffe
@@ -88,10 +88,13 @@ docker.io/coredns/*
 docker.io/cp2k/cp2k
 docker.io/csiplugin/*
 docker.io/curlimages/*
+docker.io/cvat/server
+docker.io/cvat/ui
 docker.io/dadoum/anisette-v3-server
 docker.io/danielqsj/kafka-exporter
 docker.io/daprio/*
 docker.io/darthsim/imgproxy
+docker.io/datastax/*
 docker.io/debezium/*
 docker.io/deepflowce/*
 docker.io/deluan/navidrome
@@ -117,11 +120,13 @@ docker.io/dragonflyoss/trainer
 docker.io/drakkan/sftpgo
 docker.io/dremio/dremio-oss
 docker.io/drone/drone
+docker.io/drone/drone-runner-docker
 docker.io/drumsergio/genieacs
 docker.io/dustynv/*
 docker.io/dxflrs/*
 docker.io/e2bdev/code-interpreter
 docker.io/elastic/*
+docker.io/electronuserland/builder
 docker.io/elsaworkflows/*
 docker.io/emby/*
 docker.io/emqx/*
@@ -154,6 +159,7 @@ docker.io/frappe/*
 docker.io/frooodle/s-pdf
 docker.io/frrouting/*
 docker.io/funcman/115pc
+docker.io/gaecfovdocker/pulsar-console
 docker.io/geoservercloud/*
 docker.io/gerritcodereview/gerrit
 docker.io/getmeili/*
@@ -291,6 +297,7 @@ docker.io/library/chronograf
 docker.io/library/cirros
 docker.io/library/clearlinux
 docker.io/library/clefos
+docker.io/library/clickhouse
 docker.io/library/clojure
 docker.io/library/composer
 docker.io/library/consul
@@ -443,6 +450,8 @@ docker.io/metacontrollerio/metacontroller
 docker.io/milvusdb/*
 docker.io/mindsdb/mindsdb
 docker.io/minio/*
+docker.io/mintplexlabs/anythingllm
+docker.io/mirantis/*
 docker.io/mitmproxy/mitmproxy
 docker.io/moby/*
 docker.io/mohsinonxrm/*
@@ -535,6 +544,7 @@ docker.io/qdtoday/qd
 docker.io/qemux/qemu-docker
 docker.io/qingpan/rnacos
 docker.io/qmcgaw/ddns-updater
+docker.io/questdb/questdb
 docker.io/quickwit/*
 docker.io/radondb/*
 docker.io/ramonvc/freegpt-webui
@@ -575,6 +585,7 @@ docker.io/semitechnologies/*
 docker.io/senthilrch/*
 docker.io/serengil/deepface
 docker.io/sickcodes/docker-osx
+docker.io/sj26/mailcatcher
 docker.io/snowdreamtech/frpc
 docker.io/snowdreamtech/frps
 docker.io/solace/solace-pubsub-standard
@@ -722,7 +733,9 @@ ghcr.io/helm/**
 ghcr.io/home-assistant/**
 ghcr.io/huggingface/*
 ghcr.io/hwameistor/**
+ghcr.io/imagegenius/immich
 ghcr.io/immich-app/**
+ghcr.io/infrastructure-io/**
 ghcr.io/jd-opensource/**
 ghcr.io/jimmidyson/configmap-reload
 ghcr.io/joeferner/redis-commander
