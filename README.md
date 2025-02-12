@@ -83,26 +83,34 @@ docker.m.daocloud.io/library/busybox
 | docker.io               | docker.m.daocloud.io          |                                       |
 | gcr.io                  | gcr.m.daocloud.io             |                                       |
 | ghcr.io                 | ghcr.m.daocloud.io            |                                       |
-| k8s.gcr.io              | k8s-gcr.m.daocloud.io         | k8s.gcr.io 已被迁移到 registry.k8s.io |
+| k8s.gcr.io              | k8s-gcr.m.daocloud.io         | k8s.gcr.io 已被迁移到 registry.k8s.io  |
 | registry.k8s.io         | k8s.m.daocloud.io             |                                       |
 | mcr.microsoft.com       | mcr.m.daocloud.io             |                                       |
 | nvcr.io                 | nvcr.m.daocloud.io            |                                       |
 | quay.io                 | quay.m.daocloud.io            |                                       |
+| registry.ollama.ai      | ollama.m.daocloud.io          | 实验内测中，[使用方法](#加速-ollama--deepseek)     |
 
 ## 最佳实践
 
-* 通过 加速 安装 kubeadm
+### 加速 Kubneretes
+
+#### 加速安装 kubeadm
 ``` bash
 kubeadm config images pull --image-repository k8s-gcr.m.daocloud.io
 ```
 
-* 通过 加速 安装 kind
+#### 加速安装 kind
 
 ``` bash
 kind create cluster --name kind --image m.daocloud.io/docker.io/kindest/node:v1.22.1
 ``` 
 
-* Docker 加速
+#### 加速 Containerd
+
+* 参考 Containerd 官方文档: [hosts.md](https://github.com/containerd/containerd/blob/main/docs/hosts.md#registry-host-namespace)
+* 如果您使用 kubespray 安装 containerd, 可以配置 [`containerd_registries_mirrors`](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/CRI/containerd.md#containerd-config)
+
+### 加速 Docker
 
 添加到 `/etc/docker/daemon.json`
 ``` json
@@ -111,6 +119,38 @@ kind create cluster --name kind --image m.daocloud.io/docker.io/kindest/node:v1.
     "https://docker.m.daocloud.io"
   ]
 }
+```
+
+### 加速 Ollama & DeepSeek
+
+#### 加速安装 Ollama
+
+CPU:
+```bash
+docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama docker.m.daocloud.io/ollama/ollama
+```
+
+GPU 版本:
+1. 首先安装 Nvidia Container Toolkit
+2. 运行以下命令启动 Ollama 容器：
+
+```bash
+docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama docker.m.daocloud.io/ollama/ollama
+```
+
+更多信息请参考：
+* [Ollama Docker 官方文档](https://ollama.com/blog/ollama-is-now-available-as-an-official-docker-image)
+
+#### 加速使用 Deepseek-R1 模型（实验内测中）
+
+注：目前 Ollama 官方源的下载速度已经很快，您也可以直接使用[官方源](https://ollama.com/library/deepseek-r1:1.5b)。
+
+```bash
+# 使用加速源
+docker exec -it ollama ollama run ollama.m.daocloud.io/library/deepseek-r1:1.5b
+
+# 或使用官方源
+# docker exec -it ollama ollama run deepseek-r1:1.5b
 ```
 
 ## [友情链接]加速三剑客
