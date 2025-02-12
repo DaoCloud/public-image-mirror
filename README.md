@@ -143,13 +143,15 @@ docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama do
 
 #### 加速使用 Deepseek-R1 模型（实验内测中）
 
+如上述步骤，在启动了ollama容器的前提下，还可以通过加速源，加速启动DeepSeek相关的模型服务
+
 注：目前 Ollama 官方源的下载速度已经很快，您也可以直接使用[官方源](https://ollama.com/library/deepseek-r1:1.5b)。
 
 ```bash
 # 使用加速源
 docker exec -it ollama ollama run ollama.m.daocloud.io/library/deepseek-r1:1.5b
 
-# 或使用官方源
+# 或直接使用官方源下载模型
 # docker exec -it ollama ollama run deepseek-r1:1.5b
 ```
 
