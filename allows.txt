@@ -443,6 +443,7 @@ docker.io/loggieio/loggie
 docker.io/longhornio/*
 docker.io/louislam/*
 docker.io/mageai/mageai
+docker.io/mailserver/*
 docker.io/mattermost/focalboard
 docker.io/maxkeytop/*
 docker.io/menci/archlinuxarm
@@ -559,6 +560,7 @@ docker.io/redash/*
 docker.io/redis/*
 docker.io/redislabs/*
 docker.io/redroid/redroid
+docker.io/reportportal/reportportal
 docker.io/resmoio/kubernetes-event-exporter
 docker.io/ribbybibby/ssl-exporter
 docker.io/rockylinux/rockylinux
