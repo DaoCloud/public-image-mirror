@@ -2,7 +2,6 @@ codeberg.org/forgejo/forgejo
 container-registry.oracle.com/**
 cr.l5d.io/**
 cr.weaviate.io/**
-docker.io/approachingai/*
 docker.elastic.co/**
 docker.getcollate.io/openmetadata/*
 docker.io/*
@@ -34,6 +33,7 @@ docker.io/apachepulsar/*
 docker.io/apicurio/*
 docker.io/apitable/*
 docker.io/apolloconfig/*
+docker.io/approachingai/*
 docker.io/appsmith/appsmith-ce
 docker.io/appsmith/appsmith-ee
 docker.io/aquasec/*
