@@ -64,6 +64,7 @@ docker.io/bytelang/kplayer
 docker.io/calciumion/new-api
 docker.io/calico/*
 docker.io/camunda/zeebe
+docker.io/casbin/casdoor
 docker.io/certbot/*
 docker.io/chaosbladeio/chaosblade-box
 docker.io/charlie0129/bupt-net-login
@@ -182,6 +183,7 @@ docker.io/graylog/graylog-datanode
 docker.io/greenbone/*
 docker.io/guacamole/*
 docker.io/gztime/gzctf
+docker.io/hacdias/webdav
 docker.io/hakuyyf/tensorrtx
 docker.io/halohub/halo
 docker.io/hanxi/xiaomusic
@@ -256,6 +258,7 @@ docker.io/klakegg/hugo
 docker.io/koalaman/shellcheck
 docker.io/koenkk/zigbee2mqtt
 docker.io/koide3/direct_visual_lidar_calibration
+docker.io/koishijs/koishi
 docker.io/kong/*
 docker.io/kserve/*
 docker.io/kubeedge/*
@@ -270,6 +273,7 @@ docker.io/kubeskoop/*
 docker.io/kubesphere/*
 docker.io/kubespheredev/ksv-installer
 docker.io/kusionstack/*
+docker.io/langflowai/langflow
 docker.io/langfuse/*
 docker.io/langgenius/*
 docker.io/langhuihui/monibuca
@@ -589,6 +593,7 @@ docker.io/senthilrch/*
 docker.io/serengil/deepface
 docker.io/sickcodes/docker-osx
 docker.io/sj26/mailcatcher
+docker.io/slskd/slskd
 docker.io/snowdreamtech/frpc
 docker.io/snowdreamtech/frps
 docker.io/solace/solace-pubsub-standard
