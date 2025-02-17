@@ -33,6 +33,7 @@ docker.io/apachepulsar/*
 docker.io/apicurio/*
 docker.io/apitable/*
 docker.io/apolloconfig/*
+docker.io/appbaseio/dejavu
 docker.io/approachingai/*
 docker.io/appsmith/appsmith-ce
 docker.io/appsmith/appsmith-ee
@@ -64,6 +65,7 @@ docker.io/bytelang/kplayer
 docker.io/calciumion/new-api
 docker.io/calico/*
 docker.io/camunda/zeebe
+docker.io/cars10/elasticvue
 docker.io/casbin/casdoor
 docker.io/certbot/*
 docker.io/chaosbladeio/chaosblade-box
