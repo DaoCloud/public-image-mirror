@@ -249,8 +249,7 @@ docker.io/jxxghp/*
 docker.io/k8scloudprovider/*
 docker.io/kanidm/*
 docker.io/karmada/*
-docker.io/kasmweb/chrome
-docker.io/kasmweb/core-ubuntu-focal
+docker.io/kasmweb/*
 docker.io/keelhq/keel
 docker.io/keking/kkfileview
 docker.io/kennethreitz/*
@@ -743,6 +742,7 @@ ghcr.io/grafana/*
 ghcr.io/hassio-addons/**
 ghcr.io/helm/**
 ghcr.io/home-assistant/**
+ghcr.io/huaweiclouddeveloper/**
 ghcr.io/huggingface/*
 ghcr.io/hwameistor/**
 ghcr.io/imagegenius/immich
