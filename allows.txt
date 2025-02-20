@@ -522,8 +522,8 @@ docker.io/oven/bun
 docker.io/owncloud/server
 docker.io/p3terx/aria2-pro
 docker.io/paddlepaddle/paddle
-docker.io/pandoc/*
 docker.io/paketobuildpacks/*
+docker.io/pandoc/*
 docker.io/percona/*
 docker.io/pgautoupgrade/pgautoupgrade
 docker.io/pgrouting/pgrouting
