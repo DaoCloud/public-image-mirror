@@ -11,6 +11,7 @@ docker.io/1panel/maxkb
 docker.io/4pdosc/k8s-vdevice
 docker.io/569107519/alertsnitch-mysql
 docker.io/6053537/portainer-ce
+docker.io/gzxhwq/metacubexd
 docker.io/acore/*
 docker.io/adguard/adguardhome
 docker.io/adoptopenjdk/*
