@@ -1,3 +1,4 @@
+docker.io/defectdojo/**
 codeberg.org/forgejo/forgejo
 container-registry.oracle.com/**
 cr.l5d.io/**
