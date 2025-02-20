@@ -33,6 +33,8 @@ docker.io/apachepulsar/*
 docker.io/apicurio/*
 docker.io/apitable/*
 docker.io/apolloconfig/*
+docker.io/appbaseio/dejavu
+docker.io/approachingai/*
 docker.io/appsmith/appsmith-ce
 docker.io/appsmith/appsmith-ee
 docker.io/aquasec/*
@@ -63,6 +65,8 @@ docker.io/bytelang/kplayer
 docker.io/calciumion/new-api
 docker.io/calico/*
 docker.io/camunda/zeebe
+docker.io/cars10/elasticvue
+docker.io/casbin/casdoor
 docker.io/certbot/*
 docker.io/chaosbladeio/chaosblade-box
 docker.io/charlie0129/bupt-net-login
@@ -181,6 +185,7 @@ docker.io/graylog/graylog-datanode
 docker.io/greenbone/*
 docker.io/guacamole/*
 docker.io/gztime/gzctf
+docker.io/hacdias/webdav
 docker.io/hakuyyf/tensorrtx
 docker.io/halohub/halo
 docker.io/hanxi/xiaomusic
@@ -242,9 +247,9 @@ docker.io/jupyterhub/*
 docker.io/justsong/one-api
 docker.io/jxxghp/*
 docker.io/k8scloudprovider/*
+docker.io/kanidm/*
 docker.io/karmada/*
-docker.io/kasmweb/chrome
-docker.io/kasmweb/core-ubuntu-focal
+docker.io/kasmweb/*
 docker.io/keelhq/keel
 docker.io/keking/kkfileview
 docker.io/kennethreitz/*
@@ -255,6 +260,7 @@ docker.io/klakegg/hugo
 docker.io/koalaman/shellcheck
 docker.io/koenkk/zigbee2mqtt
 docker.io/koide3/direct_visual_lidar_calibration
+docker.io/koishijs/koishi
 docker.io/kong/*
 docker.io/kserve/*
 docker.io/kubeedge/*
@@ -269,6 +275,7 @@ docker.io/kubeskoop/*
 docker.io/kubesphere/*
 docker.io/kubespheredev/ksv-installer
 docker.io/kusionstack/*
+docker.io/langflowai/langflow
 docker.io/langfuse/*
 docker.io/langgenius/*
 docker.io/langhuihui/monibuca
@@ -442,6 +449,7 @@ docker.io/loggieio/loggie
 docker.io/longhornio/*
 docker.io/louislam/*
 docker.io/mageai/mageai
+docker.io/mailserver/*
 docker.io/mattermost/focalboard
 docker.io/maxkeytop/*
 docker.io/menci/archlinuxarm
@@ -558,6 +566,7 @@ docker.io/redash/*
 docker.io/redis/*
 docker.io/redislabs/*
 docker.io/redroid/redroid
+docker.io/reportportal/reportportal
 docker.io/resmoio/kubernetes-event-exporter
 docker.io/ribbybibby/ssl-exporter
 docker.io/rockylinux/rockylinux
@@ -586,6 +595,7 @@ docker.io/senthilrch/*
 docker.io/serengil/deepface
 docker.io/sickcodes/docker-osx
 docker.io/sj26/mailcatcher
+docker.io/slskd/slskd
 docker.io/snowdreamtech/frpc
 docker.io/snowdreamtech/frps
 docker.io/solace/solace-pubsub-standard
@@ -686,6 +696,7 @@ gcr.io/**
 ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
 ghcr.io/ajnart/homarr
+ghcr.io/amamba-io/**
 ghcr.io/analogj/scrutiny
 ghcr.io/anduin2017/how-to-cook
 ghcr.io/apache/**
@@ -731,6 +742,7 @@ ghcr.io/grafana/*
 ghcr.io/hassio-addons/**
 ghcr.io/helm/**
 ghcr.io/home-assistant/**
+ghcr.io/huaweiclouddeveloper/**
 ghcr.io/huggingface/*
 ghcr.io/hwameistor/**
 ghcr.io/imagegenius/immich

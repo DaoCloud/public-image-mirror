@@ -13,8 +13,8 @@ jobs:
     steps:
       - name: Set up crproxy
         run: |
-          wget https://github.com/DaoCloud/crproxy/releases/download/v0.13.0-alpha.154/crproxy_linux_amd64 -O /usr/local/bin/crproxy && chmod +x /usr/local/bin/crproxy
+          wget https://github.com/DaoCloud/crproxy/releases/download/v0.13.0-alpha.174/crproxy_linux_amd64 -O /usr/local/bin/crproxy && chmod +x /usr/local/bin/crproxy
 
       - name: Sync Runner
         run: |
-          /usr/local/bin/crproxy cluster runner ${{ secrets.STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --queue-token '${{ secrets.QUEUE_TOKEN }}' --queue-url https://queue.m.daocloud.io/apis/v1 --duration 1h --retry=3 --retry-interval=2s
+          /usr/local/bin/crproxy cluster runner ${{ secrets.NEW_STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --queue-token '${{ secrets.QUEUE_TOKEN }}' --queue-url https://queue.m.daocloud.io/apis/v1 --duration 1h --retry=3 --retry-interval=2s
