@@ -70,6 +70,7 @@ docker.io/casbin/casdoor
 docker.io/certbot/*
 docker.io/chaosbladeio/chaosblade-box
 docker.io/charlie0129/bupt-net-login
+docker.io/chat2db/chat2db
 docker.io/chengshiwen/influx-proxy
 docker.io/chengshiwen/influxdb
 docker.io/chigusa/bililive-go
@@ -106,6 +107,7 @@ docker.io/derailed/k9s
 docker.io/determinedai/*
 docker.io/devicefarmer/stf
 docker.io/dezhao/lanraragi_cn
+docker.io/difegue/lanraragi
 docker.io/directus/*
 docker.io/discourse/*
 docker.io/docker/*
@@ -555,6 +557,7 @@ docker.io/qingpan/rnacos
 docker.io/qmcgaw/ddns-updater
 docker.io/questdb/questdb
 docker.io/quickwit/*
+docker.io/qwenllm/*
 docker.io/radondb/*
 docker.io/ramonvc/freegpt-webui
 docker.io/rancher/*
@@ -649,6 +652,7 @@ docker.io/tusproject/tusd
 docker.io/twinproduction/gatus
 docker.io/ubuntu/*
 docker.io/ultralytics/*
+docker.io/unclecode/crawl4ai
 docker.io/uozi/nginx-ui
 docker.io/valkey/valkey
 docker.io/vaultwarden/server
@@ -755,6 +759,7 @@ ghcr.io/joeferner/redis-commander
 ghcr.io/k8snetworkplumbingwg/**
 ghcr.io/kdoctor-io/**
 ghcr.io/kedacore/*
+ghcr.io/khoj-ai/**
 ghcr.io/klts-io/**
 ghcr.io/koodo-reader/koodo-reader
 ghcr.io/koordinator-sh/**
@@ -834,6 +839,7 @@ quay.io/jaegertracing/*
 quay.io/jetstack/*
 quay.io/jupyterhub/*
 quay.io/k8scsi/*
+quay.io/kata-containers/*
 quay.io/kiali/*
 quay.io/kiwigrid/*
 quay.io/kubernetes-ingress-controller/*
