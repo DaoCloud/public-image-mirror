@@ -2,7 +2,7 @@ name: Sync Runner
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/20 * * * *"
 
   workflow_dispatch:
 
@@ -17,4 +17,4 @@ jobs:
 
       - name: Sync Runner
         run: |
-          /usr/local/bin/crproxy cluster runner ${{ secrets.NEW_STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --queue-token '${{ secrets.QUEUE_TOKEN }}' --queue-url https://queue.m.daocloud.io/apis/v1 --duration 1h --retry=3 --retry-interval=2s
+          /usr/local/bin/crproxy cluster runner ${{ secrets.NEW_STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --queue-token '${{ secrets.QUEUE_TOKEN }}' --queue-url https://queue.m.daocloud.io/apis/v1 --duration 2h --retry=3 --retry-interval=2s
