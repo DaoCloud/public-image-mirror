@@ -5,7 +5,7 @@ Mirror 仓库 [Gitee](https://gitee.com/daocloud/public-image-mirror)
 
 - 白名单 & 限流 的公开信息 [#2328](https://github.com/DaoCloud/public-image-mirror/issues/2328)
 - 如有疑问请咨询 [#4183](https://github.com/DaoCloud/public-image-mirror/issues/4183)
-- 建议将拉取任务放在闲时 凌晨(北京时间 01-08 点), 工作时间段非常拥挤
+- 建议将拉取任务放在闲时 凌晨(北京时间 01-07 点), 其他时间段非常拥挤
 
 ## 背景 & 目标
 
