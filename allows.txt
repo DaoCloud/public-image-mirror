@@ -786,6 +786,7 @@ ghcr.io/music-assistant/server
 ghcr.io/open-telemetry/**
 ghcr.io/open-webui/open-webui
 ghcr.io/open-webui/pipelines
+ghcr.io/opencidn/**
 ghcr.io/openfaas/**
 ghcr.io/openinsight-proj/**
 ghcr.io/ot-container-kit/**
