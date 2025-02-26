@@ -707,6 +707,7 @@ ghcr.io/anduin2017/how-to-cook
 ghcr.io/apache/**
 ghcr.io/aquasecurity/**
 ghcr.io/armbian/**
+ghcr.io/astral-sh/uv
 ghcr.io/authzed/spicedb-operator
 ghcr.io/baizeai/**
 ghcr.io/benc-uk/kubeview
@@ -814,7 +815,6 @@ ghcr.io/wzshiming/**
 ghcr.io/zalando/**
 ghcr.io/zammad/zammad
 ghcr.io/zitadel/**
-ghcr.io/astral-sh/uv
 k8s.gcr.io/**
 lscr.io/linuxserver/**
 mcr.microsoft.com/**
