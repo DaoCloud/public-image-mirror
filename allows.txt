@@ -707,6 +707,7 @@ ghcr.io/anduin2017/how-to-cook
 ghcr.io/apache/**
 ghcr.io/aquasecurity/**
 ghcr.io/armbian/**
+ghcr.io/astral-sh/uv
 ghcr.io/authzed/spicedb-operator
 ghcr.io/baizeai/**
 ghcr.io/benc-uk/kubeview
