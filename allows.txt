@@ -234,6 +234,7 @@ docker.io/jenkins/*
 docker.io/jenkinsci/*
 docker.io/jetbrains/*
 docker.io/jettech/*
+docker.io/jgraph/drawio
 docker.io/jimmidyson/*
 docker.io/jitsi/*
 docker.io/jlesage/firefox
@@ -640,6 +641,7 @@ docker.io/tiangolo/*
 docker.io/timberio/*
 docker.io/timescale/timescaledb
 docker.io/timothyjmiller/cloudflare-ddns
+docker.io/tinymediamanager/tinymediamanager
 docker.io/tomkellygenetics/universc
 docker.io/tonistiigi/binfmt
 docker.io/traefik/whoami
@@ -752,6 +754,7 @@ ghcr.io/huggingface/*
 ghcr.io/hwameistor/**
 ghcr.io/imagegenius/immich
 ghcr.io/immich-app/**
+ghcr.io/imputnet/cobalt
 ghcr.io/infrastructure-io/**
 ghcr.io/jd-opensource/**
 ghcr.io/jimmidyson/configmap-reload
