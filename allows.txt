@@ -92,6 +92,7 @@ docker.io/continuumio/miniconda3
 docker.io/coredns/*
 docker.io/cp2k/cp2k
 docker.io/csiplugin/*
+docker.io/cturra/ntp
 docker.io/curlimages/*
 docker.io/cvat/server
 docker.io/cvat/ui
