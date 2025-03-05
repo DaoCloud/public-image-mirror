@@ -205,6 +205,7 @@ docker.io/heroiclabs/nakama-pluginbuilder
 docker.io/hkalexling/mango
 docker.io/homeassistant/*
 docker.io/hoppscotch/hoppscotch
+docker.io/hopsoft/graphite-statsd
 docker.io/hpcaitech/pytorch-cuda
 docker.io/hslr/sun-panel
 docker.io/huggingface/*
