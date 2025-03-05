@@ -238,6 +238,8 @@ docker.io/jettech/*
 docker.io/jgraph/drawio
 docker.io/jimmidyson/*
 docker.io/jitsi/*
+docker.io/jjm2473/jellyfin-mpp
+docker.io/jjm2473/jellyfin-rtk
 docker.io/jlesage/firefox
 docker.io/jlesage/handbrake
 docker.io/jmal/jmalcloud
