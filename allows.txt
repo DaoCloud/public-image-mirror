@@ -659,6 +659,7 @@ docker.io/timothyjmiller/cloudflare-ddns
 docker.io/tinymediamanager/tinymediamanager
 docker.io/tomkellygenetics/universc
 docker.io/tonistiigi/binfmt
+docker.io/tonistiigi/xx
 docker.io/traefik/whoami
 docker.io/triliumnext/notes
 docker.io/trinodb/trino
@@ -713,6 +714,7 @@ docker.io/zilliz/*
 docker.io/zlijingtao/neurobfuscator
 docker.io/zlmediakit/zlmediakit
 docker.io/zmisgod/iptvchecker
+docker.io/zmister/mrdoc
 docker.osgeo.org/**
 gcr.io/**
 ghcr.io/actions/**
