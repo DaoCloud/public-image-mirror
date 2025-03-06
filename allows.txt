@@ -183,6 +183,7 @@ docker.io/goreleaser/goreleaser
 docker.io/gotenberg/gotenberg
 docker.io/gotify/*
 docker.io/grafana/*
+docker.io/graphiteapp/graphite-statsd
 docker.io/graylog/graylog
 docker.io/graylog/graylog-datanode
 docker.io/greenbone/*
