@@ -132,6 +132,7 @@ docker.io/drumsergio/genieacs
 docker.io/dustynv/*
 docker.io/dxflrs/*
 docker.io/e2bdev/code-interpreter
+docker.io/easytier/easytier
 docker.io/elastic/*
 docker.io/electronuserland/builder
 docker.io/elsaworkflows/*
@@ -751,6 +752,7 @@ ghcr.io/cross-rs/**
 ghcr.io/daocloud/**
 ghcr.io/dexidp/**
 ghcr.io/dtzar/**
+ghcr.io/easytier/easytier
 ghcr.io/elastic/opentelemetry-demo
 ghcr.io/elf-io/*
 ghcr.io/esphome/esphome
