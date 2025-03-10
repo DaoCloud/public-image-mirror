@@ -21,6 +21,7 @@ docker.io/allfunc/speedtest
 docker.io/almalinux/*
 docker.io/alpine/*
 docker.io/alpinelinux/**
+docker.io/alseambusher/crontab-ui
 docker.io/altinity/*
 docker.io/amambadev/*
 docker.io/amazon/*
@@ -469,6 +470,7 @@ docker.io/loggieio/loggie
 docker.io/longhornio/*
 docker.io/louislam/*
 docker.io/mageai/mageai
+docker.io/maildev/maildev
 docker.io/mailserver/*
 docker.io/mattermost/focalboard
 docker.io/maxkeytop/*
@@ -629,6 +631,7 @@ docker.io/soulter/astrbot
 docker.io/squidfunk/*
 docker.io/starrocks/*
 docker.io/steamcmd/*
+docker.io/stilleshan/frpc
 docker.io/stilleshan/frps
 docker.io/stirlingtools/stirling-pdf
 docker.io/streamnative/*
