@@ -592,7 +592,9 @@ docker.io/redislabs/*
 docker.io/redroid/redroid
 docker.io/reportportal/reportportal
 docker.io/resmoio/kubernetes-event-exporter
+docker.io/restatedev/restate
 docker.io/ribbybibby/ssl-exporter
+docker.io/riscv64/*
 docker.io/rockylinux/rockylinux
 docker.io/rocm/k8s-device-plugin
 docker.io/rocm/rocm-terminal
@@ -712,6 +714,7 @@ docker.io/yedf/dtm
 docker.io/yidadaa/chatgpt-next-web
 docker.io/zabbix/*
 docker.io/zadam/trilium
+docker.io/zendesk/maxwell
 docker.io/zerotier/*
 docker.io/zhaojun1998/zfile-pro
 docker.io/zhayujie/chatgpt-on-wechat
