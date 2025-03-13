@@ -190,6 +190,7 @@ docker.io/graylog/graylog
 docker.io/graylog/graylog-datanode
 docker.io/greenbone/*
 docker.io/guacamole/*
+docker.io/guiji2025/*
 docker.io/gztime/gzctf
 docker.io/hacdias/webdav
 docker.io/hakuyyf/tensorrtx
