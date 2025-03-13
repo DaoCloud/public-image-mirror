@@ -555,6 +555,7 @@ docker.io/pgvector/pgvector
 docker.io/photoprism/photoprism
 docker.io/phpmyadmin/*
 docker.io/phpswoole/swoole
+docker.io/pierky/bird
 docker.io/pingcap/*
 docker.io/plantuml/plantuml-server
 docker.io/plexinc/pms-docker
