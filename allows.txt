@@ -126,6 +126,7 @@ docker.io/dragonflyoss/manager
 docker.io/dragonflyoss/scheduler
 docker.io/dragonflyoss/trainer
 docker.io/drakkan/sftpgo
+docker.io/dreamacro/clash
 docker.io/dremio/dremio-oss
 docker.io/drone/drone
 docker.io/drone/drone-runner-docker
