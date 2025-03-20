@@ -54,6 +54,7 @@ docker.io/basecamp/*
 docker.io/bats/*
 docker.io/bellsoft/*
 docker.io/benzino77/clamav-rest-api
+docker.io/bililive/recorder
 docker.io/binhex/arch-jellyfin
 docker.io/binwiederhier/ntfy
 docker.io/bitnami/*
@@ -131,6 +132,7 @@ docker.io/dremio/dremio-oss
 docker.io/drone/drone
 docker.io/drone/drone-runner-docker
 docker.io/drumsergio/genieacs
+docker.io/dushixiang/kafka-map
 docker.io/dustynv/*
 docker.io/dxflrs/*
 docker.io/e2bdev/code-interpreter
@@ -254,6 +256,7 @@ docker.io/jumpserver/*
 docker.io/jupyter/*
 docker.io/jupyterhub/*
 docker.io/justsong/one-api
+docker.io/jvmilazz0/kavita
 docker.io/jxxghp/*
 docker.io/k8scloudprovider/*
 docker.io/kanidm/*
@@ -545,6 +548,7 @@ docker.io/outlinewiki/outline
 docker.io/oven/bun
 docker.io/owncloud/server
 docker.io/p3terx/aria2-pro
+docker.io/p3terx/ariang
 docker.io/paddlepaddle/paddle
 docker.io/paketobuildpacks/*
 docker.io/pandoc/*
