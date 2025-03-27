@@ -59,6 +59,7 @@ docker.io/binhex/arch-jellyfin
 docker.io/binwiederhier/ntfy
 docker.io/bitnami/*
 docker.io/bitnamicharts/*
+docker.io/boredazfcuk/icloudpd
 docker.io/budibase/budibase
 docker.io/budtmo/docker-android
 docker.io/bvlc/caffe
@@ -98,6 +99,7 @@ docker.io/cturra/ntp
 docker.io/curlimages/*
 docker.io/cvat/server
 docker.io/cvat/ui
+docker.io/cym1102/nginxwebui
 docker.io/dadoum/anisette-v3-server
 docker.io/danielqsj/kafka-exporter
 docker.io/daprio/*
@@ -226,7 +228,7 @@ docker.io/infiniflow/*
 docker.io/infmonkeys/*
 docker.io/innei/mx-server
 docker.io/instrumentisto/coturn
-docker.io/intelanalytics/ipex-llm-serving-cpu
+docker.io/intelanalytics/*
 docker.io/islandora/code-server
 docker.io/istio/*
 docker.io/itzg/minecraft-server
