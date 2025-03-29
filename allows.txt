@@ -861,8 +861,8 @@ nvcr.io/**
 ollama.ai/**
 quay.io/aipipeline/*
 quay.io/argoproj/*
-quay.io/ascend/*
 quay.io/argoprojlabs/*
+quay.io/ascend/*
 quay.io/brancz/*
 quay.io/calico/*
 quay.io/ceph/ceph
