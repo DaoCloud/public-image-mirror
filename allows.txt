@@ -46,6 +46,7 @@ docker.io/arigaio/*
 docker.io/arizephoenix/phoenix
 docker.io/arm64v8/*
 docker.io/artalk/artalk-go
+docker.io/ascendai/*
 docker.io/authelia/authelia
 docker.io/autumn27/scopesentry-scan
 docker.io/b3log/siyuan
@@ -860,6 +861,7 @@ nvcr.io/**
 ollama.ai/**
 quay.io/aipipeline/*
 quay.io/argoproj/*
+quay.io/ascend/*
 quay.io/argoprojlabs/*
 quay.io/brancz/*
 quay.io/calico/*
