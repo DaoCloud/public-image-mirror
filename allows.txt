@@ -525,6 +525,7 @@ docker.io/nyanmisaka/jellyfin
 docker.io/oamdev/*
 docker.io/oblakstudio/redisinsight
 docker.io/obsidiandynamics/kafdrop
+docker.io/oceanbase/oceanbase-ce
 docker.io/ogarcia/archlinux
 docker.io/oguzpastirmaci/gpu-burn
 docker.io/oliver006/*
