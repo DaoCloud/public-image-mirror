@@ -734,6 +734,7 @@ docker.io/zlijingtao/neurobfuscator
 docker.io/zlmediakit/zlmediakit
 docker.io/zmisgod/iptvchecker
 docker.io/zmister/mrdoc
+docker.io/langchain/langgraph-api
 docker.osgeo.org/**
 gcr.io/**
 ghcr.io/actions/**
