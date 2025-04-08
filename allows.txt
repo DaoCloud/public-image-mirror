@@ -26,6 +26,7 @@ docker.io/altinity/*
 docker.io/amambadev/*
 docker.io/amazon/*
 docker.io/amd64/*
+docker.io/amir20/*
 docker.io/amtoaer/bili-sync-rs
 docker.io/andywuwu/coze2openai
 docker.io/ankane/pgvector
@@ -48,6 +49,7 @@ docker.io/arizephoenix/phoenix
 docker.io/arm64v8/*
 docker.io/artalk/artalk-go
 docker.io/ascendai/*
+docker.io/atlassian/*
 docker.io/authelia/authelia
 docker.io/autumn27/scopesentry-scan
 docker.io/b3log/siyuan
@@ -61,6 +63,7 @@ docker.io/binhex/arch-jellyfin
 docker.io/binwiederhier/ntfy
 docker.io/bitnami/*
 docker.io/bitnamicharts/*
+docker.io/bluenviron/mediamtx
 docker.io/boredazfcuk/icloudpd
 docker.io/budibase/budibase
 docker.io/budtmo/docker-android
@@ -78,6 +81,7 @@ docker.io/charlie0129/bupt-net-login
 docker.io/chat2db/chat2db
 docker.io/chengshiwen/influx-proxy
 docker.io/chengshiwen/influxdb
+docker.io/chenhw2/aliyun-ddns-cli
 docker.io/chigusa/bililive-go
 docker.io/chrishirsch/kuberhealthy-storage-check
 docker.io/chromedp/headless-shell
@@ -119,6 +123,7 @@ docker.io/directus/*
 docker.io/discourse/*
 docker.io/docker/*
 docker.io/dockurr/*
+docker.io/dokploy/*
 docker.io/doocs/*
 docker.io/dorowu/ubuntu-desktop-lxde-vnc
 docker.io/dpage/*
@@ -195,6 +200,7 @@ docker.io/grafana/*
 docker.io/graphiteapp/graphite-statsd
 docker.io/graylog/graylog
 docker.io/graylog/graylog-datanode
+docker.io/greatsql/*
 docker.io/greenbone/*
 docker.io/guacamole/*
 docker.io/guiji2025/*
@@ -541,6 +547,7 @@ docker.io/openmetadata/*
 docker.io/openpolicyagent/opa
 docker.io/openresty/openresty
 docker.io/opensearchproject/*
+docker.io/opensecurity/mobile-security-framework-mobsf
 docker.io/opensuse/*
 docker.io/openvpn/openvpn-as
 docker.io/openwhisk/*
@@ -629,6 +636,7 @@ docker.io/seataio/*
 docker.io/secoresearch/rsync
 docker.io/selectdb/*
 docker.io/selenium/*
+docker.io/semgrep/*
 docker.io/semitechnologies/*
 docker.io/senthilrch/*
 docker.io/serengil/deepface
@@ -817,10 +825,12 @@ ghcr.io/librespeed/speedtest
 ghcr.io/linuxsuren/api-testing
 ghcr.io/linuxsuren/atest-ext-store-orm
 ghcr.io/logseq/logseq-webapp
+ghcr.io/macbre/nginx-http3
 ghcr.io/mastodon/mastodon
 ghcr.io/maybe-finance/**
 ghcr.io/megacloudcontainer/**
 ghcr.io/mellanox/**
+ghcr.io/mendableai/firecrawl
 ghcr.io/metalbear-co/**
 ghcr.io/metatube-community/metatube-server
 ghcr.io/mlflow/*
@@ -862,6 +872,7 @@ lscr.io/linuxserver/**
 mcr.microsoft.com/**
 nvcr.io/**
 ollama.ai/**
+public.ecr.aws/**
 quay.io/aipipeline/*
 quay.io/argoproj/*
 quay.io/argoprojlabs/*
