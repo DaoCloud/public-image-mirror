@@ -31,6 +31,7 @@ docker.io/andywuwu/coze2openai
 docker.io/ankane/pgvector
 docker.io/apache/*
 docker.io/apachepulsar/*
+docker.io/apecloud/*
 docker.io/apicurio/*
 docker.io/apitable/*
 docker.io/apolloconfig/*
