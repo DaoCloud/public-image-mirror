@@ -33,6 +33,8 @@ docker.io/apachepulsar/*
 docker.io/apicurio/*
 docker.io/apitable/*
 docker.io/apolloconfig/*
+docker.io/appbaseio/dejavu
+docker.io/approachingai/*
 docker.io/appsmith/appsmith-ce
 docker.io/appsmith/appsmith-ee
 docker.io/aquasec/*
@@ -54,7 +56,7 @@ docker.io/benzino77/clamav-rest-api
 docker.io/binhex/arch-jellyfin
 docker.io/binwiederhier/ntfy
 docker.io/bitnami/*
-docker.io/bitnamicharts/kibana
+docker.io/bitnamicharts/*
 docker.io/budibase/budibase
 docker.io/budtmo/docker-android
 docker.io/bvlc/caffe
@@ -63,6 +65,8 @@ docker.io/bytelang/kplayer
 docker.io/calciumion/new-api
 docker.io/calico/*
 docker.io/camunda/zeebe
+docker.io/cars10/elasticvue
+docker.io/casbin/casdoor
 docker.io/certbot/*
 docker.io/chaosbladeio/chaosblade-box
 docker.io/charlie0129/bupt-net-login
@@ -88,6 +92,8 @@ docker.io/coredns/*
 docker.io/cp2k/cp2k
 docker.io/csiplugin/*
 docker.io/curlimages/*
+docker.io/cvat/server
+docker.io/cvat/ui
 docker.io/dadoum/anisette-v3-server
 docker.io/danielqsj/kafka-exporter
 docker.io/daprio/*
@@ -118,11 +124,13 @@ docker.io/dragonflyoss/trainer
 docker.io/drakkan/sftpgo
 docker.io/dremio/dremio-oss
 docker.io/drone/drone
+docker.io/drone/drone-runner-docker
 docker.io/drumsergio/genieacs
 docker.io/dustynv/*
 docker.io/dxflrs/*
 docker.io/e2bdev/code-interpreter
 docker.io/elastic/*
+docker.io/electronuserland/builder
 docker.io/elsaworkflows/*
 docker.io/emby/*
 docker.io/emqx/*
@@ -177,6 +185,7 @@ docker.io/graylog/graylog-datanode
 docker.io/greenbone/*
 docker.io/guacamole/*
 docker.io/gztime/gzctf
+docker.io/hacdias/webdav
 docker.io/hakuyyf/tensorrtx
 docker.io/halohub/halo
 docker.io/hanxi/xiaomusic
@@ -251,6 +260,7 @@ docker.io/klakegg/hugo
 docker.io/koalaman/shellcheck
 docker.io/koenkk/zigbee2mqtt
 docker.io/koide3/direct_visual_lidar_calibration
+docker.io/koishijs/koishi
 docker.io/kong/*
 docker.io/kserve/*
 docker.io/kubeedge/*
@@ -265,6 +275,7 @@ docker.io/kubeskoop/*
 docker.io/kubesphere/*
 docker.io/kubespheredev/ksv-installer
 docker.io/kusionstack/*
+docker.io/langflowai/langflow
 docker.io/langfuse/*
 docker.io/langgenius/*
 docker.io/langhuihui/monibuca
@@ -438,6 +449,7 @@ docker.io/loggieio/loggie
 docker.io/longhornio/*
 docker.io/louislam/*
 docker.io/mageai/mageai
+docker.io/mailserver/*
 docker.io/mattermost/focalboard
 docker.io/maxkeytop/*
 docker.io/menci/archlinuxarm
@@ -446,6 +458,7 @@ docker.io/metacontrollerio/metacontroller
 docker.io/milvusdb/*
 docker.io/mindsdb/mindsdb
 docker.io/minio/*
+docker.io/mintplexlabs/anythingllm
 docker.io/mirantis/*
 docker.io/mitmproxy/mitmproxy
 docker.io/moby/*
@@ -539,6 +552,7 @@ docker.io/qdtoday/qd
 docker.io/qemux/qemu-docker
 docker.io/qingpan/rnacos
 docker.io/qmcgaw/ddns-updater
+docker.io/questdb/questdb
 docker.io/quickwit/*
 docker.io/radondb/*
 docker.io/ramonvc/freegpt-webui
@@ -552,6 +566,7 @@ docker.io/redash/*
 docker.io/redis/*
 docker.io/redislabs/*
 docker.io/redroid/redroid
+docker.io/reportportal/reportportal
 docker.io/resmoio/kubernetes-event-exporter
 docker.io/ribbybibby/ssl-exporter
 docker.io/rockylinux/rockylinux
@@ -579,6 +594,8 @@ docker.io/semitechnologies/*
 docker.io/senthilrch/*
 docker.io/serengil/deepface
 docker.io/sickcodes/docker-osx
+docker.io/sj26/mailcatcher
+docker.io/slskd/slskd
 docker.io/snowdreamtech/frpc
 docker.io/snowdreamtech/frps
 docker.io/solace/solace-pubsub-standard
@@ -679,6 +696,7 @@ gcr.io/**
 ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
 ghcr.io/ajnart/homarr
+ghcr.io/amamba-io/**
 ghcr.io/analogj/scrutiny
 ghcr.io/anduin2017/how-to-cook
 ghcr.io/apache/**
@@ -728,6 +746,7 @@ ghcr.io/huggingface/*
 ghcr.io/hwameistor/**
 ghcr.io/imagegenius/immich
 ghcr.io/immich-app/**
+ghcr.io/infrastructure-io/**
 ghcr.io/jd-opensource/**
 ghcr.io/jimmidyson/configmap-reload
 ghcr.io/joeferner/redis-commander

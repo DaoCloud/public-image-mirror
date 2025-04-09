@@ -18,7 +18,7 @@ jobs:
 
     - name: Update list
       run: |
-        LIST="$(cat ./allows.txt | jq -R -s -c '{"items": split("\n")[:-1], "block_message": "🚫 👀-> https://github.com/DaoCloud/public-image-mirror/issues/2328 🔗 这镜像不在白名单. this image is not in the allowlist."}')"
+        LIST="$(cat ./allows.txt | grep -v 'docker.io/\*' | sed 's/docker.io\/library\/\([^\/]*\)/&\ndocker.io\/\1/' | jq -R -s -c '{"items": split("\n")[:-1], "block_message": "🚫 👀-> https://github.com/DaoCloud/public-image-mirror/issues/2328 🔗 这镜像不在白名单. this image is not in the allowlist."}')"
         TOKEN="$(curl -X 'POST' \
           'https://auth.m.daocloud.io/apis/v1/users/login' \
           -H 'Accept: application/json' \
