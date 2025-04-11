@@ -2,6 +2,7 @@ codeberg.org/forgejo/forgejo
 container-registry.oracle.com/**
 cr.l5d.io/**
 cr.weaviate.io/**
+docker.com/kyantech/*
 docker.elastic.co/**
 docker.getcollate.io/openmetadata/*
 docker.io/*
@@ -884,6 +885,7 @@ public.ecr.aws/eks-distro/**
 public.ecr.aws/karpenter/**
 public.ecr.aws/lambda/**
 public.ecr.aws/mackerel/**
+public.ecr.aws/mountpoint-s3-csi-driver/**
 public.ecr.aws/nginx/**
 public.ecr.aws/ubuntu/**
 quay.io/aipipeline/*
