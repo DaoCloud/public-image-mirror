@@ -33,6 +33,7 @@ docker.io/andywuwu/coze2openai
 docker.io/ankane/pgvector
 docker.io/apache/*
 docker.io/apachepulsar/*
+docker.io/apacherocketmq/rocketmq-dashboard
 docker.io/apecloud/*
 docker.io/apicurio/*
 docker.io/apitable/*
@@ -225,6 +226,7 @@ docker.io/hivemq/*
 docker.io/hkalexling/mango
 docker.io/homeassistant/*
 docker.io/hoppscotch/hoppscotch
+docker.io/hpcaitech/colossalai
 docker.io/hpcaitech/pytorch-cuda
 docker.io/hslr/sun-panel
 docker.io/huggingface/*
@@ -759,6 +761,7 @@ ghcr.io/apache/**
 ghcr.io/aquasecurity/**
 ghcr.io/armbian/**
 ghcr.io/astral-sh/uv
+ghcr.io/authzed/spicedb
 ghcr.io/authzed/spicedb-operator
 ghcr.io/baizeai/**
 ghcr.io/benc-uk/kubeview
@@ -790,6 +793,7 @@ ghcr.io/estrellaxd/auto_bangumi
 ghcr.io/fief-dev/fief
 ghcr.io/fission/**
 ghcr.io/fluent/fluent-operator/*
+ghcr.io/freecodecamp/devdocs
 ghcr.io/gethomepage/homepage
 ghcr.io/ggerganov/llama.cpp
 ghcr.io/go-rod/rod
