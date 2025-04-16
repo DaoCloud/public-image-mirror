@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository == 'DaoCloud/public-image-mirror'
     steps:
-      - name: Set up crproxy
+      - name: Set up runner
         run: |
-          wget https://github.com/DaoCloud/crproxy/releases/download/v0.13.0-alpha.174/crproxy_linux_amd64 -O /usr/local/bin/crproxy && chmod +x /usr/local/bin/crproxy
+          wget https://github.com/OpenCIDN/OpenCIDN/releases/download/v0.0.9/runner_linux_amd64 -O /usr/local/bin/runner && chmod +x /usr/local/bin/runner
 
       - name: Sync Runner
         run: |
-          /usr/local/bin/crproxy cluster runner ${{ secrets.NEW_STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --queue-token '${{ secrets.QUEUE_TOKEN }}' --queue-url https://queue.m.daocloud.io/apis/v1 --duration 2h --retry=3 --retry-interval=2s
+          /usr/local/bin/runner ${{ secrets.NEW_STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --queue-token '${{ secrets.QUEUE_TOKEN }}' --queue-url https://queue.m.daocloud.io/apis/v1 --duration 2h --retry=3 --retry-interval=2s
