@@ -132,6 +132,7 @@ docker.io/dorowu/ubuntu-desktop-lxde-vnc
 docker.io/dpage/*
 docker.io/dpanel/base-image
 docker.io/dpanel/dpanel
+docker.io/dragonflydb/dragonfly
 docker.io/dragonflyoss/client
 docker.io/dragonflyoss/dfdaemon
 docker.io/dragonflyoss/dfinit
@@ -235,6 +236,7 @@ docker.io/hybridnetdev/hybridnet
 docker.io/hyperf/hyperf
 docker.io/hyperledger/*
 docker.io/hystax/error_pages_base
+docker.io/ianw/quickchart
 docker.io/ibmcom/*
 docker.io/idootop/mi-gpt
 docker.io/infiniflow/*
