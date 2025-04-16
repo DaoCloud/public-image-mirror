@@ -549,6 +549,7 @@ docker.io/ollama/*
 docker.io/onlyoffice/*
 docker.io/openebs/*
 docker.io/openeuler/*
+docker.io/opengeminidb/opengemini-server
 docker.io/opengrok/docker
 docker.io/openkruise/*
 docker.io/openmetadata/*
