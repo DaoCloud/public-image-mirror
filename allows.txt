@@ -472,6 +472,7 @@ docker.io/linkease/drawio-plantuml-server
 docker.io/linkease/istoreduprk35xx
 docker.io/linkease/istoredupx86_64
 docker.io/linkease/istorepanel
+docker.io/linkease/kspeeder
 docker.io/linkease/linkease
 docker.io/linkease/open-webui
 docker.io/linkease/pve
