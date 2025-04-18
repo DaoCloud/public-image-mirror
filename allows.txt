@@ -53,6 +53,7 @@ docker.io/artalk/artalk-go
 docker.io/ascendai/*
 docker.io/atlassian/*
 docker.io/authelia/authelia
+docker.io/automatischio/automatisch
 docker.io/autumn27/scopesentry-scan
 docker.io/b3log/siyuan
 docker.io/babashka/babashka
@@ -80,6 +81,7 @@ docker.io/cars10/elasticvue
 docker.io/casbin/casdoor
 docker.io/certbot/*
 docker.io/chaosbladeio/chaosblade-box
+docker.io/chaoszhu/easynode
 docker.io/charlie0129/bupt-net-login
 docker.io/chat2db/chat2db
 docker.io/chengshiwen/influx-proxy
@@ -683,6 +685,7 @@ docker.io/techblog/broadlinkmanager
 docker.io/technitium/dns-server
 docker.io/tensorchord/pgvecto-rs
 docker.io/tensorflow/*
+docker.io/tensorfusion/*
 docker.io/teslamate/*
 docker.io/testcontainers/*
 docker.io/texlive/texlive
