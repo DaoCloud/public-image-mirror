@@ -159,6 +159,7 @@ docker.io/enable/nessus
 docker.io/ensemblorg/ensembl-vep
 docker.io/envoyproxy/*
 docker.io/eosphorosai/*
+docker.io/estrellaxd/auto_bangumi
 docker.io/exadel/compreface-core
 docker.io/eyeblue/tank
 docker.io/f5networks/*
