@@ -184,6 +184,7 @@ docker.io/flyway/flyway
 docker.io/fortio/*
 docker.io/foxdalas/*
 docker.io/frappe/*
+docker.io/freesurfer/synthmorph
 docker.io/frooodle/s-pdf
 docker.io/frrouting/*
 docker.io/funcman/115pc
@@ -194,6 +195,7 @@ docker.io/getmeili/*
 docker.io/gitea/*
 docker.io/gitlab/*
 docker.io/gitpod/openvscode-server
+docker.io/gliderlabs/logspout
 docker.io/gocd/*
 docker.io/gogs/gogs
 docker.io/goharbor/*
@@ -504,6 +506,7 @@ docker.io/maxkeytop/*
 docker.io/menci/archlinuxarm
 docker.io/metabase/*
 docker.io/metacontrollerio/metacontroller
+docker.io/mikefarah/yq
 docker.io/milvusdb/*
 docker.io/mindsdb/mindsdb
 docker.io/minio/*
@@ -556,6 +559,7 @@ docker.io/opengeminidb/opengemini-server
 docker.io/opengrok/docker
 docker.io/openkruise/*
 docker.io/openmetadata/*
+docker.io/openpolicyagent/gatekeeper
 docker.io/openpolicyagent/opa
 docker.io/openresty/openresty
 docker.io/opensearchproject/*
