@@ -112,6 +112,7 @@ docker.io/cvat/server
 docker.io/cvat/ui
 docker.io/cym1102/nginxwebui
 docker.io/dadoum/anisette-v3-server
+docker.io/dani-garcia/vaultwarden
 docker.io/danielqsj/kafka-exporter
 docker.io/daprio/*
 docker.io/darthsim/imgproxy
@@ -501,6 +502,7 @@ docker.io/louislam/*
 docker.io/mageai/mageai
 docker.io/maildev/maildev
 docker.io/mailserver/*
+docker.io/manticoresearch/manticore
 docker.io/mattermost/focalboard
 docker.io/maxkeytop/*
 docker.io/menci/archlinuxarm
@@ -564,6 +566,7 @@ docker.io/openpolicyagent/opa
 docker.io/openresty/openresty
 docker.io/opensearchproject/*
 docker.io/opensecurity/mobile-security-framework-mobsf
+docker.io/openstitching/stitch
 docker.io/opensuse/*
 docker.io/openvpn/openvpn-as
 docker.io/openwhisk/*
@@ -706,6 +709,7 @@ docker.io/tomkellygenetics/universc
 docker.io/tonistiigi/binfmt
 docker.io/tonistiigi/xx
 docker.io/traefik/whoami
+docker.io/treeverse/lakefs
 docker.io/triliumnext/notes
 docker.io/trinodb/trino
 docker.io/trustpilot/beat-exporter
@@ -779,6 +783,7 @@ ghcr.io/baizeai/**
 ghcr.io/benc-uk/kubeview
 ghcr.io/bigcode-project/evaluation-harness
 ghcr.io/bigcode-project/evaluation-harness-multiple
+ghcr.io/biliup/caution
 ghcr.io/binary-husky/gpt_academic_with_latex
 ghcr.io/blakeblackshear/**
 ghcr.io/brenner-tobias/cloudflared/*
