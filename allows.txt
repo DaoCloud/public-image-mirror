@@ -584,6 +584,7 @@ docker.io/p3terx/ariang
 docker.io/paddlepaddle/paddle
 docker.io/paketobuildpacks/*
 docker.io/pandoc/*
+docker.io/pepperlabs/peppermint
 docker.io/percona/*
 docker.io/pgautoupgrade/pgautoupgrade
 docker.io/pgrouting/pgrouting
