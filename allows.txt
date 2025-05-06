@@ -515,6 +515,7 @@ docker.io/minio/*
 docker.io/mintplexlabs/anythingllm
 docker.io/mirantis/*
 docker.io/mitmproxy/mitmproxy
+docker.io/mmcauliffe/montreal-forced-aligner
 docker.io/moby/*
 docker.io/mohsinonxrm/*
 docker.io/mongodb/mongodb-community-server
@@ -680,6 +681,7 @@ docker.io/stirlingtools/stirling-pdf
 docker.io/streamnative/*
 docker.io/styletang/rocketmq-console-ng
 docker.io/supabase/*
+docker.io/supermanito/arcadia
 docker.io/superng6/qbittorrentee
 docker.io/svhd/logto
 docker.io/swaggerapi/*
@@ -736,6 +738,7 @@ docker.io/vulhub/kkfileview
 docker.io/wallabag/wallabag
 docker.io/wandb/*
 docker.io/weaveworks/*
+docker.io/webdevops/*
 docker.io/whyour/qinglong
 docker.io/willfarrell/autoheal
 docker.io/wiznote/wizserver
@@ -869,6 +872,7 @@ ghcr.io/openfaas/**
 ghcr.io/openinsight-proj/**
 ghcr.io/ot-container-kit/**
 ghcr.io/parkervcp/yolks
+ghcr.io/plankanban/planka
 ghcr.io/projectcontour/**
 ghcr.io/puppeteer/puppeteer
 ghcr.io/rails/**
