@@ -5,6 +5,9 @@ Mirror 仓库 [Gitee](https://gitee.com/daocloud/public-image-mirror)
 
 - 白名单 & 限流 的公开信息 [#2328](https://github.com/DaoCloud/public-image-mirror/issues/2328)
 - 如有疑问请咨询 [#4183](https://github.com/DaoCloud/public-image-mirror/issues/4183)
+- 建议将拉取任务放在闲时 凌晨(北京时间 01-07 点), 其他时间段非常拥挤
+- 建议使用明确版本号的 tag, 对于 latest 这种变更后会需要重新同步
+- 本服务后端 [OpenCIDN](https://github.com/OpenCIDN)
 
 ## 背景 & 目标
 
@@ -45,31 +48,9 @@ m.daocloud.io/docker.io/library/busybox
 docker.m.daocloud.io/library/busybox
 ```
 
-## 单次单镜像同步
+## 无缓存
 
-**!!!!!!!!!!!!!!!!!!!!!!!!强烈推荐!!!!!!!!!!!!!!!!!!!!!!!!**
-
-您可以根据 [镜像同步 Issue 模板](https://github.com/DaoCloud/public-image-mirror/issues/new?labels=sync+image&template=sync-image.yml) 创建一个 Issue, 将会有机器人帮您优先主动同步指定的镜像
-
-> 原先已经在下的镜像还是会继续走原来的, 需要重启 docker 再重新拉取才能走已经同步好的缓存过, 所以推荐先单次同步再尝试拉取
-> 对于 latest 这种经常内容会发生变更的 tag 变更后会需要重新同步
-
-## 懒加载
-
-> 仅推荐用于小于 20MiB 的镜像
-> 这条通道主要用于保持 image 是最新的, 每次拉取都会检查是否和上游保持同步
-
-
-如果您看到下没有进度这是由于带宽有限只要有几人在下较大的文件就会阻塞后续的下载, 可以尝试[单次单镜像同步](#单次单镜像同步)
-
-就算没同步也能 **直接拉取**, 初次拉取会比已经同步过的慢很多.  
-当前同时使用 aliyun oss 和 huawei obs 作为存储, 已经懒加载过的内容还是会出现一次未命中的情况, 使用[单次单镜像同步](#单次单镜像同步) 将会保证同步 Image 到两个存储
-
-## 定期同步列表 (不推荐)
-
-已经太大了, 不再支持添加, 请使用[单次单镜像同步](#单次单镜像同步)
-
-[mirror.txt](mirror.txt)
+在拉取的时候如果我们没有缓存, 将会在 [同步队列](https://queue.m.daocloud.io/status/) 添加同步缓存的任务.
 
 ## 支持前缀替换的 Registry (不推荐)
 
@@ -77,18 +58,18 @@ docker.m.daocloud.io/library/busybox
 
 前缀替换的 Registry 的规则, 这是人工配置的, 有需求提 Issue.
 
-| 源站                    | 替换为                        | 备注                                  |
-| ----------------------- | ----------------------------- | ------------------------------------- |
-| docker.elastic.co       | elastic.m.daocloud.io         |                                       |
-| docker.io               | docker.m.daocloud.io          |                                       |
-| gcr.io                  | gcr.m.daocloud.io             |                                       |
-| ghcr.io                 | ghcr.m.daocloud.io            |                                       |
-| k8s.gcr.io              | k8s-gcr.m.daocloud.io         | k8s.gcr.io 已被迁移到 registry.k8s.io  |
-| registry.k8s.io         | k8s.m.daocloud.io             |                                       |
-| mcr.microsoft.com       | mcr.m.daocloud.io             |                                       |
-| nvcr.io                 | nvcr.m.daocloud.io            |                                       |
-| quay.io                 | quay.m.daocloud.io            |                                       |
-| registry.ollama.ai      | ollama.m.daocloud.io          | 实验内测中，[使用方法](#加速-ollama--deepseek)     |
+| 源站               | 替换为                | 备注                                           |
+| ------------------ | --------------------- | ---------------------------------------------- |
+| docker.elastic.co  | elastic.m.daocloud.io |                                                |
+| docker.io          | docker.m.daocloud.io  |                                                |
+| gcr.io             | gcr.m.daocloud.io     |                                                |
+| ghcr.io            | ghcr.m.daocloud.io    |                                                |
+| k8s.gcr.io         | k8s-gcr.m.daocloud.io | k8s.gcr.io 已被迁移到 registry.k8s.io          |
+| registry.k8s.io    | k8s.m.daocloud.io     |                                                |
+| mcr.microsoft.com  | mcr.m.daocloud.io     |                                                |
+| nvcr.io            | nvcr.m.daocloud.io    |                                                |
+| quay.io            | quay.m.daocloud.io    |                                                |
+| registry.ollama.ai | ollama.m.daocloud.io  | 实验内测中，[使用方法](#加速-ollama--deepseek) |
 
 ## 最佳实践
 
