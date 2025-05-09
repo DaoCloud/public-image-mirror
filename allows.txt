@@ -646,6 +646,7 @@ docker.io/rucio/*
 docker.io/rustdesk/rustdesk-server
 docker.io/rustdesk/rustdesk-server-pro
 docker.io/rustdesk/rustdesk-server-s6
+docker.io/rustlang/rust
 docker.io/rzuo/pose
 docker.io/sameersbn/**
 docker.io/savatar101/omniparse
@@ -794,6 +795,7 @@ ghcr.io/brenner-tobias/cloudflared/*
 ghcr.io/chaos-mesh/**
 ghcr.io/chaosblade-io/**
 ghcr.io/chroma-core/chroma
+ghcr.io/cinnamon/kotaemon
 ghcr.io/cirruslabs/**
 ghcr.io/cloudtty/cloudshell
 ghcr.io/coder/**
