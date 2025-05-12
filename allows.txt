@@ -312,6 +312,7 @@ docker.io/kubespheredev/ksv-installer
 docker.io/kusionstack/*
 docker.io/langchain/langgraph-api
 docker.io/langflowai/langflow
+docker.io/langflowai/langflow-frontend
 docker.io/langfuse/*
 docker.io/langgenius/*
 docker.io/langhuihui/monibuca
