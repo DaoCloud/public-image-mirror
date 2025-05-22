@@ -267,12 +267,14 @@ docker.io/jetbrains/*
 docker.io/jettech/*
 docker.io/jgraph/drawio
 docker.io/jimmidyson/*
+docker.io/jitesoft/lighttpd
 docker.io/jitsi/*
 docker.io/jlesage/firefox
 docker.io/jlesage/handbrake
 docker.io/jmal/jmalcloud
 docker.io/johngong/calibre-web
 docker.io/joinsunsoft/docker.ui
+docker.io/joplin/server
 docker.io/joxit/docker-registry-ui
 docker.io/juicedata/*
 docker.io/jumpserver/*
@@ -603,6 +605,7 @@ docker.io/pointcloudlibrary/env
 docker.io/polardbx/polardb-x
 docker.io/portainer/*
 docker.io/postgis/postgis
+docker.io/pragkent/alidns-webhook
 docker.io/privoce/vocechat-server
 docker.io/prodrigestivill/postgres-backup-local
 docker.io/projectcontour/contour-authserver
@@ -710,6 +713,7 @@ docker.io/timberio/*
 docker.io/timescale/timescaledb
 docker.io/timothyjmiller/cloudflare-ddns
 docker.io/tinymediamanager/tinymediamanager
+docker.io/tnir/mysqlclient
 docker.io/tomkellygenetics/universc
 docker.io/tonistiigi/binfmt
 docker.io/tonistiigi/xx
