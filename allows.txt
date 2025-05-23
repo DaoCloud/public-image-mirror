@@ -842,7 +842,7 @@ ghcr.io/imagegenius/immich
 ghcr.io/immich-app/**
 ghcr.io/imputnet/cobalt
 ghcr.io/infrastructure-io/**
-ghcr.io/inspektor-gadget/gadget/profile_tcprtt/*
+ghcr.io/inspektor-gadget/gadget/*
 ghcr.io/jd-opensource/**
 ghcr.io/jimmidyson/configmap-reload
 ghcr.io/joeferner/redis-commander
