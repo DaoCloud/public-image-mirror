@@ -69,6 +69,7 @@ docker.io/bitnamicharts/*
 docker.io/bluenviron/mediamtx
 docker.io/boky/postfix
 docker.io/boredazfcuk/icloudpd
+docker.io/browsh/browsh
 docker.io/budibase/budibase
 docker.io/budtmo/docker-android
 docker.io/bvlc/caffe
@@ -174,6 +175,7 @@ docker.io/ffdfgdfg/npc
 docker.io/ffdfgdfg/nps
 docker.io/fffaraz/fakessh
 docker.io/filebrowser/filebrowser
+docker.io/firecow/gitlab-ci-local-util
 docker.io/fireflyiii/*
 docker.io/flannel/*
 docker.io/flannelcni/*
@@ -811,6 +813,7 @@ ghcr.io/corentinth/it-tools
 ghcr.io/cowboysysop/pytest
 ghcr.io/cross-rs/**
 ghcr.io/daocloud/**
+ghcr.io/deepflowio/rust-build
 ghcr.io/dexidp/**
 ghcr.io/dtzar/**
 ghcr.io/easytier/easytier
@@ -839,6 +842,7 @@ ghcr.io/imagegenius/immich
 ghcr.io/immich-app/**
 ghcr.io/imputnet/cobalt
 ghcr.io/infrastructure-io/**
+ghcr.io/inspektor-gadget/gadget/profile_tcprtt/*
 ghcr.io/jd-opensource/**
 ghcr.io/jimmidyson/configmap-reload
 ghcr.io/joeferner/redis-commander
