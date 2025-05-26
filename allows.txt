@@ -93,6 +93,7 @@ docker.io/chrishirsch/kuberhealthy-storage-check
 docker.io/chromedp/headless-shell
 docker.io/cimg/go
 docker.io/clamav/*
+docker.io/claraverse/clara-ollama
 docker.io/clickhouse/*
 docker.io/clidey/whodb
 docker.io/cloudflare/*
@@ -714,6 +715,7 @@ docker.io/tiangolo/*
 docker.io/timberio/*
 docker.io/timescale/timescaledb
 docker.io/timothyjmiller/cloudflare-ddns
+docker.io/tinygo/tinygo
 docker.io/tinymediamanager/tinymediamanager
 docker.io/tnir/mysqlclient
 docker.io/tomkellygenetics/universc
@@ -821,6 +823,7 @@ ghcr.io/elastic/opentelemetry-demo
 ghcr.io/elf-io/*
 ghcr.io/esphome/esphome
 ghcr.io/estrellaxd/auto_bangumi
+ghcr.io/fatedier/frpc
 ghcr.io/fief-dev/fief
 ghcr.io/fission/**
 ghcr.io/fluent/fluent-operator/*
