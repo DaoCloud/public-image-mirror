@@ -315,6 +315,7 @@ docker.io/kubeskoop/*
 docker.io/kubesphere/*
 docker.io/kubespheredev/ksv-installer
 docker.io/kusionstack/*
+docker.io/labring/kubernetes
 docker.io/langchain/langgraph-api
 docker.io/langflowai/langflow
 docker.io/langflowai/langflow-frontend
@@ -511,6 +512,7 @@ docker.io/mailserver/*
 docker.io/manticoresearch/manticore
 docker.io/mattermost/focalboard
 docker.io/maxkeytop/*
+docker.io/mcp/*
 docker.io/menci/archlinuxarm
 docker.io/metabase/*
 docker.io/metacontrollerio/metacontroller
