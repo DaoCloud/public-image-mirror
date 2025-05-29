@@ -103,6 +103,7 @@ docker.io/cloudreve/cloudreve
 docker.io/codercom/code-server
 docker.io/codewisdom/*
 docker.io/collabora/code
+docker.io/confluentinc/*
 docker.io/containrrr/watchtower
 docker.io/continuumio/miniconda3
 docker.io/coredns/*
