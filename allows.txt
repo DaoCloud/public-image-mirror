@@ -641,6 +641,7 @@ docker.io/reallibrephotos/librephotos-proxy
 docker.io/redash/*
 docker.io/redis/*
 docker.io/redislabs/*
+docker.io/redpandadata/console
 docker.io/redroid/redroid
 docker.io/reportportal/reportportal
 docker.io/resmoio/kubernetes-event-exporter
