@@ -22,6 +22,7 @@ Mirror 仓库 [Gitee](https://gitee.com/daocloud/public-image-mirror)
   * 如超过 1 小时还未更新, 估计是国际带宽挂了。
 * 对于 镜像层(blob) 会缓存在第三方对象存储上
   * 当前暂未对内容做任何检测, 计划会添加检测。
+  * 不定期会清理一次缓存。
 
 ## 快速开始
 
