@@ -727,6 +727,7 @@ docker.io/tomkellygenetics/universc
 docker.io/tonistiigi/binfmt
 docker.io/tonistiigi/xx
 docker.io/traefik/whoami
+docker.io/trafficserver/trafficserver
 docker.io/treeverse/lakefs
 docker.io/triliumnext/notes
 docker.io/trinodb/trino
