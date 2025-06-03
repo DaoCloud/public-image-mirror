@@ -983,6 +983,7 @@ quay.io/submariner/*
 quay.io/tigera/*
 registry.developers.crunchydata.com/crunchydata/pgo-deployer
 registry.gitlab.com/gitlab-org/**
+registry.gitlab.com/purelb/purelb/purelb
 registry.heroiclabs.com/heroiclabs/nakama
 registry.jujucharms.com/**
 registry.k8s.io/**
