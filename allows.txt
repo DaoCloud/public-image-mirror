@@ -198,6 +198,7 @@ docker.io/gaecfovdocker/pulsar-console
 docker.io/geoservercloud/*
 docker.io/gerritcodereview/gerrit
 docker.io/getmeili/*
+docker.io/getsentry/sentry
 docker.io/gitea/*
 docker.io/gitlab/*
 docker.io/gitpod/openvscode-server
@@ -254,6 +255,7 @@ docker.io/infiniflow/*
 docker.io/infmonkeys/*
 docker.io/innei/mx-server
 docker.io/instrumentisto/coturn
+docker.io/intel/*
 docker.io/intelanalytics/*
 docker.io/islandora/code-server
 docker.io/istio/*
@@ -901,6 +903,7 @@ ghcr.io/seriousm4x/upsnap
 ghcr.io/siemens/**
 ghcr.io/sillytavern/sillytavern
 ghcr.io/songquanpeng/one-api
+ghcr.io/speaches-ai/speaches
 ghcr.io/spidernet-io/**
 ghcr.io/spiffe/**
 ghcr.io/sugarforever/peanut-shell
