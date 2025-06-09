@@ -52,7 +52,7 @@ jobs:
 
     - name: Set up runner
       run: |
-        wget https://github.com/OpenCIDN/OpenCIDN/releases/download/v0.0.12/runner_linux_amd64 -O /usr/local/bin/runner && chmod +x /usr/local/bin/runner
+        wget https://github.com/OpenCIDN/OpenCIDN/releases/download/v0.0.13/runner_linux_amd64 -O /usr/local/bin/runner && chmod +x /usr/local/bin/runner
 
     - name: Create message to queue
       id: get-message
