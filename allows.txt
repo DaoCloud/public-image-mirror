@@ -651,8 +651,7 @@ docker.io/restatedev/restate
 docker.io/ribbybibby/ssl-exporter
 docker.io/riscv64/*
 docker.io/rockylinux/rockylinux
-docker.io/rocm/k8s-device-plugin
-docker.io/rocm/rocm-terminal
+docker.io/rocm/*
 docker.io/romancin/tinymediamanager
 docker.io/rommapp/romm
 docker.io/rook/ceph
