@@ -845,6 +845,7 @@ ghcr.io/grafana/*
 ghcr.io/hassio-addons/**
 ghcr.io/headlamp-k8s/headlamp
 ghcr.io/helm/**
+ghcr.io/hkuds/lightrag
 ghcr.io/home-assistant/**
 ghcr.io/huaweiclouddeveloper/**
 ghcr.io/huggingface/*
