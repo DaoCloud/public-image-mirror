@@ -63,8 +63,8 @@ jobs:
           -H 'Content-Type: application/json' \
           -d '{
             "content": "${{ steps.get-image.outputs.sync_image }}",
-            "kind": "manifest",
-            "priority": 10
+            "priority": 10,
+            "data": {"kind": "manifest"}
           }' | jq -r .id)
         
         echo "message_id=${MESSAGE_ID}" >> $GITHUB_OUTPUT
