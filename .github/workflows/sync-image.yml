@@ -63,6 +63,7 @@ jobs:
           -H 'Content-Type: application/json' \
           -d '{
             "content": "${{ steps.get-image.outputs.sync_image }}",
+            "kind": "manifest",
             "priority": 10
           }' | jq -r .id)
         
