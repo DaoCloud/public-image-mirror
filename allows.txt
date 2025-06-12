@@ -675,6 +675,7 @@ docker.io/semgrep/*
 docker.io/semitechnologies/*
 docker.io/senthilrch/*
 docker.io/serengil/deepface
+docker.io/shieldsio/shields
 docker.io/sickcodes/docker-osx
 docker.io/sj26/mailcatcher
 docker.io/slskd/slskd
