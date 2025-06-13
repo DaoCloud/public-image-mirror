@@ -796,6 +796,7 @@ ghcr.io/amamba-io/**
 ghcr.io/analogj/scrutiny
 ghcr.io/anduin2017/how-to-cook
 ghcr.io/apache/**
+ghcr.io/apple/**
 ghcr.io/aquasecurity/**
 ghcr.io/armbian/**
 ghcr.io/astral-sh/**
