@@ -734,6 +734,7 @@ docker.io/treeverse/lakefs
 docker.io/triliumnext/notes
 docker.io/trinodb/trino
 docker.io/trustpilot/beat-exporter
+docker.io/tryretool/backend
 docker.io/tugraph/*
 docker.io/tunathu/bandersnatch
 docker.io/tusproject/tusd
@@ -896,6 +897,7 @@ ghcr.io/open-webui/pipelines
 ghcr.io/opencidn/**
 ghcr.io/openfaas/**
 ghcr.io/openinsight-proj/**
+ghcr.io/openlistteam/openlist-git
 ghcr.io/ot-container-kit/**
 ghcr.io/parkervcp/yolks
 ghcr.io/plankanban/planka
