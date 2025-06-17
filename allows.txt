@@ -865,6 +865,7 @@ ghcr.io/kdoctor-io/**
 ghcr.io/kedacore/*
 ghcr.io/khoj-ai/**
 ghcr.io/klts-io/**
+ghcr.io/komari-monitor/komari
 ghcr.io/koodo-reader/koodo-reader
 ghcr.io/koordinator-sh/**
 ghcr.io/ksmartdata/**
