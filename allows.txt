@@ -645,6 +645,7 @@ docker.io/reallibrephotos/librephotos
 docker.io/reallibrephotos/librephotos-frontend
 docker.io/reallibrephotos/librephotos-proxy
 docker.io/redash/*
+docker.io/redhat/*
 docker.io/redis/*
 docker.io/redislabs/*
 docker.io/redpandadata/console
