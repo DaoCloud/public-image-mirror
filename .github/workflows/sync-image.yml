@@ -64,7 +64,7 @@ jobs:
           -d '{
             "content": "${{ steps.get-image.outputs.sync_image }}",
             "priority": 10,
-            "data": {"kind": "manifest"}
+            "data": {"kind": "manifest", "deep": true}
           }' | jq -r .id)
         
         echo "message_id=${MESSAGE_ID}" >> $GITHUB_OUTPUT
