@@ -886,6 +886,7 @@ ghcr.io/labring/lvscare
 ghcr.io/librespeed/speedtest
 ghcr.io/linuxsuren/api-testing
 ghcr.io/linuxsuren/atest-ext-store-orm
+ghcr.io/llm-d/**
 ghcr.io/logseq/logseq-webapp
 ghcr.io/macbre/nginx-http3
 ghcr.io/mastodon/mastodon
