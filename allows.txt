@@ -701,6 +701,7 @@ docker.io/stirlingtools/stirling-pdf
 docker.io/streamnative/*
 docker.io/styletang/rocketmq-console-ng
 docker.io/subfuzion/netcat
+docker.io/suisuijiang/fiora
 docker.io/supabase/*
 docker.io/supermanito/arcadia
 docker.io/superng6/qbittorrentee
