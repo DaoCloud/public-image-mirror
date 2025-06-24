@@ -1010,3 +1010,4 @@ registry.opensource.zalan.do/**
 registry.rocket.chat/**
 rocks.canonical.com/**
 us.gcr.io/k8s-artifacts-prod/**
+docker.io/hewenyulucky/*
