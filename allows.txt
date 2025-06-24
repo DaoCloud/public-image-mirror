@@ -236,6 +236,7 @@ docker.io/hengyunabc/arthas
 docker.io/henrygd/beszel
 docker.io/henrygd/beszel-agent
 docker.io/heroiclabs/nakama-pluginbuilder
+docker.io/hewenyulucky/*
 docker.io/hivemq/*
 docker.io/hkalexling/mango
 docker.io/homeassistant/*
