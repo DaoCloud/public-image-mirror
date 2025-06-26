@@ -724,6 +724,7 @@ docker.io/teslamate/*
 docker.io/testcontainers/*
 docker.io/texlive/texlive
 docker.io/thanosio/*
+docker.io/thingsboard/tb-node
 docker.io/thingsboard/tb-postgres
 docker.io/thomassong/gpu-admission
 docker.io/tiangolo/*
