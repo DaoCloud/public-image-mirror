@@ -78,6 +78,7 @@ docker.io/bytelang/kplayer
 docker.io/calciumion/new-api
 docker.io/calico/*
 docker.io/camunda/zeebe
+docker.io/canal/canal-server
 docker.io/cars10/elasticvue
 docker.io/casbin/casdoor
 docker.io/certbot/*
@@ -573,6 +574,7 @@ docker.io/ollama/*
 docker.io/onlyoffice/*
 docker.io/openebs/*
 docker.io/openeuler/*
+docker.io/openfga/*
 docker.io/opengeminidb/opengemini-server
 docker.io/opengrok/docker
 docker.io/openkruise/*
