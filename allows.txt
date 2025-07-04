@@ -687,6 +687,7 @@ docker.io/shieldsio/shields
 docker.io/sickcodes/docker-osx
 docker.io/sj26/mailcatcher
 docker.io/slskd/slskd
+docker.io/snipe/snipe-it
 docker.io/snowdreamtech/frpc
 docker.io/snowdreamtech/frps
 docker.io/solace/solace-pubsub-standard
@@ -707,6 +708,7 @@ docker.io/subfuzion/netcat
 docker.io/suisuijiang/fiora
 docker.io/supabase/*
 docker.io/supermanito/arcadia
+docker.io/superng6/aria2
 docker.io/superng6/qbittorrentee
 docker.io/svhd/logto
 docker.io/swaggerapi/*
@@ -749,6 +751,7 @@ docker.io/tryretool/backend
 docker.io/tugraph/*
 docker.io/tunathu/bandersnatch
 docker.io/tusproject/tusd
+docker.io/tutelgroup/*
 docker.io/twinproduction/gatus
 docker.io/ubuntu/*
 docker.io/ultralytics/*
@@ -914,6 +917,7 @@ ghcr.io/openlistteam/openlist-git
 ghcr.io/ot-container-kit/**
 ghcr.io/parkervcp/yolks
 ghcr.io/plankanban/planka
+ghcr.io/project-zot/**
 ghcr.io/projectcontour/**
 ghcr.io/puppeteer/puppeteer
 ghcr.io/rails/**
