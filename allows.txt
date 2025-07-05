@@ -721,6 +721,7 @@ docker.io/tarscloud/framework
 docker.io/tdengine/*
 docker.io/techblog/broadlinkmanager
 docker.io/technitium/dns-server
+docker.io/temporalio/*
 docker.io/tensorchord/pgvecto-rs
 docker.io/tensorflow/*
 docker.io/tensorfusion/*
