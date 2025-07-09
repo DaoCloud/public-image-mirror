@@ -132,6 +132,7 @@ docker.io/dezhao/lanraragi_cn
 docker.io/difegue/lanraragi
 docker.io/directus/*
 docker.io/discourse/*
+docker.io/diygod/*
 docker.io/docker/*
 docker.io/dockurr/*
 docker.io/dokploy/*
