@@ -69,6 +69,7 @@ docker.io/bitnamicharts/*
 docker.io/bluenviron/mediamtx
 docker.io/boky/postfix
 docker.io/boredazfcuk/icloudpd
+docker.io/browserless/*
 docker.io/browsh/browsh
 docker.io/budibase/budibase
 docker.io/budtmo/docker-android
