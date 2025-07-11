@@ -933,7 +933,6 @@ ghcr.io/rails/**
 ghcr.io/seriousm4x/upsnap
 ghcr.io/siemens/**
 ghcr.io/sillytavern/sillytavern
-ghcr.io/snailyp/*
 ghcr.io/songquanpeng/one-api
 ghcr.io/speaches-ai/speaches
 ghcr.io/spidernet-io/**
