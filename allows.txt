@@ -999,6 +999,7 @@ quay.io/kubernetes-ingress-controller/*
 quay.io/kubernetes-sigs/*
 quay.io/kubespray/*
 quay.io/kubevirt/*
+quay.io/libpod/skopeo_cidev
 quay.io/metallb/*
 quay.io/minio/*
 quay.io/mongodb/*
