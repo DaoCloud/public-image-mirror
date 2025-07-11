@@ -117,6 +117,7 @@ docker.io/curlimages/*
 docker.io/cvat/server
 docker.io/cvat/ui
 docker.io/cym1102/nginxwebui
+docker.io/czerwonk/ping_exporter
 docker.io/dadoum/anisette-v3-server
 docker.io/dani-garcia/vaultwarden
 docker.io/danielqsj/kafka-exporter
@@ -275,6 +276,7 @@ docker.io/jeessy/ddns-go
 docker.io/jellyfin/*
 docker.io/jenkins/*
 docker.io/jenkinsci/*
+docker.io/jericx/syncclipboard-server
 docker.io/jetbrains/*
 docker.io/jettech/*
 docker.io/jgraph/drawio
@@ -589,6 +591,7 @@ docker.io/opensearchproject/*
 docker.io/opensecurity/mobile-security-framework-mobsf
 docker.io/openstitching/stitch
 docker.io/opensuse/*
+docker.io/openvino/*
 docker.io/openvpn/openvpn-as
 docker.io/openwhisk/*
 docker.io/openzipkin/*
@@ -765,6 +768,7 @@ docker.io/vaultwarden/server
 docker.io/vdsm/virtual-dsm
 docker.io/velero/*
 docker.io/verdaccio/*
+docker.io/verlai/*
 docker.io/vesoft/*
 docker.io/victoriametrics/*
 docker.io/viktorstrate/*
@@ -850,6 +854,7 @@ ghcr.io/elastic/opentelemetry-demo
 ghcr.io/elf-io/*
 ghcr.io/esphome/esphome
 ghcr.io/estrellaxd/auto_bangumi
+ghcr.io/eunomia-bpf/libbpf-template
 ghcr.io/fatedier/frpc
 ghcr.io/fief-dev/fief
 ghcr.io/fission/**
