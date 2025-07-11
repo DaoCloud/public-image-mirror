@@ -911,7 +911,7 @@ ghcr.io/megacloudcontainer/**
 ghcr.io/mellanox/**
 ghcr.io/mendableai/firecrawl
 ghcr.io/metalbear-co/**
-ghcr.io/metatool-ai/*
+ghcr.io/metatool-ai/metamcp
 ghcr.io/metatube-community/metatube-server
 ghcr.io/mlflow/*
 ghcr.io/mosn/**
