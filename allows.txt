@@ -51,6 +51,7 @@ docker.io/arizephoenix/phoenix
 docker.io/arm64v8/*
 docker.io/artalk/artalk-go
 docker.io/ascendai/*
+docker.io/ascentstream/*
 docker.io/atlassian/*
 docker.io/authelia/authelia
 docker.io/automatischio/automatisch
