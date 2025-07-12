@@ -6,7 +6,8 @@ Mirror 仓库 [Gitee](https://gitee.com/daocloud/public-image-mirror)
 - 白名单 & 限流 的公开信息 [#2328](https://github.com/DaoCloud/public-image-mirror/issues/2328)
 - 如有疑问请咨询 [#4183](https://github.com/DaoCloud/public-image-mirror/issues/4183)
 - 建议将拉取任务放在闲时 凌晨(北京时间 01-07 点), 其他时间段非常拥挤
-- 建议使用明确版本号的 tag, 对于 latest 这种变更后会需要重新同步
+- 建议使用明确版本号的 tag, 对于 latest 这种变更后响应旧数据, 并且后台重新同步
+- 本服务后端 [OpenCIDN](https://github.com/OpenCIDN)
 
 ## 背景 & 目标
 
@@ -18,9 +19,9 @@ Mirror 仓库 [Gitee](https://gitee.com/daocloud/public-image-mirror)
 * 此项目仅是源镜像仓库 (Registry) 的 Mirror
   * 所有 hash(sha256) 均和源保持一致 (懒加载机制)。
   * 由于缓存的存在, 可能存在 1 小时的延迟。
-  * 如超过 1 小时还未更新, 估计是国际带宽挂了。
 * 对于 镜像层(blob) 会缓存在第三方对象存储上
   * 当前暂未对内容做任何检测, 计划会添加检测。
+  * 不定期会清理一次缓存。
 
 ## 快速开始
 
