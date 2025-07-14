@@ -128,6 +128,7 @@ docker.io/datastax/*
 docker.io/debezium/*
 docker.io/deepflowce/*
 docker.io/deluan/navidrome
+docker.io/denoland/deno
 docker.io/derailed/k9s
 docker.io/determinedai/*
 docker.io/devicefarmer/stf
@@ -258,6 +259,7 @@ docker.io/hystax/error_pages_base
 docker.io/ianw/quickchart
 docker.io/ibmcom/*
 docker.io/idootop/mi-gpt
+docker.io/imaegoo/twikoo
 docker.io/infiniflow/*
 docker.io/infmonkeys/*
 docker.io/innei/mx-server
