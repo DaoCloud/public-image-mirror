@@ -94,6 +94,7 @@ docker.io/chenhw2/aliyun-ddns-cli
 docker.io/chigusa/bililive-go
 docker.io/chrishirsch/kuberhealthy-storage-check
 docker.io/chromedp/headless-shell
+docker.io/chrstnhntschl/gpu_burn
 docker.io/cimg/go
 docker.io/clamav/*
 docker.io/claraverse/clara-ollama
