@@ -630,6 +630,7 @@ docker.io/pointcloudlibrary/env
 docker.io/polardbx/polardb-x
 docker.io/portainer/*
 docker.io/postgis/postgis
+docker.io/postgrest/postgrest
 docker.io/pragkent/alidns-webhook
 docker.io/privoce/vocechat-server
 docker.io/prodrigestivill/postgres-backup-local
