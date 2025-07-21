@@ -135,6 +135,7 @@ docker.io/determinedai/*
 docker.io/devicefarmer/stf
 docker.io/dezhao/lanraragi_cn
 docker.io/difegue/lanraragi
+docker.io/digitalocean/ceph_exporter
 docker.io/directus/*
 docker.io/discourse/*
 docker.io/diygod/*
