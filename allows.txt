@@ -33,7 +33,7 @@ docker.io/andywuwu/coze2openai
 docker.io/ankane/pgvector
 docker.io/apache/*
 docker.io/apachepulsar/*
-docker.io/apacherocketmq/rocketmq-dashboard
+docker.io/apacherocketmq/*
 docker.io/apecloud/*
 docker.io/apicurio/*
 docker.io/apitable/*
@@ -207,6 +207,7 @@ docker.io/geoservercloud/*
 docker.io/gerritcodereview/gerrit
 docker.io/getmeili/*
 docker.io/getsentry/*
+docker.io/getwud/wud
 docker.io/gitea/*
 docker.io/gitlab/*
 docker.io/gitpod/openvscode-server
@@ -220,12 +221,14 @@ docker.io/goproxy/goproxy
 docker.io/goreleaser/goreleaser
 docker.io/gotenberg/gotenberg
 docker.io/gotify/*
+docker.io/gotson/komga
 docker.io/grafana/*
 docker.io/graphiteapp/graphite-statsd
 docker.io/graylog/graylog
 docker.io/graylog/graylog-datanode
 docker.io/greatsql/*
 docker.io/greenbone/*
+docker.io/greper/certd
 docker.io/guacamole/*
 docker.io/guiji2025/*
 docker.io/gztime/gzctf
@@ -815,6 +818,7 @@ docker.io/zlmediakit/zlmediakit
 docker.io/zmisgod/iptvchecker
 docker.io/zmister/mrdoc
 docker.osgeo.org/**
+docker.stirlingpdf.com/stirlingtools/stirling-pdf
 gcr.io/**
 ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
