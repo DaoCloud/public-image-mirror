@@ -565,6 +565,7 @@ docker.io/netbox-community/netbox
 docker.io/netdata/netdata
 docker.io/networkstatic/iperf3
 docker.io/neuvector/*
+docker.io/newfuture/ddns
 docker.io/newsnowlabs/dockside
 docker.io/nextcloud/all-in-one
 docker.io/nginx/*
