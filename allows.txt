@@ -196,6 +196,7 @@ docker.io/flowiseai/flowise
 docker.io/fluent/*
 docker.io/flyway/flyway
 docker.io/fortio/*
+docker.io/fosrl/*
 docker.io/foxdalas/*
 docker.io/frappe/*
 docker.io/freesurfer/synthmorph
