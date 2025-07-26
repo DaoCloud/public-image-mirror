@@ -838,6 +838,7 @@ ghcr.io/authzed/spicedb
 ghcr.io/authzed/spicedb-operator
 ghcr.io/baizeai/**
 ghcr.io/benc-uk/kubeview
+ghcr.io/berriai/litellm
 ghcr.io/bigcode-project/evaluation-harness
 ghcr.io/bigcode-project/evaluation-harness-multiple
 ghcr.io/biliup/caution
