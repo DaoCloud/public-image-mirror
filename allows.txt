@@ -92,6 +92,7 @@ docker.io/chengshiwen/influx-proxy
 docker.io/chengshiwen/influxdb
 docker.io/chenhw2/aliyun-ddns-cli
 docker.io/chigusa/bililive-go
+docker.io/chishin/nginx-proxy-manager-zh
 docker.io/chrishirsch/kuberhealthy-storage-check
 docker.io/chromedp/headless-shell
 docker.io/chrstnhntschl/gpu_burn
@@ -859,6 +860,7 @@ ghcr.io/corentinth/it-tools
 ghcr.io/cowboysysop/pytest
 ghcr.io/cross-rs/**
 ghcr.io/daocloud/**
+ghcr.io/dbt-labs/dbt-core
 ghcr.io/deepflowio/rust-build
 ghcr.io/dexidp/**
 ghcr.io/dtzar/**
@@ -909,6 +911,7 @@ ghcr.io/ksmartdata/**
 ghcr.io/kube-vip/**
 ghcr.io/kubean-io/**
 ghcr.io/kyverno/**
+ghcr.io/labring/calico
 ghcr.io/labring/fastgpt
 ghcr.io/labring/fastgpt-sandbox
 ghcr.io/labring/lvscare
@@ -956,6 +959,7 @@ ghcr.io/suwayomi/tachidesk
 ghcr.io/systemed/tilemaker
 ghcr.io/tangly1024/notionnext
 ghcr.io/timeplus-io/**
+ghcr.io/tiryoh/ros2-desktop-vnc
 ghcr.io/toeverything/affine-graphql
 ghcr.io/umami-software/umami
 ghcr.io/universaloj/**
@@ -971,6 +975,7 @@ nvcr.io/**
 ollama.ai/**
 public.ecr.aws/amazonlinux/**
 public.ecr.aws/appmesh/**
+public.ecr.aws/bitnami/*
 public.ecr.aws/cloudwatch-agent/**
 public.ecr.aws/datadog/**
 public.ecr.aws/docker/**
