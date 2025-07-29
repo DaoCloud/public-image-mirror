@@ -821,6 +821,7 @@ docker.io/zlijingtao/neurobfuscator
 docker.io/zlmediakit/zlmediakit
 docker.io/zmisgod/iptvchecker
 docker.io/zmister/mrdoc
+docker.io/rancher/*
 docker.osgeo.org/**
 docker.stirlingpdf.com/stirlingtools/stirling-pdf
 gcr.io/**
@@ -1046,3 +1047,4 @@ registry.opensource.zalan.do/**
 registry.rocket.chat/**
 rocks.canonical.com/**
 us.gcr.io/k8s-artifacts-prod/**
+
