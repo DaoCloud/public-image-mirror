@@ -530,6 +530,7 @@ docker.io/louislam/*
 docker.io/mageai/mageai
 docker.io/maildev/maildev
 docker.io/mailserver/*
+docker.io/manjarolinux/*
 docker.io/manticoresearch/manticore
 docker.io/mattermost/focalboard
 docker.io/maxkeytop/*
