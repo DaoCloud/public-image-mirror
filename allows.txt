@@ -597,6 +597,7 @@ docker.io/opengrok/docker
 docker.io/openkruise/*
 docker.io/openlistteam/openlist
 docker.io/openmetadata/*
+docker.io/openmined/syft-backend
 docker.io/openpolicyagent/gatekeeper
 docker.io/openpolicyagent/opa
 docker.io/openresty/openresty
