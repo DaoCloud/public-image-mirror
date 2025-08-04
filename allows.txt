@@ -168,6 +168,7 @@ docker.io/e2bdev/code-interpreter
 docker.io/easytier/easytier
 docker.io/elastic/*
 docker.io/electronuserland/builder
+docker.io/elestio/neko
 docker.io/elsaworkflows/*
 docker.io/emby/*
 docker.io/emqx/*
@@ -598,6 +599,7 @@ docker.io/openkruise/*
 docker.io/openlistteam/openlist
 docker.io/openmetadata/*
 docker.io/openmined/syft-backend
+docker.io/openmmlab/lmdeploy
 docker.io/openpolicyagent/gatekeeper
 docker.io/openpolicyagent/opa
 docker.io/openresty/openresty
@@ -671,6 +673,7 @@ docker.io/redash/*
 docker.io/redhat/*
 docker.io/redis/*
 docker.io/redislabs/*
+docker.io/rednotehilab/dots.ocr
 docker.io/redpandadata/console
 docker.io/redroid/redroid
 docker.io/reportportal/reportportal
@@ -958,6 +961,7 @@ ghcr.io/spidernet-io/**
 ghcr.io/spiffe/**
 ghcr.io/sugarforever/peanut-shell
 ghcr.io/sumologic/**
+ghcr.io/suwayomi/suwayomi-server
 ghcr.io/suwayomi/tachidesk
 ghcr.io/systemed/tilemaker
 ghcr.io/tangly1024/notionnext
