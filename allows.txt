@@ -528,6 +528,7 @@ docker.io/localai/localai
 docker.io/loggieio/loggie
 docker.io/longhornio/*
 docker.io/louislam/*
+docker.io/m1k1o/*
 docker.io/mageai/mageai
 docker.io/maildev/maildev
 docker.io/mailserver/*
