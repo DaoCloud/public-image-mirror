@@ -691,6 +691,7 @@ docker.io/rucio/*
 docker.io/rustdesk/rustdesk-server
 docker.io/rustdesk/rustdesk-server-pro
 docker.io/rustdesk/rustdesk-server-s6
+docker.io/rustfs/rustfs
 docker.io/rustlang/rust
 docker.io/rzuo/pose
 docker.io/sameersbn/**
