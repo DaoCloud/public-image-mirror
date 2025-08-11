@@ -928,6 +928,7 @@ ghcr.io/linuxsuren/api-testing
 ghcr.io/linuxsuren/atest-ext-store-orm
 ghcr.io/llm-d/**
 ghcr.io/logseq/logseq-webapp
+ghcr.io/lunatechlab/moontv
 ghcr.io/macbre/nginx-http3
 ghcr.io/mastodon/mastodon
 ghcr.io/maybe-finance/**
