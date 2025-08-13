@@ -687,6 +687,7 @@ docker.io/rocm/*
 docker.io/romancin/tinymediamanager
 docker.io/rommapp/romm
 docker.io/rook/ceph
+docker.io/rsyslog/*
 docker.io/rucio/*
 docker.io/rustdesk/rustdesk-server
 docker.io/rustdesk/rustdesk-server-pro
