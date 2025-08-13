@@ -693,6 +693,7 @@ docker.io/rustdesk/rustdesk-server-pro
 docker.io/rustdesk/rustdesk-server-s6
 docker.io/rustfs/rustfs
 docker.io/rustlang/rust
+docker.io/rsyslog/*
 docker.io/rzuo/pose
 docker.io/sameersbn/**
 docker.io/savatar101/omniparse
