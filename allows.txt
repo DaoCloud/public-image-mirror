@@ -67,6 +67,7 @@ docker.io/binhex/arch-jellyfin
 docker.io/binwiederhier/ntfy
 docker.io/bitnami/*
 docker.io/bitnamicharts/*
+docker.io/bitnamilegacy/*
 docker.io/bluenviron/mediamtx
 docker.io/boky/postfix
 docker.io/boredazfcuk/icloudpd
