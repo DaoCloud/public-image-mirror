@@ -17,6 +17,7 @@ docker.io/adguard/adguardhome
 docker.io/adoptopenjdk/*
 docker.io/adriansegura99/**
 docker.io/agentaai/*
+docker.io/alexzhc/*
 docker.io/allanpk716/chinesesubfinder
 docker.io/allfunc/speedtest
 docker.io/almalinux/*
@@ -1068,6 +1069,3 @@ rocks.canonical.com/**
 us-central1-docker.pkg.dev/keephq/keep/keep-api
 us-central1-docker.pkg.dev/keephq/keep/keep-ui
 us.gcr.io/k8s-artifacts-prod/**
-gcr.io/google-samples/*
-docker.io/alexzhc/*
-
