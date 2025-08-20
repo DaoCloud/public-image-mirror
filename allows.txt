@@ -838,6 +838,8 @@ docker.io/zmister/mrdoc
 docker.osgeo.org/**
 docker.stirlingpdf.com/stirlingtools/stirling-pdf
 gcr.io/**
+gcr.io/google-samples/gb-frontend
+gcr.io/heptio-images/ks-guestbook-demo
 ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
 ghcr.io/ajnart/homarr
