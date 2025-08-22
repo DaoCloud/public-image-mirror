@@ -318,6 +318,7 @@ docker.io/kasmweb/*
 docker.io/keelhq/keel
 docker.io/keking/kkfileview
 docker.io/kennethreitz/*
+docker.io/kestra/kestra
 docker.io/keycloak/keycloak
 docker.io/kindest/*
 docker.io/kiwigrid/*
@@ -578,6 +579,7 @@ docker.io/newsnowlabs/dockside
 docker.io/nextcloud/all-in-one
 docker.io/nginx/*
 docker.io/nginxinc/*
+docker.io/nicolaka/netshoot
 docker.io/nocobase/nocobase
 docker.io/nocodb/nocodb
 docker.io/nodered/node-red
