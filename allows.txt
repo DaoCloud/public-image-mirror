@@ -1,5 +1,6 @@
 codeberg.org/forgejo/forgejo
 container-registry.oracle.com/**
+cr.kgateway.dev/kgateway-dev/*
 cr.l5d.io/**
 cr.weaviate.io/**
 docker.com/kyantech/*
