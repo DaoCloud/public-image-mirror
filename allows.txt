@@ -117,6 +117,7 @@ docker.io/confluentinc/*
 docker.io/containrrr/watchtower
 docker.io/continuumio/miniconda3
 docker.io/coredns/*
+docker.io/cozedev/*
 docker.io/cp2k/cp2k
 docker.io/csiplugin/*
 docker.io/cturra/ntp
@@ -272,6 +273,7 @@ docker.io/hystax/error_pages_base
 docker.io/ianw/quickchart
 docker.io/ibmcom/*
 docker.io/idootop/mi-gpt
+docker.io/ihmily/douyin-live-recorder
 docker.io/imaegoo/twikoo
 docker.io/infiniflow/*
 docker.io/infmonkeys/*
@@ -583,6 +585,7 @@ docker.io/nextcloud/all-in-one
 docker.io/nginx/*
 docker.io/nginxinc/*
 docker.io/nicolaka/netshoot
+docker.io/nobodyiam/apollo-quick-start
 docker.io/nocobase/nocobase
 docker.io/nocodb/nocodb
 docker.io/nodered/node-red
