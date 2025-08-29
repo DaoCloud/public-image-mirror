@@ -1069,6 +1069,7 @@ registry.gitlab.com/gitlab-org/**
 registry.gitlab.com/purelb/purelb/purelb
 registry.heroiclabs.com/heroiclabs/nakama
 registry.jujucharms.com/**
+docker.io/acockburn/appdaemon
 registry.k8s.io/**
 registry.opensource.zalan.do/**
 registry.rocket.chat/**
