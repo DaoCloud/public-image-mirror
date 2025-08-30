@@ -317,6 +317,7 @@ docker.io/justsong/one-api
 docker.io/jvmilazz0/kavita
 docker.io/jxxghp/*
 docker.io/k8scloudprovider/*
+docker.io/kalilinux/*
 docker.io/kanidm/*
 docker.io/karmada/*
 docker.io/kasmweb/*
