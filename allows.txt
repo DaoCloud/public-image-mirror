@@ -890,6 +890,7 @@ ghcr.io/daocloud/**
 ghcr.io/dbt-labs/dbt-core
 ghcr.io/deepflowio/rust-build
 ghcr.io/dexidp/**
+ghcr.io/drizzletime/**
 ghcr.io/dtzar/**
 ghcr.io/easytier/easytier
 ghcr.io/elastic/opentelemetry-demo
