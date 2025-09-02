@@ -326,6 +326,7 @@ docker.io/keking/kkfileview
 docker.io/kennethreitz/*
 docker.io/kestra/kestra
 docker.io/keycloak/keycloak
+docker.io/kicbase/*
 docker.io/kindest/*
 docker.io/kiwigrid/*
 docker.io/klakegg/hugo
