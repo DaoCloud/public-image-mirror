@@ -95,6 +95,7 @@ docker.io/chengshiwen/influx-proxy
 docker.io/chengshiwen/influxdb
 docker.io/chenhw2/aliyun-ddns-cli
 docker.io/chigusa/bililive-go
+docker.io/chirpstack/*
 docker.io/chishin/nginx-proxy-manager-zh
 docker.io/chrishirsch/kuberhealthy-storage-check
 docker.io/chromedp/headless-shell
@@ -174,6 +175,7 @@ docker.io/easytier/easytier
 docker.io/elastic/*
 docker.io/electronuserland/builder
 docker.io/elestio/neko
+docker.io/eloqdata/*
 docker.io/elsaworkflows/*
 docker.io/emby/*
 docker.io/emqx/*
