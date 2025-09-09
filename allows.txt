@@ -615,6 +615,7 @@ docker.io/opengeminidb/opengemini-server
 docker.io/opengrok/docker
 docker.io/openkruise/*
 docker.io/openlistteam/openlist
+docker.io/openlocal/*
 docker.io/openmetadata/*
 docker.io/openmined/syft-backend
 docker.io/openmmlab/lmdeploy
