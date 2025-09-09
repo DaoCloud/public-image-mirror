@@ -811,6 +811,7 @@ docker.io/vesoft/*
 docker.io/victoriametrics/*
 docker.io/viktorstrate/*
 docker.io/vllm/*
+docker.io/openlocal/*
 docker.io/volcanosh/*
 docker.io/vulhub/kkfileview
 docker.io/wallabag/wallabag
