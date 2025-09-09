@@ -622,6 +622,7 @@ docker.io/openpolicyagent/gatekeeper
 docker.io/openpolicyagent/opa
 docker.io/openresty/openresty
 docker.io/opensearchproject/*
+docker.io/openlocal/*
 docker.io/opensecurity/mobile-security-framework-mobsf
 docker.io/openstitching/stitch
 docker.io/opensuse/*
