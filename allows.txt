@@ -1007,7 +1007,6 @@ ghcr.io/zalando/**
 ghcr.io/zammad/zammad
 ghcr.io/zitadel/**
 k8s.gcr.io/**
-list)
 lscr.io/linuxserver/**
 mcr.microsoft.com/**
 nvcr.io/**
