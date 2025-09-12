@@ -136,12 +136,10 @@ docker exec -it ollama ollama run ollama.m.daocloud.io/library/deepseek-r1:1.5b
 # docker exec -it ollama ollama run deepseek-r1:1.5b
 ```
 
-## [友情链接]加速三剑客
+## [友情链接]加速二剑客
 
 * 镜像加速：https://github.com/DaoCloud/public-image-mirror
 * 二进制文件加速：https://github.com/DaoCloud/public-binary-files-mirror
-* Helm 加速：https://github.com/DaoCloud/public-helm-charts-mirror
-
 
 ## 贡献者
 
