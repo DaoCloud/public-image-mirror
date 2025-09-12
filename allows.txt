@@ -118,6 +118,7 @@ docker.io/confluentinc/*
 docker.io/containrrr/watchtower
 docker.io/continuumio/miniconda3
 docker.io/coredns/*
+docker.io/coturn/coturn
 docker.io/cozedev/*
 docker.io/cp2k/cp2k
 docker.io/csiplugin/*
@@ -183,8 +184,10 @@ docker.io/enable/nessus
 docker.io/ensemblorg/ensembl-vep
 docker.io/envoyproxy/*
 docker.io/eosphorosai/*
+docker.io/esphome/*
 docker.io/estrellaxd/auto_bangumi
 docker.io/exadel/compreface-core
+docker.io/exceptionless/*
 docker.io/eyeblue/tank
 docker.io/f5networks/*
 docker.io/falcosecurity/*
@@ -205,6 +208,7 @@ docker.io/floryn90/hugo
 docker.io/flowiseai/flowise
 docker.io/fluent/*
 docker.io/flyway/flyway
+docker.io/forceless/pptagent
 docker.io/fortio/*
 docker.io/fosrl/*
 docker.io/foxdalas/*
@@ -547,6 +551,7 @@ docker.io/maildev/maildev
 docker.io/mailserver/*
 docker.io/manjarolinux/*
 docker.io/manticoresearch/manticore
+docker.io/maptiler/*
 docker.io/mattermost/focalboard
 docker.io/maxkeytop/*
 docker.io/mcp/*
@@ -617,7 +622,7 @@ docker.io/openkruise/*
 docker.io/openlistteam/openlist
 docker.io/openmetadata/*
 docker.io/openmined/syft-backend
-docker.io/openmmlab/lmdeploy
+docker.io/openmmlab/*
 docker.io/openpolicyagent/gatekeeper
 docker.io/openpolicyagent/opa
 docker.io/openresty/openresty
@@ -727,6 +732,7 @@ docker.io/semitechnologies/*
 docker.io/senthilrch/*
 docker.io/serengil/deepface
 docker.io/shieldsio/shields
+docker.io/shingarey/foundationpose_custom_cuda121
 docker.io/sickcodes/docker-osx
 docker.io/sj26/mailcatcher
 docker.io/slskd/slskd
@@ -1001,6 +1007,7 @@ ghcr.io/zalando/**
 ghcr.io/zammad/zammad
 ghcr.io/zitadel/**
 k8s.gcr.io/**
+list)
 lscr.io/linuxserver/**
 mcr.microsoft.com/**
 nvcr.io/**
@@ -1055,6 +1062,7 @@ quay.io/metallb/*
 quay.io/minio/*
 quay.io/mongodb/*
 quay.io/nmstate/*
+quay.io/nuclio/*
 quay.io/operator-framework/*
 quay.io/operatorhubio/minio-operator
 quay.io/opstree/*
@@ -1062,6 +1070,7 @@ quay.io/prometheus-operator/*
 quay.io/prometheus/*
 quay.io/prometheuscommunity/*
 quay.io/quarkus/*
+quay.io/redhat-developer/*
 quay.io/sameersbn/squid
 quay.io/skopeo/*
 quay.io/spotahome/*
