@@ -198,6 +198,7 @@ docker.io/ffdfgdfg/npc
 docker.io/ffdfgdfg/nps
 docker.io/fffaraz/fakessh
 docker.io/filebrowser/filebrowser
+docker.io/finab/bark-server
 docker.io/firecow/gitlab-ci-local-util
 docker.io/fireflyiii/*
 docker.io/flannel/*
@@ -892,6 +893,7 @@ ghcr.io/coqui-ai/tts
 ghcr.io/corentinth/it-tools
 ghcr.io/cowboysysop/pytest
 ghcr.io/cross-rs/**
+ghcr.io/danny-avila/librechat-dev
 ghcr.io/daocloud/**
 ghcr.io/dbt-labs/dbt-core
 ghcr.io/deepflowio/rust-build
@@ -905,6 +907,7 @@ ghcr.io/estrellaxd/auto_bangumi
 ghcr.io/eunomia-bpf/libbpf-template
 ghcr.io/fatedier/frpc
 ghcr.io/fief-dev/fief
+ghcr.io/fish2018/pansou-web
 ghcr.io/fission/**
 ghcr.io/flexget/flexget
 ghcr.io/fluent/fluent-operator/*
