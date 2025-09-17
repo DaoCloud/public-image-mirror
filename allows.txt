@@ -785,6 +785,7 @@ docker.io/thomassong/gpu-admission
 docker.io/tiangolo/*
 docker.io/timberio/*
 docker.io/timescale/timescaledb
+docker.io/timonwong/prometheus-webhook-dingtalk
 docker.io/timothyjmiller/cloudflare-ddns
 docker.io/tinygo/tinygo
 docker.io/tinymediamanager/tinymediamanager
