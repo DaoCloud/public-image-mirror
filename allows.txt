@@ -915,6 +915,7 @@ ghcr.io/fluent/fluent-operator/*
 ghcr.io/freecodecamp/devdocs
 ghcr.io/gethomepage/homepage
 ghcr.io/ggerganov/llama.cpp
+ghcr.io/ggml-org/llama.cpp
 ghcr.io/go-rod/rod
 ghcr.io/goauthentik/**
 ghcr.io/gohugoio/hugo
