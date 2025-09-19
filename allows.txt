@@ -950,6 +950,7 @@ ghcr.io/koordinator-sh/**
 ghcr.io/ksmartdata/**
 ghcr.io/kube-vip/**
 ghcr.io/kubean-io/**
+ghcr.io/kubeflow/**
 ghcr.io/kyverno/**
 ghcr.io/labring/calico
 ghcr.io/labring/fastgpt
