@@ -973,6 +973,7 @@ ghcr.io/metalbear-co/**
 ghcr.io/metatool-ai/metamcp
 ghcr.io/metatube-community/metatube-server
 ghcr.io/mlflow/*
+ghcr.io/modelcontextprotocol/inspector
 ghcr.io/mosn/**
 ghcr.io/music-assistant/server
 ghcr.io/open-telemetry/**
