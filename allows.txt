@@ -927,6 +927,7 @@ ghcr.io/headlamp-k8s/headlamp
 ghcr.io/helm/**
 ghcr.io/hkuds/lightrag
 ghcr.io/home-assistant/**
+ghcr.io/home-operations/*
 ghcr.io/huaweiclouddeveloper/**
 ghcr.io/huggingface/*
 ghcr.io/hwameistor/**
@@ -1073,6 +1074,7 @@ quay.io/nuclio/*
 quay.io/operator-framework/*
 quay.io/operatorhubio/minio-operator
 quay.io/opstree/*
+quay.io/podman/stable
 quay.io/prometheus-operator/*
 quay.io/prometheus/*
 quay.io/prometheuscommunity/*
