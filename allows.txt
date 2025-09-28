@@ -753,6 +753,7 @@ docker.io/steamcmd/*
 docker.io/stilleshan/frpc
 docker.io/stilleshan/frps
 docker.io/stirlingtools/stirling-pdf
+docker.io/stnsmith/fossflow
 docker.io/streamnative/*
 docker.io/styletang/rocketmq-console-ng
 docker.io/subfuzion/netcat
