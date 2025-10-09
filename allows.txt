@@ -834,6 +834,7 @@ docker.io/wiznote/wizserver
 docker.io/woodpeckerci/*
 docker.io/wurstmeister/kafka
 docker.io/wurstmeister/zookeeper
+docker.io/wzshiming/*
 docker.io/xhofe/alist
 docker.io/xhongc/music_tag_web
 docker.io/xiaoyaliu/alist
