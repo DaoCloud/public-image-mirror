@@ -737,6 +737,7 @@ docker.io/shieldsio/shields
 docker.io/shingarey/foundationpose_custom_cuda121
 docker.io/sickcodes/docker-osx
 docker.io/sj26/mailcatcher
+docker.io/slimerl/slime
 docker.io/slskd/slskd
 docker.io/snipe/snipe-it
 docker.io/snowdreamtech/frpc
@@ -882,6 +883,7 @@ ghcr.io/biliup/caution
 ghcr.io/binary-husky/gpt_academic_with_latex
 ghcr.io/blakeblackshear/**
 ghcr.io/brenner-tobias/cloudflared/*
+ghcr.io/canner/*
 ghcr.io/chaos-mesh/**
 ghcr.io/chaosblade-io/**
 ghcr.io/chroma-core/chroma
@@ -916,6 +918,7 @@ ghcr.io/flexget/flexget
 ghcr.io/fluent/fluent-operator/*
 ghcr.io/freecodecamp/devdocs
 ghcr.io/gethomepage/homepage
+ghcr.io/getsentry/*
 ghcr.io/ggerganov/llama.cpp
 ghcr.io/ggml-org/llama.cpp
 ghcr.io/go-rod/rod
