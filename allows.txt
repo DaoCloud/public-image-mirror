@@ -14,6 +14,7 @@ docker.io/4pdosc/k8s-vdevice
 docker.io/569107519/alertsnitch-mysql
 docker.io/6053537/portainer-ce
 docker.io/acore/*
+docker.io/acryldata/*
 docker.io/adguard/adguardhome
 docker.io/adoptopenjdk/*
 docker.io/adriansegura99/**
