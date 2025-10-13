@@ -171,6 +171,7 @@ docker.io/drone/drone-runner-docker
 docker.io/drumsergio/genieacs
 docker.io/dushixiang/kafka-map
 docker.io/dustynv/*
+docker.io/duckdb/duckdb
 docker.io/dxflrs/*
 docker.io/e2bdev/code-interpreter
 docker.io/easytier/easytier
