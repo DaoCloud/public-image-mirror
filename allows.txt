@@ -169,6 +169,7 @@ docker.io/dremio/dremio-oss
 docker.io/drone/drone
 docker.io/drone/drone-runner-docker
 docker.io/drumsergio/genieacs
+docker.io/duckdb/duckdb
 docker.io/dushixiang/kafka-map
 docker.io/dustynv/*
 docker.io/dxflrs/*
