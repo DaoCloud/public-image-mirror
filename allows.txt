@@ -230,6 +230,7 @@ docker.io/gitea/*
 docker.io/gitlab/*
 docker.io/gitpod/openvscode-server
 docker.io/gliderlabs/logspout
+docker.io/goacme/lego
 docker.io/gocd/*
 docker.io/gogs/gogs
 docker.io/goharbor/*
@@ -556,6 +557,7 @@ docker.io/manticoresearch/manticore
 docker.io/maptiler/*
 docker.io/mattermost/focalboard
 docker.io/maxkeytop/*
+docker.io/mayswind/ezbookkeeping
 docker.io/mcp/*
 docker.io/menci/archlinuxarm
 docker.io/metabase/*
@@ -736,6 +738,7 @@ docker.io/serengil/deepface
 docker.io/shieldsio/shields
 docker.io/shingarey/foundationpose_custom_cuda121
 docker.io/sickcodes/docker-osx
+docker.io/silkeh/clang
 docker.io/sj26/mailcatcher
 docker.io/slimerl/slime
 docker.io/slskd/slskd
@@ -874,6 +877,7 @@ ghcr.io/armbian/**
 ghcr.io/astral-sh/**
 ghcr.io/authzed/spicedb
 ghcr.io/authzed/spicedb-operator
+ghcr.io/autowarefoundation/autoware
 ghcr.io/baizeai/**
 ghcr.io/benc-uk/kubeview
 ghcr.io/berriai/litellm
@@ -901,6 +905,7 @@ ghcr.io/cross-rs/**
 ghcr.io/danny-avila/librechat-dev
 ghcr.io/daocloud/**
 ghcr.io/dbt-labs/dbt-core
+ghcr.io/decohererk/decotv
 ghcr.io/deepflowio/rust-build
 ghcr.io/dexidp/**
 ghcr.io/dtzar/**
@@ -1008,6 +1013,7 @@ ghcr.io/sumologic/**
 ghcr.io/suwayomi/suwayomi-server
 ghcr.io/suwayomi/tachidesk
 ghcr.io/systemed/tilemaker
+ghcr.io/szemeng76/lunatv
 ghcr.io/tangly1024/notionnext
 ghcr.io/timeplus-io/**
 ghcr.io/tiryoh/ros2-desktop-vnc
