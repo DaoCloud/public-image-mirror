@@ -652,6 +652,7 @@ docker.io/p3terx/aria2-pro
 docker.io/p3terx/ariang
 docker.io/paddlepaddle/paddle
 docker.io/paketobuildpacks/*
+docker.io/passbolt/passbolt
 docker.io/pandoc/*
 docker.io/paradedb/*
 docker.io/pepperlabs/peppermint
