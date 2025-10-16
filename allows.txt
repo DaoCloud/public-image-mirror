@@ -696,6 +696,7 @@ docker.io/ramonvc/freegpt-webui
 docker.io/rancher/*
 docker.io/rayproject/*
 docker.io/rclone/*
+docker.io/reactivetechio/kubegres
 docker.io/reallibrephotos/librephotos
 docker.io/reallibrephotos/librephotos-frontend
 docker.io/reallibrephotos/librephotos-proxy
@@ -774,6 +775,7 @@ docker.io/swaggerapi/*
 docker.io/syncthing/syncthing
 docker.io/tabbyml/tabby
 docker.io/tailscale/*
+docker.io/taksss/php-epg
 docker.io/talebook/talebook
 docker.io/talkincode/toughradius
 docker.io/tarscloud/framework
