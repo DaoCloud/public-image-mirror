@@ -545,6 +545,7 @@ docker.io/liwei2633/gopeed
 docker.io/lizheming/waline
 docker.io/lkw199711/smanga
 docker.io/lldap/lldap
+docker.io/lmcache/*
 docker.io/lmsysorg/sglang
 docker.io/lobehub/*
 docker.io/localai/localai
