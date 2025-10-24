@@ -255,6 +255,7 @@ docker.io/guacamole/*
 docker.io/guiji2025/*
 docker.io/gztime/gzctf
 docker.io/hacdias/webdav
+docker.io/hagb/docker-easyconnect
 docker.io/hakuyyf/tensorrtx
 docker.io/halohub/halo
 docker.io/hanxi/xiaomusic
@@ -263,6 +264,7 @@ docker.io/haroldli/xiaoya-tvbox
 docker.io/hashicorp/*
 docker.io/headscale/headscale
 docker.io/heartexlabs/label-studio
+docker.io/heartexlabs/label-studio-ml-backend
 docker.io/hectorqin/reader
 docker.io/hengyunabc/arthas
 docker.io/henrygd/beszel
@@ -270,6 +272,7 @@ docker.io/henrygd/beszel-agent
 docker.io/heroiclabs/nakama-pluginbuilder
 docker.io/hewenyulucky/*
 docker.io/hivemq/*
+docker.io/hiyouga/llamafactory
 docker.io/hiyouga/pytorch
 docker.io/hkalexling/mango
 docker.io/homeassistant/*
@@ -693,6 +696,7 @@ docker.io/qmcgaw/ddns-updater
 docker.io/questdb/questdb
 docker.io/quickwit/*
 docker.io/qwenllm/*
+docker.io/rabbitmqoperator/cluster-operator
 docker.io/radondb/*
 docker.io/ramonvc/freegpt-webui
 docker.io/rancher/*
