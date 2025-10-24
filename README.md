@@ -84,7 +84,18 @@ kubeadm config images pull --image-repository k8s-gcr.m.daocloud.io
 
 ``` bash
 kind create cluster --name kind --image m.daocloud.io/docker.io/kindest/node:v1.22.1
-``` 
+```
+
+#### 加速所有 Pod
+
+https://github.com/wzshiming/repimage
+
+不修改 yaml, helm 等, 仅使用 Webhook, 自动修改所有新建 Pod 的 image 使用本 mirror
+
+``` bash
+kubectl create -f https://files.m.daocloud.io/github.com/wzshiming/repimage/releases/download/latest/repimage.yaml
+kubectl rollout status deployment/repimage -n kube-system
+```
 
 #### 加速 Containerd
 
