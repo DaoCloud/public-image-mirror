@@ -282,6 +282,7 @@ docker.io/hpcaitech/pytorch-cuda
 docker.io/hslr/sun-panel
 docker.io/huggingface/*
 docker.io/hugomods/hugo
+docker.io/hummingbot/hummingbot
 docker.io/hybridnetdev/hybridnet
 docker.io/hyperf/hyperf
 docker.io/hyperledger/*
@@ -673,6 +674,7 @@ docker.io/pingcap/*
 docker.io/plantuml/plantuml-server
 docker.io/plexinc/pms-docker
 docker.io/plugins/docker
+docker.io/podwide/cosyvoice
 docker.io/pointcloudlibrary/env
 docker.io/polardbx/polardb-x
 docker.io/portainer/*
@@ -937,6 +939,7 @@ ghcr.io/gethomepage/homepage
 ghcr.io/getsentry/*
 ghcr.io/ggerganov/llama.cpp
 ghcr.io/ggml-org/llama.cpp
+ghcr.io/gnzsnz/ib-gateway
 ghcr.io/go-rod/rod
 ghcr.io/goauthentik/**
 ghcr.io/gohugoio/hugo
