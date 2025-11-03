@@ -244,6 +244,7 @@ docker.io/goreleaser/goreleaser
 docker.io/gotenberg/gotenberg
 docker.io/gotify/*
 docker.io/gotson/komga
+docker.io/gpustack/gpustack
 docker.io/grafana/*
 docker.io/graphiteapp/graphite-statsd
 docker.io/graylog/graylog
@@ -874,6 +875,7 @@ docker.io/zlijingtao/neurobfuscator
 docker.io/zlmediakit/zlmediakit
 docker.io/zmisgod/iptvchecker
 docker.io/zmister/mrdoc
+docker.io/zulip/docker-zulip
 docker.osgeo.org/**
 docker.stirlingpdf.com/stirlingtools/stirling-pdf
 gcr.io/**
