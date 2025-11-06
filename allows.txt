@@ -373,6 +373,7 @@ docker.io/langfuse/*
 docker.io/langgenius/*
 docker.io/langhuihui/monibuca
 docker.io/laradock/*
+docker.io/letta/letta
 docker.io/lfedge/ekuiper
 docker.io/liangjw/kube-webhook-certgen
 docker.io/library/adminer
