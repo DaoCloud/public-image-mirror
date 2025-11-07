@@ -19,6 +19,7 @@ docker.io/adguard/adguardhome
 docker.io/adoptopenjdk/*
 docker.io/adriansegura99/**
 docker.io/agentaai/*
+docker.io/alexxit/go2rtc
 docker.io/alexzhc/*
 docker.io/allanpk716/chinesesubfinder
 docker.io/allfunc/speedtest
@@ -55,6 +56,7 @@ docker.io/arm64v8/*
 docker.io/artalk/artalk-go
 docker.io/ascendai/*
 docker.io/ascentstream/*
+docker.io/astral/uv
 docker.io/atlassian/*
 docker.io/authelia/authelia
 docker.io/automatischio/automatisch
