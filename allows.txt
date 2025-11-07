@@ -750,6 +750,7 @@ docker.io/semgrep/*
 docker.io/semitechnologies/*
 docker.io/senthilrch/*
 docker.io/serengil/deepface
+docker.io/serversideup/*
 docker.io/shieldsio/shields
 docker.io/shingarey/foundationpose_custom_cuda121
 docker.io/sickcodes/docker-osx
