@@ -972,6 +972,7 @@ ghcr.io/jd-opensource/**
 ghcr.io/jimmidyson/configmap-reload
 ghcr.io/joeferner/redis-commander
 ghcr.io/k3d-io/**
+ghcr.io/k3s-io/**
 ghcr.io/k8snetworkplumbingwg/**
 ghcr.io/kdoctor-io/**
 ghcr.io/kedacore/*
