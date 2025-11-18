@@ -853,6 +853,7 @@ docker.io/weaveworks/*
 docker.io/webdevops/*
 docker.io/whyour/qinglong
 docker.io/willfarrell/autoheal
+docker.io/wiremock/wiremock
 docker.io/wiznote/wizserver
 docker.io/woodpeckerci/*
 docker.io/wurstmeister/kafka
@@ -1007,6 +1008,7 @@ ghcr.io/metatube-community/metatube-server
 ghcr.io/mlflow/*
 ghcr.io/modelcontextprotocol/inspector
 ghcr.io/mosn/**
+ghcr.io/mostlygeek/llama-swap
 ghcr.io/music-assistant/server
 ghcr.io/open-telemetry/**
 ghcr.io/open-webui/open-webui
@@ -1088,6 +1090,7 @@ quay.io/jaegertracing/*
 quay.io/jetstack/*
 quay.io/jupyter/*
 quay.io/jupyterhub/*
+quay.io/k0sproject/*
 quay.io/k8scsi/*
 quay.io/kata-containers/*
 quay.io/kiali/*
