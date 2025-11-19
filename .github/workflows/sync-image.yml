@@ -11,11 +11,13 @@ permissions:
   issues: write
 
 jobs:
-  sync:
+  check:
     runs-on: ubuntu-latest
     if: contains(github.event.issue.labels.*.name, 'sync image')
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    outputs:
+      image: ${{ steps.get-image.outputs.image }}
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -47,55 +49,60 @@ jobs:
         fi
         echo "image=${ORIGIN_IMAGE}" >> $GITHUB_OUTPUT
 
-        SYNC_IMAGE="$(./hack/real-image.sh "${ORIGIN_IMAGE}")"
-        echo "sync_image=${SYNC_IMAGE}" >> $GITHUB_OUTPUT
-
-    - name: Set up runner
-      run: |
-        wget https://github.com/OpenCIDN/OpenCIDN/releases/download/v0.0.18/runner_linux_amd64 -O /usr/local/bin/runner && chmod +x /usr/local/bin/runner
-
-    - name: Create message to queue
-      id: get-message
-      run: |
-        MESSAGE_ID=$(curl -X 'PUT' \
-          'https://queue.m.daocloud.io/apis/v1/messages' \
-          -H 'Authorization: Bearer ${{ secrets.QUEUE_TOKEN }}' \
-          -H 'Content-Type: application/json' \
-          -d '{
-            "content": "${{ steps.get-image.outputs.sync_image }}",
-            "priority": 10,
-            "data": {"kind": "manifest", "deep": true}
-          }' | jq -r .id)
-        
-        echo "message_id=${MESSAGE_ID}" >> $GITHUB_OUTPUT
+        IMAGE="${ORIGIN_IMAGE}"
+        echo "image=${IMAGE}" >> $GITHUB_OUTPUT
+        GROUP="${IMAGE%%:*}"
+        GROUP="${GROUP%%@*}"
+        echo "link=https://queue.m.daocloud.io/status/#group:${GROUP}" >> $GITHUB_OUTPUT
 
     - name: Sync Status
       run: |
-        ORIGIN_IMAGE="${{ steps.get-image.outputs.image }}"
-        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 添加到同步队列...<br>[同步队列](https://queue.m.daocloud.io/status/)<br>[详细信息](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})"
+        IMAGE="${{ steps.get-image.outputs.image }}"
+        LINK="${{ steps.get-image.outputs.link }}"
+        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${IMAGE} 将添加到同步队列...<br>[同步队列](${LINK})<br>[详细信息](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})"
 
-    - name: Sync Runner
+  sync:
+    runs-on: ubuntu-latest
+    needs: check
+    if: needs.check.result == 'success'
+    container: ghcr.io/opencidn/ocimirror/sync:v0.0.37
+    steps:
+    - shell: sh
+      run: sync ${{ needs.check.outputs.image }} --platform=linux/amd64 --platform=linux/amd64 ${{ secrets.ARGS_CIDN }} ${{ secrets.ARGS_R2_IMAGE }}
+
+  runner:
+    runs-on: ubuntu-latest
+    needs: check
+    if: needs.check.result == 'success'
+    container: ghcr.io/opencidn/cidn/runner:v0.0.75
+    steps:
+    - shell: sh
+      run: runner --handler-name=${{ github.run_number }}-${{ github.event.issue.number }} --update-duration=10s --duration=1m --concurrency=3 ${{ secrets.ARGS_CIDN }}
+
+  failure:
+    runs-on: ubuntu-latest
+    needs:
+    - sync
+    - check
+    if: always() && needs.sync.result != 'success'
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+    - name: Sync Failure Status
       run: |
-        (
-          ORIGIN_IMAGE="${{ steps.get-image.outputs.image }}"
-          last_json="$(curl -X GET 'https://queue.m.daocloud.io/apis/v1/messages/${{ steps.get-message.outputs.message_id }}?watch=true' | jq -n 'reduce inputs as $item (null; $item)')"
-          status_code=$(echo "$last_json" | jq -r .status)
-          if [[ $status_code -eq 20 ]]; then
-              gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步完成<br>请使用 m.daocloud.io/${ORIGIN_IMAGE} 替代源镜像"
-              gh issue edit ${{ github.event.issue.number }} --add-label "sync image succeeded" -b "IMAGE SYNC"
-              gh issue close ${{ github.event.issue.number }} --reason "completed"
-          elif [[ $status_code -eq 30 ]]; then
-              error_message=$(echo "$last_json" | jq -r .data.error)
-              gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步失败<br> ${error_message}"
-              gh issue edit ${{ github.event.issue.number }} --add-label "sync image failure" -b "IMAGE SYNC"
-              gh issue close ${{ github.event.issue.number }} --reason "not planned"
-          else
-              gh issue comment ${{ github.event.issue.number }} -b "镜像 ${ORIGIN_IMAGE} 同步异常<br>[详情请查看](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})"
-              gh issue edit ${{ github.event.issue.number }} --add-label "sync image failure" -b "IMAGE SYNC"
-              gh issue close ${{ github.event.issue.number }} --reason "not planned"
-          fi
-        ) &
-        
-        /usr/local/bin/runner ${{ secrets.NEW_STORAGE_ARGS }} --user '${{ secrets.OCI_USER }}' --queue-token '${{ secrets.QUEUE_TOKEN }}' --queue-url https://queue.m.daocloud.io/apis/v1 --duration 10s --retry=3 --retry-interval=2s &
-
-        wait
+        gh -R "${{ github.repository }}" issue edit ${{ github.event.issue.number }} --add-label "sync image failure" -b "镜像 ${{ needs.check.outputs.image }} 同步失败"
+        gh -R "${{ github.repository }}" issue close ${{ github.event.issue.number }} --reason "not planned" --comment "镜像 ${{ needs.check.outputs.image }} 同步失败<br> 请去同步队列查看详情"
+  
+  success:
+    runs-on: ubuntu-latest
+    needs:
+    - sync
+    - check
+    if: needs.sync.result == 'success'
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+    - name: Sync Success Status
+      run: |
+        gh -R "${{ github.repository }}" issue edit ${{ github.event.issue.number }} --add-label "sync image succeeded" -b "镜像 ${{ needs.check.outputs.image }} 同步完成"
+        gh -R "${{ github.repository }}" issue close ${{ github.event.issue.number }} --reason "completed" --comment "镜像 ${{ needs.check.outputs.image }} 同步完成<br>请使用 m.daocloud.io/${{ needs.check.outputs.image }} 替代源镜像"

@@ -1,0 +1,16 @@
+name: CIDN Runner
+run-name: CIDN Runner ${{ github.run_number }}
+
+on:
+  schedule:
+    - cron: "*/40 * * * *"
+
+  workflow_dispatch:
+
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    container: ghcr.io/opencidn/cidn/runner:v0.0.75
+    steps:
+    - shell: sh
+      run: runner --handler-name=${{ github.run_number }} --update-duration=10s --duration=4h --concurrency=3 ${{ secrets.ARGS_CIDN }}
