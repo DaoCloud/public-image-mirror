@@ -886,6 +886,7 @@ docker.io/zulip/docker-zulip
 docker.osgeo.org/**
 docker.stirlingpdf.com/stirlingtools/stirling-pdf
 gcr.io/**
+ghcr.io/666ghj/bettafish
 ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
 ghcr.io/ajnart/homarr
@@ -1050,7 +1051,6 @@ ghcr.io/wzshiming/**
 ghcr.io/zalando/**
 ghcr.io/zammad/zammad
 ghcr.io/zitadel/**
-ghcr.io/666ghj/bettafish
 k8s.gcr.io/**
 lscr.io/linuxserver/**
 mcr.microsoft.com/**
