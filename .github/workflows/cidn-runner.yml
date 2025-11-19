@@ -10,6 +10,7 @@ on:
 jobs:
   runner:
     runs-on: ubuntu-latest
+    if: github.repository == 'DaoCloud/public-image-mirror'
     container: ghcr.io/opencidn/cidn/runner:v0.0.75
     steps:
     - shell: sh
