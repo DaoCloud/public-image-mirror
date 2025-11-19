@@ -1050,6 +1050,7 @@ ghcr.io/wzshiming/**
 ghcr.io/zalando/**
 ghcr.io/zammad/zammad
 ghcr.io/zitadel/**
+ghcr.io/666ghj/bettafish
 k8s.gcr.io/**
 lscr.io/linuxserver/**
 mcr.microsoft.com/**
