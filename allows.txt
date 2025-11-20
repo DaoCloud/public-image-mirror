@@ -7,6 +7,7 @@ docker.com/kyantech/*
 docker.elastic.co/**
 docker.getcollate.io/openmetadata/*
 docker.io/*
+ docker.io/rook/ceph
 docker.io/1activegeek/airconnect
 docker.io/1dev/*
 docker.io/1panel/maxkb
