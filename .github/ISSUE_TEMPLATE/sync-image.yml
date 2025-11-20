@@ -9,37 +9,40 @@ body:
       # ↑↑↑↑↑↑↑↑↑↑↑ 填入你要同步的 Image
       ## 请包含 域名/路径:标签
 
-- type: checkboxes
+- type: dropdown
   attributes:
-    label: 镜像域名 (镜像仓库)
+    label: 镜像架构
+    description: 请选择要同步的目标架构
     options:
-    - label: 请确保包含域名(domain)
+    - linux/amd64
+    - linux/386
+    - linux/arm64
+    - linux/arm/v6
+    - linux/arm/v7
+    - linux/ppc64le
+    - linux/s390x
+  validations:
+    required: true
+
 - type: markdown
   attributes:
     value: |
+      请确保包含域名(domain)
       - 如 docker.io/
       - 如 registry.k8s.io/
       - 如果不包含域名, 需要主动添加默认的 docker.io/
 
-- type: checkboxes
-  attributes:
-    label: 镜像标签
-    options:
-    - label: 请确保包含镜像的标签(tag)
 - type: markdown
   attributes:
     value: |
+      请确保包含镜像的标签(tag)
       - 如 :latest
       - 如 :v1
 
-- type: checkboxes
-  attributes:
-    label: 镜像存在
-    options:
-    - label: 请确保这个镜像真实存在
 - type: markdown
   attributes:
     value: |
+      请确保这个镜像真实存在
       - 如 docker.io/library/busybox:latest
       - 如 docker.io/kindest/node:v1.30.0
       - 如 registry.k8s.io/kubectl:v1.30.0
