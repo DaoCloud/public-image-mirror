@@ -18,6 +18,9 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     outputs:
       image: ${{ steps.get-image.outputs.image }}
+      link: ${{ steps.get-image.outputs.link }}
+      platforms: ${{ steps.get-image.outputs.platforms }}
+      arch: ${{ steps.get-image.outputs.arch }}
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -25,6 +28,7 @@ jobs:
       id: get-image
       env:
         IMAGE: "${{ github.event.issue.title }}"
+        ISSUE_BODY: "${{ github.event.issue.body }}"
       run: |
         ORIGIN_IMAGE="${IMAGE}"
         CORRECT_IMAGE="$(./hack/correct-image.sh "${ORIGIN_IMAGE}")"
@@ -47,19 +51,31 @@ jobs:
           gh issue close ${{ github.event.issue.number }} --reason "not planned"
           exit 1
         fi
-        echo "image=${ORIGIN_IMAGE}" >> $GITHUB_OUTPUT
 
         IMAGE="${ORIGIN_IMAGE}"
         echo "image=${IMAGE}" >> $GITHUB_OUTPUT
         GROUP="${IMAGE%%:*}"
         GROUP="${GROUP%%@*}"
-        echo "link=https://queue.m.daocloud.io/status/#group:${GROUP}" >> $GITHUB_OUTPUT
+        LINK="https://queue.m.daocloud.io/status/#group:${GROUP}"
+        echo "link=${LINK}" >> $GITHUB_OUTPUT
 
-    - name: Sync Status
-      run: |
-        IMAGE="${{ steps.get-image.outputs.image }}"
-        LINK="${{ steps.get-image.outputs.link }}"
-        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${IMAGE} 将添加到同步队列...<br>[同步队列](${LINK})<br>[详细信息](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})"
+        BODY="${ISSUE_BODY:-}"
+        ARCH=""
+
+        if [ -z "${ARCH}" ]; then
+          ARCH=$(printf "%s" "$BODY" | grep -oE 'linux/[a-z0-9/._+-]+' | head -n1 || true)
+        fi
+
+        if [ -z "${ARCH}" ]; then
+          ARCH="linux/amd64"
+        fi
+
+        echo "arch=${ARCH}" >> $GITHUB_OUTPUT
+
+        PLATFORM_FLAG="--platform=${ARCH}"
+        echo "platforms=${PLATFORM_FLAG}" >> $GITHUB_OUTPUT
+
+        gh issue comment ${{ github.event.issue.number }} -b "镜像 ${IMAGE}, 平台 ${ARCH} 将添加到同步队列...<br>[同步队列](${LINK})<br>[详细信息](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})"
 
   sync:
     runs-on: ubuntu-latest
@@ -68,7 +84,7 @@ jobs:
     container: ghcr.io/opencidn/ocimirror/sync:v0.0.37
     steps:
     - shell: sh
-      run: sync ${{ needs.check.outputs.image }} --platform=linux/amd64 --platform=linux/amd64 ${{ secrets.ARGS_CIDN }} ${{ secrets.ARGS_R2_IMAGE }}
+      run: sync ${{ needs.check.outputs.image }} ${{ needs.check.outputs.platforms }} ${{ secrets.ARGS_CIDN }} ${{ secrets.ARGS_R2_IMAGE }}
 
   runner:
     runs-on: ubuntu-latest
@@ -77,7 +93,7 @@ jobs:
     container: ghcr.io/opencidn/cidn/runner:v0.0.82
     steps:
     - shell: sh
-      run: runner --handler-name=${{ github.run_number }}-${{ github.event.issue.number }} --update-duration=10s --duration=1m --concurrency=3 ${{ secrets.ARGS_CIDN }}
+      run: runner --handler-name=${{ github.run_number }}-${{ github.event.issue.number }} --update-duration=10s --duration=5m --concurrency=3 ${{ secrets.ARGS_CIDN }}
 
   failure:
     runs-on: ubuntu-latest
@@ -90,8 +106,8 @@ jobs:
     steps:
     - name: Sync Failure Status
       run: |
-        gh -R "${{ github.repository }}" issue edit ${{ github.event.issue.number }} --add-label "sync image failure" -b "镜像 ${{ needs.check.outputs.image }} 同步失败"
-        gh -R "${{ github.repository }}" issue close ${{ github.event.issue.number }} --reason "not planned" --comment "镜像 ${{ needs.check.outputs.image }} 同步失败<br> 请去同步队列查看详情"
+        gh -R "${{ github.repository }}" issue edit ${{ github.event.issue.number }} --add-label "sync image failure" -b "镜像同步失败"
+        gh -R "${{ github.repository }}" issue close ${{ github.event.issue.number }} --reason "not planned" --comment "镜像 ${{ needs.check.outputs.image }}, 平台 ${{ needs.check.outputs.arch }} 同步失败<br>请去同步队列查看详细信息。"
   
   success:
     runs-on: ubuntu-latest
@@ -104,5 +120,5 @@ jobs:
     steps:
     - name: Sync Success Status
       run: |
-        gh -R "${{ github.repository }}" issue edit ${{ github.event.issue.number }} --add-label "sync image succeeded" -b "镜像 ${{ needs.check.outputs.image }} 同步完成"
-        gh -R "${{ github.repository }}" issue close ${{ github.event.issue.number }} --reason "completed" --comment "镜像 ${{ needs.check.outputs.image }} 同步完成<br>请使用 m.daocloud.io/${{ needs.check.outputs.image }} 替代源镜像"
+        gh -R "${{ github.repository }}" issue edit ${{ github.event.issue.number }} --add-label "sync image succeeded" -b "镜像同步完成"
+        gh -R "${{ github.repository }}" issue close ${{ github.event.issue.number }} --reason "completed" --comment "镜像 ${{ needs.check.outputs.image }}, 平台 ${{ needs.check.outputs.arch }} 同步完成<br>请使用 m.daocloud.io/${{ needs.check.outputs.image }} 进行访问。"
