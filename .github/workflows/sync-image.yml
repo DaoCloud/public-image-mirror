@@ -84,7 +84,7 @@ jobs:
     needs:
     - sync
     - check
-    if: always() && needs.sync.result != 'success'
+    if: always() && needs.sync.result == 'failure'
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
