@@ -9,6 +9,7 @@ Mirror 仓库 [Gitee](https://gitee.com/daocloud/public-image-mirror)
 - 建议使用明确版本号的 tag, 对于 latest 这种变更后响应旧数据, 并且后台重新同步
 - [本服务后端代码](https://github.com/OpenCIDN/ocimirror)
 - [同步队列](https://queue.m.daocloud.io/status/) 仅保留一小时的同步记录
+- [服务状态监控](https://status.daocloud.io/status/docker)
 
 ## 背景 & 目标
 
