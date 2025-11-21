@@ -81,7 +81,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: check
     if: needs.check.result == 'success'
-    container: ghcr.io/opencidn/ocimirror/sync:v0.0.37
+    container: ghcr.io/opencidn/ocimirror/sync:v0.0.38
     steps:
     - shell: sh
       run: sync ${{ needs.check.outputs.image }} ${{ needs.check.outputs.platforms }} ${{ secrets.ARGS_CIDN }} ${{ secrets.ARGS_R2_IMAGE }}
