@@ -7,7 +7,8 @@ Mirror 仓库 [Gitee](https://gitee.com/daocloud/public-image-mirror)
 - 如有疑问请咨询 [#4183](https://github.com/DaoCloud/public-image-mirror/issues/4183)
 - 建议将拉取任务放在闲时 凌晨(北京时间 01-07 点), 其他时间段非常拥挤
 - 建议使用明确版本号的 tag, 对于 latest 这种变更后响应旧数据, 并且后台重新同步
-- 本服务后端 [OpenCIDN](https://github.com/OpenCIDN)
+- [本服务后端代码](https://github.com/OpenCIDN/ocimirror)
+- [同步队列](https://queue.m.daocloud.io/status/)
 
 ## 背景 & 目标
 
