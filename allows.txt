@@ -871,6 +871,7 @@ docker.io/yandex/clickhouse-server
 docker.io/ydlhero/chatgpt-web-midjourney-proxy
 docker.io/yedf/dtm
 docker.io/yidadaa/chatgpt-next-web
+docker.io/ypptec/nascab
 docker.io/zabbix/*
 docker.io/zadam/trilium
 docker.io/zendesk/maxwell
@@ -887,6 +888,7 @@ docker.osgeo.org/**
 docker.stirlingpdf.com/stirlingtools/stirling-pdf
 gcr.io/**
 ghcr.io/666ghj/bettafish
+ghcr.io/9001/copyparty-ac
 ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
 ghcr.io/ajnart/homarr
@@ -1026,6 +1028,7 @@ ghcr.io/project-zot/**
 ghcr.io/projectcontour/**
 ghcr.io/puppeteer/puppeteer
 ghcr.io/rails/**
+ghcr.io/rjmalagon/ollama-linux-amd-apu
 ghcr.io/seriousm4x/upsnap
 ghcr.io/siderolabs/*
 ghcr.io/siemens/**
