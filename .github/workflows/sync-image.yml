@@ -93,7 +93,7 @@ jobs:
     container: ghcr.io/opencidn/cidn/runner:v0.0.91
     steps:
     - shell: sh
-      run: runner --handler-name=${{ github.run_number }}-${{ github.event.issue.number }} --update-duration=10s --duration=5m --concurrency=3 ${{ secrets.ARGS_CIDN }}
+      run: runner --handler-name=dc-${{ github.run_number }}-${{ github.event.issue.number }} --update-duration=10s --duration=5m --concurrency=3 ${{ secrets.ARGS_CIDN }}
 
   failure:
     runs-on: ubuntu-latest
