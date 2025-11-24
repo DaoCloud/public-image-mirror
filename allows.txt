@@ -141,6 +141,8 @@ docker.io/dbeaver/cloudbeaver
 docker.io/debezium/*
 docker.io/deepflowce/*
 docker.io/deluan/navidrome
+docker.io/democraticcsi/csi-grpc-proxy
+docker.io/democraticcsi/democratic-csi
 docker.io/denoland/deno
 docker.io/derailed/k9s
 docker.io/determinedai/*
@@ -247,6 +249,7 @@ docker.io/gotenberg/gotenberg
 docker.io/gotify/*
 docker.io/gotson/komga
 docker.io/gpustack/gpustack
+docker.io/gpustack/runner
 docker.io/grafana/*
 docker.io/graphiteapp/graphite-statsd
 docker.io/graylog/graylog
@@ -977,6 +980,7 @@ ghcr.io/joeferner/redis-commander
 ghcr.io/k3d-io/**
 ghcr.io/k3s-io/**
 ghcr.io/k8snetworkplumbingwg/**
+ghcr.io/karakeep-app/karakeep
 ghcr.io/kdoctor-io/**
 ghcr.io/kedacore/*
 ghcr.io/khoj-ai/**
