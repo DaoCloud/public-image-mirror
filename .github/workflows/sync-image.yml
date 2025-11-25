@@ -90,7 +90,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: check
     if: needs.check.result == 'success'
-    container: ghcr.io/opencidn/cidn/runner:v0.0.91
+    container: ghcr.io/opencidn/cidn/runner:v0.0.92
     steps:
     - shell: sh
       run: runner --handler-name=dc-${{ github.run_number }}-${{ github.event.issue.number }} --update-duration=10s --duration=5m --concurrency=2 ${{ secrets.ARGS_CIDN }}
