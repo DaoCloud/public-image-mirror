@@ -960,6 +960,7 @@ ghcr.io/go-rod/rod
 ghcr.io/goauthentik/**
 ghcr.io/gohugoio/hugo
 ghcr.io/graalvm/*
+ghcr.io/grafana-operator/*
 ghcr.io/grafana/*
 ghcr.io/hassio-addons/**
 ghcr.io/headlamp-k8s/headlamp
