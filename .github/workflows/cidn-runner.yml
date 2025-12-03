@@ -11,7 +11,7 @@ jobs:
   runner:
     runs-on: ubuntu-latest
     if: github.repository == 'DaoCloud/public-image-mirror'
-    container: ghcr.io/opencidn/cidn/runner:v0.0.100
+    container: ghcr.io/opencidn/cidn/runner:v0.0.101
     steps:
     - shell: sh
       run: runner --handler-name=dc-${{ github.run_number }} --update-duration=10s --duration=4h --concurrency=2 ${{ secrets.ARGS_CIDN }}
