@@ -282,6 +282,7 @@ docker.io/hewenyulucky/*
 docker.io/hivemq/*
 docker.io/hiyouga/llamafactory
 docker.io/hiyouga/pytorch
+docker.io/hiyouga/verl
 docker.io/hkalexling/mango
 docker.io/homeassistant/*
 docker.io/hoppscotch/hoppscotch
@@ -566,6 +567,7 @@ docker.io/localai/localai
 docker.io/loggieio/loggie
 docker.io/longhornio/*
 docker.io/louislam/*
+docker.io/luojiecong/index-tts
 docker.io/m1k1o/*
 docker.io/mageai/mageai
 docker.io/maildev/maildev
@@ -588,6 +590,7 @@ docker.io/minio/*
 docker.io/mintplexlabs/anythingllm
 docker.io/mirantis/*
 docker.io/mitmproxy/mitmproxy
+docker.io/mlocati/php-extension-installer
 docker.io/mmcauliffe/montreal-forced-aligner
 docker.io/moby/*
 docker.io/mohsinonxrm/*
@@ -815,6 +818,7 @@ docker.io/thingsboard/tb-node
 docker.io/thingsboard/tb-postgres
 docker.io/thomassong/gpu-admission
 docker.io/tiangolo/*
+docker.io/tianon/postgres-upgrade
 docker.io/timberio/*
 docker.io/timescale/timescaledb
 docker.io/timonwong/prometheus-webhook-dingtalk
@@ -1001,6 +1005,7 @@ ghcr.io/labring/calico
 ghcr.io/labring/fastgpt
 ghcr.io/labring/fastgpt-sandbox
 ghcr.io/labring/lvscare
+ghcr.io/lemker/unifi-os-server
 ghcr.io/librespeed/speedtest
 ghcr.io/linuxsuren/api-testing
 ghcr.io/linuxsuren/atest-ext-store-orm
