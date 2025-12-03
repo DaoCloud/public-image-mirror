@@ -3,7 +3,7 @@ run-name: CIDN Runner ${{ github.run_number }}
 
 on:
   schedule:
-    - cron: "*/40 * * * *"
+    - cron: "0,30 * * * *"
 
   workflow_dispatch:
 
