@@ -95,6 +95,7 @@ docker.io/chaosbladeio/chaosblade-box
 docker.io/chaoszhu/easynode
 docker.io/charlie0129/bupt-net-login
 docker.io/chat2db/chat2db
+docker.io/chatimage/chatchat
 docker.io/chengshiwen/influx-proxy
 docker.io/chengshiwen/influxdb
 docker.io/chenhw2/aliyun-ddns-cli
@@ -590,6 +591,7 @@ docker.io/minio/*
 docker.io/mintplexlabs/anythingllm
 docker.io/mirantis/*
 docker.io/mitmproxy/mitmproxy
+docker.io/mlikiowa/napcat-docker
 docker.io/mlocati/php-extension-installer
 docker.io/mmcauliffe/montreal-forced-aligner
 docker.io/moby/*
@@ -598,6 +600,7 @@ docker.io/mongodb/mongodb-community-server
 docker.io/moonrailgun/tianji
 docker.io/mpioperator/mpi-operator
 docker.io/mplatform/manifest-tool
+docker.io/mpromonet/webrtc-streamer
 docker.io/mtphotos/mt-photos
 docker.io/multiarch/*
 docker.io/mwader/webdav
