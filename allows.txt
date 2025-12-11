@@ -81,6 +81,7 @@ docker.io/browserless/*
 docker.io/browsh/browsh
 docker.io/budibase/budibase
 docker.io/budtmo/docker-android
+docker.io/burakince/mlflow
 docker.io/bvlc/caffe
 docker.io/bytebase/bytebase
 docker.io/bytelang/kplayer
