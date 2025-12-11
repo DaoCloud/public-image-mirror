@@ -269,6 +269,7 @@ docker.io/hagb/docker-easyconnect
 docker.io/hakuyyf/tensorrtx
 docker.io/halohub/halo
 docker.io/hanxi/xiaomusic
+docker.io/haproxytech/*
 docker.io/harness/*
 docker.io/haroldli/xiaoya-tvbox
 docker.io/hashicorp/*
@@ -849,6 +850,7 @@ docker.io/ubuntu/*
 docker.io/ultralytics/*
 docker.io/unclecode/crawl4ai
 docker.io/uozi/nginx-ui
+docker.io/vaalacat/frp-panel
 docker.io/valkey/valkey
 docker.io/vaultwarden/server
 docker.io/vdsm/virtual-dsm
@@ -940,6 +942,7 @@ ghcr.io/coollabsio/coolify-helper
 ghcr.io/coqui-ai/tts
 ghcr.io/corentinth/it-tools
 ghcr.io/cowboysysop/pytest
+ghcr.io/crazy-max/fail2ban
 ghcr.io/cross-rs/**
 ghcr.io/danny-avila/librechat-dev
 ghcr.io/daocloud/**
@@ -976,6 +979,7 @@ ghcr.io/hassio-addons/**
 ghcr.io/headlamp-k8s/headlamp
 ghcr.io/helm/**
 ghcr.io/hkuds/lightrag
+ghcr.io/homarr-labs/homarr
 ghcr.io/home-assistant/**
 ghcr.io/home-operations/*
 ghcr.io/huaweiclouddeveloper/**
