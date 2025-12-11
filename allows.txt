@@ -225,6 +225,7 @@ docker.io/fortio/*
 docker.io/fosrl/*
 docker.io/foxdalas/*
 docker.io/frappe/*
+docker.io/freeradius/freeradius-server
 docker.io/freesurfer/synthmorph
 docker.io/frooodle/s-pdf
 docker.io/frrouting/*
