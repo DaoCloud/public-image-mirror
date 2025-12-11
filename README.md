@@ -79,8 +79,14 @@ docker.m.daocloud.io/library/busybox
 ### 加速 Kubneretes
 
 #### 加速安装 kubeadm
-``` bash
-kubeadm config images pull --image-repository k8s-gcr.m.daocloud.io
+
+``` yaml
+apiVersion: kubeadm.k8s.io/v1beta3
+kind: ClusterConfiguration
+dns:
+  imageRepository: k8s.m.daocloud.io/coredns
+imageRepository: k8s.m.daocloud.io
+...
 ```
 
 #### 加速安装 kind
