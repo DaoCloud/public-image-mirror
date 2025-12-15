@@ -89,6 +89,7 @@ docker.io/calciumion/new-api
 docker.io/calico/*
 docker.io/camunda/zeebe
 docker.io/canal/canal-server
+docker.io/caronc/apprise
 docker.io/cars10/elasticvue
 docker.io/casbin/casdoor
 docker.io/certbot/*
