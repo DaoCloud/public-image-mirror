@@ -773,6 +773,7 @@ docker.io/shieldsio/shields
 docker.io/shingarey/foundationpose_custom_cuda121
 docker.io/sickcodes/docker-osx
 docker.io/silkeh/clang
+docker.io/sinamics/ztnet
 docker.io/sissbruecker/linkding
 docker.io/sj26/mailcatcher
 docker.io/slimerl/slime
@@ -869,6 +870,7 @@ docker.io/wallabag/wallabag
 docker.io/wandb/*
 docker.io/weaveworks/*
 docker.io/webdevops/*
+docker.io/wekanteam/wekan
 docker.io/whyour/qinglong
 docker.io/willfarrell/autoheal
 docker.io/wiremock/wiremock
