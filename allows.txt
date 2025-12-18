@@ -852,6 +852,7 @@ docker.io/twinproduction/gatus
 docker.io/ubuntu/*
 docker.io/ultralytics/*
 docker.io/unclecode/crawl4ai
+docker.io/unityci/editor
 docker.io/uozi/nginx-ui
 docker.io/vaalacat/frp-panel
 docker.io/valkey/valkey
