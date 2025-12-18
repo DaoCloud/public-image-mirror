@@ -85,6 +85,7 @@ docker.io/burakince/mlflow
 docker.io/bvlc/caffe
 docker.io/bytebase/bytebase
 docker.io/bytelang/kplayer
+docker.io/caarlos0/domain_exporter
 docker.io/calciumion/new-api
 docker.io/calico/*
 docker.io/camunda/zeebe
