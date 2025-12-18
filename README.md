@@ -65,6 +65,7 @@ docker.m.daocloud.io/library/busybox
 | ------------------ | --------------------- | ---------------------------------------------- |
 | docker.elastic.co  | elastic.m.daocloud.io |                                                |
 | docker.io          | docker.m.daocloud.io  |                                                |
+| dhi.io             | dhi.m.daocloud.io     |                                                |
 | gcr.io             | gcr.m.daocloud.io     |                                                |
 | ghcr.io            | ghcr.m.daocloud.io    |                                                |
 | k8s.gcr.io         | k8s-gcr.m.daocloud.io | k8s.gcr.io 已被迁移到 registry.k8s.io          |
