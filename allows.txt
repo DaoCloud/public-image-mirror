@@ -3,6 +3,7 @@ container-registry.oracle.com/**
 cr.kgateway.dev/kgateway-dev/*
 cr.l5d.io/**
 cr.weaviate.io/**
+dhi.io/**
 docker.com/kyantech/*
 docker.elastic.co/**
 docker.getcollate.io/openmetadata/*
