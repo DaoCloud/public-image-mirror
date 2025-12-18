@@ -586,6 +586,7 @@ docker.io/maxkeytop/*
 docker.io/mayswind/ezbookkeeping
 docker.io/mcp/*
 docker.io/menci/archlinuxarm
+docker.io/messense/cargo-zigbuild
 docker.io/metabase/*
 docker.io/metacontrollerio/metacontroller
 docker.io/mikefarah/yq
