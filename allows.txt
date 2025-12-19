@@ -186,7 +186,7 @@ docker.io/dustynv/*
 docker.io/dxflrs/*
 docker.io/e2bdev/code-interpreter
 docker.io/easytier/easytier
-docker.ip/ealen/echo-server
+docker.io/ealen/echo-server
 docker.io/elastic/*
 docker.io/electronuserland/builder
 docker.io/elestio/neko
