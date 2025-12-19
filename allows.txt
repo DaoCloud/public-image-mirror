@@ -1126,6 +1126,7 @@ quay.io/grafana-operator/*
 quay.io/ibm-spectrum-scale/*
 quay.io/jaegertracing/*
 quay.io/jetstack/*
+quay.io/jetstack/charts/*
 quay.io/jupyter/*
 quay.io/jupyterhub/*
 quay.io/k0sproject/*
