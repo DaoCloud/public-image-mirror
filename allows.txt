@@ -583,6 +583,7 @@ docker.io/manjarolinux/*
 docker.io/manticoresearch/manticore
 docker.io/maptiler/*
 docker.io/mattermost/focalboard
+docker.io/mattermost/mattermost-team-edition
 docker.io/maxkeytop/*
 docker.io/mayswind/ezbookkeeping
 docker.io/mcp/*
@@ -1056,6 +1057,7 @@ ghcr.io/parkervcp/yolks
 ghcr.io/plankanban/planka
 ghcr.io/project-zot/**
 ghcr.io/projectcontour/**
+ghcr.io/ptbsare/home-assistant-addons/aarch64-addon-sherpa-onnx-tts-stt
 ghcr.io/puppeteer/puppeteer
 ghcr.io/rails/**
 ghcr.io/rjmalagon/ollama-linux-amd-apu
