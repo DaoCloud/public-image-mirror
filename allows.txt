@@ -107,6 +107,7 @@ docker.io/chigusa/bililive-go
 docker.io/chirpstack/*
 docker.io/chishin/nginx-proxy-manager-zh
 docker.io/chrishirsch/kuberhealthy-storage-check
+docker.io/chrislusf/seaweedfs
 docker.io/chromedp/headless-shell
 docker.io/chrstnhntschl/gpu_burn
 docker.io/cimg/go
@@ -345,6 +346,7 @@ docker.io/juicedata/*
 docker.io/jumpserver/*
 docker.io/jupyter/*
 docker.io/jupyterhub/*
+docker.io/justarchi/archisteamfarm
 docker.io/justsong/one-api
 docker.io/jvmilazz0/kavita
 docker.io/jxxghp/*
@@ -876,6 +878,7 @@ docker.io/wallabag/wallabag
 docker.io/wandb/*
 docker.io/weaveworks/*
 docker.io/webdevops/*
+docker.io/wechatopenai/*
 docker.io/wekanteam/wekan
 docker.io/whyour/qinglong
 docker.io/willfarrell/autoheal
@@ -1046,6 +1049,7 @@ ghcr.io/mosn/**
 ghcr.io/mostlygeek/llama-swap
 ghcr.io/music-assistant/server
 ghcr.io/nicholas-fedor/watchtower
+ghcr.io/nvidia/**
 ghcr.io/open-telemetry/**
 ghcr.io/open-webui/open-webui
 ghcr.io/open-webui/pipelines
