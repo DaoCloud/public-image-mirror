@@ -49,10 +49,6 @@ m.daocloud.io/docker.io/library/busybox
 docker.m.daocloud.io/library/busybox
 ```
 
-## 无缓存
-
-在拉取的时候如果我们没有缓存, 将会在 [同步队列](https://queue.m.daocloud.io/status/) 添加同步缓存的任务.
-
 ## 支持前缀替换的 Registry (不推荐)
 
 推荐使用添加前缀的方式.
@@ -76,6 +72,11 @@ docker.m.daocloud.io/library/busybox
 | registry.ollama.ai | ollama.m.daocloud.io  | 实验内测中，[使用方法](#加速-ollama--deepseek) |
 
 ## 最佳实践
+
+### 部署内网缓存
+
+本地缓存部署用于在内网环境中加速镜像拉取，减少对外网的依赖。通过设置一个本地镜像仓库，您可以缓存常用的镜像。
+[请参考文档](https://github.com/DaoCloud/public-image-mirror/tree/main/docs/local-cache)
 
 ### 加速 Kubneretes
 
