@@ -28,7 +28,6 @@ services:
     configs:
     - source: registry-config
       target: /etc/docker/registry/config.yml
-
 configs:
   registry-config:
     content: |
@@ -49,7 +48,7 @@ volumes:
 
 4. **启动服务**  
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 5. **配置 Docker 客户端**  
