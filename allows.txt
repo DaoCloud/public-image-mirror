@@ -634,6 +634,7 @@ docker.io/newsnowlabs/dockside
 docker.io/nextcloud/all-in-one
 docker.io/nginx/*
 docker.io/nginxinc/*
+docker.io/nickfedor/watchtower
 docker.io/nicolaka/netshoot
 docker.io/nobodyiam/apollo-quick-start
 docker.io/nocobase/nocobase
@@ -807,6 +808,7 @@ docker.io/streamnative/*
 docker.io/styletang/rocketmq-console-ng
 docker.io/subfuzion/netcat
 docker.io/suisuijiang/fiora
+docker.io/sulinggg/openwrt
 docker.io/supabase/*
 docker.io/supermanito/arcadia
 docker.io/superng6/aria2
