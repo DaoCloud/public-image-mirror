@@ -42,6 +42,7 @@ docker.io/apachepulsar/*
 docker.io/apacherocketmq/*
 docker.io/apecloud/*
 docker.io/apicurio/*
+docker.io/apipark/apipark
 docker.io/apitable/*
 docker.io/apolloconfig/*
 docker.io/appbaseio/dejavu
@@ -198,6 +199,7 @@ docker.io/emqx/*
 docker.io/enable/nessus
 docker.io/ensemblorg/ensembl-vep
 docker.io/envoyproxy/*
+docker.io/eolinker/apinto-gateway
 docker.io/eosphorosai/*
 docker.io/esphome/*
 docker.io/estrellaxd/auto_bangumi
