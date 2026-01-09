@@ -41,6 +41,7 @@ docker.io/apache/*
 docker.io/apachepulsar/*
 docker.io/apacherocketmq/*
 docker.io/apecloud/*
+docker.io/apereo/cas
 docker.io/apicurio/*
 docker.io/apipark/apipark
 docker.io/apitable/*
