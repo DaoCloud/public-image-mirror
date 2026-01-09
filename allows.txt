@@ -263,6 +263,7 @@ docker.io/gpustack/gpustack
 docker.io/gpustack/runner
 docker.io/grafana/*
 docker.io/graphiteapp/graphite-statsd
+docker.io/gravitl/netmaker
 docker.io/graylog/graylog
 docker.io/graylog/graylog-datanode
 docker.io/greatsql/*
@@ -755,6 +756,7 @@ docker.io/ribbybibby/ssl-exporter
 docker.io/riscv64/*
 docker.io/rockylinux/rockylinux
 docker.io/rocm/*
+docker.io/rolebasedgroup/rbgs-controller
 docker.io/romancin/tinymediamanager
 docker.io/rommapp/romm
 docker.io/rook/ceph
@@ -969,6 +971,7 @@ ghcr.io/dbt-labs/dbt-core
 ghcr.io/decohererk/decotv
 ghcr.io/deepflowio/rust-build
 ghcr.io/dexidp/**
+ghcr.io/docling-project/*
 ghcr.io/dtzar/**
 ghcr.io/easytier/easytier
 ghcr.io/elastic/opentelemetry-demo
@@ -1081,6 +1084,7 @@ ghcr.io/songquanpeng/one-api
 ghcr.io/speaches-ai/speaches
 ghcr.io/spidernet-io/**
 ghcr.io/spiffe/**
+ghcr.io/spring-ai-alibaba/lynxe
 ghcr.io/sugarforever/peanut-shell
 ghcr.io/sumologic/**
 ghcr.io/suwayomi/suwayomi-server
@@ -1144,6 +1148,7 @@ quay.io/jupyterhub/*
 quay.io/k0sproject/*
 quay.io/k8scsi/*
 quay.io/kata-containers/*
+quay.io/keycloak/keycloak
 quay.io/kiali/*
 quay.io/kiwigrid/*
 quay.io/kuberay/*
