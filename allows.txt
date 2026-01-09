@@ -980,6 +980,7 @@ ghcr.io/fatedier/frpc
 ghcr.io/fief-dev/fief
 ghcr.io/fish2018/pansou-web
 ghcr.io/fission/**
+ghcr.io/flannel-io/*
 ghcr.io/flexget/flexget
 ghcr.io/fluent/fluent-operator/*
 ghcr.io/freecodecamp/devdocs
