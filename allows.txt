@@ -695,6 +695,7 @@ docker.io/paketobuildpacks/*
 docker.io/pandoc/*
 docker.io/paradedb/*
 docker.io/passbolt/passbolt
+docker.io/penpotapp/*
 docker.io/pepperlabs/peppermint
 docker.io/percona/*
 docker.io/pgautoupgrade/pgautoupgrade
