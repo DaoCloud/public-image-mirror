@@ -724,6 +724,7 @@ docker.io/prom/*
 docker.io/prometheuscommunity/*
 docker.io/provectuslabs/kafka-ui
 docker.io/proxysql/proxysql
+docker.io/pymumu/smartdns
 docker.io/pytorch/*
 docker.io/qdrant/*
 docker.io/qdtoday/qd
