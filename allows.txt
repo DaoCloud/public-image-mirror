@@ -724,6 +724,7 @@ docker.io/prom/*
 docker.io/prometheuscommunity/*
 docker.io/provectuslabs/kafka-ui
 docker.io/proxysql/proxysql
+docker.io/pymumu/smartdns
 docker.io/pytorch/*
 docker.io/qdrant/*
 docker.io/qdtoday/qd
@@ -1192,4 +1193,3 @@ us-central1-docker.pkg.dev/k8s-staging-images/**
 us-central1-docker.pkg.dev/keephq/keep/keep-api
 us-central1-docker.pkg.dev/keephq/keep/keep-ui
 us.gcr.io/k8s-artifacts-prod/**
-docker.io/pymumu/smartdns
