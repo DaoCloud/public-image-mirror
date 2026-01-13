@@ -8,6 +8,7 @@ docker.com/kyantech/*
 docker.elastic.co/**
 docker.getcollate.io/openmetadata/*
 docker.io/*
+docker.io/0nlylty/dockercopilot
 docker.io/1activegeek/airconnect
 docker.io/1dev/*
 docker.io/1panel/maxkb
@@ -145,6 +146,7 @@ docker.io/dani-garcia/vaultwarden
 docker.io/danielqsj/kafka-exporter
 docker.io/daprio/*
 docker.io/darthsim/imgproxy
+docker.io/dataease/sqlbot
 docker.io/datastax/*
 docker.io/dbeaver/cloudbeaver
 docker.io/debezium/*
@@ -241,6 +243,7 @@ docker.io/funcman/115pc
 docker.io/gaecfovdocker/pulsar-console
 docker.io/gchq/hdfs
 docker.io/geoservercloud/*
+docker.io/germannewsmaker/myspeed
 docker.io/gerritcodereview/gerrit
 docker.io/getmeili/*
 docker.io/getsentry/*
@@ -599,6 +602,7 @@ docker.io/menci/archlinuxarm
 docker.io/messense/cargo-zigbuild
 docker.io/metabase/*
 docker.io/metacontrollerio/metacontroller
+docker.io/michaelf34/infinity
 docker.io/mikefarah/yq
 docker.io/milvusdb/*
 docker.io/mindsdb/mindsdb
@@ -1056,6 +1060,7 @@ ghcr.io/mendableai/firecrawl
 ghcr.io/metalbear-co/**
 ghcr.io/metatool-ai/metamcp
 ghcr.io/metatube-community/metatube-server
+ghcr.io/microsoft/**
 ghcr.io/mlflow/*
 ghcr.io/modelcontextprotocol/inspector
 ghcr.io/mosn/**
