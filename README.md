@@ -55,7 +55,7 @@ docker.m.daocloud.io/library/busybox
 
 前缀替换的 Registry 的规则, 这是人工配置的, 有需求提 Issue.
 
-除了这里每一个源站, 内容都是不同的, 不要把 docker.io 之外的站点配置给 registry-mirrors
+除了 docker.io 这里每一个源站, 内容都是不同的, 不要把 docker.io 之外的站点配置给 registry-mirrors
 
 | 源站               | 替换为                | 备注                                           |
 | ------------------ | --------------------- | ---------------------------------------------- |
