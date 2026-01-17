@@ -933,6 +933,7 @@ docker.stirlingpdf.com/stirlingtools/stirling-pdf
 gcr.io/**
 ghcr.io/666ghj/bettafish
 ghcr.io/9001/copyparty-ac
+ghcr.io/aas-ee/open-web-search
 ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
 ghcr.io/ajnart/homarr
