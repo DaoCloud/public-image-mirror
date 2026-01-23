@@ -804,10 +804,11 @@ docker.io/snowdreamtech/frpc
 docker.io/snowdreamtech/frps
 docker.io/solace/solace-pubsub-standard
 docker.io/solidnerd/bookstack
-docker.io/sonatype/nexus3
+docker.io/sonatype/*
 docker.io/sonicorg/sonic-client-web-base
 docker.io/sonobuoy/*
 docker.io/soulter/astrbot
+docker.io/sourcegraph/*
 docker.io/squidfunk/*
 docker.io/starrocks/*
 docker.io/steamcmd/*
@@ -1024,6 +1025,7 @@ ghcr.io/inspektor-gadget/gadget/*
 ghcr.io/jd-opensource/**
 ghcr.io/jimmidyson/configmap-reload
 ghcr.io/joeferner/redis-commander
+ghcr.io/joernio/joern
 ghcr.io/k3d-io/**
 ghcr.io/k3s-io/**
 ghcr.io/k8snetworkplumbingwg/**
