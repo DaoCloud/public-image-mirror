@@ -206,6 +206,7 @@ docker.io/eolinker/apinto-gateway
 docker.io/eosphorosai/*
 docker.io/esphome/*
 docker.io/estrellaxd/auto_bangumi
+docker.io/eucm/limesurvey
 docker.io/exadel/compreface-core
 docker.io/exceptionless/*
 docker.io/eyeblue/tank
@@ -593,6 +594,7 @@ docker.io/mailserver/*
 docker.io/manjarolinux/*
 docker.io/manticoresearch/manticore
 docker.io/maptiler/*
+docker.io/martialblog/limesurvey
 docker.io/mattermost/focalboard
 docker.io/mattermost/mattermost-team-edition
 docker.io/maxkeytop/*
@@ -905,6 +907,7 @@ docker.io/wurstmeister/kafka
 docker.io/wurstmeister/zookeeper
 docker.io/xhofe/alist
 docker.io/xhongc/music_tag_web
+docker.io/xiaojusurvey/xiaoju-survey
 docker.io/xiaoyaliu/alist
 docker.io/xixihahaliu01/qanything-linux
 docker.io/xixihahaliu01/qanything-mac
@@ -1004,6 +1007,7 @@ ghcr.io/gnzsnz/ib-gateway
 ghcr.io/go-rod/rod
 ghcr.io/goauthentik/**
 ghcr.io/gohugoio/hugo
+ghcr.io/google/**
 ghcr.io/graalvm/*
 ghcr.io/grafana-operator/*
 ghcr.io/grafana/*
