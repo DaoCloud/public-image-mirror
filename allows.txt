@@ -633,6 +633,7 @@ docker.io/oguzpastirmaci/gpu-burn
 docker.io/oliver006/*
 docker.io/ollama/*
 docker.io/onlyoffice/*
+docker.io/opencloudeu/opencloud-rolling
 docker.io/opencoze/*
 docker.io/openebs/*
 docker.io/openeuler/*
