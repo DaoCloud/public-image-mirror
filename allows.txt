@@ -349,6 +349,7 @@ docker.io/jmal/jmalcloud
 docker.io/johngong/calibre-web
 docker.io/joinsunsoft/docker.ui
 docker.io/joplin/server
+docker.io/joseluisq/static-web-server
 docker.io/joxit/docker-registry-ui
 docker.io/juicedata/*
 docker.io/jumpserver/*
