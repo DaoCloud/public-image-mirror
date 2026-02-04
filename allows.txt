@@ -829,6 +829,7 @@ docker.io/subfuzion/netcat
 docker.io/suisuijiang/fiora
 docker.io/sulinggg/openwrt
 docker.io/supabase/*
+docker.io/superbench/superbench
 docker.io/supermanito/arcadia
 docker.io/superng6/aria2
 docker.io/superng6/qbittorrentee
