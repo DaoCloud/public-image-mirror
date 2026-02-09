@@ -36,6 +36,7 @@ docker.io/amazon/*
 docker.io/amd64/*
 docker.io/amir20/*
 docker.io/amtoaer/bili-sync-rs
+docker.io/andrejorsula/space_robotics_bench
 docker.io/andywuwu/coze2openai
 docker.io/ankane/pgvector
 docker.io/apache/*
@@ -103,6 +104,7 @@ docker.io/chaoszhu/easynode
 docker.io/charlie0129/bupt-net-login
 docker.io/chat2db/chat2db
 docker.io/chatimage/chatchat
+docker.io/chatwoot/chatwoot
 docker.io/chengshiwen/influx-proxy
 docker.io/chengshiwen/influxdb
 docker.io/chenhw2/aliyun-ddns-cli
@@ -597,6 +599,7 @@ docker.io/maptiler/*
 docker.io/martialblog/limesurvey
 docker.io/mattermost/focalboard
 docker.io/mattermost/mattermost-team-edition
+docker.io/mauricenino/dashdot
 docker.io/maxkeytop/*
 docker.io/mayswind/ezbookkeeping
 docker.io/mcp/*
@@ -1079,6 +1082,7 @@ ghcr.io/open-telemetry/**
 ghcr.io/open-webui/open-webui
 ghcr.io/open-webui/pipelines
 ghcr.io/opencidn/**
+ghcr.io/openclaw/openclaw
 ghcr.io/openfaas/**
 ghcr.io/openinsight-proj/**
 ghcr.io/openlistteam/openlist-git
