@@ -1094,6 +1094,7 @@ ghcr.io/openinsight-proj/**
 ghcr.io/openlistteam/openlist-git
 ghcr.io/ot-container-kit/**
 ghcr.io/parkervcp/yolks
+ghcr.io/phioranex/openclaw-docker
 ghcr.io/plankanban/planka
 ghcr.io/project-zot/**
 ghcr.io/projectcontour/**
