@@ -1101,6 +1101,7 @@ ghcr.io/projectcontour/**
 ghcr.io/ptbsare/home-assistant-addons/aarch64-addon-sherpa-onnx-tts-stt
 ghcr.io/puppeteer/puppeteer
 ghcr.io/rails/**
+ghcr.io/rancher/**
 ghcr.io/rjmalagon/ollama-linux-amd-apu
 ghcr.io/seriousm4x/upsnap
 ghcr.io/siderolabs/*
