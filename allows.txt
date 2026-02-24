@@ -359,6 +359,7 @@ docker.io/jumpserver/*
 docker.io/jupyter/*
 docker.io/jupyterhub/*
 docker.io/justarchi/archisteamfarm
+docker.io/justlikemaki/openclaw-docker-cn-im
 docker.io/justsong/one-api
 docker.io/jvmilazz0/kavita
 docker.io/jxxghp/*
