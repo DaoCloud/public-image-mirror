@@ -378,6 +378,7 @@ docker.io/kicbase/*
 docker.io/kindest/*
 docker.io/kiwigrid/*
 docker.io/klakegg/hugo
+docker.io/klausmeyer/docker-registry-browser
 docker.io/koalaman/shellcheck
 docker.io/koenkk/zigbee2mqtt
 docker.io/koide3/direct_visual_lidar_calibration
@@ -671,6 +672,7 @@ docker.io/oguzpastirmaci/gpu-burn
 docker.io/oliver006/*
 docker.io/ollama/*
 docker.io/onlyoffice/*
+docker.io/openclaw/openclaw
 docker.io/opencloudeu/opencloud-rolling
 docker.io/opencoze/*
 docker.io/openebs/*
