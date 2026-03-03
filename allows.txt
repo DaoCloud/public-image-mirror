@@ -586,7 +586,7 @@ docker.io/lizheming/waline
 docker.io/lkw199711/smanga
 docker.io/lldap/lldap
 docker.io/lmcache/*
-docker.io/lmsysorg/sglang
+docker.io/lmsysorg/*
 docker.io/lobehub/*
 docker.io/localai/localai
 docker.io/loggieio/loggie
