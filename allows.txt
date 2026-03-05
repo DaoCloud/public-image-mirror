@@ -1,3 +1,4 @@
+code.forgejo.org/forgejo/forgejo
 code.forgejo.org/forgejo/runner
 codeberg.org/forgejo/forgejo
 container-registry.oracle.com/**
