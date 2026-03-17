@@ -353,7 +353,6 @@ Fixed #45168
 - ✅ 开源项目，有源码
 - ✅ GitHub star > 10
 - ✅ 镜像与源码有关联（GitHub 源码搜索验证）
-- ✅ 面向全球用户
 
 已提交 PR: <PR链接>
 
@@ -371,7 +370,6 @@ Fixed #45168
 - ✅ 知名开源项目（GitHub star > 10）
 - ✅ Official Image / Verified Publisher（免除源码关联）
 - ✅ 仓库中有 Dockerfile/DOCKER.md 等官方 Docker 文件
-- ✅ 面向全球用户
 
 已提交 PR: <PR链接>
 
