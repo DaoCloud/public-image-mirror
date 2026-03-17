@@ -565,6 +565,7 @@ docker.io/library/yourls
 docker.io/library/znc
 docker.io/library/zookeeper
 docker.io/libretranslate/libretranslate
+docker.io/lihualiu/sam-6d
 docker.io/linkease/ddnsto
 docker.io/linkease/desktop-ubuntu-standard-amd64
 docker.io/linkease/desktop-ubuntu-standard-arm64
