@@ -351,6 +351,7 @@ docker.io/jitsi/*
 docker.io/jlesage/firefox
 docker.io/jlesage/handbrake
 docker.io/jmal/jmalcloud
+docker.io/john119/vlm
 docker.io/johngong/calibre-web
 docker.io/joinsunsoft/docker.ui
 docker.io/joplin/server
@@ -387,6 +388,7 @@ docker.io/koide3/direct_visual_lidar_calibration
 docker.io/koishijs/koishi
 docker.io/kong/*
 docker.io/kserve/*
+docker.io/kspacekelvin/fire-python
 docker.io/kubeedge/*
 docker.io/kubeflow/*
 docker.io/kubeflowkatib/*
@@ -591,6 +593,7 @@ docker.io/lmcache/*
 docker.io/lmsysorg/*
 docker.io/lobehub/*
 docker.io/localai/localai
+docker.io/localstack/localstack
 docker.io/loggieio/loggie
 docker.io/longhornio/*
 docker.io/louislam/*
