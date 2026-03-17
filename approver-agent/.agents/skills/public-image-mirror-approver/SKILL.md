@@ -269,29 +269,76 @@ gh pr create --repo DaoCloud/public-image-mirror \
   --body "Fixed #<issue_number>
 
 /auto-cc
-" --fill
+"
 
 # 多 Issue 修复（每行一个 Fixed）
-gh api repos/DaoCloud/public-image-mirror/pulls -F title="..." -F body="Fixed #<issue1>
+gh pr create --repo DaoCloud/public-image-mirror \
+  --title "Allow: add <镜像1>, <镜像2> to allows.txt" \
+  --body "Fixed #<issue1>
 Fixed #<issue2>
 Fixed #<issue3>
 
-/auto-cc"
+/auto-cc
+"
 ```
 
-> ⚠️ **重要**：多 Issue 修复时，PR body 中每行一个 `Fixed #xxx`，不要用逗号分隔！
->
-> ✅ 正确：
-> ```
-> Fixed #45196
-> Fixed #45179
-> Fixed #45168
-> ```
->
-> ❌ 错误：
-> ```
-> Fixed #45196, #45179, #45168
-> ```
+## PR Body 模板
+
+### 基本格式
+
+```
+Fixed #<issue_number>
+
+/auto-cc
+```
+
+### 多 Issue 修复（每行一个 Fixed）
+
+```
+Fixed #<issue1>
+Fixed #<issue2>
+Fixed #<issue3>
+
+/auto-cc
+```
+
+### 带详细 Verification
+
+```
+Fixed #<issue1>
+Verification:
+- Source: <链接>
+- Reason: <理由>
+
+Fixed #<issue2>
+Verification:
+- Source: <链接>
+- Reason: <理由>
+
+/auto-cc
+```
+
+### ⚠️ 重要规则
+
+- **每行一个 `Fixed #xxx`**，不要用逗号分隔
+- `/auto-cc` 用于召唤审批人
+- Verification 部分帮助审批人快速验证
+
+### ❌ 错误示例
+
+```
+Fixed #45196, #45179, #45168
+```
+
+### ✅ 正确示例
+
+```
+Fixed #45196
+Fixed #45179
+Fixed #45168
+
+/auto-cc
+```
 
 ## Issue 回复模板
 
@@ -309,8 +356,6 @@ Fixed #<issue3>
 - ✅ 面向全球用户
 
 已提交 PR: <PR链接>
-
-当前由 AI 自动审批, 如有疑问 @wzshiming
 
 /close
 ```
@@ -330,8 +375,6 @@ Fixed #<issue3>
 
 已提交 PR: <PR链接>
 
-当前由 AI 自动审批, 如有疑问 @wzshiming
-
 /close
 ```
 
@@ -344,8 +387,6 @@ Fixed #<issue3>
 
 **白名单已存在**: 直接精确匹配
 
-当前由 AI 自动审批, 如有疑问 @wzshiming
-
 /close
 ```
 
@@ -357,8 +398,6 @@ Fixed #<issue3>
 **镜像**: `docker.io/<namespace>/<repo>`
 
 **白名单已有通配符**: `docker.io/<namespace>/*`（或 `**`）
-
-当前由 AI 自动审批, 如有疑问 @wzshiming
 
 /close
 ```
@@ -373,8 +412,6 @@ Fixed #<issue3>
 - ❌ 镜像关联证明
 
 **请补充**: 提供源码地址及文档链接, 再新开 Issue
-
-当前由 AI 自动审批, 如有疑问 @wzshiming
 
 /close
 ```
