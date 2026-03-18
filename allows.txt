@@ -1134,6 +1134,7 @@ ghcr.io/tiryoh/ros2-desktop-vnc
 ghcr.io/toeverything/affine-graphql
 ghcr.io/umami-software/umami
 ghcr.io/universaloj/**
+ghcr.io/vllm-project/guidellm
 ghcr.io/wg-easy/wg-easy
 ghcr.io/wzshiming/**
 ghcr.io/ylianst/meshcentral
