@@ -208,7 +208,7 @@ gh api repos/some-random-repo/contents/README.md | xargs curl -sL | grep -iE "(d
 
 > ⚠️ 所有命令设计为非交互式，避免 git/gh 阻塞
 
-### 1. 配置 git（使用 GH_TOKEN）
+### 1. 配置 git
 
 ```bash
 # 设置 git 用户信息
@@ -216,10 +216,10 @@ git config --global user.name "$(gh api user --jq '.name // "zsmbot"')" && \
 git config --global user.email "$(gh api user --jq '.email // "users+noreply@github.com"')"
 ```
 
-### 2. Fork & Clone（使用 gh 命令，非交互式）
+### 2. Fork & Clone (使用 GH_TOKEN)
 
 ```bash
-# 使用 gh fork --clone=false 避免交互式询问（推荐）
+# 使用 gh fork, 如果已 fork 则继续
 gh repo fork DaoCloud/public-image-mirror --clone=false --remote=true
 
 # 获取你的用户名
@@ -233,7 +233,7 @@ cd public-image-mirror
 # 同步最新代码
 gh repo sync DaoCloud/public-image-mirror
 
-# 切换为 GH_TOKEN 认证（替换 remote URL）
+# > ⚠️ 非常重要：切换为 GH_TOKEN 认证 (替换 remote URL)
 git remote set-url gh https://$GH_TOKEN@github.com/$MY_GITHUB_USER/public-image-mirror.git
 ```
 
@@ -355,8 +355,6 @@ Fixed #45168
 - ✅ 镜像与源码有关联（GitHub 源码搜索验证）
 
 已提交 PR: <PR链接>
-
-/close
 ```
 
 ### ✅ 通过（Official Image/Verified Publisher 免除源码关联）
@@ -372,8 +370,6 @@ Fixed #45168
 - ✅ 仓库中有 Dockerfile/DOCKER.md 等官方 Docker 文件
 
 已提交 PR: <PR链接>
-
-/close
 ```
 
 ### ⚠️ 已存在（精确匹配）
