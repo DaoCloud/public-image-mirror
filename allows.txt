@@ -1079,6 +1079,7 @@ ghcr.io/lunatechlab/moontv
 ghcr.io/luskits/**
 ghcr.io/macbre/nginx-http3
 ghcr.io/mastodon/mastodon
+ghcr.io/matrixhub-ai/**
 ghcr.io/maybe-finance/**
 ghcr.io/megacloudcontainer/**
 ghcr.io/mellanox/**
