@@ -205,6 +205,7 @@ docker.io/emberstack/kubernetes-reflector
 docker.io/emby/*
 docker.io/emqx/*
 docker.io/enable/nessus
+docker.io/enmotech/opengauss
 docker.io/ensemblorg/ensembl-vep
 docker.io/envoyproxy/*
 docker.io/eolinker/apinto-gateway
@@ -800,6 +801,7 @@ docker.io/schnell18/rocketmq-dashboard
 docker.io/seafileltd/seafile-mc
 docker.io/searxng/searxng
 docker.io/seataio/*
+docker.io/secondstate/echokit
 docker.io/secoresearch/rsync
 docker.io/selectdb/*
 docker.io/selenium/*
