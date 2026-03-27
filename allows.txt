@@ -267,6 +267,7 @@ docker.io/golangci/golangci-lint
 docker.io/google/*
 docker.io/goproxy/goproxy
 docker.io/goreleaser/goreleaser
+docker.io/gospatial/tegola
 docker.io/gotenberg/gotenberg
 docker.io/gotify/*
 docker.io/gotson/komga
@@ -659,6 +660,7 @@ docker.io/newsnowlabs/dockside
 docker.io/nextcloud/all-in-one
 docker.io/nginx/*
 docker.io/nginxinc/*
+docker.io/nicholas-fedor/watchtower
 docker.io/nickfedor/watchtower
 docker.io/nicolaka/netshoot
 docker.io/nobodyiam/apollo-quick-start
@@ -695,6 +697,7 @@ docker.io/openmmlab/*
 docker.io/openpolicyagent/gatekeeper
 docker.io/openpolicyagent/opa
 docker.io/openresty/openresty
+docker.io/opensandbox/**
 docker.io/opensearchproject/*
 docker.io/opensecurity/mobile-security-framework-mobsf
 docker.io/openstitching/stitch
@@ -735,6 +738,7 @@ docker.io/plugins/docker
 docker.io/podwide/cosyvoice
 docker.io/pointcloudlibrary/env
 docker.io/polardbx/polardb-x
+docker.io/polarismesh/*
 docker.io/portainer/*
 docker.io/postgis/postgis
 docker.io/postgrest/postgrest
