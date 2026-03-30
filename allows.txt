@@ -1010,6 +1010,7 @@ ghcr.io/deepflowio/rust-build
 ghcr.io/dexidp/**
 ghcr.io/docling-project/*
 ghcr.io/dtzar/**
+ghcr.io/dynamia-ai/**
 ghcr.io/easytier/easytier
 ghcr.io/elastic/opentelemetry-demo
 ghcr.io/elf-io/*
