@@ -1118,6 +1118,7 @@ ghcr.io/ot-container-kit/**
 ghcr.io/parkervcp/yolks
 ghcr.io/phioranex/openclaw-docker
 ghcr.io/plankanban/planka
+ghcr.io/project-hami/**
 ghcr.io/project-zot/**
 ghcr.io/projectcontour/**
 ghcr.io/projecthami/**
