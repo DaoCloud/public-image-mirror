@@ -23,6 +23,7 @@ docker.io/acryldata/*
 docker.io/adguard/adguardhome
 docker.io/adoptopenjdk/*
 docker.io/adriansegura99/**
+docker.io/advplyr/audiobookshelf
 docker.io/agentaai/*
 docker.io/ai/*
 docker.io/alexxit/go2rtc
@@ -726,6 +727,7 @@ docker.io/pepperlabs/peppermint
 docker.io/percona/*
 docker.io/pgautoupgrade/pgautoupgrade
 docker.io/pgrouting/pgrouting
+docker.io/pgsty/minio
 docker.io/pgvector/pgvector
 docker.io/photoprism/photoprism
 docker.io/phpmyadmin/*
@@ -784,6 +786,7 @@ docker.io/resmoio/kubernetes-event-exporter
 docker.io/restatedev/restate
 docker.io/ribbybibby/ssl-exporter
 docker.io/riscv64/*
+docker.io/rocker/rstudio
 docker.io/rockylinux/rockylinux
 docker.io/rocm/*
 docker.io/rolebasedgroup/rbgs-controller
@@ -1008,6 +1011,7 @@ ghcr.io/dbt-labs/dbt-core
 ghcr.io/decohererk/decotv
 ghcr.io/deepflowio/rust-build
 ghcr.io/dexidp/**
+ghcr.io/ding113/claude-code-hub
 ghcr.io/docling-project/*
 ghcr.io/dtzar/**
 ghcr.io/dynamia-ai/**
