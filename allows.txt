@@ -117,6 +117,7 @@ docker.io/chirpstack/*
 docker.io/chishin/nginx-proxy-manager-zh
 docker.io/chrishirsch/kuberhealthy-storage-check
 docker.io/chrislusf/seaweedfs
+docker.io/chromadb/chroma
 docker.io/chromedp/headless-shell
 docker.io/chrstnhntschl/gpu_burn
 docker.io/cimg/go
