@@ -23,6 +23,7 @@ docker.io/acryldata/*
 docker.io/adguard/adguardhome
 docker.io/adoptopenjdk/*
 docker.io/adriansegura99/**
+docker.io/advplyr/audiobookshelf
 docker.io/agentaai/*
 docker.io/ai/*
 docker.io/alexxit/go2rtc
@@ -153,6 +154,7 @@ docker.io/daprio/*
 docker.io/darthsim/imgproxy
 docker.io/dataease/sqlbot
 docker.io/datastax/*
+docker.io/daytonaio/sandbox
 docker.io/dbeaver/cloudbeaver
 docker.io/debezium/*
 docker.io/deepflowce/*
@@ -196,6 +198,7 @@ docker.io/dustynv/*
 docker.io/dxflrs/*
 docker.io/e2bdev/code-interpreter
 docker.io/easytier/easytier
+docker.io/eceasy/cli-proxy-api
 docker.io/elastic/*
 docker.io/electronuserland/builder
 docker.io/elestio/neko
@@ -267,6 +270,7 @@ docker.io/golangci/golangci-lint
 docker.io/google/*
 docker.io/goproxy/goproxy
 docker.io/goreleaser/goreleaser
+docker.io/gospatial/tegola
 docker.io/gotenberg/gotenberg
 docker.io/gotify/*
 docker.io/gotson/komga
@@ -659,6 +663,7 @@ docker.io/newsnowlabs/dockside
 docker.io/nextcloud/all-in-one
 docker.io/nginx/*
 docker.io/nginxinc/*
+docker.io/nicholas-fedor/watchtower
 docker.io/nickfedor/watchtower
 docker.io/nicolaka/netshoot
 docker.io/nobodyiam/apollo-quick-start
@@ -695,6 +700,7 @@ docker.io/openmmlab/*
 docker.io/openpolicyagent/gatekeeper
 docker.io/openpolicyagent/opa
 docker.io/openresty/openresty
+docker.io/opensandbox/**
 docker.io/opensearchproject/*
 docker.io/opensecurity/mobile-security-framework-mobsf
 docker.io/openstitching/stitch
@@ -723,6 +729,7 @@ docker.io/pepperlabs/peppermint
 docker.io/percona/*
 docker.io/pgautoupgrade/pgautoupgrade
 docker.io/pgrouting/pgrouting
+docker.io/pgsty/minio
 docker.io/pgvector/pgvector
 docker.io/photoprism/photoprism
 docker.io/phpmyadmin/*
@@ -735,6 +742,7 @@ docker.io/plugins/docker
 docker.io/podwide/cosyvoice
 docker.io/pointcloudlibrary/env
 docker.io/polardbx/polardb-x
+docker.io/polarismesh/*
 docker.io/portainer/*
 docker.io/postgis/postgis
 docker.io/postgrest/postgrest
@@ -780,6 +788,7 @@ docker.io/resmoio/kubernetes-event-exporter
 docker.io/restatedev/restate
 docker.io/ribbybibby/ssl-exporter
 docker.io/riscv64/*
+docker.io/rocker/rstudio
 docker.io/rockylinux/rockylinux
 docker.io/rocm/*
 docker.io/rolebasedgroup/rbgs-controller
@@ -1003,9 +1012,12 @@ ghcr.io/daocloud/**
 ghcr.io/dbt-labs/dbt-core
 ghcr.io/decohererk/decotv
 ghcr.io/deepflowio/rust-build
+ghcr.io/devmachine-fr/cert-manager-alidns-webhook
 ghcr.io/dexidp/**
+ghcr.io/ding113/claude-code-hub
 ghcr.io/docling-project/*
 ghcr.io/dtzar/**
+ghcr.io/dynamia-ai/**
 ghcr.io/easytier/easytier
 ghcr.io/elastic/opentelemetry-demo
 ghcr.io/elf-io/*
@@ -1103,14 +1115,17 @@ ghcr.io/open-webui/pipelines
 ghcr.io/opencidn/**
 ghcr.io/openclaw/openclaw
 ghcr.io/openfaas/**
+ghcr.io/openhands/openhands
 ghcr.io/openinsight-proj/**
 ghcr.io/openlistteam/openlist-git
 ghcr.io/ot-container-kit/**
 ghcr.io/parkervcp/yolks
 ghcr.io/phioranex/openclaw-docker
 ghcr.io/plankanban/planka
+ghcr.io/project-hami/**
 ghcr.io/project-zot/**
 ghcr.io/projectcontour/**
+ghcr.io/projecthami/**
 ghcr.io/ptbsare/home-assistant-addons/aarch64-addon-sherpa-onnx-tts-stt
 ghcr.io/puppeteer/puppeteer
 ghcr.io/rails/**
