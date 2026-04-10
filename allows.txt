@@ -154,6 +154,7 @@ docker.io/daprio/*
 docker.io/darthsim/imgproxy
 docker.io/dataease/sqlbot
 docker.io/datastax/*
+docker.io/daytonaio/sandbox
 docker.io/dbeaver/cloudbeaver
 docker.io/debezium/*
 docker.io/deepflowce/*
@@ -197,6 +198,7 @@ docker.io/dustynv/*
 docker.io/dxflrs/*
 docker.io/e2bdev/code-interpreter
 docker.io/easytier/easytier
+docker.io/eceasy/cli-proxy-api
 docker.io/elastic/*
 docker.io/electronuserland/builder
 docker.io/elestio/neko
@@ -1113,6 +1115,7 @@ ghcr.io/open-webui/pipelines
 ghcr.io/opencidn/**
 ghcr.io/openclaw/openclaw
 ghcr.io/openfaas/**
+ghcr.io/openhands/openhands
 ghcr.io/openinsight-proj/**
 ghcr.io/openlistteam/openlist-git
 ghcr.io/ot-container-kit/**
