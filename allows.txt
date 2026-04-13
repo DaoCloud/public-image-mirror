@@ -1160,6 +1160,7 @@ ghcr.io/ylianst/meshcentral
 ghcr.io/zalando/**
 ghcr.io/zammad/zammad
 ghcr.io/zitadel/**
+ghcr.io/headlamp-k8s/**
 k8s.gcr.io/**
 lscr.io/linuxserver/**
 mcr.microsoft.com/**
