@@ -1046,7 +1046,7 @@ ghcr.io/graalvm/*
 ghcr.io/grafana-operator/*
 ghcr.io/grafana/*
 ghcr.io/hassio-addons/**
-ghcr.io/headlamp-k8s/headlamp
+ghcr.io/headlamp-k8s/**
 ghcr.io/helm/**
 ghcr.io/hkuds/lightrag
 ghcr.io/homarr-labs/homarr
