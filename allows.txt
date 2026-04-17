@@ -671,6 +671,7 @@ docker.io/nobodyiam/apollo-quick-start
 docker.io/nocobase/nocobase
 docker.io/nocodb/nocodb
 docker.io/nodered/node-red
+docker.io/nousresearch/hermes-agent
 docker.io/nriver/trilium-cn
 docker.io/nsqio/nsq
 docker.io/nvidia/*
@@ -896,6 +897,7 @@ docker.io/traefik/whoami
 docker.io/trafficserver/trafficserver
 docker.io/treeverse/lakefs
 docker.io/triliumnext/notes
+docker.io/triliumnext/trilium
 docker.io/trinodb/trino
 docker.io/trustpilot/beat-exporter
 docker.io/tryretool/backend
@@ -1150,6 +1152,7 @@ ghcr.io/suwayomi/tachidesk
 ghcr.io/systemed/tilemaker
 ghcr.io/szemeng76/lunatv
 ghcr.io/tangly1024/notionnext
+ghcr.io/telepresenceio/*
 ghcr.io/timeplus-io/**
 ghcr.io/tiryoh/ros2-desktop-vnc
 ghcr.io/toeverything/affine-graphql
