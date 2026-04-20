@@ -155,6 +155,7 @@ docker.io/daprio/*
 docker.io/darthsim/imgproxy
 docker.io/dataease/sqlbot
 docker.io/datastax/*
+docker.io/datawire/*
 docker.io/daytonaio/sandbox
 docker.io/dbeaver/cloudbeaver
 docker.io/debezium/*
