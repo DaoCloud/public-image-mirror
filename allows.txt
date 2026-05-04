@@ -59,7 +59,7 @@ docker.io/appsmith/appsmith-ee
 docker.io/aquasec/*
 docker.io/arexadmin01/*
 docker.io/arey/*
-docker.io/argoproj/rollouts-demo
+docker.io/argoproj/*
 docker.io/arigaio/*
 docker.io/arizephoenix/phoenix
 docker.io/arm64v8/*
