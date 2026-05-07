@@ -951,6 +951,7 @@ ghcr.io/analogj/scrutiny
 ghcr.io/anduin2017/how-to-cook
 ghcr.io/apache/**
 ghcr.io/apple/**
+ghcr.io/daocloud/iaas-network-provider/**
 ghcr.io/aquasecurity/**
 ghcr.io/armbian/**
 ghcr.io/astral-sh/**
