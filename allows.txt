@@ -1161,6 +1161,7 @@ ghcr.io/universaloj/**
 ghcr.io/vllm-project/guidellm
 ghcr.io/wg-easy/wg-easy
 ghcr.io/wzshiming/**
+ghcr.io/yeraze/meshmonitor
 ghcr.io/ylianst/meshcentral
 ghcr.io/zalando/**
 ghcr.io/zammad/zammad
