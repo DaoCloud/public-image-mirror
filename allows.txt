@@ -1061,6 +1061,7 @@ ghcr.io/home-operations/*
 ghcr.io/huaweiclouddeveloper/**
 ghcr.io/huggingface/*
 ghcr.io/hwameistor/**
+ghcr.io/iflytek/**
 ghcr.io/imagegenius/immich
 ghcr.io/immich-app/**
 ghcr.io/imputnet/cobalt
