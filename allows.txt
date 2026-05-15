@@ -286,6 +286,7 @@ docker.io/graylog/graylog-datanode
 docker.io/greatsql/*
 docker.io/greenbone/*
 docker.io/greper/certd
+docker.io/greptime/*
 docker.io/guacamole/*
 docker.io/guiji2025/*
 docker.io/gztime/gzctf
