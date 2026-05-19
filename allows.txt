@@ -1005,6 +1005,7 @@ ghcr.io/chaosblade-io/**
 ghcr.io/chroma-core/chroma
 ghcr.io/cinnamon/kotaemon
 ghcr.io/cirruslabs/**
+ghcr.io/cloudnative-pg/**
 ghcr.io/cloudtty/cloudshell
 ghcr.io/coder/**
 ghcr.io/codex-team/codex.docs
