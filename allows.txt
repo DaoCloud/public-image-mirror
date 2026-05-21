@@ -1159,6 +1159,7 @@ ghcr.io/suwayomi/tachidesk
 ghcr.io/systemed/tilemaker
 ghcr.io/szemeng76/lunatv
 ghcr.io/tangly1024/notionnext
+ghcr.io/tektoncd/**
 ghcr.io/telepresenceio/*
 ghcr.io/timeplus-io/**
 ghcr.io/tiryoh/ros2-desktop-vnc
