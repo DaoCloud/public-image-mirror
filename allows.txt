@@ -156,6 +156,7 @@ docker.io/danielqsj/kafka-exporter
 docker.io/daprio/*
 docker.io/darthsim/imgproxy
 docker.io/dataease/sqlbot
+docker.io/dataiku/dss
 docker.io/datastax/*
 docker.io/daytonaio/sandbox
 docker.io/dbeaver/cloudbeaver
