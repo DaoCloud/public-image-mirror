@@ -38,6 +38,7 @@ docker.io/altinity/*
 docker.io/amambadev/*
 docker.io/amazon/*
 docker.io/amd64/*
+docker.io/amdih/zendnn_zentorch
 docker.io/amir20/*
 docker.io/amtoaer/bili-sync-rs
 docker.io/andrejorsula/space_robotics_bench
@@ -1119,6 +1120,7 @@ ghcr.io/mosn/**
 ghcr.io/mostlygeek/llama-swap
 ghcr.io/music-assistant/server
 ghcr.io/nicholas-fedor/watchtower
+ghcr.io/nousresearch/*
 ghcr.io/nvidia/**
 ghcr.io/open-telemetry/**
 ghcr.io/open-webui/open-webui
