@@ -331,8 +331,10 @@ docker.io/ianw/quickchart
 docker.io/ibmcom/*
 docker.io/idootop/mi-gpt
 docker.io/ihmily/douyin-live-recorder
+docker.io/ihmily/streamcap
 docker.io/imaegoo/twikoo
 docker.io/infiniflow/*
+docker.io/influxdata/influxdb3-ui
 docker.io/infmonkeys/*
 docker.io/innei/mx-server
 docker.io/instrumentisto/coturn
@@ -623,6 +625,7 @@ docker.io/mauricenino/dashdot
 docker.io/maxkeytop/*
 docker.io/mayswind/ezbookkeeping
 docker.io/mcp/*
+docker.io/meetwq/meme-generator-rs
 docker.io/menci/archlinuxarm
 docker.io/messense/cargo-zigbuild
 docker.io/metabase/*
@@ -979,6 +982,7 @@ ghcr.io/abhigyanpatwari/gitnexus
 ghcr.io/abhigyanpatwari/gitnexus-web
 ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
+ghcr.io/agent-infra/**
 ghcr.io/ajnart/homarr
 ghcr.io/amamba-io/**
 ghcr.io/analogj/scrutiny
@@ -1124,8 +1128,7 @@ ghcr.io/nicholas-fedor/watchtower
 ghcr.io/nousresearch/*
 ghcr.io/nvidia/**
 ghcr.io/open-telemetry/**
-ghcr.io/open-webui/open-webui
-ghcr.io/open-webui/pipelines
+ghcr.io/open-webui/**
 ghcr.io/opencidn/**
 ghcr.io/openclaw/openclaw
 ghcr.io/openfaas/**
