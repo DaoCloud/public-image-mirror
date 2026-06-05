@@ -67,6 +67,7 @@ docker.io/arm64v8/*
 docker.io/artalk/artalk-go
 docker.io/ascendai/*
 docker.io/ascentstream/*
+docker.io/asterinas/*
 docker.io/astral/uv
 docker.io/atlassian/*
 docker.io/authelia/authelia
@@ -1250,6 +1251,7 @@ quay.io/quarkus/*
 quay.io/redhat-developer/*
 quay.io/sameersbn/squid
 quay.io/skopeo/*
+quay.io/soketi/soketi
 quay.io/spotahome/*
 quay.io/strimzi/*
 quay.io/submariner/*
