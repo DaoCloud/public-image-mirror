@@ -2,6 +2,7 @@ code.forgejo.org/forgejo/forgejo
 code.forgejo.org/forgejo/runner
 codeberg.org/forgejo/forgejo
 container-registry.oracle.com/**
+cr.agentgateway.dev/**
 cr.kgateway.dev/kgateway-dev/*
 cr.l5d.io/**
 cr.weaviate.io/**
@@ -73,6 +74,7 @@ docker.io/atlassian/*
 docker.io/authelia/authelia
 docker.io/automatischio/automatisch
 docker.io/autumn27/scopesentry-scan
+docker.io/axllent/mailpit
 docker.io/b3log/siyuan
 docker.io/babashka/babashka
 docker.io/basecamp/*
