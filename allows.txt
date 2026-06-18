@@ -612,6 +612,7 @@ docker.io/localai/localai
 docker.io/localstack/localstack
 docker.io/loggieio/loggie
 docker.io/longhornio/*
+docker.io/looplj/axonhub
 docker.io/louislam/*
 docker.io/luojiecong/index-tts
 docker.io/m1k1o/*
