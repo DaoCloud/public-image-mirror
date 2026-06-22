@@ -186,6 +186,7 @@ docker.io/dorowu/ubuntu-desktop-lxde-vnc
 docker.io/dpage/*
 docker.io/dpanel/base-image
 docker.io/dpanel/dpanel
+docker.io/dperson/openvpn-client
 docker.io/dragonflydb/dragonfly
 docker.io/dragonflyoss/client
 docker.io/dragonflyoss/dfdaemon
@@ -302,6 +303,7 @@ docker.io/halohub/halo
 docker.io/hanxi/xiaomusic
 docker.io/haproxytech/*
 docker.io/harness/*
+docker.io/haroldli/alist-tvbox:latest
 docker.io/haroldli/xiaoya-tvbox
 docker.io/hashicorp/*
 docker.io/headscale/headscale
@@ -611,6 +613,7 @@ docker.io/lobehub/*
 docker.io/localai/localai
 docker.io/localstack/localstack
 docker.io/loggieio/loggie
+docker.io/logvar/danmu-api
 docker.io/longhornio/*
 docker.io/looplj/axonhub
 docker.io/louislam/*
@@ -870,6 +873,7 @@ docker.io/superbench/superbench
 docker.io/supermanito/arcadia
 docker.io/superng6/aria2
 docker.io/superng6/qbittorrentee
+docker.io/supersonicbi/supersonic
 docker.io/svhd/logto
 docker.io/swaggerapi/*
 docker.io/syncthing/syncthing
@@ -1106,6 +1110,7 @@ ghcr.io/labring/fastgpt-sandbox
 ghcr.io/labring/lvscare
 ghcr.io/lemker/unifi-os-server
 ghcr.io/librespeed/speedtest
+ghcr.io/lightseekorg/smg
 ghcr.io/linuxsuren/api-testing
 ghcr.io/linuxsuren/atest-ext-store-orm
 ghcr.io/llm-d/**
@@ -1149,6 +1154,7 @@ ghcr.io/projectcontour/**
 ghcr.io/projecthami/**
 ghcr.io/ptbsare/home-assistant-addons/aarch64-addon-sherpa-onnx-tts-stt
 ghcr.io/puppeteer/puppeteer
+ghcr.io/qq85423296/t3fap
 ghcr.io/rails/**
 ghcr.io/rancher/**
 ghcr.io/rjmalagon/ollama-linux-amd-apu
@@ -1272,4 +1278,4 @@ us-central1-docker.pkg.dev/k8s-staging-images/**
 us-central1-docker.pkg.dev/keephq/keep/keep-api
 us-central1-docker.pkg.dev/keephq/keep/keep-ui
 us.gcr.io/k8s-artifacts-prod/**
-ghcr.io/wei-shaw/sub2api
+ghcr.io/qq85423296/t3fap
