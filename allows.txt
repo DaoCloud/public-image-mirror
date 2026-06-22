@@ -1274,3 +1274,11 @@ us-central1-docker.pkg.dev/keephq/keep/keep-api
 us-central1-docker.pkg.dev/keephq/keep/keep-ui
 us.gcr.io/k8s-artifacts-prod/**
 ghcr.io/qq85423296/t3fap
+docker.io/lightseekorg/smg
+docker.io/logvar/danmu-api
+docker.io/haroldli/alist-tvbox
+ghcr.io/fish2018/pansou
+docker.io/supersonicbi/supersonic
+ghcr.io/wei-shaw/sub2api
+docker.io/unsloth/unsloth
+ghcr.io/volcengine/openviking
