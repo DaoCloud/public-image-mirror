@@ -1272,3 +1272,5 @@ us-central1-docker.pkg.dev/k8s-staging-images/**
 us-central1-docker.pkg.dev/keephq/keep/keep-api
 us-central1-docker.pkg.dev/keephq/keep/keep-ui
 us.gcr.io/k8s-artifacts-prod/**
+docker.io/haroldli/alist-tvbox
+ghcr.io/wei-shaw/sub2api
