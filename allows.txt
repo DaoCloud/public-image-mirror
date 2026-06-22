@@ -186,6 +186,7 @@ docker.io/dorowu/ubuntu-desktop-lxde-vnc
 docker.io/dpage/*
 docker.io/dpanel/base-image
 docker.io/dpanel/dpanel
+docker.io/dperson/openvpn-client
 docker.io/dragonflydb/dragonfly
 docker.io/dragonflyoss/client
 docker.io/dragonflyoss/dfdaemon
