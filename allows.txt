@@ -303,6 +303,7 @@ docker.io/halohub/halo
 docker.io/hanxi/xiaomusic
 docker.io/haproxytech/*
 docker.io/harness/*
+docker.io/haroldli/alist-tvbox
 docker.io/haroldli/xiaoya-tvbox
 docker.io/hashicorp/*
 docker.io/headscale/headscale
@@ -581,6 +582,7 @@ docker.io/library/yourls
 docker.io/library/znc
 docker.io/library/zookeeper
 docker.io/libretranslate/libretranslate
+docker.io/lightseekorg/smg
 docker.io/lihualiu/sam-6d
 docker.io/linkease/ddnsto
 docker.io/linkease/desktop-ubuntu-standard-amd64
@@ -612,6 +614,7 @@ docker.io/lobehub/*
 docker.io/localai/localai
 docker.io/localstack/localstack
 docker.io/loggieio/loggie
+docker.io/logvar/danmu-api
 docker.io/longhornio/*
 docker.io/looplj/axonhub
 docker.io/louislam/*
@@ -871,6 +874,7 @@ docker.io/superbench/superbench
 docker.io/supermanito/arcadia
 docker.io/superng6/aria2
 docker.io/superng6/qbittorrentee
+docker.io/supersonicbi/supersonic
 docker.io/svhd/logto
 docker.io/swaggerapi/*
 docker.io/syncthing/syncthing
@@ -923,6 +927,7 @@ docker.io/ubuntu/*
 docker.io/ultralytics/*
 docker.io/unclecode/crawl4ai
 docker.io/unityci/editor
+docker.io/unsloth/unsloth
 docker.io/uozi/nginx-ui
 docker.io/vaalacat/frp-panel
 docker.io/valkey/valkey
@@ -1046,6 +1051,7 @@ ghcr.io/estrellaxd/auto_bangumi
 ghcr.io/eunomia-bpf/libbpf-template
 ghcr.io/fatedier/frpc
 ghcr.io/fief-dev/fief
+ghcr.io/fish2018/pansou
 ghcr.io/fish2018/pansou-web
 ghcr.io/fission/**
 ghcr.io/flannel-io/*
@@ -1150,6 +1156,7 @@ ghcr.io/projectcontour/**
 ghcr.io/projecthami/**
 ghcr.io/ptbsare/home-assistant-addons/aarch64-addon-sherpa-onnx-tts-stt
 ghcr.io/puppeteer/puppeteer
+ghcr.io/qq85423296/t3fap
 ghcr.io/rails/**
 ghcr.io/rancher/**
 ghcr.io/rjmalagon/ollama-linux-amd-apu
@@ -1178,6 +1185,8 @@ ghcr.io/toeverything/affine-graphql
 ghcr.io/umami-software/umami
 ghcr.io/universaloj/**
 ghcr.io/vllm-project/**
+ghcr.io/volcengine/openviking
+ghcr.io/wei-shaw/sub2api
 ghcr.io/wg-easy/wg-easy
 ghcr.io/wzshiming/**
 ghcr.io/yeraze/meshmonitor
@@ -1273,4 +1282,3 @@ us-central1-docker.pkg.dev/k8s-staging-images/**
 us-central1-docker.pkg.dev/keephq/keep/keep-api
 us-central1-docker.pkg.dev/keephq/keep/keep-ui
 us.gcr.io/k8s-artifacts-prod/**
-ghcr.io/qq85423296/t3fap
