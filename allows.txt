@@ -418,7 +418,7 @@ docker.io/kubeskoop/*
 docker.io/kubesphere/*
 docker.io/kubespheredev/ksv-installer
 docker.io/kusionstack/*
-docker.io/labring/kubernetes
+docker.io/labring/*
 docker.io/langchain/langgraph-api
 docker.io/langflowai/langflow
 docker.io/langflowai/langflow-frontend
