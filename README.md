@@ -22,7 +22,7 @@ Mirror 仓库 [Gitee](https://gitee.com/daocloud/public-image-mirror)
   * 所有 hash(sha256) 均和源保持一致 (懒加载机制)。
   * 缓存的内容只保留 30 天, 过期后会需要重新同步。
   * Manifest 内存缓存 1 小时, 所以 tag 被更新了 1 小时之后才会同步新的。
-  * Blob 内存缓存 1 分钟, 在期间如果 blob 到达 60 天期限被删除, 导致会报 404。
+  * Blob 内存缓存 1 分钟, 在期间如果 blob 到达 30 天期限被删除, 导致会报 404。
 
 ## 快速开始
 
