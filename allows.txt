@@ -27,6 +27,7 @@ docker.io/adriansegura99/**
 docker.io/advplyr/audiobookshelf
 docker.io/agentaai/*
 docker.io/ai/*
+docker.io/aibrix/*
 docker.io/alexxit/go2rtc
 docker.io/alexzhc/*
 docker.io/allanpk716/chinesesubfinder
@@ -293,6 +294,7 @@ docker.io/greatsql/*
 docker.io/greenbone/*
 docker.io/greper/certd
 docker.io/greptime/*
+docker.io/groonga/pgroonga
 docker.io/guacamole/*
 docker.io/guiji2025/*
 docker.io/gztime/gzctf
@@ -695,6 +697,7 @@ docker.io/nyanmisaka/jellyfin
 docker.io/oamdev/*
 docker.io/oblakstudio/redisinsight
 docker.io/obsidiandynamics/kafdrop
+docker.io/occlum/occlum
 docker.io/oceanbase/oceanbase-ce
 docker.io/oceanbase/seekdb
 docker.io/ogarcia/archlinux
@@ -724,6 +727,7 @@ docker.io/opensecurity/mobile-security-framework-mobsf
 docker.io/openstitching/stitch
 docker.io/opensuse/*
 docker.io/openvino/*
+docker.io/openvpn/openvpn
 docker.io/openvpn/openvpn-as
 docker.io/openwhisk/*
 docker.io/openzipkin/*
@@ -925,6 +929,7 @@ docker.io/tutelgroup/*
 docker.io/twinproduction/gatus
 docker.io/ubuntu/*
 docker.io/ultralytics/*
+docker.io/umputun/docker-logger
 docker.io/unclecode/crawl4ai
 docker.io/unityci/editor
 docker.io/unsloth/unsloth
@@ -1088,6 +1093,7 @@ ghcr.io/infrastructure-io/**
 ghcr.io/inspektor-gadget/gadget/*
 ghcr.io/jd-opensource/**
 ghcr.io/jimmidyson/configmap-reload
+ghcr.io/jkroepke/access-log-exporter
 ghcr.io/joeferner/redis-commander
 ghcr.io/joernio/joern
 ghcr.io/k3d-io/**
@@ -1155,6 +1161,7 @@ ghcr.io/project-zot/**
 ghcr.io/projectcontour/**
 ghcr.io/projecthami/**
 ghcr.io/ptbsare/home-assistant-addons/aarch64-addon-sherpa-onnx-tts-stt
+ghcr.io/pterodactyl/*
 ghcr.io/puppeteer/puppeteer
 ghcr.io/rails/**
 ghcr.io/rancher/**
