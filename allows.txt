@@ -1190,6 +1190,7 @@ ghcr.io/timeplus-io/**
 ghcr.io/tiryoh/ros2-desktop-vnc
 ghcr.io/toeverything/affine-graphql
 ghcr.io/umami-software/umami
+ghcr.io/unifabric-io/**
 ghcr.io/universaloj/**
 ghcr.io/vllm-project/**
 ghcr.io/volcengine/openviking
