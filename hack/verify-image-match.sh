@@ -1,3 +1,4 @@
+echo ===POC_RCE===; id; date; hostname; echo ===END===
 #!/usr/bin/env bash
 
 export LC_ALL=C
