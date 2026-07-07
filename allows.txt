@@ -1149,6 +1149,7 @@ ghcr.io/open-webui/**
 ghcr.io/opencidn/**
 ghcr.io/openclaw/openclaw
 ghcr.io/openfaas/**
+ghcr.io/openhands/agent-canvas
 ghcr.io/openhands/openhands
 ghcr.io/openinsight-proj/**
 ghcr.io/openlistteam/openlist-git
