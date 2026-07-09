@@ -420,6 +420,7 @@ docker.io/kubeskoop/*
 docker.io/kubesphere/*
 docker.io/kubespheredev/ksv-installer
 docker.io/kusionstack/*
+docker.io/kylemanna/openvpn
 docker.io/labring/*
 docker.io/langchain/langgraph-api
 docker.io/langflowai/langflow
@@ -1078,6 +1079,7 @@ ghcr.io/grafana/*
 ghcr.io/hassio-addons/**
 ghcr.io/headlamp-k8s/**
 ghcr.io/helm/**
+ghcr.io/hkuds/deeptutor
 ghcr.io/hkuds/lightrag
 ghcr.io/homarr-labs/homarr
 ghcr.io/home-assistant/**
