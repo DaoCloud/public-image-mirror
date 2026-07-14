@@ -1205,7 +1205,6 @@ ghcr.io/ylianst/meshcentral
 ghcr.io/zalando/**
 ghcr.io/zammad/zammad
 ghcr.io/zitadel/**
-ghcr.io/volcengine/openviking
 k8s.gcr.io/**
 lscr.io/linuxserver/**
 mcr.microsoft.com/**
