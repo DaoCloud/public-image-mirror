@@ -1269,6 +1269,7 @@ quay.io/podman/stable
 quay.io/prometheus-operator/*
 quay.io/prometheus/*
 quay.io/prometheuscommunity/*
+quay.io/pypa/*
 quay.io/quarkus/*
 quay.io/redhat-developer/*
 quay.io/sameersbn/squid
