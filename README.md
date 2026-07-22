@@ -20,9 +20,9 @@ Mirror 仓库 [Gitee](https://gitee.com/daocloud/public-image-mirror)
 * 稳定可靠，更新实时。每天检查同步情况。
 * 此项目仅是源镜像仓库 (Registry) 的 Mirror
   * 所有 hash(sha256) 均和源保持一致 (懒加载机制)。
-  * 缓存的内容只保留 90 天, 过期后会需要重新同步。
+  * 缓存的内容只保留 30 天, 过期后会需要重新同步。
   * Manifest 内存缓存 1 小时, 所以 tag 被更新了 1 小时之后才会同步新的。
-  * Blob 内存缓存 1 分钟, 在期间如果 blob 到达 90 天期限被删除会报 404。
+  * Blob 内存缓存 1 分钟, 在期间如果 blob 到达 30 天期限被删除, 导致会报 404。
 
 ## 快速开始
 
@@ -49,22 +49,19 @@ m.daocloud.io/docker.io/library/busybox
 docker.m.daocloud.io/library/busybox
 ```
 
-## 无缓存
-
-在拉取的时候如果我们没有缓存, 将会在 [同步队列](https://queue.m.daocloud.io/status/) 添加同步缓存的任务.
-
 ## 支持前缀替换的 Registry (不推荐)
 
 推荐使用添加前缀的方式.
 
 前缀替换的 Registry 的规则, 这是人工配置的, 有需求提 Issue.
 
-除了这里每一个源站, 内容都是不同的, 不要把 docker.io 之外的站点配置给 registry-mirrors
+这里每一个源站内容都是不同的, 不要把 docker.io 之外的站点配置给 docker 的 registry-mirrors
 
 | 源站               | 替换为                | 备注                                           |
 | ------------------ | --------------------- | ---------------------------------------------- |
 | docker.elastic.co  | elastic.m.daocloud.io |                                                |
 | docker.io          | docker.m.daocloud.io  |                                                |
+| dhi.io             | dhi.m.daocloud.io     |                                                |
 | gcr.io             | gcr.m.daocloud.io     |                                                |
 | ghcr.io            | ghcr.m.daocloud.io    |                                                |
 | k8s.gcr.io         | k8s-gcr.m.daocloud.io | k8s.gcr.io 已被迁移到 registry.k8s.io          |
@@ -75,6 +72,11 @@ docker.m.daocloud.io/library/busybox
 | registry.ollama.ai | ollama.m.daocloud.io  | 实验内测中，[使用方法](#加速-ollama--deepseek) |
 
 ## 最佳实践
+
+### 部署内网缓存
+
+本地缓存部署用于在内网环境中加速镜像拉取，减少对外网的依赖。通过设置一个本地镜像仓库，您可以缓存常用的镜像。
+[请参考文档](https://github.com/DaoCloud/public-image-mirror/tree/main/docs/local-cache)
 
 ### 加速 Kubneretes
 

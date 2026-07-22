@@ -20,12 +20,12 @@ jobs:
       run: |
         LIST="$(cat ./allows.txt | grep -v 'docker.io/\*' | sed 's/docker.io\/library\/\([^\/]*\)/&\ndocker.io\/\1/' | jq -R -s -c '{"items": split("\n")[:-1], "block_message": "🚫 👀-> https://github.com/DaoCloud/public-image-mirror/issues/2328 🔗 这镜像不在白名单. this image is not in the allowlist."}')"
         TOKEN="$(curl -X 'POST' \
-          'https://auth.m.daocloud.io/apis/v1/users/login' \
+          'https://queue.m.daocloud.io/apis/auth/users/login' \
           -H 'Accept: application/json' \
           -H 'Content-Type: application/json' \
           -d ${{ secrets.USER_LOGIN_DATA }} | jq -r .token)"
         curl -f -X 'PUT' \
-          'https://auth.m.daocloud.io/apis/v1/registries/allow_images' \
+          'https://queue.m.daocloud.io/apis/auth/registries/allow_images' \
           -H 'Accept: application/json' \
           -H "Authorization: Bearer ${TOKEN}" \
           -H 'Content-Type: application/json' \
