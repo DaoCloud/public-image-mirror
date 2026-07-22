@@ -633,6 +633,7 @@ docker.io/martialblog/limesurvey
 docker.io/mattermost/focalboard
 docker.io/mattermost/mattermost-team-edition
 docker.io/mauricenino/dashdot
+docker.io/maximhq/bifrost
 docker.io/maxkeytop/*
 docker.io/mayswind/ezbookkeeping
 docker.io/mcp/*
