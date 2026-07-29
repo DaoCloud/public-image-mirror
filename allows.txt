@@ -1071,6 +1071,7 @@ ghcr.io/gethomepage/homepage
 ghcr.io/getsentry/*
 ghcr.io/ggerganov/llama.cpp
 ghcr.io/ggml-org/llama.cpp
+ghcr.io/github/github-mcp-server
 ghcr.io/gnzsnz/ib-gateway
 ghcr.io/go-rod/rod
 ghcr.io/goauthentik/**
