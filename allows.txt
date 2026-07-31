@@ -813,6 +813,7 @@ docker.io/resmoio/kubernetes-event-exporter
 docker.io/restatedev/restate
 docker.io/ribbybibby/ssl-exporter
 docker.io/riscv64/*
+docker.io/rockchin/langbot
 docker.io/rocker/rstudio
 docker.io/rockylinux/rockylinux
 docker.io/rocm/*
