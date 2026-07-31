@@ -587,6 +587,7 @@ docker.io/library/zookeeper
 docker.io/libretranslate/libretranslate
 docker.io/lightseekorg/smg
 docker.io/lihualiu/sam-6d
+docker.io/lindesvard/*
 docker.io/linkease/ddnsto
 docker.io/linkease/desktop-ubuntu-standard-amd64
 docker.io/linkease/desktop-ubuntu-standard-arm64
