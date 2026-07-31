@@ -24,7 +24,7 @@ echo "<镜像地址>" >> allows.txt
 
 ## 提交 PR
 
-``` bash
+```bash
 git add allows.txt && git commit -m "<提交信息>"
 git push -u origin allows/<image-name-or-issue-number>
 gh pr create \
