@@ -630,6 +630,7 @@ docker.io/mailserver/*
 docker.io/manjarolinux/*
 docker.io/manticoresearch/manticore
 docker.io/maptiler/*
+docker.io/mariadb/maxscale
 docker.io/martialblog/limesurvey
 docker.io/mattermost/focalboard
 docker.io/mattermost/mattermost-team-edition
