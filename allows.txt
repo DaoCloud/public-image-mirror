@@ -1152,6 +1152,7 @@ ghcr.io/nousresearch/*
 ghcr.io/nvidia/**
 ghcr.io/open-telemetry/**
 ghcr.io/open-webui/**
+ghcr.io/openai/**
 ghcr.io/opencidn/**
 ghcr.io/openclaw/openclaw
 ghcr.io/openfaas/**
