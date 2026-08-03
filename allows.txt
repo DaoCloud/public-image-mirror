@@ -1070,6 +1070,7 @@ ghcr.io/flannel-io/*
 ghcr.io/flexget/flexget
 ghcr.io/fluent/fluent-operator/*
 ghcr.io/freecodecamp/devdocs
+ghcr.io/gcwing/bitfun-relay-server
 ghcr.io/gethomepage/homepage
 ghcr.io/getsentry/*
 ghcr.io/ggerganov/llama.cpp
