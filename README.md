@@ -124,6 +124,46 @@ kubectl rollout status deployment/repimage -n kube-system
 }
 ```
 
+### 加速 Podman
+
+添加到 `/etc/containers/registries.conf` (rootless 模式也可以添加到 `~/.config/containers/registries.conf`)
+``` toml
+[[registry]]
+location = "docker.io"
+
+[[registry.mirror]]
+location = "docker.m.daocloud.io"
+```
+
+与 Docker 不同, Podman 还支持为 docker.io 之外的 registry 配置 mirror, 例如:
+``` toml
+[[registry]]
+location = "gcr.io"
+
+[[registry.mirror]]
+location = "gcr.m.daocloud.io"
+
+[[registry]]
+location = "ghcr.io"
+
+[[registry.mirror]]
+location = "ghcr.m.daocloud.io"
+
+[[registry]]
+location = "quay.io"
+
+[[registry.mirror]]
+location = "quay.m.daocloud.io"
+
+[[registry]]
+location = "registry.k8s.io"
+
+[[registry.mirror]]
+location = "k8s.m.daocloud.io"
+```
+
+* 参考 Podman 官方文档: [registries.conf](https://github.com/containers/image/blob/main/docs/containers-registries.conf.5.md)
+
 ### 加速 Ollama & DeepSeek
 
 #### 加速安装 Ollama
