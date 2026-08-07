@@ -1028,6 +1028,7 @@ ghcr.io/biliup/caution
 ghcr.io/binary-husky/gpt_academic_with_latex
 ghcr.io/blakeblackshear/**
 ghcr.io/brenner-tobias/cloudflared/*
+ghcr.io/browserless/chromium
 ghcr.io/canner/*
 ghcr.io/chaos-mesh/**
 ghcr.io/chaosblade-io/**
