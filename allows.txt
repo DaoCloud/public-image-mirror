@@ -146,6 +146,7 @@ docker.io/continuumio/miniconda3
 docker.io/coredns/*
 docker.io/coturn/coturn
 docker.io/cozedev/*
+docker.io/cp0204/quark-auto-save
 docker.io/cp2k/cp2k
 docker.io/csiplugin/*
 docker.io/cturra/ntp
