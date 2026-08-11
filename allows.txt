@@ -96,6 +96,7 @@ docker.io/browsh/browsh
 docker.io/budibase/budibase
 docker.io/budtmo/docker-android
 docker.io/burakince/mlflow
+docker.io/buutuu/scrcpy-over-webrtc
 docker.io/bvlc/caffe
 docker.io/bytebase/bytebase
 docker.io/bytelang/kplayer
@@ -226,6 +227,7 @@ docker.io/eosphorosai/*
 docker.io/esphome/*
 docker.io/estrellaxd/auto_bangumi
 docker.io/eucm/limesurvey
+docker.io/eugr/*
 docker.io/exadel/compreface-core
 docker.io/exceptionless/*
 docker.io/eyeblue/tank
@@ -1117,6 +1119,7 @@ ghcr.io/karakeep-app/karakeep
 ghcr.io/kdoctor-io/**
 ghcr.io/kedacore/*
 ghcr.io/khoj-ai/**
+ghcr.io/kite-org/kite
 ghcr.io/klts-io/**
 ghcr.io/komari-monitor/komari
 ghcr.io/koodo-reader/koodo-reader
@@ -1243,6 +1246,7 @@ quay.io/argoproj/*
 quay.io/argoprojlabs/*
 quay.io/ascend/*
 quay.io/brancz/*
+quay.io/buildah/*
 quay.io/calico/*
 quay.io/ceph/ceph
 quay.io/ceph/cosi
