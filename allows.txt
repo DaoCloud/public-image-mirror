@@ -1188,6 +1188,7 @@ ghcr.io/rails/**
 ghcr.io/rancher/**
 ghcr.io/rjmalagon/ollama-linux-amd-apu
 ghcr.io/run-ai/**
+ghcr.io/scaleapi/drugdiscoverybench
 ghcr.io/seriousm4x/upsnap
 ghcr.io/shipwright-io/**
 ghcr.io/siderolabs/*
