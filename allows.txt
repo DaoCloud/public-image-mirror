@@ -761,6 +761,7 @@ docker.io/percona/*
 docker.io/pgautoupgrade/pgautoupgrade
 docker.io/pgrouting/pgrouting
 docker.io/pgsty/minio
+docker.io/pgsty/silo
 docker.io/pgvector/pgvector
 docker.io/photoprism/photoprism
 docker.io/phpmyadmin/*
