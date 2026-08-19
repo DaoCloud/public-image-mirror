@@ -969,6 +969,7 @@ docker.io/whyour/qinglong
 docker.io/willfarrell/autoheal
 docker.io/wiremock/wiremock
 docker.io/wiznote/wizserver
+docker.io/wjie520/vllm_kunlun
 docker.io/woodpeckerci/*
 docker.io/wurstmeister/kafka
 docker.io/wurstmeister/zookeeper
