@@ -1010,6 +1010,7 @@ ghcr.io/abhigyanpatwari/gitnexus-web
 ghcr.io/actions/**
 ghcr.io/advplyr/audiobookshelf
 ghcr.io/agent-infra/**
+ghcr.io/ai-dynamo/**
 ghcr.io/ajnart/homarr
 ghcr.io/amamba-io/**
 ghcr.io/analogj/scrutiny
