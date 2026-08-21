@@ -664,6 +664,7 @@ docker.io/moby/*
 docker.io/mohsinonxrm/*
 docker.io/mongodb/mongodb-community-server
 docker.io/moonrailgun/tianji
+docker.io/motricseven7/snowluma
 docker.io/mpioperator/mpi-operator
 docker.io/mplatform/manifest-tool
 docker.io/mpromonet/webrtc-streamer
