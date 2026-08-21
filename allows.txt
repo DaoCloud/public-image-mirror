@@ -989,6 +989,7 @@ docker.io/ydlhero/chatgpt-web-midjourney-proxy
 docker.io/yedf/dtm
 docker.io/yidadaa/chatgpt-next-web
 docker.io/ypptec/nascab
+docker.io/yuzutech/kroki
 docker.io/zabbix/*
 docker.io/zadam/trilium
 docker.io/zendesk/maxwell
