@@ -856,6 +856,8 @@ docker.io/serversideup/*
 docker.io/shieldsio/shields
 docker.io/shingarey/foundationpose_custom_cuda121
 docker.io/sickcodes/docker-osx
+docker.io/signoz/signoz
+docker.io/signoz/signoz-otel-collector
 docker.io/sigoden/dufs
 docker.io/silkeh/clang
 docker.io/simonrupf/chronyd
