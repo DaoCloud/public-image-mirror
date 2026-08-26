@@ -264,6 +264,7 @@ docker.io/frrouting/*
 docker.io/funcman/115pc
 docker.io/gaecfovdocker/pulsar-console
 docker.io/gchq/hdfs
+docker.io/gentoo/stage3
 docker.io/geoservercloud/*
 docker.io/germannewsmaker/myspeed
 docker.io/gerritcodereview/gerrit
