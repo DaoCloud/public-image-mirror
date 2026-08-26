@@ -695,6 +695,7 @@ docker.io/nginxinc/*
 docker.io/nicholas-fedor/watchtower
 docker.io/nickfedor/watchtower
 docker.io/nicolaka/netshoot
+docker.io/nixos/nix
 docker.io/nobodyiam/apollo-quick-start
 docker.io/nocobase/nocobase
 docker.io/nocodb/nocodb
