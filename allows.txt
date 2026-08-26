@@ -850,6 +850,7 @@ docker.io/selectdb/*
 docker.io/selenium/*
 docker.io/semgrep/*
 docker.io/semitechnologies/*
+docker.io/sengokucola/maibot
 docker.io/senthilrch/*
 docker.io/serengil/deepface
 docker.io/serversideup/*
