@@ -925,6 +925,7 @@ docker.io/tianon/postgres-upgrade
 docker.io/timberio/*
 docker.io/timescale/timescaledb
 docker.io/timonwong/prometheus-webhook-dingtalk
+docker.io/timonwong/uwsgi-exporter
 docker.io/timothyjmiller/cloudflare-ddns
 docker.io/tinygo/tinygo
 docker.io/tinymediamanager/tinymediamanager
