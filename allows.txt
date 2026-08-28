@@ -1227,6 +1227,7 @@ ghcr.io/unifabric-io/**
 ghcr.io/universaloj/**
 ghcr.io/vllm-project/**
 ghcr.io/volcengine/openviking
+ghcr.io/webassembly/*
 ghcr.io/wei-shaw/sub2api
 ghcr.io/wg-easy/wg-easy
 ghcr.io/wzshiming/**
