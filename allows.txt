@@ -354,6 +354,9 @@ docker.io/intelanalytics/*
 docker.io/islandora/code-server
 docker.io/istio/*
 docker.io/itzg/minecraft-server
+docker.io/ixsystems/container-utils
+docker.io/ixsystems/postgres-upgrade
+docker.io/ixsystems/rsyncd
 docker.io/iyuucn/iyuuplus
 docker.io/iyuucn/iyuuplus-dev
 docker.io/jaegertracing/*
