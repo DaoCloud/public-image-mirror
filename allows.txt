@@ -1299,6 +1299,7 @@ quay.io/kubevirt/*
 quay.io/libpod/skopeo_cidev
 quay.io/metallb/*
 quay.io/minio/*
+quay.io/mittwald/kubernetes-replicator
 quay.io/mongodb/*
 quay.io/nmstate/*
 quay.io/nuclio/*
