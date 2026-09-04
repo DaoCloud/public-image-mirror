@@ -903,6 +903,7 @@ docker.io/supermanito/arcadia
 docker.io/superng6/aria2
 docker.io/superng6/qbittorrentee
 docker.io/supersonicbi/supersonic
+docker.io/surrealdb/*
 docker.io/svhd/logto
 docker.io/swaggerapi/*
 docker.io/syncthing/syncthing
