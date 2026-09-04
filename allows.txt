@@ -438,6 +438,7 @@ docker.io/langfuse/*
 docker.io/langgenius/*
 docker.io/langhuihui/monibuca
 docker.io/laradock/*
+docker.io/lblankl/swe-minisandbox
 docker.io/letta/letta
 docker.io/lfedge/ekuiper
 docker.io/lfnovo/open_notebook
