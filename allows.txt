@@ -140,6 +140,7 @@ docker.io/codewisdom/*
 docker.io/codiumai/pr-agent
 docker.io/collabora/code
 docker.io/condaforge/miniforge3
+docker.io/conductoross/*
 docker.io/conduktor/*
 docker.io/confluentinc/*
 docker.io/containrrr/watchtower
