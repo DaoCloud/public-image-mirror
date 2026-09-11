@@ -885,6 +885,7 @@ docker.io/snowdreamtech/frpc
 docker.io/snowdreamtech/frps
 docker.io/solace/solace-pubsub-standard
 docker.io/solidnerd/bookstack
+docker.io/sonarsource/sonar-scanner-cli
 docker.io/sonatype/*
 docker.io/sonicorg/sonic-client-web-base
 docker.io/sonobuoy/*
