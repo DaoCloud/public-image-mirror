@@ -123,6 +123,9 @@ docker.io/chirpstack/*
 docker.io/chishin/nginx-proxy-manager-zh
 docker.io/chrishirsch/kuberhealthy-storage-check
 docker.io/chrislusf/seaweedfs
+docker.io/chrislusf/seaweedfs-csi-driver
+docker.io/chrislusf/seaweedfs-mount
+docker.io/chrislusf/seaweedfs-operator
 docker.io/chromadb/chroma
 docker.io/chromedp/headless-shell
 docker.io/chrstnhntschl/gpu_burn
