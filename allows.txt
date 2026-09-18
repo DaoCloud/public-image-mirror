@@ -108,6 +108,7 @@ docker.io/canal/canal-server
 docker.io/caronc/apprise
 docker.io/cars10/elasticvue
 docker.io/casbin/casdoor
+docker.io/casdoor/*
 docker.io/certbot/*
 docker.io/chaosbladeio/chaosblade-box
 docker.io/chaoszhu/easynode
@@ -153,6 +154,7 @@ docker.io/coturn/coturn
 docker.io/cozedev/*
 docker.io/cp0204/quark-auto-save
 docker.io/cp2k/cp2k
+docker.io/crossplane/*
 docker.io/crowdsecurity/crowdsec
 docker.io/csiplugin/*
 docker.io/cturra/ntp
@@ -814,6 +816,7 @@ docker.io/rabbitmqoperator/cluster-operator
 docker.io/radondb/*
 docker.io/ramonvc/freegpt-webui
 docker.io/rancher/*
+docker.io/rasonyang/*
 docker.io/rayproject/*
 docker.io/rclone/*
 docker.io/reactivetechio/kubegres
@@ -1246,6 +1249,7 @@ ghcr.io/webassembly/*
 ghcr.io/wei-shaw/sub2api
 ghcr.io/wg-easy/wg-easy
 ghcr.io/wzshiming/**
+ghcr.io/yanyang-technology-group/ycomm-web
 ghcr.io/yeraze/meshmonitor
 ghcr.io/ylianst/meshcentral
 ghcr.io/zalando/**
