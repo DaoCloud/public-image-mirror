@@ -601,6 +601,7 @@ docker.io/library/xwiki
 docker.io/library/yourls
 docker.io/library/znc
 docker.io/library/zookeeper
+docker.io/libredb/libredb-studio
 docker.io/libretranslate/libretranslate
 docker.io/lightseekorg/smg
 docker.io/lihualiu/sam-6d
