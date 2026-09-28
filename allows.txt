@@ -723,8 +723,7 @@ docker.io/oamdev/*
 docker.io/oblakstudio/redisinsight
 docker.io/obsidiandynamics/kafdrop
 docker.io/occlum/occlum
-docker.io/oceanbase/oceanbase-ce
-docker.io/oceanbase/seekdb
+docker.io/oceanbase/*
 docker.io/ogarcia/archlinux
 docker.io/oguzpastirmaci/gpu-burn
 docker.io/oliver006/*
