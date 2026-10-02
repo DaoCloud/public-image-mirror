@@ -913,7 +913,6 @@ docker.io/supermanito/arcadia
 docker.io/superng6/aria2
 docker.io/superng6/qbittorrentee
 docker.io/supersonicbi/supersonic
-docker.io/supertokens/supertokens-postgresql
 docker.io/surrealdb/*
 docker.io/svhd/logto
 docker.io/swaggerapi/*
@@ -1347,6 +1346,7 @@ registry.jujucharms.com/**
 registry.k8s.io/**
 registry.opensource.zalan.do/**
 registry.rocket.chat/**
+registry.supertokens.io/**
 rocks.canonical.com/**
 us-central1-docker.pkg.dev/k8s-staging-images/**
 us-central1-docker.pkg.dev/keephq/keep/keep-api
