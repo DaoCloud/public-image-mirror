@@ -977,6 +977,7 @@ docker.io/vdsm/virtual-dsm
 docker.io/velero/*
 docker.io/verdaccio/*
 docker.io/verlai/*
+docker.io/vernemq/*
 docker.io/vesoft/*
 docker.io/victoriametrics/*
 docker.io/viktorstrate/*
