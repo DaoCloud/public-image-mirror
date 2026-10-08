@@ -791,6 +791,7 @@ docker.io/podwide/cosyvoice
 docker.io/pointcloudlibrary/env
 docker.io/polardbx/polardb-x
 docker.io/polarismesh/*
+docker.io/ponphil/litepan
 docker.io/portainer/*
 docker.io/postgis/postgis
 docker.io/postgrest/postgrest
