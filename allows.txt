@@ -1192,6 +1192,7 @@ ghcr.io/mostlygeek/llama-swap
 ghcr.io/music-assistant/server
 ghcr.io/nicholas-fedor/watchtower
 ghcr.io/nousresearch/*
+ghcr.io/nvidia-ai-iot/vllm
 ghcr.io/nvidia/**
 ghcr.io/open-telemetry/**
 ghcr.io/open-webui/**
