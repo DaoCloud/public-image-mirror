@@ -434,6 +434,7 @@ docker.io/kubeshark/*
 docker.io/kubeskoop/*
 docker.io/kubesphere/*
 docker.io/kubespheredev/ksv-installer
+docker.io/kubevirtbmc/*
 docker.io/kusionstack/*
 docker.io/kylemanna/openvpn
 docker.io/labring/*
