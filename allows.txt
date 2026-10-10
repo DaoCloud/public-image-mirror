@@ -873,6 +873,7 @@ docker.io/sengokucola/maibot
 docker.io/senthilrch/*
 docker.io/serengil/deepface
 docker.io/serversideup/*
+docker.io/setupphp/node
 docker.io/shieldsio/shields
 docker.io/shingarey/foundationpose_custom_cuda121
 docker.io/sickcodes/docker-osx
@@ -898,6 +899,7 @@ docker.io/sonobuoy/*
 docker.io/soulter/astrbot
 docker.io/sourcegraph/*
 docker.io/squidfunk/*
+docker.io/stanfordvl/behavior
 docker.io/starrocks/*
 docker.io/steamcmd/*
 docker.io/stilleshan/frpc
