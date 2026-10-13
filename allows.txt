@@ -1057,6 +1057,7 @@ ghcr.io/astral-sh/**
 ghcr.io/authzed/spicedb
 ghcr.io/authzed/spicedb-operator
 ghcr.io/autowarefoundation/autoware
+ghcr.io/axoflow/**
 ghcr.io/baizeai/**
 ghcr.io/benc-uk/kubeview
 ghcr.io/berriai/litellm
@@ -1109,7 +1110,7 @@ ghcr.io/fish2018/pansou-web
 ghcr.io/fission/**
 ghcr.io/flannel-io/*
 ghcr.io/flexget/flexget
-ghcr.io/fluent/fluent-operator/*
+ghcr.io/fluent/**
 ghcr.io/freecodecamp/devdocs
 ghcr.io/garethgeorge/backrest
 ghcr.io/gcwing/bitfun-relay-server
@@ -1163,6 +1164,7 @@ ghcr.io/komari-monitor/komari
 ghcr.io/koodo-reader/koodo-reader
 ghcr.io/koordinator-sh/**
 ghcr.io/ksmartdata/**
+ghcr.io/kube-logging/**
 ghcr.io/kube-vip/**
 ghcr.io/kubean-io/**
 ghcr.io/kubeflow/**
