@@ -1113,6 +1113,7 @@ ghcr.io/flannel-io/*
 ghcr.io/flexget/flexget
 ghcr.io/fluent/**
 ghcr.io/freecodecamp/devdocs
+ghcr.io/fullstorydev/grpcui
 ghcr.io/garethgeorge/backrest
 ghcr.io/gcwing/bitfun-relay-server
 ghcr.io/germondai/trawl
