@@ -607,6 +607,7 @@ docker.io/libredb/libredb-studio
 docker.io/libretranslate/libretranslate
 docker.io/lightseekorg/smg
 docker.io/lihualiu/sam-6d
+docker.io/lincolnpark2000/mediasync
 docker.io/lindesvard/*
 docker.io/linkease/ddnsto
 docker.io/linkease/desktop-ubuntu-standard-amd64
