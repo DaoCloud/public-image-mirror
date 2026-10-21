@@ -439,6 +439,7 @@ docker.io/kubevirtbmc/*
 docker.io/kusionstack/*
 docker.io/kylemanna/openvpn
 docker.io/labring/*
+docker.io/lachlanevenson/*
 docker.io/langchain/langgraph-api
 docker.io/langflowai/langflow
 docker.io/langflowai/langflow-frontend
