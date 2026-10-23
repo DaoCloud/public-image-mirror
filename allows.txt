@@ -143,6 +143,7 @@ docker.io/codercom/code-server
 docker.io/codewisdom/*
 docker.io/codiumai/pr-agent
 docker.io/collabora/code
+docker.io/composer/*
 docker.io/condaforge/miniforge3
 docker.io/conductoross/*
 docker.io/conduktor/*
@@ -810,6 +811,7 @@ docker.io/provectuslabs/kafka-ui
 docker.io/proxysql/proxysql
 docker.io/pymumu/smartdns
 docker.io/pytorch/*
+docker.io/qbittorrentofficial/qbittorrent-nox
 docker.io/qdrant/*
 docker.io/qdtoday/qd
 docker.io/qemux/qemu-docker
