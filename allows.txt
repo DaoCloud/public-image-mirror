@@ -239,6 +239,7 @@ docker.io/eugr/*
 docker.io/exadel/compreface-core
 docker.io/exceptionless/*
 docker.io/eyeblue/tank
+docker.io/f3nici/dockge
 docker.io/f5networks/*
 docker.io/falcosecurity/*
 docker.io/falkordb/falkordb
