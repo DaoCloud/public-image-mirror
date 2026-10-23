@@ -1058,6 +1058,7 @@ ghcr.io/ansible/**
 ghcr.io/apache/**
 ghcr.io/apple/**
 ghcr.io/aquasecurity/**
+ghcr.io/argoproj/argo-helm/**
 ghcr.io/armbian/**
 ghcr.io/astral-sh/**
 ghcr.io/authzed/spicedb
