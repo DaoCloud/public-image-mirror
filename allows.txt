@@ -1024,6 +1024,9 @@ docker.io/yedf/dtm
 docker.io/yidadaa/chatgpt-next-web
 docker.io/ypptec/nascab
 docker.io/yuzutech/kroki
+docker.io/yuzutech/kroki-bpmn
+docker.io/yuzutech/kroki-excalidraw
+docker.io/yuzutech/kroki-mermaid
 docker.io/zabbix/*
 docker.io/zadam/trilium
 docker.io/zendesk/maxwell
