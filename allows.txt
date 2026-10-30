@@ -192,6 +192,7 @@ docker.io/diygod/*
 docker.io/docker/*
 docker.io/dockurr/*
 docker.io/dokploy/*
+docker.io/dolibarr/dolibarr
 docker.io/doocs/*
 docker.io/dorowu/ubuntu-desktop-lxde-vnc
 docker.io/dpage/*
