@@ -465,6 +465,7 @@ docker.io/library/amazonlinux
 docker.io/library/api-firewall
 docker.io/library/arangodb
 docker.io/library/archlinux
+docker.io/library/azul-zulu
 docker.io/library/backdrop
 docker.io/library/bash
 docker.io/library/bonita
