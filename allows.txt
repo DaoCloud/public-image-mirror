@@ -822,6 +822,7 @@ docker.io/questdb/questdb
 docker.io/quickwit/*
 docker.io/qwenllm/*
 docker.io/rabbitmqoperator/cluster-operator
+docker.io/rachelos/we-mp-rss
 docker.io/radondb/*
 docker.io/ramonvc/freegpt-webui
 docker.io/rancher/*
