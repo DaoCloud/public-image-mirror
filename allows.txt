@@ -286,6 +286,7 @@ docker.io/gitpod/openvscode-server
 docker.io/gliderlabs/logspout
 docker.io/goacme/lego
 docker.io/gocd/*
+docker.io/gogost/gost
 docker.io/gogs/gogs
 docker.io/goharbor/*
 docker.io/golangci/golangci-lint
