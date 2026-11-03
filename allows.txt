@@ -1193,6 +1193,7 @@ ghcr.io/labring/lvscare
 ghcr.io/lemker/unifi-os-server
 ghcr.io/libredb/libredb-studio
 ghcr.io/librespeed/speedtest
+ghcr.io/limlll/codex-webui
 ghcr.io/linuxsuren/api-testing
 ghcr.io/linuxsuren/atest-ext-store-orm
 ghcr.io/llm-d/**
@@ -1284,6 +1285,7 @@ ghcr.io/wg-easy/wg-easy
 ghcr.io/wzshiming/**
 ghcr.io/yanyang-technology-group/ycomm-web
 ghcr.io/yeraze/meshmonitor
+ghcr.io/yetone/magpie
 ghcr.io/ylianst/meshcentral
 ghcr.io/zalando/**
 ghcr.io/zammad/zammad
