@@ -893,6 +893,7 @@ docker.io/signoz/signoz-otel-collector
 docker.io/sigoden/dufs
 docker.io/silkeh/clang
 docker.io/simonrupf/chronyd
+docker.io/simpletracker/qbittorrent-clientblocker
 docker.io/sinamics/ztnet
 docker.io/sissbruecker/linkding
 docker.io/sj26/mailcatcher
