@@ -844,6 +844,8 @@ docker.io/redislabs/*
 docker.io/rednotehilab/dots.ocr
 docker.io/redpandadata/console
 docker.io/redpandadata/kminion
+docker.io/redpandadata/redpanda
+docker.io/redpandadata/redpanda-operator
 docker.io/redroid/redroid
 docker.io/reportportal/reportportal
 docker.io/resmoio/kubernetes-event-exporter
