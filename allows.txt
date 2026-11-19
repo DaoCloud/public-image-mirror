@@ -95,6 +95,7 @@ docker.io/browserless/*
 docker.io/browsh/browsh
 docker.io/budibase/budibase
 docker.io/budtmo/docker-android
+docker.io/bunkerity/*
 docker.io/burakince/mlflow
 docker.io/buutuu/scrcpy-over-webrtc
 docker.io/bvlc/caffe
