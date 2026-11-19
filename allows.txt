@@ -1112,6 +1112,7 @@ ghcr.io/decohererk/decotv
 ghcr.io/deepflowio/rust-build
 ghcr.io/devmachine-fr/cert-manager-alidns-webhook
 ghcr.io/dexidp/**
+ghcr.io/dgtlmoon/changedetection.io
 ghcr.io/ding113/claude-code-hub
 ghcr.io/docling-project/*
 ghcr.io/dtzar/**
