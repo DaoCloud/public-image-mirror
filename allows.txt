@@ -1360,6 +1360,7 @@ quay.io/mittwald/kubernetes-replicator
 quay.io/mongodb/*
 quay.io/nmstate/*
 quay.io/nuclio/*
+quay.io/openstack.kolla/*
 quay.io/operator-framework/*
 quay.io/operatorhubio/minio-operator
 quay.io/opstree/*
