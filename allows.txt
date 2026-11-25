@@ -1287,6 +1287,7 @@ ghcr.io/universaloj/**
 ghcr.io/vllm-project/**
 ghcr.io/voidzero-dev/vite-plus
 ghcr.io/volcengine/openviking
+ghcr.io/we-promise/sure
 ghcr.io/webassembly/*
 ghcr.io/wei-shaw/sub2api
 ghcr.io/wg-easy/wg-easy
