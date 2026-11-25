@@ -79,6 +79,7 @@ docker.io/axllent/mailpit
 docker.io/b3log/siyuan
 docker.io/babashka/babashka
 docker.io/basecamp/*
+docker.io/baserow/baserow
 docker.io/bats/*
 docker.io/bellsoft/*
 docker.io/benzino77/clamav-rest-api
